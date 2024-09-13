@@ -3,7 +3,7 @@
 	"package": "net.iyun.buildersshop.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"BuildersshopMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

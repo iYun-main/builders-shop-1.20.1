@@ -18,11 +18,11 @@
 		"main": [
 			"net.iyun.buildersshop.BuildersShop"
 		],
-		"fabric-datagen": [
-			"net.iyun.buildersshop.BuildersShopDataGenerator"
-		],
 		"client": [
 			"net.iyun.buildersshop.ModClient"
+		],
+		"fabric-datagen": [
+			"net.iyun.buildersshop.BuildersShopDataGenerator"
 		]
 	},
 	"mixins": [
