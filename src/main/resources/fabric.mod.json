@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "builders-shop",
+	"version": "${version}",
+	"name": "Builders Shop",
+	"description": "iYun_ is selling new types of Block are you gonna use them to build?",
+	"authors": [
+		"iYun_"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "ARR",
+	"icon": "assets/builders-shop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.iyun.buildersshop.BuildersShop"
+		],
+		"fabric-datagen": [
+			"net.iyun.buildersshop.BuildersShopDataGenerator"
+		],
+		"client": [
+			"net.iyun.buildersshop.ModClient"
+		]
+	},
+	"mixins": [
+		"builders-shop.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
