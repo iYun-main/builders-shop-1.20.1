@@ -3,8 +3,7 @@ package net.iyun.buildersshop;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.iyun.buildersshop.datagen.*;
-import net.minecraft.registry.RegistryBuilder;
-import net.minecraft.registry.RegistryKeys;
+import net.iyun.buildersshop.datagen.langdatagen.EnglishLanguageProvider;
 
 public class BuildersShopDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -12,6 +11,7 @@ public class BuildersShopDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(EnglishLanguageProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModModelProvider::new);
