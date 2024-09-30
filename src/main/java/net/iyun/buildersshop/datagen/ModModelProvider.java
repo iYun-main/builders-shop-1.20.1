@@ -3,17 +3,28 @@ package net.iyun.buildersshop.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.iyun.buildersshop.block.ModBlocks;
+import net.iyun.buildersshop.block.enums.VerticalSlabType;
+import net.iyun.buildersshop.property.ModProperties;
+import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
+
+
+    private static final String TOP_SUFFIX = "_top";
+    private static final String SIDE_SUFFIX = "_side";
+    private static final String BOTTOM_SUFFIX = "_bottom";
+
     public ModModelProvider(FabricDataOutput output) {
         super(output);
     }
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.OAK_PLANKS, ModBlocks.OAK_VERTICAL_SLAB);
 
         BlockStateModelGenerator.BlockTexturePool dirtPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIRT);
         BlockStateModelGenerator.BlockTexturePool cdirtPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COARSE_DIRT);
@@ -157,6 +168,73 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+    }
+    private void registerSmoothStone(BlockStateModelGenerator blockStateModelGenerator) {
+        TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(Blocks.SMOOTH_STONE))
+                .put(TextureKey.SIDE, TextureMap.getId(Blocks.SMOOTH_STONE_SLAB).withSuffixedPath("_side"))
+                .put(TextureKey.BOTTOM, TextureMap.getId(Blocks.SMOOTH_STONE))
+                .put(TextureKey.PARTICLE, TextureMap.getId(Blocks.SMOOTH_STONE));
+        TextureMap textureMap2 = TextureMap.sideEnd(TextureMap.getSubId(Blocks.SMOOTH_STONE_SLAB, "_side"), textureMap.getTexture(TextureKey.TOP));
 
+        Identifier modelId = ModBlockModels.VERTICAL_SLAB.upload(ModBlocks.OAK_VERTICAL_SLAB, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier leftModelId = ModBlockModels.VERTICAL_SLAB_LEFT.upload(ModBlocks.OAK_VERTICAL_SLAB, "_left", textureMap, blockStateModelGenerator.modelCollector);
+        Identifier rightModelId = ModBlockModels.VERTICAL_SLAB_RIGHT.upload(ModBlocks.OAK_VERTICAL_SLAB, "_right", textureMap, blockStateModelGenerator.modelCollector);
+        Identifier backModelId = ModBlockModels.VERTICAL_SLAB_BACK.upload(ModBlocks.OAK_VERTICAL_SLAB, "_back", textureMap, blockStateModelGenerator.modelCollector);
+        Identifier fullBlockId = Models.CUBE_COLUMN.uploadWithoutVariant(ModBlocks.OAK_VERTICAL_SLAB, "_double", textureMap2, blockStateModelGenerator.modelCollector);
+
+        blockStateModelGenerator.blockStateCollector.accept(createVerticalSlabBlockState(ModBlocks.OAK_VERTICAL_SLAB, modelId, leftModelId, rightModelId, backModelId, fullBlockId));
+    }
+
+    private void generateVerticalSlabBlockModel(BlockStateModelGenerator blockStateModelGenerator, Block textureBlock, Block block) {
+        TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(textureBlock))
+                .put(TextureKey.SIDE, TextureMap.getId(textureBlock))
+                .put(TextureKey.BOTTOM, TextureMap.getId(textureBlock))
+                .put(TextureKey.PARTICLE, TextureMap.getId(textureBlock));
+
+        generateVerticalSlabBlockModel(blockStateModelGenerator, textureMap, textureBlock, block);
+    }
+
+    private void generateVerticalSlabBlockModel(BlockStateModelGenerator blockStateModelGenerator, Block textureBlock, Block fullBlock, String suffix, Block block) {
+        generateVerticalSlabBlockModel(blockStateModelGenerator, textureBlock, fullBlock, suffix, suffix, suffix, block);
+    }
+
+    private void generateVerticalSlabBlockModel(BlockStateModelGenerator blockStateModelGenerator, Block textureBlock, Block fullBlock, String topSuffix, String sideSuffix, String bottomSuffix, Block block) {
+        TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(textureBlock).withSuffixedPath(topSuffix))
+                .put(TextureKey.SIDE, TextureMap.getId(textureBlock).withSuffixedPath(sideSuffix))
+                .put(TextureKey.BOTTOM, TextureMap.getId(textureBlock).withSuffixedPath(bottomSuffix))
+                .put(TextureKey.PARTICLE, TextureMap.getId(textureBlock).withSuffixedPath(topSuffix));
+
+        generateVerticalSlabBlockModel(blockStateModelGenerator, textureMap, fullBlock, block);
+    }
+
+    private void generateVerticalSlabBlockModelForCutSandstone(BlockStateModelGenerator blockStateModelGenerator, Block textureBlock, Block secondTextureBlock, Block block) {
+        TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(secondTextureBlock).withSuffixedPath(TOP_SUFFIX))
+                .put(TextureKey.SIDE, TextureMap.getId(textureBlock))
+                .put(TextureKey.BOTTOM, TextureMap.getId(secondTextureBlock).withSuffixedPath(BOTTOM_SUFFIX))
+                .put(TextureKey.PARTICLE, TextureMap.getId(textureBlock));
+
+        generateVerticalSlabBlockModel(blockStateModelGenerator, textureMap, textureBlock, block);
+    }
+
+    private void generateVerticalSlabBlockModel(BlockStateModelGenerator blockStateModelGenerator, TextureMap textureMap, Block fullBlock, Block block) {
+        Identifier modelId = ModBlockModels.VERTICAL_SLAB.upload(block, textureMap, blockStateModelGenerator.modelCollector);
+        Identifier leftModelId = ModBlockModels.VERTICAL_SLAB_LEFT.upload(block, "_left", textureMap, blockStateModelGenerator.modelCollector);
+        Identifier rightModelId = ModBlockModels.VERTICAL_SLAB_RIGHT.upload(block, "_right", textureMap, blockStateModelGenerator.modelCollector);
+        Identifier backModelId = ModBlockModels.VERTICAL_SLAB_BACK.upload(block, "_back", textureMap, blockStateModelGenerator.modelCollector);
+
+        blockStateModelGenerator.blockStateCollector.accept(createVerticalSlabBlockState(block, modelId, leftModelId, rightModelId, backModelId, TextureMap.getId(fullBlock)));
+    }
+
+    public static BlockStateSupplier createVerticalSlabBlockState(Block verticalSlabBlock, Identifier modelId,
+                                                                  Identifier leftModelId, Identifier rightModelId, Identifier backModelId, Identifier fullModelId) {
+        return VariantsBlockStateSupplier.create(verticalSlabBlock)
+                .coordinate(
+                        BlockStateVariantMap.create(ModProperties.VERTICAL_SLAB_TYPE)
+                                .register(VerticalSlabType.FRONT, BlockStateVariant.create().put(VariantSettings.MODEL, modelId))
+                                .register(VerticalSlabType.LEFT, BlockStateVariant.create().put(VariantSettings.MODEL, leftModelId))
+                                .register(VerticalSlabType.RIGHT, BlockStateVariant.create().put(VariantSettings.MODEL, rightModelId))
+                                .register(VerticalSlabType.BACK, BlockStateVariant.create().put(VariantSettings.MODEL, backModelId))
+                                .register(VerticalSlabType.DOUBLE, BlockStateVariant.create().put(VariantSettings.MODEL, fullModelId))
+                );
     }
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-15T22:14:26.1415119	Builders Shop/Model Definitions
+// 1.20.1	2024-09-30T22:17:31.8991727	Builders Shop/Model Definitions
 de3c80764a27ba03dcdb8a715c84cfe5a1aa1e06 assets\builders-shop\models\block\pink_wool_stairs_inner.json
 f3a67cd151a1a01ada542a8cfb747232f05e34ee assets\builders-shop\blockstates\brown_wool_slab.json
 dd406ce55a7a2d4cbe698eafc47da56c3c2f71db assets\builders-shop\models\item\purple_wool_fence.json
@@ -102,6 +102,7 @@ fc644ff5a8777e6475be0bdac9c06cf7b0f5a618 assets\builders-shop\models\item\dirt_s
 388572354ca69f8fadbb39954304e012bef1680f assets\builders-shop\blockstates\cyan_wool_stairs.json
 0a6e5f200a050150dbc3fcac64a96966246d276d assets\builders-shop\models\block\magenta_wool_fence_side.json
 f82d1401778dbbbefb3e97072af90cd65ab4a9f2 assets\builders-shop\models\block\black_wool_fence_inventory.json
+0e97e3f178d37a1afaf2c0e1da9873f36caa202c assets\builders-shop\models\block\oak_vertical_slab_left.json
 1506a823045ec0d10570a10802694667d77eff06 assets\builders-shop\models\block\magenta_wool_fence_post.json
 e76b03e7e1ff4e7eceb0ff0521b2dc95bffef1ba assets\builders-shop\blockstates\clay_wall.json
 e640b5b57b090ea9936476687e184a6078fe307c assets\minecraft\models\block\mud.json
@@ -165,6 +166,7 @@ dcedc4b6a6af95ff56afa2a94f4f011e7eb959ad assets\builders-shop\blockstates\gray_w
 c1111c0de499bcd53c166e9c65d1ff7f993ec457 assets\builders-shop\models\block\light_gray_wool_stairs.json
 1078de79cce81aed6622096e5e6fbd56aa0ace08 assets\builders-shop\models\item\dirt_wall.json
 7a282fe865426f4918edba5c83b8cd0eb1e47880 assets\builders-shop\models\item\mud_fence.json
+053cc20b6879cb2a1158684d88212e1fd1a2f715 assets\builders-shop\models\block\oak_vertical_slab.json
 9aac21b86869aa01770848935730e7d01aae098d assets\minecraft\models\block\green_wool.json
 8068c011d09fa0e3462729ec5faa2b71844dfdb7 assets\builders-shop\models\block\clay_slab.json
 a0ec4aad3d768a0a56417324fe84c7001d39f94c assets\builders-shop\models\block\light_blue_wool_stairs.json
@@ -179,6 +181,7 @@ dac081cb17aea68952f139bcf0949129426e471a assets\builders-shop\models\block\gray_
 5ddc4aa631eb3ec43969f087580153b6979ddace assets\builders-shop\models\item\rooted_dirt_wall.json
 2fae574909ae64aa940c52a265dce01bd411e2e0 assets\builders-shop\models\item\lime_wool_slab.json
 e559236973e762873dbb3986d4c7438d28095556 assets\builders-shop\models\block\packed_mud_fence_inventory.json
+5bf18d444df5d8af9b23f8be144aa5429ff6febe assets\builders-shop\blockstates\oak_vertical_slab.json
 937eab0ba5b1ae184f4559178c359f9004f39fb0 assets\builders-shop\models\item\green_wool_fence.json
 ddafe5c70cc2815f1bb03c2a18740b4a5f259da8 assets\builders-shop\models\block\white_wool_slab.json
 6772a65f9e02fcb753fb5f91036567391840fb44 assets\builders-shop\models\block\packed_mud_wall_post.json
@@ -282,6 +285,7 @@ d3052b1448d3bdd22e46686e7489b29fe3505ad7 assets\builders-shop\models\block\blue_
 3a2d17f27a25a19c3c49aaa2c6dce129b0f35d73 assets\builders-shop\models\block\green_wool_fence_side.json
 f1494ccfef40d37987805b8b3d68fdd7249d88f3 assets\builders-shop\models\block\magenta_wool_wall_inventory.json
 4c10b750b7874424de947264651ca0ae13fff0a6 assets\builders-shop\models\item\magenta_wool_stairs.json
+5cde3959c73104aad198d48b117172b8629d15a6 assets\builders-shop\models\block\oak_vertical_slab_right.json
 e3bb10b2aba44a4123358da968d284e73e2ec211 assets\builders-shop\models\block\magenta_wool_stairs_outer.json
 7aa27538304576306e8274277032493220e0cc1c assets\builders-shop\models\item\lime_wool_stairs.json
 5db5acb777c08cb87fbf2c1a8a75c26c6b3ae1a7 assets\builders-shop\blockstates\magenta_wool_stairs.json
@@ -294,10 +298,11 @@ d9503f7ce39ca515b00656b1d4df0a0fa2753725 assets\builders-shop\models\block\coars
 3d50b289fd1712275da3310222b74a383ac01598 assets\builders-shop\models\block\pink_wool_stairs_outer.json
 565795de6503b616a21bb7f305644644bc865aa1 assets\builders-shop\models\block\white_wool_stairs_inner.json
 9aa57bed724101e3667d096157f425c5ab8b95ec assets\builders-shop\models\block\cyan_wool_stairs_inner.json
+73eb1bad8fc918fcf9680c0265e4a306bceffa23 assets\builders-shop\models\item\oak_vertical_slab.json
 f317b84dd347ef3abb5dc2b43d63045338e7c898 assets\builders-shop\models\block\black_wool_slab_top.json
 dc1b9b5e0beb478ccb9cce05278206ae46656bd9 assets\builders-shop\blockstates\purple_wool_wall.json
-c965a7ea0de32eb9e19cdb73f2cf841df24aaccb assets\builders-shop\models\item\pink_wool_fence.json
 cc13e33f9312b9b493462272884bb4417c85fdc9 assets\builders-shop\models\item\gray_wool_wall.json
+c965a7ea0de32eb9e19cdb73f2cf841df24aaccb assets\builders-shop\models\item\pink_wool_fence.json
 e91744dacf3c02c8a394f21072b492ebf04edfc6 assets\builders-shop\models\block\green_wool_fence_inventory.json
 2be09af0608ac26e084c72b0f64197660c095134 assets\builders-shop\models\item\blue_wool_fence.json
 734f336fbbfb4aded7861b3adf6b73e16fc0292c assets\builders-shop\models\block\coarse_dirt_wall_side.json
@@ -398,8 +403,8 @@ a1f3465484bea478ada97b572b6e70163bd0e1d4 assets\builders-shop\models\block\lime_
 40ce1d098a3a7ee270b31948912804beeebef7e8 assets\builders-shop\models\block\coarse_dirt_stairs_inner.json
 086e2f2cd701cb2360e86dcbaa28d1990330bc79 assets\builders-shop\models\block\light_blue_wool_wall_side.json
 e3c25c163622fc345904559ae49b95504471fdcd assets\builders-shop\models\block\red_wool_fence_inventory.json
-23118d3293d7f0c467fa5e02a718ef2c19932276 assets\builders-shop\blockstates\white_wool_fence.json
 22dd0d05eea3cc1f4c99a65fd390d114edca3e9c assets\builders-shop\blockstates\purple_wool_fence.json
+23118d3293d7f0c467fa5e02a718ef2c19932276 assets\builders-shop\blockstates\white_wool_fence.json
 c453ba33e85d51f84d0653d6ebb2c05ecf4dad1b assets\builders-shop\models\block\yellow_wool_fence_post.json
 95c105660dabcdbe1c7c1aa372a867f0e5e3b3a3 assets\builders-shop\models\block\light_gray_wool_stairs_outer.json
 8fcc541e9f437764612ce3ebac9bff34c0cf85d2 assets\builders-shop\models\item\orange_wool_slab.json
@@ -430,8 +435,8 @@ d50c5d08c6f633bc77b9c3994488effb3b87fdf6 assets\builders-shop\blockstates\mud_wa
 9d9bfb56e537638276dd088c431cdf6b65a9c74a assets\builders-shop\models\block\clay_wall_post.json
 e829efcaa8bfdb959b3ad67a1a9ee4db559b2753 assets\builders-shop\models\block\mud_stairs_inner.json
 c95875f3b869519f84ca218610e727281b693684 assets\builders-shop\models\block\white_wool_fence_side.json
-c0764ef3a1368945d49b61f97793489d9e677725 assets\builders-shop\models\block\brown_wool_wall_post.json
 e305a74bb893172d83d097a4d9f825200ac5f7ca assets\builders-shop\models\block\yellow_wool_fence_side.json
+c0764ef3a1368945d49b61f97793489d9e677725 assets\builders-shop\models\block\brown_wool_wall_post.json
 b2ae585f1c0ade921a0c33cebac18349b5be3d3c assets\builders-shop\models\block\white_wool_slab_top.json
 58b5e9a525a744f66541dffb4a8f778223a309b2 assets\builders-shop\models\item\coarse_dirt_slab.json
 d21b8da9ec8d2cc42645e29e016dc9e5afb43b9e assets\builders-shop\models\item\rooted_dirt_slab.json
@@ -476,6 +481,7 @@ c0c438ddf4c9b3d51ee140d623ce43242fd361a0 assets\builders-shop\models\block\gray_
 8b6eefa73878afabe968575bb7719da5e3023614 assets\builders-shop\models\block\cyan_wool_stairs.json
 cbeb56b49f11975b818345d4190890e73ebb7c8c assets\builders-shop\blockstates\mud_fence.json
 78f6f8cfeee726382664cebfe86c0c0d9899faa9 assets\builders-shop\models\block\orange_wool_fence_side.json
+c175ab96bc21c2d2f898fb32fa344a10b6f2b201 assets\builders-shop\models\block\oak_vertical_slab_back.json
 80f35b0eb57a2389cb8f4d1d56c70b7239b8a949 assets\builders-shop\blockstates\light_blue_wool_fence.json
 d28b133024940edbbfa7aefa2c2f9e10df6bd271 assets\minecraft\models\block\blue_wool.json
 ff7891b438c1be6df7ad5a6a348f87da5ac41364 assets\builders-shop\models\block\black_wool_stairs_outer.json

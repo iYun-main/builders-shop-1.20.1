@@ -13,6 +13,8 @@ import static net.iyun.buildersshop.BuildersShop.MOD_ID;
 
 public class ModItems {
 
+
+
     public static void registerItems() {
         BuildersShop.LOGGER.info("Loading Item Tabs of " + BuildersShop.MOD_ID);
     }
@@ -23,4 +25,3 @@ public class ModItems {
         return Registry.register(Registries.ITEM, Identifier.of(MOD_ID, path), blockItem);
     }
 }
-

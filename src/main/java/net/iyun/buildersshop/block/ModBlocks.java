@@ -16,6 +16,8 @@ import static net.minecraft.block.Blocks.*;
 public class ModBlocks {
     public static final Block PLACE = registerBlock("placeholder", new Block(FabricBlockSettings.copyOf(DIRT)));
 
+    public static final Block OAK_VERTICAL_SLAB = registerBlock("oak_vertical_slab", new VerticalSlabBlock(AbstractBlock.Settings.copy(OAK_SLAB).nonOpaque()));
+
     public static final Block DIRT_WALL = registerBlock("dirt_wall", new WallBlock(FabricBlockSettings.copyOf(DIRT)));
     public static final Block DIRT_SLAB = registerBlock("dirt_slab", new SlabBlock(FabricBlockSettings.copyOf(DIRT)));
     public static final Block DIRT_FENCE = registerBlock("dirt_fence", new FenceBlock(FabricBlockSettings.copyOf(DIRT)));
