@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/vertical_jungle_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/jungle_planks"
+    },
+    "type=front": {
+      "model": "buildersshop:block/vertical_jungle_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/vertical_jungle_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/vertical_jungle_slab_right"
+    }
+  }
+}

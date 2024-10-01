@@ -107,6 +107,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_WOOL_FENCE);
                         entries.add(ModBlocks.PINK_WOOL_SLAB);
                         entries.add(ModBlocks.PINK_WOOL_STAIRS);
+                        entries.add(ModBlocks.OAK_VERTICAL_SLAB);
+                        entries.add(ModBlocks.BIRCH_VERTICAL_SLAB);
+                        entries.add(ModBlocks.SPRUCE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.JUNGLE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.ACA_VERTICAL_SLAB);
+                        entries.add(ModBlocks.DARK_OAK_VERTICAL_SLAB);
+                        entries.add(ModBlocks.MANGROVE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CHERRY_VERTICAL_SLAB);
+                        entries.add(ModBlocks.BAMBOO_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CRIMSON_VERTICAL_SLAB);
+                        entries.add(ModBlocks.WARPED_VERTICAL_SLAB);
                     }).build());
 
     public static void registerItemGroups() {

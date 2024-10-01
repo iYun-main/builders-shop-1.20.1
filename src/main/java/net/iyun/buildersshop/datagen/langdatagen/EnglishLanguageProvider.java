@@ -120,5 +120,17 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         //  translationBuilder.add(ModBlocks.RDIRT_BUTTON,"Rooted Dirt Button");
         translationBuilder.add(ModBlocks.RDIRT_SLAB,"Rooted Dirt Stairs");
         translationBuilder.add(ModBlocks.RDIRT_STAIRS,"Rooted Dirt Slab");
+
+        translationBuilder.add(ModBlocks.OAK_VERTICAL_SLAB,"Vertical Oak Slab");
+        translationBuilder.add(ModBlocks.SPRUCE_VERTICAL_SLAB,"Vertical Spruce Slab");
+        translationBuilder.add(ModBlocks.BIRCH_VERTICAL_SLAB,"Vertical Birch Slab");
+        translationBuilder.add(ModBlocks.JUNGLE_VERTICAL_SLAB,"Vertical Jungle Slab");
+        translationBuilder.add(ModBlocks.ACA_VERTICAL_SLAB,"Vertical Acacia Slab");
+        translationBuilder.add(ModBlocks.DARK_OAK_VERTICAL_SLAB,"Vertical Dark Oak Slab");
+        translationBuilder.add(ModBlocks.MANGROVE_VERTICAL_SLAB,"Vertical Mangrove Slab");
+        translationBuilder.add(ModBlocks.CHERRY_VERTICAL_SLAB,"Vertical Cherry Slab");
+        translationBuilder.add(ModBlocks.BAMBOO_VERTICAL_SLAB,"Vertical Bamboo Slab");
+        translationBuilder.add(ModBlocks.CRIMSON_VERTICAL_SLAB,"Vertical Crimson Slab");
+        translationBuilder.add(ModBlocks.WARPED_VERTICAL_SLAB,"Vertical Warped Slab");
     }
 }

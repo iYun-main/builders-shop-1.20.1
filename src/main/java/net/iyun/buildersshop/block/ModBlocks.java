@@ -18,7 +18,16 @@ public class ModBlocks {
 
     public static final Block OAK_VERTICAL_SLAB = registerBlock("vertical_oak_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
     public static final Block DIRT_VERTICAL_SLAB = registerBlock("vertical_dirt_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIRT)));
-    public static final Block GRASS_VERTICAL_SLAB = registerBlock("vertical_grass_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRASS_BLOCK)));
+    public static final Block SPRUCE_VERTICAL_SLAB = registerBlock("vertical_spruce_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block BIRCH_VERTICAL_SLAB = registerBlock("vertical_birch_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block JUNGLE_VERTICAL_SLAB = registerBlock("vertical_jungle_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
+    public static final Block ACA_VERTICAL_SLAB = registerBlock("vertical_acacia_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
+    public static final Block DARK_OAK_VERTICAL_SLAB = registerBlock("vertical_dark_oak_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
+    public static final Block MANGROVE_VERTICAL_SLAB = registerBlock("vertical_mangrove_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
+    public static final Block CHERRY_VERTICAL_SLAB = registerBlock("vertical_cherry_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
+    public static final Block BAMBOO_VERTICAL_SLAB = registerBlock("vertical_bamboo_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS)));
+    public static final Block CRIMSON_VERTICAL_SLAB = registerBlock("vertical_crimson_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+    public static final Block WARPED_VERTICAL_SLAB = registerBlock("vertical_warped_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
 
     public static final Block DIRT_WALL = registerBlock("dirt_wall", new WallBlock(FabricBlockSettings.copyOf(DIRT)));
     public static final Block DIRT_SLAB = registerBlock("dirt_slab", new SlabBlock(FabricBlockSettings.copyOf(DIRT)));
