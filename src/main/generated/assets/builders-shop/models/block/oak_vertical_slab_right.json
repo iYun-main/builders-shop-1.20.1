@@ -1,8 +1,0 @@
-{
-  "parent": "builders-shop:block/parent/vertical_slab_right",
-  "textures": {
-    "bottom": "minecraft:block/oak_planks",
-    "side": "minecraft:block/oak_planks",
-    "top": "minecraft:block/oak_planks"
-  }
-}

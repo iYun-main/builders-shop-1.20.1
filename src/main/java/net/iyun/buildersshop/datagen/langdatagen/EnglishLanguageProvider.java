@@ -15,8 +15,9 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.DIRT_WALL,"Dirt Wall");
         translationBuilder.add(ModBlocks.DIRT_FENCE,"Dirt Fence");
         //   translationBuilder.add(ModBlocks.DIRT_BUTTON,"Dirt Button");
-        translationBuilder.add(ModBlocks.DIRT_SLAB,"Dirt Stairs");
-        translationBuilder.add(ModBlocks.DIRT_STAIRS,"Dirt Slab");
+        translationBuilder.add(ModBlocks.DIRT_SLAB,"Dirt Slab");
+        translationBuilder.add(ModBlocks.DIRT_STAIRS,"Dirt Stairs");
+        translationBuilder.add(ModBlocks.DIRT_VERTICAL_SLAB,"Vertical Dirt Slab");
 
         translationBuilder.add(ModBlocks.CDIRT_WALL,"Coarse Dirt Wall");
         translationBuilder.add(ModBlocks.CDIRT_FENCE,"Coarse Dirt Fence");

@@ -1,7 +1,6 @@
 package net.iyun.buildersshop.item;
 
 import net.iyun.buildersshop.BuildersShop;
-import net.iyun.buildersshop.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -12,8 +11,6 @@ import net.minecraft.util.Identifier;
 import static net.iyun.buildersshop.BuildersShop.MOD_ID;
 
 public class ModItems {
-
-
 
     public static void registerItems() {
         BuildersShop.LOGGER.info("Loading Item Tabs of " + BuildersShop.MOD_ID);

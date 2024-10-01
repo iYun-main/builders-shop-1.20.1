@@ -1,18 +1,19 @@
 {
 	"schemaVersion": 1,
-	"id": "builders-shop",
+	"id": "buildersshop",
 	"version": "${version}",
 	"name": "Builders Shop",
 	"description": "iYun_ is selling new types of Block are you gonna use them to build?",
 	"authors": [
-		"iYun_"
+		"iYun_",
+		"inkgum"
 	],
 	"contact": {
 		"homepage": "",
 		"sources": "https://github.com/iYun-main/builders-shop-1.20.1"
 	},
 	"license": "ARR",
-	"icon": "assets/builders-shop/icon.png",
+	"icon": "assets/buildersshop/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +27,7 @@
 		]
 	},
 	"mixins": [
-		"builders-shop.mixins.json"
+		"buildersshop.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.5",

@@ -8,7 +8,6 @@ import net.minecraft.client.render.RenderLayer;
 public class ModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OAK_VERTICAL_SLAB, RenderLayer.getCutout());
 
     }
 }
