@@ -15,6 +15,7 @@ public class BuildersShopDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(EnglishLanguageProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModLootTableProvider::new);
 
 	}
 

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/vertical_corase_dirt_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/coarse_dirt"
+    },
+    "type=front": {
+      "model": "buildersshop:block/vertical_corase_dirt_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/vertical_corase_dirt_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/vertical_corase_dirt_slab_right"
+    }
+  }
+}

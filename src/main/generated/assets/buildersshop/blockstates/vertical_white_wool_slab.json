@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/vertical_white_wool_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/white_wool"
+    },
+    "type=front": {
+      "model": "buildersshop:block/vertical_white_wool_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/vertical_white_wool_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/vertical_white_wool_slab_right"
+    }
+  }
+}

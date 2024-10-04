@@ -12,6 +12,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add(ModBlocks.PLACE,"Placeholder");
+
         translationBuilder.add(ModBlocks.DIRT_WALL,"Dirt Wall");
         translationBuilder.add(ModBlocks.DIRT_FENCE,"Dirt Fence");
         //   translationBuilder.add(ModBlocks.DIRT_BUTTON,"Dirt Button");
@@ -22,12 +23,14 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CDIRT_WALL,"Coarse Dirt Wall");
         translationBuilder.add(ModBlocks.CDIRT_FENCE,"Coarse Dirt Fence");
         //  translationBuilder.add(ModBlocks.CDIRT_BUTTON,"Coarse Dirt Button");
-        translationBuilder.add(ModBlocks.CDIRT_SLAB,"Coarse Dirt Stairs");
-        translationBuilder.add(ModBlocks.CDIRT_STAIRS,"Coarse Dirt Slab");
+        translationBuilder.add(ModBlocks.CDIRT_SLAB,"Coarse Dirt Slab");
+        translationBuilder.add(ModBlocks.CDIRT_VERTICAL_SLAB,"Vertical Coarse Dirt Slab");
+        translationBuilder.add(ModBlocks.CDIRT_STAIRS,"Coarse Dirt Stairs");
 
         translationBuilder.add(ModBlocks.MUD_WALL,"Mud Wall");
         translationBuilder.add(ModBlocks.MUD_FENCE,"Mud Fence");
         translationBuilder.add(ModBlocks.MUD_SLAB,"Mud Slab");
+        translationBuilder.add(ModBlocks.MUD_VERTICAL_SLAB,"Vertical Mud Slab");
         translationBuilder.add(ModBlocks.MUD_STAIRS,"Mud Stairs");
 
         translationBuilder.add(ModBlocks.WHITE_WOOL_WALL,"White Wool Wall");
@@ -113,13 +116,21 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PMUD_WALL,"Packed Mud Wall");
         translationBuilder.add(ModBlocks.PMUD_FENCE,"Packed Mud Fence");
         translationBuilder.add(ModBlocks.PMUD_SLAB,"Packed Mud Slab");
+        translationBuilder.add(ModBlocks.PMUD_VERTICAL_SLAB,"Vertical Packed Mud Slab");
         translationBuilder.add(ModBlocks.PMUD_STAIRS,"Packed Mud Stairs");
+
+        translationBuilder.add(ModBlocks.CLAY_WALL,"Clay Wall");
+        translationBuilder.add(ModBlocks.CLAY_FENCE,"Clay Fence");
+        translationBuilder.add(ModBlocks.CLAY_SLAB,"Clay Slab");
+        translationBuilder.add(ModBlocks.CLAY_STAIRS,"Clay Stairs");
+        translationBuilder.add(ModBlocks.CLAY_VERTICAL_SLAB,"Vertical Clay Slab");
 
         translationBuilder.add(ModBlocks.RDIRT_WALL,"Rooted Dirt Wall");
         translationBuilder.add(ModBlocks.RDIRT_FENCE,"Rooted Dirt Fence");
         //  translationBuilder.add(ModBlocks.RDIRT_BUTTON,"Rooted Dirt Button");
-        translationBuilder.add(ModBlocks.RDIRT_SLAB,"Rooted Dirt Stairs");
-        translationBuilder.add(ModBlocks.RDIRT_STAIRS,"Rooted Dirt Slab");
+        translationBuilder.add(ModBlocks.RDIRT_SLAB,"Rooted Dirt Slab");
+        translationBuilder.add(ModBlocks.RDIRT_VERTICAL_SLAB,"Vertical Rooted Dirt Slab");
+        translationBuilder.add(ModBlocks.RDIRT_STAIRS,"Rooted Dirt Stairs");
 
         translationBuilder.add(ModBlocks.OAK_VERTICAL_SLAB,"Vertical Oak Slab");
         translationBuilder.add(ModBlocks.SPRUCE_VERTICAL_SLAB,"Vertical Spruce Slab");

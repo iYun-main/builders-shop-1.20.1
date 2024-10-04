@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/vertical_mud_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/mud"
+    },
+    "type=front": {
+      "model": "buildersshop:block/vertical_mud_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/vertical_mud_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/vertical_mud_slab_right"
+    }
+  }
+}

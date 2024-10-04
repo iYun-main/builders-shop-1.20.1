@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "buildersshop:dirt_wall",
+    "buildersshop:mud_wall",
+    "buildersshop:clay_wall",
+    "buildersshop:rooted_dirt_wall",
+    "buildersshop:packed_mud_wall",
+    "buildersshop:white_wool_wall",
+    "buildersshop:light_gray_wool_wall",
+    "buildersshop:gray_wool_wall",
+    "buildersshop:black_wool_wall",
+    "buildersshop:brown_wool_wall",
+    "buildersshop:red_wool_wall",
+    "buildersshop:orange_wool_wall",
+    "buildersshop:yellow_wool_wall",
+    "buildersshop:lime_wool_wall",
+    "buildersshop:green_wool_wall",
+    "buildersshop:cyan_wool_wall",
+    "buildersshop:light_blue_wool_wall",
+    "buildersshop:blue_wool_wall",
+    "buildersshop:purple_wool_wall",
+    "buildersshop:magenta_wool_wall",
+    "buildersshop:pink_wool_wall",
+    "buildersshop:coarse_dirt_wall"
+  ]
+}

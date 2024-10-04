@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/horizontal_oak_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/horizontal_oak_planks"
+    },
+    "type=top": {
+      "model": "buildersshop:block/horizontal_oak_slab_top"
+    }
+  }
+}
