@@ -68,8 +68,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         BlockStateModelGenerator.BlockTexturePool hoakplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONZAL_OAK_PLANK);
 
-
-
         BlockStateModelGenerator.BlockTexturePool andbrick = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANDESITE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool andbrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANDESITE_BRICKS_CRACKED);
         BlockStateModelGenerator.BlockTexturePool andbrickm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANDESITE_BRICKS_MOSSY);
@@ -84,11 +82,89 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool obsibrickm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OBSIDIAN_BRICKS_MOSSY);
         BlockStateModelGenerator.BlockTexturePool cobsibrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.COBSIDIAN_BRICKS);
 
+        obsibrick.wall(ModBlocks.OBSIDIAN_BRICKS_WALL);
+        obsibrick.fence(ModBlocks.OBSIDIAN_BRICKS_FENCE);
+        obsibrick.slab(ModBlocks.OBSIDIAN_BRICKS_SLAB);
+        obsibrick.stairs(ModBlocks.OBSIDIAN_BRICKS_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.OBSIDIAN_BRICKS, ModBlocks.OBSIDIAN_BRICKS_VERTICAL_SLAB);
+
+        obsibrickc.wall(ModBlocks.OBSIDIAN_BRICKS_CRACKED_WALL);
+        obsibrickc.fence(ModBlocks.OBSIDIAN_BRICKS_CRACKED_FENCE);
+        obsibrickc.slab(ModBlocks.OBSIDIAN_BRICKS_CRACKED_SLAB);
+        obsibrickc.stairs(ModBlocks.OBSIDIAN_BRICKS_CRACKED_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.OBSIDIAN_BRICKS_CRACKED, ModBlocks.OBSIDIAN_BRICKS_CRACKED_VERTICAL_SLAB);
+
+        cobsibrickc.wall(ModBlocks.COBSIDIAN_BRICKS_WALL);
+        cobsibrickc.fence(ModBlocks.COBSIDIAN_BRICKS_FENCE);
+        cobsibrickc.slab(ModBlocks.COBSIDIAN_BRICKS_SLAB);
+        cobsibrickc.stairs(ModBlocks.COBSIDIAN_BRICKS_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.COBSIDIAN_BRICKS, ModBlocks.COBSIDIAN_BRICKS_VERTICAL_SLAB);
+
+        obsibrickm.wall(ModBlocks.OBSIDIAN_BRICKS_MOSSY_WALL);
+        obsibrickm.fence(ModBlocks.OBSIDIAN_BRICKS_MOSSY_FENCE);
+        obsibrickm.slab(ModBlocks.OBSIDIAN_BRICKS_MOSSY_SLAB);
+        obsibrickm.stairs(ModBlocks.OBSIDIAN_BRICKS_MOSSY_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.OBSIDIAN_BRICKS_MOSSY, ModBlocks.OBSIDIAN_BRICKS_MOSSY_VERTICAL_SLAB);
+
+        diobrick.wall(ModBlocks.DIORITE_BRICKS_WALL);
+        diobrick.fence(ModBlocks.DIORITE_BRICKS_FENCE);
+        diobrick.slab(ModBlocks.DIORITE_BRICKS_SLAB);
+        diobrick.stairs(ModBlocks.DIORITE_BRICKS_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.DIORITE_BRICKS, ModBlocks.DIORITE_BRICKS_VERTICAL_SLAB);
+
+        diobrickc.wall(ModBlocks.DIORITE_BRICKS_CRACKED_WALL);
+        diobrickc.fence(ModBlocks.DIORITE_BRICKS_CRACKED_FENCE);
+        diobrickc.slab(ModBlocks.DIORITE_BRICKS_CRACKED_SLAB);
+        diobrickc.stairs(ModBlocks.DIORITE_BRICKS_CRACKED_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.DIORITE_BRICKS_CRACKED, ModBlocks.DIORITE_BRICKS_CRACKED_VERTICAL_SLAB);
+
+        diobrickm.wall(ModBlocks.DIORITE_BRICKS_MOSSY_WALL);
+        diobrickm.fence(ModBlocks.DIORITE_BRICKS_MOSSY_FENCE);
+        diobrickm.slab(ModBlocks.DIORITE_BRICKS_MOSSY_SLAB);
+        diobrickm.stairs(ModBlocks.DIORITE_BRICKS_MOSSY_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.DIORITE_BRICKS_MOSSY, ModBlocks.DIORITE_BRICKS_MOSSY_VERTICAL_SLAB);
+
+        andbrick.wall(ModBlocks.ANDESITE_BRICKS_WALL);
+        andbrick.slab(ModBlocks.ANDESITE_BRICKS_SLAB);
+        andbrick.stairs(ModBlocks.ANDESITE_BRICKS_STAIRS);
+        andbrick.fence(ModBlocks.ANDESITE_BRICKS_FENCE);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.ANDESITE_BRICKS, ModBlocks.ANDESITE_BRICKS_VERTICAL_SLAB);
+
+        andbrickm.wall(ModBlocks.ANDESITE_BRICKS_MOSSY_WALL);
+        andbrickm.slab(ModBlocks.ANDESITE_BRICKS_MOSSY_SLAB);
+        andbrickm.stairs(ModBlocks.ANDESITE_BRICKS_MOSSY_STAIRS);
+        andbrickm.fence(ModBlocks.ANDESITE_BRICKS_MOSSY_FENCE);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.ANDESITE_BRICKS_MOSSY, ModBlocks.ANDESITE_BRICKS_MOSSY_VERTICAL_SLAB);
+
+        andbrickc.wall(ModBlocks.ANDESITE_BRICKS_CRACKED_WALL);
+        andbrickc.slab(ModBlocks.ANDESITE_BRICKS_CRACKED_SLAB);
+        andbrickc.stairs(ModBlocks.ANDESITE_BRICKS_CRACKED_STAIRS);
+        andbrickc.fence(ModBlocks.ANDESITE_BRICKS_CRACKED_FENCE);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.ANDESITE_BRICKS_CRACKED, ModBlocks.ANDESITE_BRICKS_CRACKED_VERTICAL_SLAB);
+
         hoakplank.slab(ModBlocks.HORIZONZAL_OAK_PLANK_SLAB);
         hoakplank.fence(ModBlocks.HORIZONZAL_OAK_PLANK_FENCE);
         hoakplank.fenceGate(ModBlocks.HORIZONZAL_OAK_PLANK_FENCE_GATE);
         hoakplank.stairs(ModBlocks.HORIZONZAL_OAK_PLANK_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.HORIZONZAL_OAK_PLANK, ModBlocks.HORIZONZAL_OAK_PLANK_VERTICAL_SLAB);
 
+        granbrickc.fence(ModBlocks.GRANITE_BRICKS_CRACKED_FENCE);
+        granbrickc.slab(ModBlocks.GRANITE_BRICKS_CRACKED_SLAB);
+        granbrickc.stairs(ModBlocks.GRANITE_BRICKS_CRACKED_STAIRS);
+        granbrickc.wall(ModBlocks.GRANITE_BRICKS_CRACKED_WALL);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.GRANITE_BRICKS_CRACKED, ModBlocks.GRANITE_BRICKS_CRACKED_VERTICAL_SLAB);
+
+        granbrickm.wall(ModBlocks.GRANITE_BRICKS_MOSSY_WALL);
+        granbrickm.slab(ModBlocks.GRANITE_BRICKS_MOSSY_SLAB);
+        granbrickm.stairs(ModBlocks.GRANITE_BRICKS_MOSSY_STAIRS);
+        granbrickm.fence(ModBlocks.GRANITE_BRICKS_MOSSY_FENCE);
+        generateVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.GRANITE_BRICKS_MOSSY, ModBlocks.GRANITE_BRICKS_MOSSY_VERTICAL_SLAB);
+
+        granbrick.slab(ModBlocks.GRANITE_BRICKS_SLAB);
+        granbrick.wall(ModBlocks.GRANITE_BRICKS_WALL);
+        granbrick.stairs(ModBlocks.GRANITE_BRICKS_STAIRS);
+        granbrick.fence(ModBlocks.GRANITE_BRICKS_FENCE);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.GRANITE_BRICKS, ModBlocks.GRANITE_BRICKS_VERTICAL_SLAB);
 
         //   dirtPool.button(ModBlocks.DIRT_BUTTON);
         dirtPool.wall(ModBlocks.DIRT_WALL);

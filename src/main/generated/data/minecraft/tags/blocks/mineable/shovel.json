@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "buildersshop:vertical_dirt_slab",
+    "buildersshop:dirt_vertical_slab",
     "buildersshop:dirt_slab"
   ]
 }

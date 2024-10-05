@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/obsidian_bricks_crying_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/obsidian_bricks_crying"
+    },
+    "type=top": {
+      "model": "buildersshop:block/obsidian_bricks_crying_slab_top"
+    }
+  }
+}
