@@ -25,7 +25,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
         generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.OAK_PLANKS, ModBlocks.OAK_VERTICAL_SLAB);
-        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.DIRT, ModBlocks.DIRT_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.SPRUCE_PLANKS, ModBlocks.SPRUCE_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.BIRCH_PLANKS, ModBlocks.BIRCH_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.JUNGLE_PLANKS, ModBlocks.JUNGLE_VERTICAL_SLAB);
@@ -36,12 +35,6 @@ public class ModModelProvider extends FabricModelProvider {
         generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.BAMBOO_PLANKS, ModBlocks.BAMBOO_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.CRIMSON_PLANKS, ModBlocks.CRIMSON_VERTICAL_SLAB);
         generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.WARPED_PLANKS, ModBlocks.WARPED_VERTICAL_SLAB);
-        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.COARSE_DIRT, ModBlocks.CDIRT_VERTICAL_SLAB);
-        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.ROOTED_DIRT, ModBlocks.RDIRT_VERTICAL_SLAB);
-        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.MUD, ModBlocks.MUD_VERTICAL_SLAB);
-        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.PACKED_MUD, ModBlocks.PMUD_VERTICAL_SLAB);
-        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.CLAY, ModBlocks.CLAY_VERTICAL_SLAB);
-        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.WHITE_WOOL, ModBlocks.VERTICAL_WHITE_WOOL_SLAB);
 
         BlockStateModelGenerator.BlockTexturePool dirtPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIRT);
         BlockStateModelGenerator.BlockTexturePool cdirtPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COARSE_DIRT);
@@ -171,115 +164,135 @@ public class ModModelProvider extends FabricModelProvider {
         dirtPool.fence(ModBlocks.DIRT_FENCE);
         dirtPool.slab(ModBlocks.DIRT_SLAB);
         dirtPool.stairs(ModBlocks.DIRT_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.DIRT, ModBlocks.DIRT_VERTICAL_SLAB);
 
         mudPool.wall(ModBlocks.MUD_WALL);
         mudPool.fence(ModBlocks.MUD_FENCE);
         mudPool.slab(ModBlocks.MUD_SLAB);
         mudPool.stairs(ModBlocks.MUD_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.MUD, ModBlocks.MUD_VERTICAL_SLAB);
 
         clayPool.wall(ModBlocks.CLAY_WALL);
         clayPool.fence(ModBlocks.CLAY_FENCE);
         clayPool.slab(ModBlocks.CLAY_SLAB);
         clayPool.stairs(ModBlocks.CLAY_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.CLAY, ModBlocks.CLAY_VERTICAL_SLAB);
 
         pmudPool.wall(ModBlocks.PMUD_WALL);
         pmudPool.fence(ModBlocks.PMUD_FENCE);
         pmudPool.slab(ModBlocks.PMUD_SLAB);
         pmudPool.stairs(ModBlocks.PMUD_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.PACKED_MUD, ModBlocks.PMUD_VERTICAL_SLAB);
 
         whitewoolPool.wall(ModBlocks.WHITE_WOOL_WALL);
         whitewoolPool.fence(ModBlocks.WHITE_WOOL_FENCE);
         whitewoolPool.slab(ModBlocks.WHITE_WOOL_SLAB);
         whitewoolPool.stairs(ModBlocks.WHITE_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.WHITE_WOOL, ModBlocks.WHITE_WOOL_VERTICAL_SLAB);
 
         lightgraywoolPool.wall(ModBlocks.LIGHT_GRAY_WOOL_WALL);
         lightgraywoolPool.fence(ModBlocks.LIGHT_GRAY_WOOL_FENCE);
         lightgraywoolPool.slab(ModBlocks.LIGHT_GRAY_WOOL_SLAB);
         lightgraywoolPool.stairs(ModBlocks.LIGHT_GRAY_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.LIGHT_GRAY_WOOL, ModBlocks.LIGHT_GRAY_WOOL_VERTICAL_SLAB);
 
         graywoolPool.wall(ModBlocks.GRAY_WOOL_WALL);
         graywoolPool.fence(ModBlocks.GRAY_WOOL_FENCE);
         graywoolPool.slab(ModBlocks.GRAY_WOOL_SLAB);
         graywoolPool.stairs(ModBlocks.GRAY_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.GRAY_WOOL, ModBlocks.GRAY_WOOL_VERTICAL_SLAB);
 
         redwoolPool.wall(ModBlocks.RED_WOOL_WALL);
         redwoolPool.fence(ModBlocks.RED_WOOL_FENCE);
         redwoolPool.slab(ModBlocks.RED_WOOL_SLAB);
         redwoolPool.stairs(ModBlocks.RED_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.RED_WOOL, ModBlocks.RED_WOOL_VERTICAL_SLAB);
 
         orangewoolPool.wall(ModBlocks.ORANGE_WOOL_WALL);
         orangewoolPool.fence(ModBlocks.ORANGE_WOOL_FENCE);
         orangewoolPool.slab(ModBlocks.ORANGE_WOOL_SLAB);
         orangewoolPool.stairs(ModBlocks.ORANGE_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.ORANGE_WOOL, ModBlocks.ORANGE_WOOL_VERTICAL_SLAB);
 
         yellowwoolPool.wall(ModBlocks.YELLOW_WOOL_WALL);
         yellowwoolPool.fence(ModBlocks.YELLOW_WOOL_FENCE);
         yellowwoolPool.slab(ModBlocks.YELLOW_WOOL_SLAB);
         yellowwoolPool.stairs(ModBlocks.YELLOW_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.YELLOW_WOOL, ModBlocks.YELLOW_WOOL_VERTICAL_SLAB);
 
         limewoolPool.wall(ModBlocks.LIME_WOOL_WALL);
         limewoolPool.fence(ModBlocks.LIME_WOOL_FENCE);
         limewoolPool.slab(ModBlocks.LIME_WOOL_SLAB);
         limewoolPool.stairs(ModBlocks.LIME_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.LIME_WOOL, ModBlocks.LIME_WOOL_VERTICAL_SLAB);
 
         lbluewoolPool.wall(ModBlocks.LIGHT_BLUE_WOOL_WALL);
         lbluewoolPool.fence(ModBlocks.LIGHT_BLUE_WOOL_FENCE);
         lbluewoolPool.slab(ModBlocks.LIGHT_BLUE_WOOL_SLAB);
         lbluewoolPool.stairs(ModBlocks.LIGHT_BLUE_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.LIGHT_BLUE_WOOL, ModBlocks.LIGHT_BLUE_WOOL_VERTICAL_SLAB);
 
         bluewoolPool.wall(ModBlocks.BLUE_WOOL_WALL);
         bluewoolPool.fence(ModBlocks.BLUE_WOOL_FENCE);
         bluewoolPool.slab(ModBlocks.BLUE_WOOL_SLAB);
         bluewoolPool.stairs(ModBlocks.BLUE_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.BLUE_WOOL, ModBlocks.BLUE_WOOL_VERTICAL_SLAB);
 
         purplewoolPool.wall(ModBlocks.PURPLE_WOOL_WALL);
         purplewoolPool.fence(ModBlocks.PURPLE_WOOL_FENCE);
         purplewoolPool.slab(ModBlocks.PURPLE_WOOL_SLAB);
         purplewoolPool.stairs(ModBlocks.PURPLE_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.PURPLE_WOOL, ModBlocks.PURPLE_WOOL_VERTICAL_SLAB);
 
         magentawoolPool.wall(ModBlocks.MAGENTA_WOOL_WALL);
         magentawoolPool.fence(ModBlocks.MAGENTA_WOOL_FENCE);
         magentawoolPool.slab(ModBlocks.MAGENTA_WOOL_SLAB);
         magentawoolPool.stairs(ModBlocks.MAGENTA_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.MAGENTA_WOOL, ModBlocks.MAGENTA_WOOL_VERTICAL_SLAB);
 
         pinkwoolPool.wall(ModBlocks.PINK_WOOL_WALL);
         pinkwoolPool.fence(ModBlocks.PINK_WOOL_FENCE);
         pinkwoolPool.slab(ModBlocks.PINK_WOOL_SLAB);
         pinkwoolPool.stairs(ModBlocks.PINK_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.PINK_WOOL, ModBlocks.PINK_WOOL_VERTICAL_SLAB);
 
         blackwoolPool.wall(ModBlocks.BLACK_WOOL_WALL);
         blackwoolPool.fence(ModBlocks.BLACK_WOOL_FENCE);
         blackwoolPool.slab(ModBlocks.BLACK_WOOL_SLAB);
         blackwoolPool.stairs(ModBlocks.BLACK_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.BLACK_WOOL, ModBlocks.BLACK_WOOL_VERTICAL_SLAB);
 
         greenwoolPool.wall(ModBlocks.GREEN_WOOL_WALL);
         greenwoolPool.fence(ModBlocks.GREEN_WOOL_FENCE);
         greenwoolPool.slab(ModBlocks.GREEN_WOOL_SLAB);
         greenwoolPool.stairs(ModBlocks.GREEN_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.GREEN_WOOL, ModBlocks.GREEN_WOOL_VERTICAL_SLAB);
 
         cyanwoolPool.wall(ModBlocks.CYAN_WOOL_WALL);
         cyanwoolPool.fence(ModBlocks.CYAN_WOOL_FENCE);
         cyanwoolPool.slab(ModBlocks.CYAN_WOOL_SLAB);
         cyanwoolPool.stairs(ModBlocks.CYAN_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.CYAN_WOOL, ModBlocks.CYAN_WOOL_VERTICAL_SLAB);
 
         brownwoolPool.wall(ModBlocks.BROWN_WOOL_WALL);
         brownwoolPool.fence(ModBlocks.BROWN_WOOL_FENCE);
         brownwoolPool.slab(ModBlocks.BROWN_WOOL_SLAB);
         brownwoolPool.stairs(ModBlocks.BROWN_WOOL_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.BROWN_WOOL, ModBlocks.BROWN_WOOL_VERTICAL_SLAB);
 
         //  rdirtPool.button(ModBlocks.RDIRT_BUTTON);
         rdirtPool.wall(ModBlocks.RDIRT_WALL);
         rdirtPool.fence(ModBlocks.RDIRT_FENCE);
         rdirtPool.slab(ModBlocks.RDIRT_SLAB);
         rdirtPool.stairs(ModBlocks.RDIRT_STAIRS);
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.ROOTED_DIRT, ModBlocks.RDIRT_VERTICAL_SLAB);
 
         //  cdirtPool.button(ModBlocks.CDIRT_BUTTON);
         cdirtPool.wall(ModBlocks.CDIRT_WALL);
         cdirtPool.fence(ModBlocks.CDIRT_FENCE);
         cdirtPool.slab(ModBlocks.CDIRT_SLAB);
         cdirtPool.stairs(ModBlocks.CDIRT_STAIRS);
-
-
+        generateVerticalSlabBlockModel(blockStateModelGenerator, Blocks.COARSE_DIRT, ModBlocks.CDIRT_VERTICAL_SLAB);
 
     }
 

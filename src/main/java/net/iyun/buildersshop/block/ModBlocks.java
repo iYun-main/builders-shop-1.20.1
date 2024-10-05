@@ -166,7 +166,7 @@ public class ModBlocks {
 
     public static final Block WHITE_WOOL_WALL = registerBlock("white_wool_wall", new WallBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
     public static final Block WHITE_WOOL_SLAB = registerBlock("white_wool_slab", new SlabBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
-    public static final Block VERTICAL_WHITE_WOOL_SLAB = registerBlock("white_wool_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
+    public static final Block WHITE_WOOL_VERTICAL_SLAB = registerBlock("white_wool_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
     public static final Block WHITE_WOOL_FENCE = registerBlock("white_wool_fence", new FenceBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
     public static final Block WHITE_WOOL_STAIRS = registerBlock("white_wool_stairs", new StairsBlock(Blocks.WHITE_WOOL.getDefaultState(),FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
 
@@ -196,7 +196,7 @@ public class ModBlocks {
 
     public static final Block RED_WOOL_WALL = registerBlock("red_wool_wall", new WallBlock(FabricBlockSettings.copyOf(RED_WOOL)));
     public static final Block RED_WOOL_SLAB = registerBlock("red_wool_slab", new SlabBlock(FabricBlockSettings.copyOf(RED_WOOL)));
-    public static final Block RED_WOOL_VERTICAL_SLAB = registerBlock("red_wool_vertical_slab", new SlabBlock(FabricBlockSettings.copyOf(RED_WOOL)));
+    public static final Block RED_WOOL_VERTICAL_SLAB = registerBlock("red_wool_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(RED_WOOL)));
     public static final Block RED_WOOL_FENCE = registerBlock("red_wool_fence", new FenceBlock(FabricBlockSettings.copyOf(RED_WOOL)));
     public static final Block RED_WOOL_STAIRS = registerBlock("red_wool_stairs", new StairsBlock(Blocks.RED_WOOL.getDefaultState(),FabricBlockSettings.copyOf(Blocks.RED_WOOL)));
 
