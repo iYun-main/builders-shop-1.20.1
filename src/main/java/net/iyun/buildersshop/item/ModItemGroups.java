@@ -215,14 +215,70 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COBSIDIAN_BRICKS_WALL);
                         entries.add(ModBlocks.COBSIDIAN_BRICKS_FENCE);
                         entries.add(ModBlocks.COBSIDIAN_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.COBBLESTONE_FENCE);
+                        entries.add(ModBlocks.COBBLESTONE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_FENCE);
+                        entries.add(ModBlocks.MOSSY_COBBLESTONE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.SMOOTH_STONE_FENCE);
+                        entries.add(ModBlocks.SMOOTH_STONE_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_STONE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.SMOOTH_STONE_WALL);
+                        entries.add(ModBlocks.STONE_BRICKS_FENCE);
+                        entries.add(ModBlocks.STONE_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.STONE_WALL);
+                        entries.add(ModBlocks.STONE_FENCE);
+                        entries.add(ModBlocks.STONE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_WALL);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_SLAB);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_FENCE);
+                        entries.add(ModBlocks.CRACKED_STONE_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CHISELED_STONE_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CHISELED_STONE_BRICKS_WALL);
+                        entries.add(ModBlocks.CHISELED_STONE_BRICKS_SLAB);
+                        entries.add(ModBlocks.CHISELED_STONE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.CHISELED_STONE_BRICKS_FENCE);
+                        entries.add(ModBlocks.MOSSY_STONE_BRICKS_FENCE);
+                        entries.add(ModBlocks.MOSSY_STONE_BRICKS_SLAB);
+                        entries.add(ModBlocks.MOSSY_STONE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.MOSSY_STONE_BRICKS_WALL);
+                        entries.add(ModBlocks.MOSSY_STONE_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.GRANITE_FENCE);
+                        entries.add(ModBlocks.GRANITE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.DIORITE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.DIORITE_FENCE);
+                        entries.add(ModBlocks.ANDESITE_FENCE);
+                        entries.add(ModBlocks.ANDESITE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.COBBLED_DEEPSLATE_FENCE);
+                        entries.add(ModBlocks.COBBLED_DEEPSLATE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_FENCE);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_WALL);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_SLAB);
+                        entries.add(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
+                        entries.add(ModBlocks.POLISHED_DEEPSLATE_FENCE);
+                        entries.add(ModBlocks.POLISHED_DEEPSLATE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.DEEPSLATE_BRICKS_FENCE);
+                        entries.add(ModBlocks.DEEPSLATE_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_WALL);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_SLAB);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_STAIRS);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_FENCE);
+                        entries.add(ModBlocks.DEEPSLATE_TILES_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_TILES_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_TILES_STAIRS);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE);
+                        entries.add(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL);
+                        entries.add(ModBlocks.BRICKS_FENCE);
+                        entries.add(ModBlocks.BRICKS_VERTICAL_SLAB);
                     }).build());
 
-    public static final ItemGroup ABShop = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(BuildersShop.MOD_ID, "abshop"),
-            FabricItemGroup.builder().displayName(Text.literal("Builders Shop"))
-                    .icon(() -> new ItemStack(ModBlocks.PLACE)).entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.DIRT_VERTICAL_SLAB);
-                    }).build());
     public static void registerItemGroups() {
         BuildersShop.LOGGER.info("Loading Item Tabs of " + BuildersShop.MOD_ID);
     }
