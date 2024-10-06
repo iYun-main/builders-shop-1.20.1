@@ -260,6 +260,86 @@ public class ModBlocks {
     public static final Block PINK_WOOL_FENCE = registerBlock("pink_wool_fence", new FenceBlock(FabricBlockSettings.copyOf(PINK_WOOL)));
     public static final Block PINK_WOOL_STAIRS = registerBlock("pink_wool_stairs", new StairsBlock(Blocks.PINK_WOOL.getDefaultState(),FabricBlockSettings.copyOf(Blocks.PINK_WOOL)));
 
+    public static final Block COBBLESTONE_FENCE = registerBlock("cobblestone_fence", new FenceBlock(FabricBlockSettings.copyOf(COBBLESTONE)));
+    public static final Block COBBLESTONE_VERTICAL_SLAB = registerBlock("cobblestone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(COBBLESTONE)));
+
+    public static final Block MOSSY_COBBLESTONE_FENCE = registerBlock("mossy_cobblestone_fence", new FenceBlock(FabricBlockSettings.copyOf(MOSSY_COBBLESTONE)));
+    public static final Block MOSSY_COBBLESTONE_VERTICAL_SLAB = registerBlock("mossy_cobblestone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MOSSY_COBBLESTONE)));
+
+    public static final Block SMOOTH_STONE_FENCE = registerBlock("smooth_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs", new StairsBlock(Blocks.SMOOTH_STONE.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_WALL = registerBlock("smooth_stone_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_VERTICAL_SLAB = registerBlock("smooth_stone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block STONE_BRICKS_VERTICAL_SLAB = registerBlock("stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(STONE_BRICKS)));
+    public static final Block STONE_BRICKS_FENCE = registerBlock("stone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(STONE_BRICKS)));
+
+    public static final Block STONE_WALL = registerBlock("stone_wall", new WallBlock(FabricBlockSettings.copyOf(STONE)));
+    public static final Block STONE_FENCE = registerBlock("stone_fence", new FenceBlock(FabricBlockSettings.copyOf(STONE)));
+    public static final Block STONE_VERTICAL_SLAB = registerBlock("stone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(STONE)));
+
+    public static final Block CRACKED_STONE_BRICKS_WALL = registerBlock("cracked_stone_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CRACKED_STONE_BRICKS)));
+    public static final Block CRACKED_STONE_BRICKS_FENCE = registerBlock("cracked_stone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(CRACKED_STONE_BRICKS)));
+    public static final Block CRACKED_STONE_BRICKS_VERTICAL_SLAB = registerBlock("cracked_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRACKED_STONE_BRICKS)));
+    public static final Block CRACKED_STONE_BRICKS_SLAB = registerBlock("cracked_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CRACKED_STONE_BRICKS)));
+    public static final Block CRACKED_STONE_BRICKS_STAIRS = registerBlock("cracked_stone_bricks_stairs", new StairsBlock(Blocks.CRACKED_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CRACKED_STONE_BRICKS)));
+
+    public static final Block CHISELED_STONE_BRICKS_SLAB = registerBlock("chiseled_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
+    public static final Block CHISELED_STONE_BRICKS_WALL = registerBlock("chiseled_stone_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
+    public static final Block CHISELED_STONE_BRICKS_FENCE = registerBlock("chiseled_stone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
+    public static final Block CHISELED_STONE_BRICKS_VERTICAL_SLAB = registerBlock("chiseled_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
+    public static final Block CHISELED_STONE_BRICKS_STAIRS = registerBlock("chiseled_stone_bricks_stairs", new StairsBlock(Blocks.CHISELED_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
+
+    public static final Block MOSSY_STONE_BRICKS_SLAB = registerBlock("mossy_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
+    public static final Block MOSSY_STONE_BRICKS_WALL = registerBlock("mossy_stone_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
+    public static final Block MOSSY_STONE_BRICKS_FENCE = registerBlock("mossy_stone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
+    public static final Block MOSSY_STONE_BRICKS_VERTICAL_SLAB = registerBlock("mossy_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
+    public static final Block MOSSY_STONE_BRICKS_STAIRS = registerBlock("mossy_stone_bricks_stairs", new StairsBlock(Blocks.MOSSY_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
+
+    public static final Block GRANITE_FENCE = registerBlock("granite_fence", new FenceBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block GRANITE_VERTICAL_SLAB = registerBlock("granite_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+
+    public static final Block DIORITE_FENCE = registerBlock("diorite_fence", new FenceBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block DIORITE_VERTICAL_SLAB = registerBlock("diorite_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+
+    public static final Block ANDESITE_FENCE = registerBlock("andesite_fence", new FenceBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block ANDESITE_VERTICAL_SLAB = registerBlock("andesite_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+
+    public static final Block COBBLED_DEEPSLATE_FENCE = registerBlock("cobbled_deepslate_fence", new FenceBlock(FabricBlockSettings.copyOf(COBBLED_DEEPSLATE)));
+    public static final Block COBBLED_DEEPSLATE_VERTICAL_SLAB = registerBlock("cobbled_deepslate_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(COBBLED_DEEPSLATE)));
+
+    public static final Block CHISELED_DEEPSLATE_FENCE = registerBlock("chiseled_deepslate_fence", new FenceBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
+    public static final Block CHISELED_DEEPSLATE_WALL = registerBlock("chiseled_deepslate_wall", new WallBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
+    public static final Block CHISELED_DEEPSLATE_SLAB = registerBlock("chiseled_deepslate_slab", new SlabBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
+    public static final Block CHISELED_DEEPSLATE_STAIRS = registerBlock("chiseled_deepslate_stairs", new StairsBlock(Blocks.CHISELED_DEEPSLATE.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
+    public static final Block CHISELED_DEEPSLATE_VERTICAL_SLAB = registerBlock("chiseled_deepslate_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
+
+    public static final Block POLISHED_DEEPSLATE_FENCE = registerBlock("polished_deepslate_fence", new FenceBlock(FabricBlockSettings.copyOf(POLISHED_DEEPSLATE)));
+    public static final Block POLISHED_DEEPSLATE_VERTICAL_SLAB = registerBlock("polished_deepslate_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(POLISHED_DEEPSLATE)));
+
+    public static final Block DEEPSLATE_BRICKS_FENCE = registerBlock("deepslate_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(DEEPSLATE_BRICKS)));
+    public static final Block DEEPSLATE_BRICKS_VERTICAL_SLAB = registerBlock("deepslate_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DEEPSLATE_BRICKS)));
+
+    public static final Block CRACKED_DEEPSLATE_BRICKS_FENCE = registerBlock("cracked_deepslate_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_BRICKS)));
+    public static final Block CRACKED_DEEPSLATE_BRICKS_WALL = registerBlock("cracked_deepslate_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_BRICKS)));
+    public static final Block CRACKED_DEEPSLATE_BRICKS_SLAB = registerBlock("cracked_deepslate_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_BRICKS)));
+    public static final Block CRACKED_DEEPSLATE_BRICKS_STAIRS = registerBlock("cracked_deepslate_bricks_stairs", new StairsBlock(Blocks.CRACKED_DEEPSLATE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_BRICKS)));
+    public static final Block CRACKED_DEEPSLATE_BRICKS_VERTICAL_SLAB = registerBlock("cracked_deepslate_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_BRICKS)));
+
+    public static final Block DEEPSLATE_TILES_FENCE = registerBlock("deepslate_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(DEEPSLATE_TILES)));
+    public static final Block DEEPSLATE_TILES_WALL = registerBlock("deepslate_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(DEEPSLATE_TILES)));
+    public static final Block DEEPSLATE_TILES_SLAB = registerBlock("deepslate_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(DEEPSLATE_TILES)));
+    public static final Block DEEPSLATE_TILES_STAIRS = registerBlock("deepslate_tiles_stairs", new StairsBlock(Blocks.DEEPSLATE_TILES.getDefaultState(),FabricBlockSettings.copyOf(DEEPSLATE_TILES)));
+    public static final Block DEEPSLATE_TILES_VERTICAL_SLAB = registerBlock("deepslate_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DEEPSLATE_TILES)));
+
+    public static final Block CRACKED_DEEPSLATE_TILES_FENCE = registerBlock("cracked_deepslate_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_TILES)));
+    public static final Block CRACKED_DEEPSLATE_TILES_WALL = registerBlock("cracked_deepslate_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_TILES)));
+    public static final Block CRACKED_DEEPSLATE_TILES_SLAB = registerBlock("cracked_deepslate_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_TILES)));
+    public static final Block CRACKED_DEEPSLATE_TILES_STAIRS = registerBlock("cracked_deepslate_tiles_stairs", new StairsBlock(Blocks.CRACKED_DEEPSLATE_TILES.getDefaultState(),FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_TILES)));
+    public static final Block CRACKED_DEEPSLATE_TILES_VERTICAL_SLAB = registerBlock("cracked_deepslate_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRACKED_DEEPSLATE_TILES)));
+
+    public static final Block BRICKS_FENCE = registerBlock("bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(BRICKS)));
+    public static final Block BRICKS_VERTICAL_SLAB = registerBlock("bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BRICKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

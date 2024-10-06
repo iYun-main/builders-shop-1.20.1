@@ -110,7 +110,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLUE_WOOL_FENCE);
                         entries.add(ModBlocks.BLUE_WOOL_SLAB);
                         entries.add(ModBlocks.BLUE_WOOL_STAIRS);
-                        entries.add(ModBlocks.BLUE_WOOL_STAIRS);
                         entries.add(ModBlocks.BLUE_WOOL_VERTICAL_SLAB);
                         entries.add(ModBlocks.PURPLE_WOOL_WALL);
                         entries.add(ModBlocks.PURPLE_WOOL_FENCE);

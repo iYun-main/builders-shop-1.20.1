@@ -1,4 +1,5 @@
-// 1.20.1	2024-10-05T20:45:32.9288772	Builders Shop/Tags for minecraft:block
-7956b911db8f498cf3bb3ea02cf4ffd605499bfb data\minecraft\tags\blocks\walls.json
+// 1.20.1	2024-10-06T16:34:53.0548527	Builders Shop/Tags for minecraft:block
+111f02f82735d95aa366dbe3a246479aef0eea1d data\minecraft\tags\blocks\walls.json
 5414160b8f744a87eff590c77c1129b10972f802 data\minecraft\tags\blocks\wool.json
 aaacdac17c6451e88f41f28055d19c0a39c358ff data\minecraft\tags\blocks\mineable\shovel.json
+b034ce056f484e48bcc57de43d7c2f94cb22aa59 data\minecraft\tags\blocks\fences.json

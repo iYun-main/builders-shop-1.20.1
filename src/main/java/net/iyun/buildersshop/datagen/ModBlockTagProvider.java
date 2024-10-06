@@ -58,7 +58,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_WOOL_WALL)
                 .add(ModBlocks.MAGENTA_WOOL_WALL)
                 .add(ModBlocks.PINK_WOOL_WALL)
+                .add(ModBlocks.STONE_WALL)
+                .add(ModBlocks.SMOOTH_STONE_WALL)
                 .add(ModBlocks.CDIRT_WALL);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.DEEPSLATE_TILES_FENCE)
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE);
 
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
