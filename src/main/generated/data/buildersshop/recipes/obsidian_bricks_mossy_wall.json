@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "buildersshop:obsidian_bricks_mossy"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "buildersshop:obsidian_bricks_mossy_wall"
+  },
+  "show_notification": true
+}

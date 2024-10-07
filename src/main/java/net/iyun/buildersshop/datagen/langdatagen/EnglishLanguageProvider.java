@@ -238,6 +238,13 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.OBSIDIAN_BRICKS_CRACKED_FENCE,"Cracked Obsidian Bricks Fence");
         translationBuilder.add(ModBlocks.OBSIDIAN_BRICKS_CRACKED_VERTICAL_SLAB,"Vertical Cracked Obsidian Bricks Slab");
 
+        translationBuilder.add(ModBlocks.COBSIDIAN_BRICKS,"Crying Obsidian Bricks");
+        translationBuilder.add(ModBlocks.COBSIDIAN_BRICKS_SLAB,"Crying Obsidian Bricks Slab");
+        translationBuilder.add(ModBlocks.COBSIDIAN_BRICKS_STAIRS,"Crying Obsidian Bricks Stairs");
+        translationBuilder.add(ModBlocks.COBSIDIAN_BRICKS_WALL,"Crying Obsidian Bricks Wall");
+        translationBuilder.add(ModBlocks.COBSIDIAN_BRICKS_FENCE,"Crying Obsidian Bricks Fence");
+        translationBuilder.add(ModBlocks.COBSIDIAN_BRICKS_VERTICAL_SLAB,"Vertical Crying Obsidian Bricks Slab");
+
         translationBuilder.add(ModBlocks.OBSIDIAN_BRICKS_MOSSY,"Mossy Obsidian Bricks");
         translationBuilder.add(ModBlocks.OBSIDIAN_BRICKS_MOSSY_SLAB,"Mossy Obsidian Bricks Slab");
         translationBuilder.add(ModBlocks.OBSIDIAN_BRICKS_MOSSY_STAIRS,"Mossy Obsidian Bricks Stairs");
