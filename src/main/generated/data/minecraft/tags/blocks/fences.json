@@ -1,6 +1,22 @@
 {
   "replace": false,
   "values": [
+    "buildersshop:white_wool_fence",
+    "buildersshop:light_gray_wool_fence",
+    "buildersshop:gray_wool_fence",
+    "buildersshop:black_wool_fence",
+    "buildersshop:brown_wool_fence",
+    "buildersshop:red_wool_fence",
+    "buildersshop:orange_wool_fence",
+    "buildersshop:yellow_wool_fence",
+    "buildersshop:lime_wool_fence",
+    "buildersshop:green_wool_fence",
+    "buildersshop:cyan_wool_fence",
+    "buildersshop:light_blue_wool_fence",
+    "buildersshop:blue_wool_fence",
+    "buildersshop:purple_wool_fence",
+    "buildersshop:magenta_wool_fence",
+    "buildersshop:pink_wool_fence",
     "buildersshop:deepslate_tiles_fence",
     "buildersshop:cracked_deepslate_tiles_fence"
   ]

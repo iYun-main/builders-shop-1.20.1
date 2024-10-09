@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "buildersshop:dirt_vertical_slab",
+    "buildersshop:rooted_dirt_vertical_slab",
+    "buildersshop:coarse_dirt_vertical_slab",
+    "buildersshop:rooted_dirt_slab",
+    "buildersshop:coarse_dirt_slab",
     "buildersshop:dirt_slab"
   ]
 }

@@ -1,5 +1,9 @@
-// 1.20.1	2024-10-08T19:48:11.7794763	Builders Shop/Tags for minecraft:block
+// 1.20.1	2024-10-09T20:18:34.924616	Builders Shop/Tags for minecraft:block
 111f02f82735d95aa366dbe3a246479aef0eea1d data\minecraft\tags\blocks\walls.json
-5414160b8f744a87eff590c77c1129b10972f802 data\minecraft\tags\blocks\wool.json
-aaacdac17c6451e88f41f28055d19c0a39c358ff data\minecraft\tags\blocks\mineable\shovel.json
-b034ce056f484e48bcc57de43d7c2f94cb22aa59 data\minecraft\tags\blocks\fences.json
+a3125adc24edc4fca7eafce0dec85f904770868c data\minecraft\tags\blocks\slabs.json
+92527b3bcd2dabcabf5c271d375abe5d47b79311 data\minecraft\tags\blocks\wool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\pickaxe.json
+c652bbe7b63891558073318686e06d57202a6348 data\minecraft\tags\blocks\mineable\shovel.json
+d7fe1c48cd220c0533698699a36d17bb5d67a2ef data\buildersshop\tags\blocks\vertical_slabs.json
+5015b120a72a021ca1852da1d059a8c8f0019341 data\minecraft\tags\blocks\fences.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\hoe.json

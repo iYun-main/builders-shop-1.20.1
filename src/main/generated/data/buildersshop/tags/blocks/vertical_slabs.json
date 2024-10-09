@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "buildersshop:white_wool_vertical_slab",
+    "buildersshop:light_gray_wool_vertical_slab",
+    "buildersshop:gray_wool_vertical_slab",
+    "buildersshop:black_wool_vertical_slab",
+    "buildersshop:brown_wool_vertical_slab",
+    "buildersshop:red_wool_vertical_slab",
+    "buildersshop:orange_wool_vertical_slab",
+    "buildersshop:yellow_wool_vertical_slab",
+    "buildersshop:lime_wool_vertical_slab",
+    "buildersshop:green_wool_vertical_slab",
+    "buildersshop:cyan_wool_vertical_slab",
+    "buildersshop:light_blue_wool_vertical_slab",
+    "buildersshop:blue_wool_vertical_slab",
+    "buildersshop:purple_wool_vertical_slab",
+    "buildersshop:magenta_wool_vertical_slab",
+    "buildersshop:pink_wool_vertical_slab",
+    "buildersshop:rooted_dirt_vertical_slab",
+    "buildersshop:coarse_dirt_vertical_slab",
+    "buildersshop:dirt_vertical_slab"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "buildersshop:rooted_dirt_slab",
+    "buildersshop:coarse_dirt_slab",
+    "buildersshop:dirt_slab"
+  ]
+}
