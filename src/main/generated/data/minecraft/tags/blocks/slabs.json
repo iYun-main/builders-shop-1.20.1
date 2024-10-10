@@ -1,8 +1,27 @@
 {
   "replace": false,
   "values": [
+    "buildersshop:white_wool_slab",
+    "buildersshop:light_gray_wool_slab",
+    "buildersshop:gray_wool_slab",
+    "buildersshop:black_wool_slab",
+    "buildersshop:brown_wool_slab",
+    "buildersshop:red_wool_slab",
+    "buildersshop:orange_wool_slab",
+    "buildersshop:yellow_wool_slab",
+    "buildersshop:lime_wool_slab",
+    "buildersshop:green_wool_slab",
+    "buildersshop:cyan_wool_slab",
+    "buildersshop:light_blue_wool_slab",
+    "buildersshop:blue_wool_slab",
+    "buildersshop:purple_wool_slab",
+    "buildersshop:magenta_wool_slab",
+    "buildersshop:pink_wool_slab",
     "buildersshop:rooted_dirt_slab",
     "buildersshop:coarse_dirt_slab",
+    "buildersshop:clay_slab",
+    "buildersshop:mud_slab",
+    "buildersshop:packed_mud_slab",
     "buildersshop:dirt_slab"
   ]
 }

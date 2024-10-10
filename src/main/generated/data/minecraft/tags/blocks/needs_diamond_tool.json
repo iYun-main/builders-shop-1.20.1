@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "buildersshop:obsidian_bricks_fence",
+    "buildersshop:obsidian_bricks_slab",
+    "buildersshop:obsidian_bricks_stairs",
+    "buildersshop:obsidian_bricks_wall",
+    "buildersshop:obsidian_bricks_vertical_slab",
+    "buildersshop:obsidian_bricks_cracked",
+    "buildersshop:obsidian_bricks_cracked_fence",
+    "buildersshop:obsidian_bricks_cracked_slab",
+    "buildersshop:obsidian_bricks_cracked_stairs",
+    "buildersshop:obsidian_bricks_cracked_wall",
+    "buildersshop:obsidian_bricks_cracked_vertical_slab",
+    "buildersshop:obsidian_bricks_mossy",
+    "buildersshop:obsidian_bricks_mossy_fence",
+    "buildersshop:obsidian_bricks_mossy_slab",
+    "buildersshop:obsidian_bricks_mossy_stairs",
+    "buildersshop:obsidian_bricks_mossy_wall",
+    "buildersshop:obsidian_bricks_mossy_vertical_slab",
+    "buildersshop:obsidian_bricks",
+    "buildersshop:obsidian_bricks_crying_fence",
+    "buildersshop:obsidian_bricks_crying_slab",
+    "buildersshop:obsidian_bricks_crying_stairs",
+    "buildersshop:obsidian_bricks_crying_wall",
+    "buildersshop:obsidian_bricks_crying_vertical_slab",
+    "buildersshop:obsidian_bricks_crying"
+  ]
+}
