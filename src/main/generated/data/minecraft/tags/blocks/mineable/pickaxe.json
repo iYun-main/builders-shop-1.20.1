@@ -78,6 +78,15 @@
     "buildersshop:obsidian_bricks_crying_stairs",
     "buildersshop:obsidian_bricks_crying_wall",
     "buildersshop:obsidian_bricks_crying_vertical_slab",
+    "buildersshop:cracked_stone_bricks_slab",
+    "buildersshop:chiseled_stone_bricks_slab",
+    "buildersshop:chiseled_deepslate_slab",
+    "buildersshop:cracked_deepslate_bricks_slab",
+    "buildersshop:cracked_deepslate_tiles_slab",
+    "buildersshop:deepslate_tiles_slab",
+    "buildersshop:smooth_stone_stairs",
+    "buildersshop:smooth_stone_fence",
+    "buildersshop:smooth_stone_vertical_slab",
     "buildersshop:obsidian_bricks_crying"
   ]
 }

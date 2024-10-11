@@ -124,7 +124,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.PINK_WOOL_SLAB, Blocks.PINK_WOOL);
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.CRACKED_STONE_BRICKS_SLAB, Blocks.CRACKED_STONE_BRICKS);
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.CHISELED_STONE_BRICKS_SLAB, Blocks.CHISELED_STONE_BRICKS);
-        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.MOSSY_STONE_BRICKS_SLAB, Blocks.MOSSY_STONE_BRICKS);
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.CHISELED_DEEPSLATE_SLAB, Blocks.CHISELED_DEEPSLATE);
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.DEEPSLATE_TILES_SLAB, Blocks.DEEPSLATE_TILES);
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB, Blocks.CRACKED_DEEPSLATE_TILES);
@@ -153,7 +152,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PINK_WOOL_WALL, Blocks.PINK_WOOL);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CRACKED_STONE_BRICKS_WALL, Blocks.CRACKED_STONE_BRICKS);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CHISELED_STONE_BRICKS_WALL, Blocks.CHISELED_STONE_BRICKS);
-        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.MOSSY_STONE_BRICKS_WALL, Blocks.MOSSY_STONE_BRICKS);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CHISELED_DEEPSLATE_WALL, Blocks.CHISELED_DEEPSLATE);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.DEEPSLATE_TILES_WALL, Blocks.DEEPSLATE_TILES);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CRACKED_DEEPSLATE_TILES_WALL, Blocks.CRACKED_DEEPSLATE_TILES);
@@ -208,7 +206,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createStairsRecipe(ModBlocks.OBSIDIAN_BRICKS_MOSSY_SLAB, Ingredient.ofItems(ModBlocks.OBSIDIAN_BRICKS_MOSSY));
         createStairsRecipe(ModBlocks.CRACKED_STONE_BRICKS_STAIRS, Ingredient.ofItems(Blocks.CRACKED_STONE_BRICKS));
         createStairsRecipe(ModBlocks.CHISELED_STONE_BRICKS_STAIRS, Ingredient.ofItems(Blocks.CHISELED_STONE_BRICKS));
-        createStairsRecipe(ModBlocks.MOSSY_STONE_BRICKS_STAIRS, Ingredient.ofItems(Blocks.MOSSY_STONE_BRICKS));
         createStairsRecipe(ModBlocks.CHISELED_DEEPSLATE_STAIRS, Ingredient.ofItems(Blocks.CHISELED_DEEPSLATE));
         createStairsRecipe(ModBlocks.CRACKED_DEEPSLATE_BRICKS_STAIRS, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_BRICKS));
         createStairsRecipe(ModBlocks.CRACKED_DEEPSLATE_TILES_STAIRS, Ingredient.ofItems(Blocks.CRACKED_DEEPSLATE_TILES));

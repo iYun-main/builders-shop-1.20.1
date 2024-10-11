@@ -282,11 +282,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CHISELED_STONE_BRICKS_FENCE,"Chiseled Stone Bricks Fence");
         translationBuilder.add(ModBlocks.CHISELED_STONE_BRICKS_VERTICAL_SLAB,"Vertical Chiseled Stone Bricks Slab");
 
-        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICKS_FENCE,"Mossy Stone Bricks Fence");
-        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICKS_SLAB,"Mossy Stone Bricks Stairs");
-        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICKS_STAIRS,"Mossy Stone Bricks Slab");
-        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICKS_WALL,"Mossy Stone Bricks Wall");
-        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICKS_VERTICAL_SLAB,"Vertical Mossy Stone Bricks Slab");
+        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICKS_FENCE,"Mossy Stone Brick Fence");
+        translationBuilder.add(ModBlocks.MOSSY_STONE_BRICKS_VERTICAL_SLAB,"Vertical Mossy Stone Brick Slab");
 
         translationBuilder.add(ModBlocks.GRANITE_FENCE,"Granite Fence");
         translationBuilder.add(ModBlocks.GRANITE_VERTICAL_SLAB,"Vertical Granite Slab");

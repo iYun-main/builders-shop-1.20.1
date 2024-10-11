@@ -115,7 +115,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.COBSIDIAN_BRICKS_SLAB, slabDrops(ModBlocks.COBSIDIAN_BRICKS_SLAB));
         addDrop(ModBlocks.CRACKED_STONE_BRICKS_SLAB, slabDrops(ModBlocks.CRACKED_STONE_BRICKS_SLAB));
         addDrop(ModBlocks.CHISELED_STONE_BRICKS_SLAB, slabDrops(ModBlocks.CHISELED_STONE_BRICKS_SLAB));
-        addDrop(ModBlocks.MOSSY_STONE_BRICKS_SLAB, slabDrops(ModBlocks.MOSSY_STONE_BRICKS_SLAB));
         addDrop(ModBlocks.CHISELED_DEEPSLATE_SLAB, slabDrops(ModBlocks.CHISELED_DEEPSLATE_SLAB));
         addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB, slabDrops(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB));
         addDrop(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB, slabDrops(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB));
@@ -159,7 +158,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STONE_WALL);
         addDrop(ModBlocks.CRACKED_STONE_BRICKS_WALL);
         addDrop(ModBlocks.CHISELED_STONE_BRICKS_WALL);
-        addDrop(ModBlocks.MOSSY_STONE_BRICKS_WALL);
         addDrop(ModBlocks.CHISELED_DEEPSLATE_WALL);
         addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL);
         addDrop(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL);
@@ -256,7 +254,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_STONE_STAIRS);
         addDrop(ModBlocks.CRACKED_STONE_BRICKS_STAIRS);
         addDrop(ModBlocks.CHISELED_STONE_BRICKS_STAIRS );
-        addDrop(ModBlocks.MOSSY_STONE_BRICKS_STAIRS );
         addDrop(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
         addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICKS_STAIRS);
         addDrop(ModBlocks.CRACKED_DEEPSLATE_TILES_STAIRS);

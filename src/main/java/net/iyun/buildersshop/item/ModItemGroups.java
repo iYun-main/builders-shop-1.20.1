@@ -239,9 +239,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHISELED_STONE_BRICKS_STAIRS);
                         entries.add(ModBlocks.CHISELED_STONE_BRICKS_FENCE);
                         entries.add(ModBlocks.MOSSY_STONE_BRICKS_FENCE);
-                        entries.add(ModBlocks.MOSSY_STONE_BRICKS_SLAB);
-                        entries.add(ModBlocks.MOSSY_STONE_BRICKS_STAIRS);
-                        entries.add(ModBlocks.MOSSY_STONE_BRICKS_WALL);
                         entries.add(ModBlocks.MOSSY_STONE_BRICKS_VERTICAL_SLAB);
                         entries.add(ModBlocks.GRANITE_FENCE);
                         entries.add(ModBlocks.GRANITE_VERTICAL_SLAB);

@@ -82,7 +82,67 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLUE_WOOL_FENCE)
                 .add(ModBlocks.PURPLE_WOOL_FENCE)
                 .add(ModBlocks.MAGENTA_WOOL_FENCE)
-                .add(ModBlocks.PINK_WOOL_FENCE);
+                .add(ModBlocks.PINK_WOOL_FENCE)
+                .add(ModBlocks.WHITE_WOOL_STAIRS)
+                .add(ModBlocks.LIGHT_GRAY_WOOL_STAIRS)
+                .add(ModBlocks.GRAY_WOOL_STAIRS)
+                .add(ModBlocks.BLACK_WOOL_STAIRS)
+                .add(ModBlocks.BROWN_WOOL_STAIRS)
+                .add(ModBlocks.RED_WOOL_STAIRS)
+                .add(ModBlocks.ORANGE_WOOL_STAIRS)
+                .add(ModBlocks.YELLOW_WOOL_STAIRS)
+                .add(ModBlocks.LIME_WOOL_STAIRS)
+                .add(ModBlocks.GREEN_WOOL_STAIRS)
+                .add(ModBlocks.CYAN_WOOL_STAIRS)
+                .add(ModBlocks.LIGHT_BLUE_WOOL_STAIRS)
+                .add(ModBlocks.BLUE_WOOL_STAIRS)
+                .add(ModBlocks.PURPLE_WOOL_STAIRS)
+                .add(ModBlocks.MAGENTA_WOOL_STAIRS)
+                .add(ModBlocks.PINK_WOOL_STAIRS);
+
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.DIRT_STAIRS)
+                .add(ModBlocks.CDIRT_STAIRS)
+                .add(ModBlocks.RDIRT_STAIRS)
+                .add(ModBlocks.MUD_STAIRS)
+                .add(ModBlocks.PMUD_STAIRS)
+                .add(ModBlocks.CLAY_STAIRS)
+                .add(ModBlocks.ANDESITE_BRICKS_STAIRS)
+                .add(ModBlocks.ANDESITE_BRICKS_CRACKED_STAIRS)
+                .add(ModBlocks.ANDESITE_BRICKS_MOSSY_STAIRS)
+                .add(ModBlocks.GRANITE_BRICKS_STAIRS)
+                .add(ModBlocks.GRANITE_BRICKS_CRACKED_STAIRS)
+                .add(ModBlocks.GRANITE_BRICKS_MOSSY_STAIRS)
+                .add(ModBlocks.DIORITE_BRICKS_STAIRS)
+                .add(ModBlocks.DIORITE_BRICKS_CRACKED_STAIRS)
+                .add(ModBlocks.DIORITE_BRICKS_MOSSY_STAIRS)
+                .add(ModBlocks.OBSIDIAN_BRICKS_STAIRS)
+                .add(ModBlocks.OBSIDIAN_BRICKS_CRACKED_STAIRS)
+                .add(ModBlocks.OBSIDIAN_BRICKS_MOSSY_STAIRS)
+                .add(ModBlocks.COBSIDIAN_BRICKS_STAIRS)
+                .add(ModBlocks.SMOOTH_STONE_STAIRS)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_STAIRS)
+                .add(ModBlocks.CHISELED_STONE_BRICKS_STAIRS)
+                .add(ModBlocks.CHISELED_DEEPSLATE_STAIRS)
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_STAIRS)
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_STAIRS)
+                .add(ModBlocks.DEEPSLATE_TILES_STAIRS)
+                .add(ModBlocks.WHITE_WOOL_STAIRS)
+                .add(ModBlocks.LIGHT_GRAY_WOOL_STAIRS)
+                .add(ModBlocks.GRAY_WOOL_STAIRS)
+                .add(ModBlocks.BLACK_WOOL_STAIRS)
+                .add(ModBlocks.BROWN_WOOL_STAIRS)
+                .add(ModBlocks.RED_WOOL_STAIRS)
+                .add(ModBlocks.ORANGE_WOOL_STAIRS)
+                .add(ModBlocks.YELLOW_WOOL_STAIRS)
+                .add(ModBlocks.LIME_WOOL_STAIRS)
+                .add(ModBlocks.GREEN_WOOL_STAIRS)
+                .add(ModBlocks.CYAN_WOOL_STAIRS)
+                .add(ModBlocks.LIGHT_BLUE_WOOL_STAIRS)
+                .add(ModBlocks.BLUE_WOOL_STAIRS)
+                .add(ModBlocks.PURPLE_WOOL_STAIRS)
+                .add(ModBlocks.MAGENTA_WOOL_STAIRS)
+                .add(ModBlocks.PINK_WOOL_STAIRS);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -124,7 +184,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.OBSIDIAN_BRICKS_MOSSY_WALL)
                 .add(ModBlocks.CRACKED_STONE_BRICKS_WALL)
                 .add(ModBlocks.CHISELED_STONE_BRICKS_WALL)
-                .add(ModBlocks.MOSSY_STONE_BRICKS_WALL)
                 .add(ModBlocks.CHISELED_DEEPSLATE_WALL)
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL)
@@ -185,6 +244,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.BRICKS_FENCE)
+                .add(ModBlocks.STONE_BRICKS_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE);
 
 
@@ -210,6 +270,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CLAY_SLAB)
                 .add(ModBlocks.MUD_SLAB)
                 .add(ModBlocks.PMUD_SLAB)
+                .add(ModBlocks.ANDESITE_BRICKS_SLAB)
+                .add(ModBlocks.ANDESITE_BRICKS_CRACKED_SLAB)
+                .add(ModBlocks.ANDESITE_BRICKS_MOSSY_SLAB)
+                .add(ModBlocks.GRANITE_BRICKS_SLAB)
+                .add(ModBlocks.GRANITE_BRICKS_CRACKED_SLAB)
+                .add(ModBlocks.GRANITE_BRICKS_MOSSY_SLAB)
+                .add(ModBlocks.DIORITE_BRICKS_SLAB)
+                .add(ModBlocks.DIORITE_BRICKS_CRACKED_SLAB)
+                .add(ModBlocks.DIORITE_BRICKS_MOSSY_SLAB)
+                .add(ModBlocks.OBSIDIAN_BRICKS_SLAB)
+                .add(ModBlocks.COBSIDIAN_BRICKS_SLAB)
+                .add(ModBlocks.OBSIDIAN_BRICKS_CRACKED_SLAB)
+                .add(ModBlocks.OBSIDIAN_BRICKS_MOSSY_SLAB)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_SLAB)
+                .add(ModBlocks.CHISELED_STONE_BRICKS_SLAB)
+                .add(ModBlocks.CHISELED_DEEPSLATE_SLAB)
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB)
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB)
+                .add(ModBlocks.DEEPSLATE_TILES_SLAB)
                 .add(ModBlocks.DIRT_SLAB);
 
 
@@ -239,6 +318,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIRT_SLAB);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE);
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.DARK_OAK_VERTICAL_SLAB)
+                .add(ModBlocks.BIRCH_VERTICAL_SLAB)
+                .add(ModBlocks.SPRUCE_VERTICAL_SLAB)
+                .add(ModBlocks.ACA_VERTICAL_SLAB)
+                .add(ModBlocks.JUNGLE_VERTICAL_SLAB)
+                .add(ModBlocks.MANGROVE_VERTICAL_SLAB)
+                .add(ModBlocks.CHERRY_VERTICAL_SLAB)
+                .add(ModBlocks.BAMBOO_VERTICAL_SLAB)
+                .add(ModBlocks.CRIMSON_VERTICAL_SLAB)
+                .add(ModBlocks.WARPED_VERTICAL_SLAB)
+                .add(ModBlocks.OAK_VERTICAL_SLAB);
 
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
@@ -319,6 +411,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBSIDIAN_BRICKS_STAIRS)
                 .add(ModBlocks.COBSIDIAN_BRICKS_WALL)
                 .add(ModBlocks.COBSIDIAN_BRICKS_VERTICAL_SLAB)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_SLAB)
+                .add(ModBlocks.CHISELED_STONE_BRICKS_SLAB)
+                .add(ModBlocks.CHISELED_DEEPSLATE_SLAB)
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB)
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB)
+                .add(ModBlocks.DEEPSLATE_TILES_SLAB)
+                .add(ModBlocks.SMOOTH_STONE_STAIRS)
+                .add(ModBlocks.SMOOTH_STONE_FENCE)
+                .add(ModBlocks.SMOOTH_STONE_VERTICAL_SLAB)
                 .add(ModBlocks.COBSIDIAN_BRICKS);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
@@ -346,7 +447,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBSIDIAN_BRICKS_WALL)
                 .add(ModBlocks.COBSIDIAN_BRICKS_VERTICAL_SLAB)
                 .add(ModBlocks.COBSIDIAN_BRICKS);
-
 
         getOrCreateTagBuilder(ModTags.Blocks.V_SLAB)
                 .add(ModBlocks.WHITE_WOOL_VERTICAL_SLAB)

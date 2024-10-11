@@ -140,9 +140,6 @@ public class ModModelProvider extends FabricModelProvider {
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.DIORITE, ModBlocks.DIORITE_VERTICAL_SLAB);
 
         mossybricksepool.fence(ModBlocks.MOSSY_STONE_BRICKS_FENCE);
-        mossybricksepool.stairs(ModBlocks.MOSSY_STONE_BRICKS_STAIRS);
-        mossybricksepool.slab(ModBlocks.MOSSY_STONE_BRICKS_SLAB);
-        mossybricksepool.wall(ModBlocks.MOSSY_STONE_BRICKS_WALL);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.MOSSY_STONE_BRICKS, ModBlocks.MOSSY_STONE_BRICKS_VERTICAL_SLAB);
 
         chisledstoneepool.slab(ModBlocks.CHISELED_STONE_BRICKS_SLAB);

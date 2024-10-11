@@ -1,10 +1,12 @@
-// 1.20.1	2024-10-10T20:59:21.1651443	Builders Shop/Tags for minecraft:block
-90954aebfcd2b8d6851e2ede061becc5426074e1 data\minecraft\tags\blocks\walls.json
-25135ad89cf821648bc5d26008c6faee3dbba90d data\minecraft\tags\blocks\slabs.json
-92527b3bcd2dabcabf5c271d375abe5d47b79311 data\minecraft\tags\blocks\wool.json
-1028fe8f9b85f6aabaf24343b2e994d89833e92a data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-10-11T18:37:56.0115449	Builders Shop/Tags for minecraft:block
+fde34b266939842cf86a028972d3c5f6efae8bfe data\minecraft\tags\blocks\walls.json
+388b6b88633a59a6e9e8874ffce2612615e33c26 data\minecraft\tags\blocks\slabs.json
+ea0181b88507a02115c3f7ff678d7f20e81330a6 data\minecraft\tags\blocks\wool.json
+ccbd27d883a3b488ada73b46de39469defff33cc data\minecraft\tags\blocks\mineable\pickaxe.json
+eaa41ef789452de3758e6db51ae7717afb8fb485 data\minecraft\tags\blocks\stairs.json
 1cf08689dd613fe534ad7451e4d550cdea991b5a data\minecraft\tags\blocks\mineable\shovel.json
 bfbfed0483981be702e502ceddaab0421c5ccc87 data\minecraft\tags\blocks\needs_diamond_tool.json
 d7fe1c48cd220c0533698699a36d17bb5d67a2ef data\buildersshop\tags\blocks\vertical_slabs.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\hoe.json
-7601b959b81f392bd83d27842be5eaf34932ce56 data\minecraft\tags\blocks\fences.json
+dda2143b9d55631114be9dff30382c9ea84c3145 data\minecraft\tags\blocks\mineable\axe.json
+0737b497cf03ba331db7adec023af8addf4f97e4 data\minecraft\tags\blocks\fences.json

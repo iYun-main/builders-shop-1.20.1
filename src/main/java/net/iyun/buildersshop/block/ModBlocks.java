@@ -290,11 +290,8 @@ public class ModBlocks {
     public static final Block CHISELED_STONE_BRICKS_VERTICAL_SLAB = registerBlock("chiseled_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
     public static final Block CHISELED_STONE_BRICKS_STAIRS = registerBlock("chiseled_stone_bricks_stairs", new StairsBlock(Blocks.CHISELED_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
 
-    public static final Block MOSSY_STONE_BRICKS_SLAB = registerBlock("mossy_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
-    public static final Block MOSSY_STONE_BRICKS_WALL = registerBlock("mossy_stone_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
     public static final Block MOSSY_STONE_BRICKS_FENCE = registerBlock("mossy_stone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
     public static final Block MOSSY_STONE_BRICKS_VERTICAL_SLAB = registerBlock("mossy_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
-    public static final Block MOSSY_STONE_BRICKS_STAIRS = registerBlock("mossy_stone_bricks_stairs", new StairsBlock(Blocks.MOSSY_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(MOSSY_STONE_BRICKS)));
 
     public static final Block GRANITE_FENCE = registerBlock("granite_fence", new FenceBlock(FabricBlockSettings.copyOf(GRANITE)));
     public static final Block GRANITE_VERTICAL_SLAB = registerBlock("granite_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
