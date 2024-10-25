@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-11T18:37:56.0020327	Builders Shop/Recipes
+// 1.20.1	2024-10-25T20:40:50.6356187	Builders Shop/Recipes
 df0cf1a9c66409a79281cc4684c02b7c1c985df9 data\buildersshop\recipes\light_blue_wool_slab.json
 a53dc09895c0486aea1d802d535c71cda6ca3838 data\buildersshop\recipes\light_blue_wool_vertical_slab.json
 56297bff1334d5d1a45d101b4060648c45d4e06a data\buildersshop\advancements\recipes\building_blocks\chiseled_stone_bricks_slab.json
@@ -131,8 +131,8 @@ bdf543c84ae19c0728bec81c71a1067fa09528b2 data\buildersshop\advancements\recipes\
 abcccd4f32e45aa6efe1ce22a02b6820224a2c4a data\buildersshop\recipes\deepslate_bricks_vertical_slab.json
 ace1022ab1d64c099d9849d74e6a564c462e7b6b data\buildersshop\advancements\recipes\building_blocks\vertical_crimson_slab.json
 4ac4bf7418aae092e9a0d7b213845b00515870b3 data\buildersshop\recipes\obsidian_bricks_crying_slab.json
-fe16a8cd6b2c90c451de5c031cfff784cd044654 data\buildersshop\recipes\obsidian_bricks_mossy_slab.json
 7ed03d71b6cdbb9da2eb801a4c4477a7b0171388 data\buildersshop\recipes\gray_wool_slab.json
+fe16a8cd6b2c90c451de5c031cfff784cd044654 data\buildersshop\recipes\obsidian_bricks_mossy_slab.json
 3ac4b1b6a87f9d95641ad8d05bd01edc767d739b data\buildersshop\advancements\recipes\building_blocks\pink_wool_vertical_slab.json
 30ea271f9b9438539ba6d20b2fe42897650896b8 data\buildersshop\advancements\recipes\decorations\obsidian_bricks_wall.json
 7a0935237d18f64e4a4536ef347348fbc749e0eb data\buildersshop\recipes\cracked_deepslate_tiles_vertical_slab.json

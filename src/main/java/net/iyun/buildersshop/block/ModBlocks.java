@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.iyun.buildersshop.BuildersShop;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -27,12 +28,12 @@ public class ModBlocks {
     public static final Block CRIMSON_VERTICAL_SLAB = registerBlock("vertical_crimson_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
     public static final Block WARPED_VERTICAL_SLAB = registerBlock("vertical_warped_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
 
-    public static final Block HORIZONZAL_OAK_PLANK = registerBlock("horizontal_oak_planks", new Block(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block HORIZONZAL_OAK_PLANK_SLAB = registerBlock("horizontal_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block HORIZONZAL_OAK_PLANK_VERTICAL_SLAB = registerBlock("horizontal_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block HORIZONZAL_OAK_PLANK_STAIRS = registerBlock("horizontal_oak_stairs", new StairsBlock(ModBlocks.HORIZONZAL_OAK_PLANK.getDefaultState(), FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block HORIZONZAL_OAK_PLANK_FENCE = registerBlock("horizontal_oak_fence", new FenceBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block HORIZONZAL_OAK_PLANK_FENCE_GATE = registerBlock("horizontal_oak_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(OAK_PLANKS), WoodType.OAK));
+    public static final Block HORIZONTAL_OAK_PLANK = registerBlock("horizontal_oak_planks", new Block(FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block HORIZONTAL_OAK_PLANK_SLAB = registerBlock("horizontal_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block HORIZONTAL_OAK_PLANK_VERTICAL_SLAB = registerBlock("horizontal_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block HORIZONTAL_OAK_PLANK_STAIRS = registerBlock("horizontal_oak_stairs", new StairsBlock(ModBlocks.HORIZONTAL_OAK_PLANK.getDefaultState(), FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block HORIZONTAL_OAK_PLANK_FENCE = registerBlock("horizontal_oak_fence", new FenceBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block HORIZONTAL_OAK_PLANK_FENCE_GATE = registerBlock("horizontal_oak_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(OAK_PLANKS), WoodType.OAK));
 
     public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks", new Block(FabricBlockSettings.copyOf(ANDESITE)));
     public static final Block ANDESITE_BRICKS_WALL = registerBlock("andesite_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(ANDESITE)));
@@ -97,54 +98,51 @@ public class ModBlocks {
     public static final Block GRANITE_BRICKS_MOSSY_WALL = registerBlock("granite_bricks_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(GRANITE)));
     public static final Block GRANITE_BRICKS_MOSSY_VERTICAL_SLAB = registerBlock("granite_bricks_mossy_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
 
-    public static final Block OBSIDIAN_BRICKS = registerBlock("obsidian_bricks", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_FENCE = registerBlock("obsidian_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_WALL = registerBlock("obsidian_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_SLAB = registerBlock("obsidian_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_STAIRS = registerBlock("obsidian_bricks_stairs", new StairsBlock(ModBlocks.OBSIDIAN_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_VERTICAL_SLAB = registerBlock("obsidian_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block OBSIDIAN_BRICKS = registerBlock("obsidian_bricks", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_FENCE = registerBlock("obsidian_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_WALL = registerBlock("obsidian_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_SLAB = registerBlock("obsidian_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_STAIRS = registerBlock("obsidian_bricks_stairs", new StairsBlock(ModBlocks.OBSIDIAN_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_VERTICAL_SLAB = registerBlock("obsidian_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
-    public static final Block OBSIDIAN_BRICKS_CRACKED = registerBlock("obsidian_bricks_cracked", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_CRACKED_WALL = registerBlock("obsidian_bricks_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_CRACKED_STAIRS = registerBlock("obsidian_bricks_cracked_stairs", new StairsBlock(ModBlocks.OBSIDIAN_BRICKS_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_CRACKED_SLAB = registerBlock("obsidian_bricks_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_CRACKED_FENCE = registerBlock("obsidian_bricks_cracked_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_CRACKED_VERTICAL_SLAB = registerBlock("obsidian_bricks_cracked_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block OBSIDIAN_BRICKS_CRACKED = registerBlock("obsidian_bricks_cracked", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_CRACKED_WALL = registerBlock("obsidian_bricks_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_CRACKED_STAIRS = registerBlock("obsidian_bricks_cracked_stairs", new StairsBlock(ModBlocks.OBSIDIAN_BRICKS_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_CRACKED_SLAB = registerBlock("obsidian_bricks_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_CRACKED_FENCE = registerBlock("obsidian_bricks_cracked_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_CRACKED_VERTICAL_SLAB = registerBlock("obsidian_bricks_cracked_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
-    public static final Block OBSIDIAN_BRICKS_MOSSY = registerBlock("obsidian_bricks_mossy", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_MOSSY_WALL = registerBlock("obsidian_bricks_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_MOSSY_SLAB = registerBlock("obsidian_bricks_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_MOSSY_STAIRS = registerBlock("obsidian_bricks_mossy_stairs", new StairsBlock(ModBlocks.OBSIDIAN_BRICKS_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_MOSSY_FENCE = registerBlock("obsidian_bricks_mossy_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICKS_MOSSY_VERTICAL_SLAB = registerBlock("obsidian_bricks_mossy_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block OBSIDIAN_BRICKS_MOSSY = registerBlock("obsidian_bricks_mossy", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_MOSSY_WALL = registerBlock("obsidian_bricks_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_MOSSY_SLAB = registerBlock("obsidian_bricks_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_MOSSY_STAIRS = registerBlock("obsidian_bricks_mossy_stairs", new StairsBlock(ModBlocks.OBSIDIAN_BRICKS_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_MOSSY_FENCE = registerBlock("obsidian_bricks_mossy_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_BRICKS_MOSSY_VERTICAL_SLAB = registerBlock("obsidian_bricks_mossy_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
-    public static final Block COBSIDIAN_BRICKS = registerBlock("obsidian_bricks_crying", new CryingObsidianBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block COBSIDIAN_BRICKS_STAIRS = registerBlock("obsidian_bricks_crying_stairs", new StairsBlock(ModBlocks.COBSIDIAN_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block COBSIDIAN_BRICKS_SLAB = registerBlock("obsidian_bricks_crying_slab", new SlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block COBSIDIAN_BRICKS_VERTICAL_SLAB = registerBlock("obsidian_bricks_crying_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block COBSIDIAN_BRICKS_WALL = registerBlock("obsidian_bricks_crying_wall", new WallBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block COBSIDIAN_BRICKS_FENCE = registerBlock("obsidian_bricks_crying_fence", new FenceBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
+    public static final Block COBSIDIAN_BRICKS = registerBlock("obsidian_bricks_crying", new CryingObsidianBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block COBSIDIAN_BRICKS_STAIRS = registerBlock("obsidian_bricks_crying_stairs", new StairsBlock(ModBlocks.COBSIDIAN_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block COBSIDIAN_BRICKS_SLAB = registerBlock("obsidian_bricks_crying_slab", new SlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block COBSIDIAN_BRICKS_VERTICAL_SLAB = registerBlock("obsidian_bricks_crying_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block COBSIDIAN_BRICKS_WALL = registerBlock("obsidian_bricks_crying_wall", new WallBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block COBSIDIAN_BRICKS_FENCE = registerBlock("obsidian_bricks_crying_fence", new FenceBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
     public static final Block DIRT_WALL = registerBlock("dirt_wall", new WallBlock(FabricBlockSettings.copyOf(DIRT)));
     public static final Block DIRT_SLAB = registerBlock("dirt_slab", new SlabBlock(FabricBlockSettings.copyOf(DIRT)));
     public static final Block DIRT_FENCE = registerBlock("dirt_fence", new FenceBlock(FabricBlockSettings.copyOf(DIRT)));
     public static final Block DIRT_VERTICAL_SLAB = registerBlock("dirt_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIRT)));
     public static final Block DIRT_STAIRS = registerBlock("dirt_stairs", new StairsBlock(Blocks.DIRT.getDefaultState(),FabricBlockSettings.copyOf(Blocks.DIRT)));
-    // public static final Block DIRT_BUTTON = registerBlock("dirt_button", new ButtonBlock(FabricBlockSettings.copyOf(DIRT).sounds(BlockSoundGroup.ROOTED_DIRT),BlockSetType.STONE,90, false));
 
     public static final Block CDIRT_WALL = registerBlock("coarse_dirt_wall", new WallBlock(FabricBlockSettings.copyOf(COARSE_DIRT)));
     public static final Block CDIRT_SLAB = registerBlock("coarse_dirt_slab", new SlabBlock(FabricBlockSettings.copyOf(COARSE_DIRT)));
     public static final Block CDIRT_FENCE = registerBlock("coarse_dirt_fence", new FenceBlock(FabricBlockSettings.copyOf(COARSE_DIRT)));
     public static final Block CDIRT_VERTICAL_SLAB = registerBlock("coarse_dirt_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(COARSE_DIRT)));
     public static final Block CDIRT_STAIRS = registerBlock("coarse_dirt_stairs", new StairsBlock(Blocks.COARSE_DIRT.getDefaultState(),FabricBlockSettings.copyOf(Blocks.COARSE_DIRT)));
-    // public static final Block CDIRT_BUTTON = registerBlock("coarse_dirt_button", new ButtonBlock(FabricBlockSettings.copyOf(COARSE_DIRT).sounds(BlockSoundGroup.ROOTED_DIRT),BlockSetType.STONE,90, false));
 
     public static final Block RDIRT_WALL = registerBlock("rooted_dirt_wall", new WallBlock(FabricBlockSettings.copyOf(ROOTED_DIRT)));
     public static final Block RDIRT_SLAB = registerBlock("rooted_dirt_slab", new SlabBlock(FabricBlockSettings.copyOf(ROOTED_DIRT)));
     public static final Block RDIRT_FENCE = registerBlock("rooted_dirt_fence", new FenceBlock(FabricBlockSettings.copyOf(ROOTED_DIRT)));
     public static final Block RDIRT_VERTICAL_SLAB = registerBlock("rooted_dirt_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ROOTED_DIRT)));
     public static final Block RDIRT_STAIRS = registerBlock("rooted_dirt_stairs", new StairsBlock(Blocks.ROOTED_DIRT.getDefaultState(),FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
-   // public static final Block RDIRT_BUTTON = registerBlock("rooted_dirt_button", new ButtonBlock(FabricBlockSettings.copyOf(ROOTED_DIRT).sounds(BlockSoundGroup.ROOTED_DIRT),BlockSetType.STONE,90, false));
 
     public static final Block MUD_WALL = registerBlock("mud_wall", new WallBlock(FabricBlockSettings.copyOf(MUD)));
     public static final Block MUD_SLAB = registerBlock("mud_slab", new SlabBlock(FabricBlockSettings.copyOf(MUD)));
@@ -338,11 +336,205 @@ public class ModBlocks {
     public static final Block BRICKS_FENCE = registerBlock("bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(BRICKS)));
     public static final Block BRICKS_VERTICAL_SLAB = registerBlock("bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BRICKS)));
 
+    public static final Block CHISELED_ANDESITE = registerBlock("andesite_chiseled", new Block(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_ANDESITE_STAIRS = registerBlock("andesite_chiseled_stairs", new StairsBlock(ModBlocks.CHISELED_ANDESITE.getDefaultState(),FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_ANDESITE_SLAB = registerBlock("andesite_chiseled_slab", new SlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_ANDESITE_VERTICAL_SLAB = registerBlock("vertical_andesite_chiseled_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+
+    public static final Block CHISELED_CRACKED_ANDESITE = registerBlock("andesite_chiseled_cracked", new Block(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_CRACKED_ANDESITE_STAIRS = registerBlock("andesite_chiseled_cracked_stairs", new StairsBlock(ModBlocks.CHISELED_CRACKED_ANDESITE.getDefaultState(),FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_CRACKED_ANDESITE_SLAB = registerBlock("andesite_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_CRACKED_ANDESITE_VERTICAL_SLAB = registerBlock("vertical_andesite_chiseled_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+
+    public static final Block CHISELED_ANDESITE_MOSSY = registerBlock("andesite_chiseled_mossy", new Block(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_ANDESITE_MOSSY_STAIRS = registerBlock("andesite_chiseled_mossy_stairs", new StairsBlock(ModBlocks.CHISELED_ANDESITE_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_ANDESITE_MOSSY_SLAB = registerBlock("andesite_chiseled_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block CHISELED_ANDESITE_MOSSY_VERTICAL_SLAB = registerBlock("vertical_andesite_chiseled_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+
+    public static final Block TILES_ANDESITE = registerBlock("andesite_tiles", new Block(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_ANDESITE_WALL = registerBlock("andesite_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_ANDESITE_STAIRS = registerBlock("andesite_tiles_stairs", new StairsBlock(ModBlocks.TILES_ANDESITE.getDefaultState(),FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_ANDESITE_SLAB = registerBlock("andesite_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_ANDESITE_VERTICAL_SLAB = registerBlock("vertical_andesite_tiles_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+
+    public static final Block TILES_CRACKED_ANDESITE = registerBlock("andesite_tiles_cracked", new Block(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_CRACKED_ANDESITE_WALL = registerBlock("andesite_tiles_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_CRACKED_ANDESITE_STAIRS = registerBlock("andesite_tiles_cracked_stairs", new StairsBlock(ModBlocks.TILES_CRACKED_ANDESITE.getDefaultState(),FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_CRACKED_ANDESITE_SLAB = registerBlock("andesite_tiles_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_CRACKED_ANDESITE_VERTICAL_SLAB = registerBlock("vertical_andesite_tiles_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+
+    public static final Block TILES_MOSSY_ANDESITE = registerBlock("andesite_tiles_mossy", new Block(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_MOSSY_ANDESITE_WALL = registerBlock("andesite_tiles_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_MOSSY_ANDESITE_STAIRS = registerBlock("andesite_tiles_mossy_stairs", new StairsBlock(ModBlocks.TILES_MOSSY_ANDESITE.getDefaultState(),FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_MOSSY_ANDESITE_SLAB = registerBlock("andesite_tiles_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+    public static final Block TILES_MOSSY_ANDESITE_VERTICAL_SLAB = registerBlock("vertical_andesite_tiles_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ANDESITE)));
+
+    public static final Block TILES_DIORITE = registerBlock("diorite_tiles", new Block(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_DIORITE_WALL = registerBlock("diorite_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_DIORITE_STAIRS = registerBlock("diorite_tiles_stairs", new StairsBlock(ModBlocks.TILES_DIORITE.getDefaultState(),FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_DIORITE_SLAB = registerBlock("diorite_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_DIORITE_VERTICAL_SLAB = registerBlock("vertical_diorite_tiles_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+
+    public static final Block TILES_CRACKED_DIORITE = registerBlock("diorite_tiles_cracked", new Block(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_CRACKED_DIORITE_WALL = registerBlock("diorite_tiles_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_CRACKED_DIORITE_STAIRS = registerBlock("diorite_tiles_cracked_stairs", new StairsBlock(ModBlocks.TILES_CRACKED_DIORITE.getDefaultState(),FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_CRACKED_DIORITE_SLAB = registerBlock("diorite_tiles_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_CRACKED_DIORITE_VERTICAL_SLAB = registerBlock("vertical_diorite_tiles_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+
+    public static final Block TILES_MOSSY_DIORITE = registerBlock("diorite_tiles_mossy", new Block(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_MOSSY_DIORITE_WALL = registerBlock("diorite_tiles_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_MOSSY_DIORITE_STAIRS = registerBlock("diorite_tiles_mossy_stairs", new StairsBlock(ModBlocks.TILES_MOSSY_DIORITE.getDefaultState(),FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_MOSSY_DIORITE_SLAB = registerBlock("diorite_tiles_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block TILES_MOSSY_DIORITE_VERTICAL_SLAB = registerBlock("vertical_diorite_tiles_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+
+    public static final Block CHISELED_DIORITE = registerBlock("diorite_chiseled", new Block(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_DIORITE_STAIRS = registerBlock("diorite_chiseled_stairs", new StairsBlock(ModBlocks.CHISELED_DIORITE.getDefaultState(),FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_DIORITE_SLAB = registerBlock("diorite_chiseled_slab", new SlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_DIORITE_VERTICAL_SLAB = registerBlock("vertical_diorite_chiseled_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+
+    public static final Block CHISELED_CRACKED_DIORITE = registerBlock("diorite_chiseled_cracked", new Block(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_CRACKED_DIORITE_STAIRS = registerBlock("diorite_chiseled_cracked_stairs", new StairsBlock(ModBlocks.CHISELED_CRACKED_DIORITE.getDefaultState(),FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_CRACKED_DIORITE_SLAB = registerBlock("diorite_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_CRACKED_DIORITE_VERTICAL_SLAB = registerBlock("vertical_diorite_chiseled_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+
+    public static final Block CHISELED_DIORITE_MOSSY = registerBlock("diorite_chiseled_mossy", new Block(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_DIORITE_MOSSY_STAIRS = registerBlock("diorite_chiseled_mossy_stairs", new StairsBlock(ModBlocks.CHISELED_DIORITE_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_DIORITE_MOSSY_SLAB = registerBlock("diorite_chiseled_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+    public static final Block CHISELED_DIORITE_MOSSY_VERTICAL_SLAB = registerBlock("vertical_diorite_chiseled_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DIORITE)));
+
+    public static final Block TILES_GRANITE = registerBlock("granite_tiles", new Block(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_GRANITE_WALL = registerBlock("granite_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_GRANITE_STAIRS = registerBlock("granite_tiles_stairs", new StairsBlock(ModBlocks.TILES_GRANITE.getDefaultState(),FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_GRANITE_SLAB = registerBlock("granite_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_GRANITE_VERTICAL_SLAB = registerBlock("vertical_granite_tiles_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+
+    public static final Block TILES_CRACKED_GRANITE = registerBlock("granite_tiles_cracked", new Block(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_CRACKED_GRANITE_WALL = registerBlock("granite_tiles_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_CRACKED_GRANITE_STAIRS = registerBlock("granite_tiles_cracked_stairs", new StairsBlock(ModBlocks.TILES_CRACKED_GRANITE.getDefaultState(),FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_CRACKED_GRANITE_SLAB = registerBlock("granite_tiles_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_CRACKED_GRANITE_VERTICAL_SLAB = registerBlock("vertical_granite_tiles_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+
+    public static final Block TILES_MOSSY_GRANITE = registerBlock("granite_tiles_mossy", new Block(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_MOSSY_GRANITE_WALL = registerBlock("granite_tiles_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_MOSSY_GRANITE_STAIRS = registerBlock("granite_tiles_mossy_stairs", new StairsBlock(ModBlocks.TILES_MOSSY_GRANITE.getDefaultState(),FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_MOSSY_GRANITE_SLAB = registerBlock("granite_tiles_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block TILES_MOSSY_GRANITE_VERTICAL_SLAB = registerBlock("vertical_granite_tiles_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+
+    public static final Block CHISELED_GRANITE = registerBlock("granite_chiseled", new Block(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_GRANITE_STAIRS = registerBlock("granite_chiseled_stairs", new StairsBlock(ModBlocks.CHISELED_GRANITE.getDefaultState(),FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_GRANITE_SLAB = registerBlock("granite_chiseled_slab", new SlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_GRANITE_VERTICAL_SLAB = registerBlock("vertical_granite_chiseled_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+
+    public static final Block CHISELED_CRACKED_GRANITE = registerBlock("granite_chiseled_cracked", new Block(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_CRACKED_GRANITE_STAIRS = registerBlock("granite_chiseled_cracked_stairs", new StairsBlock(ModBlocks.CHISELED_CRACKED_GRANITE.getDefaultState(),FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_CRACKED_GRANITE_SLAB = registerBlock("granite_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_CRACKED_GRANITE_VERTICAL_SLAB = registerBlock("vertical_granite_chiseled_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+
+    public static final Block CHISELED_GRANITE_MOSSY = registerBlock("granite_chiseled_mossy", new Block(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_GRANITE_MOSSY_STAIRS = registerBlock("granite_chiseled_mossy_stairs", new StairsBlock(ModBlocks.CHISELED_GRANITE_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_GRANITE_MOSSY_SLAB = registerBlock("granite_chiseled_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+    public static final Block CHISELED_GRANITE_MOSSY_VERTICAL_SLAB = registerBlock("vertical_granite_chiseled_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRANITE)));
+
+    public static final Block TILES_OBSIDIAN = registerBlock("obsidian_tiles", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_OBSIDIAN_WALL = registerBlock("obsidian_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_OBSIDIAN_STAIRS = registerBlock("obsidian_tiles_stairs", new StairsBlock(ModBlocks.TILES_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_OBSIDIAN_SLAB = registerBlock("obsidian_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_tiles_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+
+    public static final Block TILES_CRACKED_OBSIDIAN = registerBlock("obsidian_tiles_cracked", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_CRACKED_OBSIDIAN_WALL = registerBlock("obsidian_tiles_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_CRACKED_OBSIDIAN_STAIRS = registerBlock("obsidian_tiles_cracked_stairs", new StairsBlock(ModBlocks.TILES_CRACKED_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_CRACKED_OBSIDIAN_SLAB = registerBlock("obsidian_tiles_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_tiles_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+
+    public static final Block TILES_MOSSY_OBSIDIAN = registerBlock("obsidian_tiles_mossy", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_MOSSY_OBSIDIAN_WALL = registerBlock("obsidian_tiles_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_MOSSY_OBSIDIAN_STAIRS = registerBlock("obsidian_tiles_mossy_stairs", new StairsBlock(ModBlocks.TILES_MOSSY_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_MOSSY_OBSIDIAN_SLAB = registerBlock("obsidian_tiles_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_tiles_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+
+    public static final Block CHISELED_OBSIDIAN = registerBlock("obsidian_chiseled", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_OBSIDIAN_STAIRS = registerBlock("obsidian_chiseled_stairs", new StairsBlock(ModBlocks.CHISELED_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_OBSIDIAN_SLAB = registerBlock("obsidian_chiseled_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_chiseled_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+
+    public static final Block CHISELED_CRACKED_OBSIDIAN = registerBlock("obsidian_chiseled_cracked", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_CRACKED_OBSIDIAN_STAIRS = registerBlock("obsidian_chiseled_cracked_stairs", new StairsBlock(ModBlocks.CHISELED_CRACKED_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_CRACKED_OBSIDIAN_SLAB = registerBlock("obsidian_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_CRACKED_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_chiseled_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+
+    public static final Block CHISELED_OBSIDIAN_MOSSY = registerBlock("obsidian_chiseled_mossy", new Block(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_OBSIDIAN_MOSSY_STAIRS = registerBlock("obsidian_chiseled_mossy_stairs", new StairsBlock(ModBlocks.CHISELED_OBSIDIAN_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_OBSIDIAN_MOSSY_SLAB = registerBlock("obsidian_chiseled_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block CHISELED_OBSIDIAN_MOSSY_VERTICAL_SLAB = registerBlock("vertical_obsidian_chiseled_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+
+    public static final Block CHISELED_COBSIDIAN_RUNIC = registerBlock("crying_obsidian_chiseled_runic", new CryingObsidianBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
+    public static final Block CHISELED_COBSIDIAN_RUNIC_STAIRS = registerBlock("crying_obsidian_chiseled_runic_stairs", new StairsBlock(ModBlocks.CHISELED_COBSIDIAN_RUNIC.getDefaultState(),FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
+    public static final Block CHISELED_COBSIDIAN_RUNIC_SLAB = registerBlock("crying_obsidian_chiseled_runic_slab", new SlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
+    public static final Block CHISELED_COBSIDIAN_RUNIC_VERTICAL_SLAB = registerBlock("vertical_crying_obsidian_chiseled_runic_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
+
+    public static final Block SMOOTH_STONE_BRICKS = registerBlock("smooth_stone_bricks", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_FENCE = registerBlock("smooth_stone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_WALL = registerBlock("smooth_stone_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_SLAB = registerBlock("smooth_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_STAIRS = registerBlock("smooth_stone_bricks_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_VERTICAL_SLAB = registerBlock("smooth_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_STONE_BRICKS_CRACKED = registerBlock("smooth_stone_bricks_cracked", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_CRACKED_FENCE = registerBlock("smooth_stone_bricks_cracked_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_CRACKED_WALL = registerBlock("smooth_stone_bricks_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_CRACKED_SLAB = registerBlock("smooth_stone_bricks_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_CRACKED_STAIRS = registerBlock("smooth_stone_bricks_cracked_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_BRICKS_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_CRACKED_VERTICAL_SLAB = registerBlock("smooth_stone_bricks_cracked_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_STONE_BRICKS_MOSSY = registerBlock("smooth_stone_bricks_mossy", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_MOSSY_FENCE = registerBlock("smooth_stone_bricks_mossy_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_MOSSY_WALL = registerBlock("smooth_stone_bricks_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_MOSSY_SLAB = registerBlock("smooth_stone_bricks_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_MOSSY_STAIRS = registerBlock("smooth_stone_bricks_mossy_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_BRICKS_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_BRICKS_MOSSY_VERTICAL_SLAB = registerBlock("smooth_stone_bricks_mossy_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_STONE_CHISELED = registerBlock("smooth_stone_chiseled", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_SLAB = registerBlock("smooth_stone_chiseled_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_STAIRS = registerBlock("smooth_stone_chiseled_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_CHISELED.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_VERTICAL_SLAB = registerBlock("smooth_stone_chiseled_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_STONE_CHISELED_CRACKED = registerBlock("smooth_stone_chiseled_cracked", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_CRACKED_SLAB = registerBlock("smooth_stone_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_CRACKED_STAIRS = registerBlock("smooth_stone_chiseled_cracked_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_CHISELED_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_CRACKED_VERTICAL_SLAB = registerBlock("smooth_stone_chiseled_cracked_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_STONE_CHISELED_MOSSY = registerBlock("smooth_stone_chiseled_mossy", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_MOSSY_SLAB = registerBlock("smooth_stone_chiseled_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_MOSSY_STAIRS = registerBlock("smooth_stone_chiseled_mossy_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_CHISELED_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_CHISELED_MOSSY_VERTICAL_SLAB = registerBlock("smooth_stone_chiseled_mossy_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_STONE_TILES = registerBlock("smooth_stone_tiles", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_FENCE = registerBlock("smooth_stone_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_WALL = registerBlock("smooth_stone_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_SLAB = registerBlock("smooth_stone_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_STAIRS = registerBlock("smooth_stone_tiles_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_TILES.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_VERTICAL_SLAB = registerBlock("smooth_stone_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_STONE_TILES_CRACKED = registerBlock("smooth_stone_tiles_cracked", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_CRACKED_FENCE = registerBlock("smooth_stone_tiles_cracked_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_CRACKED_WALL = registerBlock("smooth_stone_tiles_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_CRACKED_SLAB = registerBlock("smooth_stone_tiles_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_CRACKED_STAIRS = registerBlock("smooth_stone_tiles_cracked_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_TILES_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_CRACKED_VERTICAL_SLAB = registerBlock("smooth_stone_tiles_cracked_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_STONE_TILES_MOSSY = registerBlock("smooth_stone_tiles_mossy", new Block(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_MOSSY_FENCE = registerBlock("smooth_stone_tiles_mossy_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_MOSSY_WALL = registerBlock("smooth_stone_tiles_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_MOSSY_SLAB = registerBlock("smooth_stone_tiles_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_MOSSY_STAIRS = registerBlock("smooth_stone_tiles_mossy_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_TILES_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
+    public static final Block SMOOTH_STONE_TILES_MOSSY_VERTICAL_SLAB = registerBlock("smooth_stone_tiles_mossy_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(BuildersShop.MOD_ID, name), block);
     }
-
 
     public static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(BuildersShop.MOD_ID, name),

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/vertical_granite_tiles_cracked_slab_back"
+    },
+    "type=double": {
+      "model": "buildersshop:block/granite_tiles_cracked"
+    },
+    "type=front": {
+      "model": "buildersshop:block/vertical_granite_tiles_cracked_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/vertical_granite_tiles_cracked_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/vertical_granite_tiles_cracked_slab_right"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/smooth_stone_chiseled_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/smooth_stone_chiseled"
+    },
+    "type=top": {
+      "model": "buildersshop:block/smooth_stone_chiseled_slab_top"
+    }
+  }
+}

@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.iyun.buildersshop.block.ModBlocks;
 import net.iyun.buildersshop.block.enums.VerticalSlabType;
+import net.iyun.buildersshop.item.ModItems;
 import net.iyun.buildersshop.property.ModProperties;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -36,12 +37,22 @@ public class ModModelProvider extends FabricModelProvider {
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.CRIMSON_PLANKS, ModBlocks.CRIMSON_VERTICAL_SLAB);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.WARPED_PLANKS, ModBlocks.WARPED_VERTICAL_SLAB);
 
+
+        // Dirt Textures
         BlockStateModelGenerator.BlockTexturePool dirtPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIRT);
         BlockStateModelGenerator.BlockTexturePool cdirtPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COARSE_DIRT);
         BlockStateModelGenerator.BlockTexturePool rdirtPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ROOTED_DIRT);
+
+        // Mud Textures
         BlockStateModelGenerator.BlockTexturePool mudPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MUD);
+
+        // Packed Mud
         BlockStateModelGenerator.BlockTexturePool pmudPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PACKED_MUD);
+
+        //Clay
         BlockStateModelGenerator.BlockTexturePool clayPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CLAY);
+
+        // The Wool
         BlockStateModelGenerator.BlockTexturePool whitewoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_WOOL);
         BlockStateModelGenerator.BlockTexturePool lightgraywoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_WOOL);
         BlockStateModelGenerator.BlockTexturePool graywoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_WOOL);
@@ -59,32 +70,84 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool magentawoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_WOOL);
         BlockStateModelGenerator.BlockTexturePool pinkwoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_WOOL);
 
-        BlockStateModelGenerator.BlockTexturePool hoakplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONZAL_OAK_PLANK);
+        // Horizontal Wood
+        BlockStateModelGenerator.BlockTexturePool hoakplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONTAL_OAK_PLANK);
 
+        // Andesite
+        BlockStateModelGenerator.BlockTexturePool andeistepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ANDESITE);
         BlockStateModelGenerator.BlockTexturePool andbrick = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANDESITE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool andbrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANDESITE_BRICKS_CRACKED);
         BlockStateModelGenerator.BlockTexturePool andbrickm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ANDESITE_BRICKS_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool chiseland = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_ANDESITE);
+        BlockStateModelGenerator.BlockTexturePool chiselcrackedand = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_CRACKED_ANDESITE);
+        BlockStateModelGenerator.BlockTexturePool chiselmossyand = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_ANDESITE_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool tilesand = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_ANDESITE);
+        BlockStateModelGenerator.BlockTexturePool tilescrackand = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_CRACKED_ANDESITE);
+        BlockStateModelGenerator.BlockTexturePool tilesmossyand = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_MOSSY_ANDESITE);
+
+        // Diorite
+        BlockStateModelGenerator.BlockTexturePool dioritepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIORITE);
         BlockStateModelGenerator.BlockTexturePool diobrick = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DIORITE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool diobrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DIORITE_BRICKS_CRACKED);
         BlockStateModelGenerator.BlockTexturePool diobrickm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DIORITE_BRICKS_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool diochisel = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_DIORITE);
+        BlockStateModelGenerator.BlockTexturePool diochiselcracked = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_CRACKED_DIORITE);
+        BlockStateModelGenerator.BlockTexturePool diochiselmossy = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_DIORITE_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool diotiles = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_DIORITE);
+        BlockStateModelGenerator.BlockTexturePool diotilescracked = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_CRACKED_DIORITE);
+        BlockStateModelGenerator.BlockTexturePool diotilesmossy = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_MOSSY_DIORITE);
+
+        // Granite
+        BlockStateModelGenerator.BlockTexturePool granitepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRANITE);
         BlockStateModelGenerator.BlockTexturePool granbrick = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRANITE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool granbrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRANITE_BRICKS_CRACKED);
         BlockStateModelGenerator.BlockTexturePool granbrickm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRANITE_BRICKS_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool grantiles = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_GRANITE);
+        BlockStateModelGenerator.BlockTexturePool grantilescracked = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_CRACKED_GRANITE);
+        BlockStateModelGenerator.BlockTexturePool grantilesmossy = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_MOSSY_GRANITE);
+        BlockStateModelGenerator.BlockTexturePool granchisel = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_GRANITE);
+        BlockStateModelGenerator.BlockTexturePool granchiselcracked = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_CRACKED_GRANITE);
+        BlockStateModelGenerator.BlockTexturePool granchiselmossy = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_GRANITE_MOSSY);
+
+        // Obsidian
         BlockStateModelGenerator.BlockTexturePool obsibrick = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OBSIDIAN_BRICKS);
         BlockStateModelGenerator.BlockTexturePool obsibrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OBSIDIAN_BRICKS_CRACKED);
         BlockStateModelGenerator.BlockTexturePool obsibrickm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.OBSIDIAN_BRICKS_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool obistiles = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool obistilescracked = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_CRACKED_OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool obistilesmossy = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILES_MOSSY_OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool obischisel = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool obischiselcracked = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_CRACKED_OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool obischiselmossy = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_OBSIDIAN_MOSSY);
+
+        // Crying Obsidian
         BlockStateModelGenerator.BlockTexturePool cobsibrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.COBSIDIAN_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool cobsirunic= blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_COBSIDIAN_RUNIC);
+
+        // Stone
         BlockStateModelGenerator.BlockTexturePool stonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE);
-        BlockStateModelGenerator.BlockTexturePool smoothstonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE);
-        BlockStateModelGenerator.BlockTexturePool cobblestonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLESTONE);
         BlockStateModelGenerator.BlockTexturePool stonebrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE_BRICKS);
-        BlockStateModelGenerator.BlockTexturePool mossycobblepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE);
         BlockStateModelGenerator.BlockTexturePool crackedstoneepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_STONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool chisledstoneepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_STONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool mossybricksepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MOSSY_STONE_BRICKS);
-        BlockStateModelGenerator.BlockTexturePool granitepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRANITE);
-        BlockStateModelGenerator.BlockTexturePool dioritepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DIORITE);
-        BlockStateModelGenerator.BlockTexturePool andeistepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ANDESITE);
+
+        // Smooth Stone
+        BlockStateModelGenerator.BlockTexturePool smoothstonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE);
+        BlockStateModelGenerator.BlockTexturePool smoothbrick = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool smoothbrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_BRICKS_CRACKED);
+        BlockStateModelGenerator.BlockTexturePool smoothbrickm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_BRICKS_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool smoothbrickch = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_CHISELED);
+        BlockStateModelGenerator.BlockTexturePool smoothbrickchc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_CHISELED_CRACKED);
+        BlockStateModelGenerator.BlockTexturePool smoothbrickchm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_CHISELED_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool smoothtiles = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_TILES);
+        BlockStateModelGenerator.BlockTexturePool smoothtilesc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_TILES_CRACKED);
+        BlockStateModelGenerator.BlockTexturePool smoothtilesm = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE_TILES_MOSSY);
+
+        // Cobble Stone
+        BlockStateModelGenerator.BlockTexturePool cobblestonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLESTONE);
+        BlockStateModelGenerator.BlockTexturePool mossycobblepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MOSSY_COBBLESTONE);
+
+        // Deepslate
         BlockStateModelGenerator.BlockTexturePool cobbleddeepslatepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.COBBLED_DEEPSLATE);
         BlockStateModelGenerator.BlockTexturePool chisleddeepslatepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_DEEPSLATE);
         BlockStateModelGenerator.BlockTexturePool polisheddeepslatepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_DEEPSLATE);
@@ -92,7 +155,171 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool crackeddeepslatebrickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_DEEPSLATE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool deepslatetilespool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DEEPSLATE_TILES);
         BlockStateModelGenerator.BlockTexturePool crackeddeepslatetilespool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_DEEPSLATE_TILES);
+
+
+        // Bricks
         BlockStateModelGenerator.BlockTexturePool brickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
+
+        smoothtilesm.slab(ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB);
+        smoothtilesm.stairs(ModBlocks.SMOOTH_STONE_TILES_MOSSY_STAIRS);
+        smoothtilesm.fence(ModBlocks.SMOOTH_STONE_TILES_MOSSY_FENCE);
+        smoothtilesm.wall(ModBlocks.SMOOTH_STONE_TILES_MOSSY_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_TILES_MOSSY, ModBlocks.SMOOTH_STONE_TILES_MOSSY_VERTICAL_SLAB);
+
+        smoothtilesc.slab(ModBlocks.SMOOTH_STONE_TILES_CRACKED_SLAB);
+        smoothtilesc.stairs(ModBlocks.SMOOTH_STONE_TILES_CRACKED_STAIRS);
+        smoothtilesc.fence(ModBlocks.SMOOTH_STONE_TILES_CRACKED_FENCE);
+        smoothtilesc.wall(ModBlocks.SMOOTH_STONE_TILES_CRACKED_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_TILES_CRACKED, ModBlocks.SMOOTH_STONE_TILES_CRACKED_VERTICAL_SLAB);
+
+        smoothtiles.slab(ModBlocks.SMOOTH_STONE_TILES_SLAB);
+        smoothtiles.stairs(ModBlocks.SMOOTH_STONE_TILES_STAIRS);
+        smoothtiles.fence(ModBlocks.SMOOTH_STONE_TILES_FENCE);
+        smoothtiles.wall(ModBlocks.SMOOTH_STONE_TILES_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_TILES, ModBlocks.SMOOTH_STONE_TILES_VERTICAL_SLAB);
+
+        smoothbrickchc.slab(ModBlocks.SMOOTH_STONE_CHISELED_CRACKED_SLAB);
+        smoothbrickchc.stairs(ModBlocks.SMOOTH_STONE_CHISELED_CRACKED_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED_VERTICAL_SLAB);
+
+        smoothbrickchm.slab(ModBlocks.SMOOTH_STONE_CHISELED_MOSSY_SLAB);
+        smoothbrickchm.stairs(ModBlocks.SMOOTH_STONE_CHISELED_MOSSY_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY_VERTICAL_SLAB);
+
+        smoothbrickch.slab(ModBlocks.SMOOTH_STONE_CHISELED_SLAB);
+        smoothbrickch.stairs(ModBlocks.SMOOTH_STONE_CHISELED_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_CHISELED, ModBlocks.SMOOTH_STONE_CHISELED_VERTICAL_SLAB);
+
+        smoothbrickm.slab(ModBlocks.SMOOTH_STONE_BRICKS_MOSSY_SLAB);
+        smoothbrickm.stairs(ModBlocks.SMOOTH_STONE_BRICKS_MOSSY_STAIRS);
+        smoothbrickm.fence(ModBlocks.SMOOTH_STONE_BRICKS_MOSSY_FENCE);
+        smoothbrickm.wall(ModBlocks.SMOOTH_STONE_BRICKS_MOSSY_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_BRICKS_MOSSY, ModBlocks.SMOOTH_STONE_BRICKS_MOSSY_VERTICAL_SLAB);
+
+        smoothbrickc.slab(ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_SLAB);
+        smoothbrickc.stairs(ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_STAIRS);
+        smoothbrickc.fence(ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_FENCE);
+        smoothbrickc.wall(ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_VERTICAL_SLAB);
+
+        smoothbrick.slab(ModBlocks.SMOOTH_STONE_BRICKS_SLAB);
+        smoothbrick.stairs(ModBlocks.SMOOTH_STONE_BRICKS_STAIRS);
+        smoothbrick.fence(ModBlocks.SMOOTH_STONE_BRICKS_FENCE);
+        smoothbrick.wall(ModBlocks.SMOOTH_STONE_BRICKS_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_STONE_BRICKS, ModBlocks.SMOOTH_STONE_BRICKS_VERTICAL_SLAB);
+
+        cobsirunic.slab(ModBlocks.CHISELED_COBSIDIAN_RUNIC_SLAB);
+        cobsirunic.stairs(ModBlocks.CHISELED_COBSIDIAN_RUNIC_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_COBSIDIAN_RUNIC, ModBlocks.CHISELED_COBSIDIAN_RUNIC_VERTICAL_SLAB);
+
+        obistilesmossy.slab(ModBlocks.TILES_MOSSY_OBSIDIAN_SLAB);
+        obistilesmossy.stairs(ModBlocks.TILES_MOSSY_OBSIDIAN_STAIRS);
+        obistilesmossy.wall(ModBlocks.TILES_MOSSY_OBSIDIAN_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_MOSSY_OBSIDIAN, ModBlocks.TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB);
+
+        obistilescracked.slab(ModBlocks.TILES_CRACKED_OBSIDIAN_SLAB);
+        obistilescracked.stairs(ModBlocks.TILES_CRACKED_OBSIDIAN_STAIRS);
+        obistilescracked.wall(ModBlocks.TILES_CRACKED_OBSIDIAN_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_CRACKED_OBSIDIAN, ModBlocks.TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB);
+
+        obistiles.slab(ModBlocks.TILES_OBSIDIAN_SLAB);
+        obistiles.stairs(ModBlocks.TILES_OBSIDIAN_STAIRS);
+        obistiles.wall(ModBlocks.TILES_OBSIDIAN_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_OBSIDIAN, ModBlocks.TILES_OBSIDIAN_VERTICAL_SLAB);
+
+        obischiselmossy.slab(ModBlocks.CHISELED_OBSIDIAN_MOSSY_SLAB);
+        obischiselmossy.stairs(ModBlocks.CHISELED_OBSIDIAN_MOSSY_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_OBSIDIAN_MOSSY, ModBlocks.CHISELED_OBSIDIAN_MOSSY_VERTICAL_SLAB);
+
+        obischiselcracked.slab(ModBlocks.CHISELED_CRACKED_OBSIDIAN_SLAB);
+        obischiselcracked.stairs(ModBlocks.CHISELED_CRACKED_OBSIDIAN_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_CRACKED_OBSIDIAN, ModBlocks.CHISELED_CRACKED_OBSIDIAN_VERTICAL_SLAB);
+
+        obischisel.slab(ModBlocks.CHISELED_OBSIDIAN_SLAB);
+        obischisel.stairs(ModBlocks.CHISELED_OBSIDIAN_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_OBSIDIAN, ModBlocks.CHISELED_OBSIDIAN_VERTICAL_SLAB);
+
+        grantilesmossy.slab(ModBlocks.TILES_MOSSY_GRANITE_SLAB);
+        grantilesmossy.stairs(ModBlocks.TILES_MOSSY_GRANITE_STAIRS);
+        grantilesmossy.wall(ModBlocks.TILES_MOSSY_GRANITE_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_MOSSY_GRANITE, ModBlocks.TILES_MOSSY_GRANITE_VERTICAL_SLAB);
+
+        grantilescracked.slab(ModBlocks.TILES_CRACKED_GRANITE_SLAB);
+        grantilescracked.stairs(ModBlocks.TILES_CRACKED_GRANITE_STAIRS);
+        grantilescracked.wall(ModBlocks.TILES_CRACKED_GRANITE_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_CRACKED_GRANITE, ModBlocks.TILES_CRACKED_GRANITE_VERTICAL_SLAB);
+
+        grantiles.slab(ModBlocks.TILES_GRANITE_SLAB);
+        grantiles.stairs(ModBlocks.TILES_GRANITE_STAIRS);
+        grantiles.wall(ModBlocks.TILES_GRANITE_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_GRANITE, ModBlocks.TILES_GRANITE_VERTICAL_SLAB);
+
+        granchiselmossy.slab(ModBlocks.CHISELED_GRANITE_MOSSY_SLAB);
+        granchiselmossy.stairs(ModBlocks.CHISELED_GRANITE_MOSSY_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_GRANITE_MOSSY, ModBlocks.CHISELED_GRANITE_MOSSY_VERTICAL_SLAB);
+
+        granchiselcracked.slab(ModBlocks.CHISELED_CRACKED_GRANITE_SLAB);
+        granchiselcracked.stairs(ModBlocks.CHISELED_CRACKED_GRANITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_CRACKED_GRANITE, ModBlocks.CHISELED_CRACKED_GRANITE_VERTICAL_SLAB);
+
+        granchisel.slab(ModBlocks.CHISELED_GRANITE_SLAB);
+        granchisel.stairs(ModBlocks.CHISELED_GRANITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_GRANITE, ModBlocks.CHISELED_GRANITE_VERTICAL_SLAB);
+
+
+        diotilesmossy.slab(ModBlocks.TILES_MOSSY_DIORITE_SLAB);
+        diotilesmossy.stairs(ModBlocks.TILES_MOSSY_DIORITE_STAIRS);
+        diotilesmossy.wall(ModBlocks.TILES_MOSSY_DIORITE_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_MOSSY_DIORITE, ModBlocks.TILES_MOSSY_DIORITE_VERTICAL_SLAB);
+
+        diotilescracked.slab(ModBlocks.TILES_CRACKED_DIORITE_SLAB);
+        diotilescracked.stairs(ModBlocks.TILES_CRACKED_DIORITE_STAIRS);
+        diotilescracked.wall(ModBlocks.TILES_CRACKED_DIORITE_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_CRACKED_DIORITE, ModBlocks.TILES_CRACKED_DIORITE_VERTICAL_SLAB);
+
+        diotiles.slab(ModBlocks.TILES_DIORITE_SLAB);
+        diotiles.stairs(ModBlocks.TILES_DIORITE_STAIRS);
+        diotiles.wall(ModBlocks.TILES_DIORITE_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_DIORITE, ModBlocks.TILES_DIORITE_VERTICAL_SLAB);
+
+        diochiselmossy.slab(ModBlocks.CHISELED_DIORITE_MOSSY_SLAB);
+        diochiselmossy.stairs(ModBlocks.CHISELED_DIORITE_MOSSY_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_DIORITE_MOSSY, ModBlocks.CHISELED_DIORITE_MOSSY_VERTICAL_SLAB);
+
+        diochiselcracked.slab(ModBlocks.CHISELED_CRACKED_DIORITE_SLAB);
+        diochiselcracked.stairs(ModBlocks.CHISELED_CRACKED_DIORITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_CRACKED_DIORITE, ModBlocks.CHISELED_CRACKED_DIORITE_VERTICAL_SLAB);
+
+        diochisel.slab(ModBlocks.CHISELED_DIORITE_SLAB);
+        diochisel.stairs(ModBlocks.CHISELED_DIORITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_DIORITE, ModBlocks.CHISELED_DIORITE_VERTICAL_SLAB);
+
+        tilesmossyand.wall(ModBlocks.TILES_MOSSY_ANDESITE_WALL);
+        tilesmossyand.slab(ModBlocks.TILES_MOSSY_ANDESITE_SLAB);
+        tilesmossyand.stairs(ModBlocks.TILES_MOSSY_ANDESITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_MOSSY_ANDESITE, ModBlocks.TILES_MOSSY_ANDESITE_VERTICAL_SLAB);
+
+        tilescrackand.wall(ModBlocks.TILES_CRACKED_ANDESITE_WALL);
+        tilescrackand.slab(ModBlocks.TILES_CRACKED_ANDESITE_SLAB);
+        tilescrackand.stairs(ModBlocks.TILES_CRACKED_ANDESITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_CRACKED_ANDESITE, ModBlocks.TILES_CRACKED_ANDESITE_VERTICAL_SLAB);
+
+        tilesand.wall(ModBlocks.TILES_ANDESITE_WALL);
+        tilesand.slab(ModBlocks.TILES_ANDESITE_SLAB);
+        tilesand.stairs(ModBlocks.TILES_ANDESITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_ANDESITE, ModBlocks.TILES_ANDESITE_VERTICAL_SLAB);
+
+        chiseland.slab(ModBlocks.CHISELED_ANDESITE_SLAB);
+        chiseland.stairs(ModBlocks.CHISELED_ANDESITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_ANDESITE, ModBlocks.CHISELED_ANDESITE_VERTICAL_SLAB);
+
+        chiselmossyand.slab(ModBlocks.CHISELED_ANDESITE_MOSSY_SLAB);
+        chiselmossyand.stairs(ModBlocks.CHISELED_ANDESITE_MOSSY_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_ANDESITE_MOSSY, ModBlocks.CHISELED_ANDESITE_MOSSY_VERTICAL_SLAB);
+
+        chiselcrackedand.slab(ModBlocks.CHISELED_CRACKED_ANDESITE_SLAB);
+        chiselcrackedand.stairs(ModBlocks.CHISELED_CRACKED_ANDESITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.CHISELED_CRACKED_ANDESITE, ModBlocks.CHISELED_CRACKED_ANDESITE_VERTICAL_SLAB);
 
         brickspool.fence(ModBlocks.BRICKS_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.BRICKS, ModBlocks.BRICKS_VERTICAL_SLAB);
@@ -232,11 +459,11 @@ public class ModModelProvider extends FabricModelProvider {
         andbrickc.fence(ModBlocks.ANDESITE_BRICKS_CRACKED_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.ANDESITE_BRICKS_CRACKED, ModBlocks.ANDESITE_BRICKS_CRACKED_VERTICAL_SLAB);
 
-        hoakplank.slab(ModBlocks.HORIZONZAL_OAK_PLANK_SLAB);
-        hoakplank.fence(ModBlocks.HORIZONZAL_OAK_PLANK_FENCE);
-        hoakplank.fenceGate(ModBlocks.HORIZONZAL_OAK_PLANK_FENCE_GATE);
-        hoakplank.stairs(ModBlocks.HORIZONZAL_OAK_PLANK_STAIRS);
-        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.HORIZONZAL_OAK_PLANK, ModBlocks.HORIZONZAL_OAK_PLANK_VERTICAL_SLAB);
+        hoakplank.slab(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB);
+        hoakplank.fence(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE);
+        hoakplank.fenceGate(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE_GATE);
+        hoakplank.stairs(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.HORIZONTAL_OAK_PLANK, ModBlocks.HORIZONTAL_OAK_PLANK_VERTICAL_SLAB);
 
         granbrickc.fence(ModBlocks.GRANITE_BRICKS_CRACKED_FENCE);
         granbrickc.slab(ModBlocks.GRANITE_BRICKS_CRACKED_SLAB);
@@ -256,7 +483,6 @@ public class ModModelProvider extends FabricModelProvider {
         granbrick.fence(ModBlocks.GRANITE_BRICKS_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.GRANITE_BRICKS, ModBlocks.GRANITE_BRICKS_VERTICAL_SLAB);
 
-        //   dirtPool.button(ModBlocks.DIRT_BUTTON);
         dirtPool.wall(ModBlocks.DIRT_WALL);
         dirtPool.fence(ModBlocks.DIRT_FENCE);
         dirtPool.slab(ModBlocks.DIRT_SLAB);
@@ -377,14 +603,13 @@ public class ModModelProvider extends FabricModelProvider {
         brownwoolPool.stairs(ModBlocks.BROWN_WOOL_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.BROWN_WOOL, ModBlocks.BROWN_WOOL_VERTICAL_SLAB);
 
-        //  rdirtPool.button(ModBlocks.RDIRT_BUTTON);
         rdirtPool.wall(ModBlocks.RDIRT_WALL);
         rdirtPool.fence(ModBlocks.RDIRT_FENCE);
         rdirtPool.slab(ModBlocks.RDIRT_SLAB);
         rdirtPool.stairs(ModBlocks.RDIRT_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.ROOTED_DIRT, ModBlocks.RDIRT_VERTICAL_SLAB);
 
-        //  cdirtPool.button(ModBlocks.CDIRT_BUTTON);
+
         cdirtPool.wall(ModBlocks.CDIRT_WALL);
         cdirtPool.fence(ModBlocks.CDIRT_FENCE);
         cdirtPool.slab(ModBlocks.CDIRT_SLAB);
@@ -395,6 +620,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+    itemModelGenerator.register(ModItems.STONE_BRICK, Models.GENERATED);
+
     }
     private void renderSmoothStone(BlockStateModelGenerator blockStateModelGenerator) {
         TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(Blocks.SMOOTH_STONE))

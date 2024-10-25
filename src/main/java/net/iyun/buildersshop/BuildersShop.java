@@ -18,6 +18,6 @@ public class BuildersShop implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
-		ModItems.registerItems();
+		ModItems.registerModItems();
 	}
 }

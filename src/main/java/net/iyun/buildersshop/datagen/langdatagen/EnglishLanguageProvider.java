@@ -3,6 +3,7 @@ package net.iyun.buildersshop.datagen.langdatagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.iyun.buildersshop.block.ModBlocks;
+import net.iyun.buildersshop.item.ModItems;
 
 public class EnglishLanguageProvider extends FabricLanguageProvider {
     public EnglishLanguageProvider(FabricDataOutput dataOutput) {
@@ -15,14 +16,12 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModBlocks.DIRT_WALL,"Dirt Wall");
         translationBuilder.add(ModBlocks.DIRT_FENCE,"Dirt Fence");
-        //   translationBuilder.add(ModBlocks.DIRT_BUTTON,"Dirt Button");
         translationBuilder.add(ModBlocks.DIRT_SLAB,"Dirt Slab");
         translationBuilder.add(ModBlocks.DIRT_STAIRS,"Dirt Stairs");
         translationBuilder.add(ModBlocks.DIRT_VERTICAL_SLAB,"Vertical Dirt Slab");
 
         translationBuilder.add(ModBlocks.CDIRT_WALL,"Coarse Dirt Wall");
         translationBuilder.add(ModBlocks.CDIRT_FENCE,"Coarse Dirt Fence");
-        //  translationBuilder.add(ModBlocks.CDIRT_BUTTON,"Coarse Dirt Button");
         translationBuilder.add(ModBlocks.CDIRT_SLAB,"Coarse Dirt Slab");
         translationBuilder.add(ModBlocks.CDIRT_VERTICAL_SLAB,"Vertical Coarse Dirt Slab");
         translationBuilder.add(ModBlocks.CDIRT_STAIRS,"Coarse Dirt Stairs");
@@ -127,7 +126,6 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModBlocks.RDIRT_WALL,"Rooted Dirt Wall");
         translationBuilder.add(ModBlocks.RDIRT_FENCE,"Rooted Dirt Fence");
-        //  translationBuilder.add(ModBlocks.RDIRT_BUTTON,"Rooted Dirt Button");
         translationBuilder.add(ModBlocks.RDIRT_SLAB,"Rooted Dirt Slab");
         translationBuilder.add(ModBlocks.RDIRT_VERTICAL_SLAB,"Vertical Rooted Dirt Slab");
         translationBuilder.add(ModBlocks.RDIRT_STAIRS,"Rooted Dirt Stairs");
@@ -329,6 +327,8 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModBlocks.BRICKS_FENCE,"Bricks Fence");
         translationBuilder.add(ModBlocks.BRICKS_VERTICAL_SLAB,"Vertical Bricks Slab");
+
+        translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 
     }
 }
