@@ -60,21 +60,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         verticalslab(ModBlocks.BAMBOO_VERTICAL_SLAB, Blocks.BAMBOO_PLANKS,exporter);
         verticalslab(ModBlocks.WARPED_VERTICAL_SLAB, Blocks.WARPED_PLANKS,exporter);
         verticalslab(ModBlocks.CRIMSON_VERTICAL_SLAB, Blocks.CRIMSON_PLANKS,exporter);
-        verticalslab(ModBlocks.ANDESITE_BRICKS_VERTICAL_SLAB, ModBlocks.ANDESITE_BRICKS,exporter);
-        verticalslab(ModBlocks.ANDESITE_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.ANDESITE_BRICKS_CRACKED,exporter);
-        verticalslab(ModBlocks.ANDESITE_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.ANDESITE_BRICKS_MOSSY,exporter);
-
-        verticalslab(ModBlocks.GRANITE_BRICKS_VERTICAL_SLAB, ModBlocks.GRANITE_BRICKS,exporter);
-        verticalslab(ModBlocks.GRANITE_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.GRANITE_BRICKS_CRACKED,exporter);
-        verticalslab(ModBlocks.GRANITE_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.GRANITE_BRICKS_MOSSY,exporter);
-
-        verticalslab(ModBlocks.DIORITE_BRICKS_VERTICAL_SLAB, ModBlocks.DIORITE_BRICKS,exporter);
-        verticalslab(ModBlocks.DIORITE_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.DIORITE_BRICKS_CRACKED,exporter);
-        verticalslab(ModBlocks.DIORITE_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.DIORITE_BRICKS_MOSSY,exporter);
-
-        verticalslab(ModBlocks.OBSIDIAN_BRICKS_VERTICAL_SLAB, ModBlocks.OBSIDIAN_BRICKS,exporter);
-        verticalslab(ModBlocks.OBSIDIAN_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.OBSIDIAN_BRICKS_CRACKED,exporter);
-        verticalslab(ModBlocks.OBSIDIAN_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.OBSIDIAN_BRICKS_MOSSY,exporter);
 
         verticalslab(ModBlocks.COBSIDIAN_BRICKS_VERTICAL_SLAB, ModBlocks.OBSIDIAN_BRICKS,exporter);
         verticalslab(ModBlocks.COBBLESTONE_VERTICAL_SLAB, Blocks.COBBLESTONE,exporter);
@@ -96,6 +81,53 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         verticalslab(ModBlocks.CRACKED_DEEPSLATE_TILES_VERTICAL_SLAB, Blocks.CRACKED_DEEPSLATE_TILES,exporter);
         verticalslab(ModBlocks.DEEPSLATE_TILES_VERTICAL_SLAB, Blocks.DEEPSLATE_TILES,exporter);
         verticalslab(ModBlocks.BRICKS_VERTICAL_SLAB, Blocks.BRICKS,exporter);
+
+        verticalslab(ModBlocks.CHISELED_ANDESITE_VERTICAL_SLAB, ModBlocks.CHISELED_ANDESITE,exporter);
+        verticalslab(ModBlocks.CHISELED_CRACKED_ANDESITE_VERTICAL_SLAB, ModBlocks.CHISELED_CRACKED_ANDESITE,exporter);
+        verticalslab(ModBlocks.CHISELED_ANDESITE_MOSSY_VERTICAL_SLAB, ModBlocks.CHISELED_ANDESITE_MOSSY,exporter);
+        verticalslab(ModBlocks.TILES_ANDESITE_VERTICAL_SLAB, ModBlocks.TILES_ANDESITE,exporter);
+        verticalslab(ModBlocks.TILES_CRACKED_ANDESITE_VERTICAL_SLAB, ModBlocks.TILES_CRACKED_ANDESITE,exporter);
+        verticalslab(ModBlocks.TILES_MOSSY_ANDESITE_VERTICAL_SLAB, ModBlocks.TILES_MOSSY_ANDESITE,exporter);
+        verticalslab(ModBlocks.ANDESITE_BRICKS_VERTICAL_SLAB, ModBlocks.ANDESITE_BRICKS,exporter);
+        verticalslab(ModBlocks.ANDESITE_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.ANDESITE_BRICKS_CRACKED,exporter);
+        verticalslab(ModBlocks.ANDESITE_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.ANDESITE_BRICKS_MOSSY,exporter);
+        verticalslab(ModBlocks.CHISELED_DIORITE_VERTICAL_SLAB, ModBlocks.CHISELED_DIORITE,exporter);
+        verticalslab(ModBlocks.CHISELED_CRACKED_DIORITE_VERTICAL_SLAB, ModBlocks.CHISELED_CRACKED_DIORITE,exporter);
+        verticalslab(ModBlocks.CHISELED_DIORITE_MOSSY_VERTICAL_SLAB, ModBlocks.CHISELED_DIORITE_MOSSY,exporter);
+        verticalslab(ModBlocks.TILES_DIORITE_VERTICAL_SLAB, ModBlocks.TILES_DIORITE,exporter);
+        verticalslab(ModBlocks.TILES_CRACKED_DIORITE_VERTICAL_SLAB, ModBlocks.TILES_CRACKED_DIORITE,exporter);
+        verticalslab(ModBlocks.TILES_MOSSY_DIORITE_VERTICAL_SLAB, ModBlocks.TILES_MOSSY_DIORITE,exporter);
+        verticalslab(ModBlocks.DIORITE_BRICKS_VERTICAL_SLAB, ModBlocks.DIORITE_BRICKS,exporter);
+        verticalslab(ModBlocks.DIORITE_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.DIORITE_BRICKS_CRACKED,exporter);
+        verticalslab(ModBlocks.DIORITE_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.DIORITE_BRICKS_MOSSY,exporter);
+        verticalslab(ModBlocks.CHISELED_GRANITE_VERTICAL_SLAB, ModBlocks.CHISELED_GRANITE,exporter);
+        verticalslab(ModBlocks.CHISELED_CRACKED_GRANITE_VERTICAL_SLAB, ModBlocks.CHISELED_CRACKED_GRANITE,exporter);
+        verticalslab(ModBlocks.CHISELED_GRANITE_MOSSY_VERTICAL_SLAB, ModBlocks.CHISELED_GRANITE_MOSSY,exporter);
+        verticalslab(ModBlocks.TILES_GRANITE_VERTICAL_SLAB, ModBlocks.TILES_GRANITE,exporter);
+        verticalslab(ModBlocks.TILES_CRACKED_GRANITE_VERTICAL_SLAB, ModBlocks.TILES_CRACKED_GRANITE,exporter);
+        verticalslab(ModBlocks.TILES_MOSSY_GRANITE_VERTICAL_SLAB, ModBlocks.TILES_MOSSY_GRANITE,exporter);
+        verticalslab(ModBlocks.GRANITE_BRICKS_VERTICAL_SLAB, ModBlocks.GRANITE_BRICKS,exporter);
+        verticalslab(ModBlocks.GRANITE_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.GRANITE_BRICKS_CRACKED,exporter);
+        verticalslab(ModBlocks.GRANITE_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.GRANITE_BRICKS_MOSSY,exporter);
+        verticalslab(ModBlocks.CHISELED_OBSIDIAN_VERTICAL_SLAB, ModBlocks.CHISELED_OBSIDIAN,exporter);
+        verticalslab(ModBlocks.CHISELED_CRACKED_OBSIDIAN_VERTICAL_SLAB, ModBlocks.CHISELED_CRACKED_OBSIDIAN,exporter);
+        verticalslab(ModBlocks.CHISELED_OBSIDIAN_MOSSY_VERTICAL_SLAB, ModBlocks.CHISELED_OBSIDIAN_MOSSY,exporter);
+        verticalslab(ModBlocks.TILES_OBSIDIAN_VERTICAL_SLAB, ModBlocks.TILES_OBSIDIAN,exporter);
+        verticalslab(ModBlocks.TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB, ModBlocks.TILES_CRACKED_OBSIDIAN,exporter);
+        verticalslab(ModBlocks.TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB, ModBlocks.TILES_MOSSY_OBSIDIAN,exporter);
+        verticalslab(ModBlocks.OBSIDIAN_BRICKS_VERTICAL_SLAB, ModBlocks.OBSIDIAN_BRICKS,exporter);
+        verticalslab(ModBlocks.OBSIDIAN_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.OBSIDIAN_BRICKS_CRACKED,exporter);
+        verticalslab(ModBlocks.OBSIDIAN_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.OBSIDIAN_BRICKS_MOSSY,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_CHISELED_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_CHISELED,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_CHISELED_CRACKED_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_CHISELED_MOSSY_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_TILES_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_TILES,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_TILES_CRACKED_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_TILES_CRACKED,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_TILES_MOSSY_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_TILES_MOSSY,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_BRICKS_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_BRICKS,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED,exporter);
+        verticalslab(ModBlocks.SMOOTH_STONE_BRICKS_MOSSY_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_BRICKS_MOSSY,exporter);
+        verticalslab(ModBlocks.CHISELED_COBSIDIAN_RUNIC_VERTICAL_SLAB, ModBlocks.CHISELED_COBSIDIAN_RUNIC,exporter);
 
 
         // Fences
@@ -191,7 +223,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_BRICKS_SLAB, ModBlocks.SMOOTH_STONE_BRICKS);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_SLAB, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_BRICKS_MOSSY_SLAB, ModBlocks.SMOOTH_STONE_BRICKS_MOSSY);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_SLAB, ModBlocks.SMOOTH_STONE_CHISELED);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED_SLAB, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY_SLAB, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_SLAB, ModBlocks.SMOOTH_STONE_TILES);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_SLAB, ModBlocks.SMOOTH_STONE_TILES_CRACKED);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB, ModBlocks.SMOOTH_STONE_TILES_MOSSY);
 
         // Slabs
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.DIRT_SLAB, Blocks.DIRT);
@@ -251,6 +291,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // Crying Obsidian
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.COBSIDIAN_BRICKS_SLAB, ModBlocks.COBSIDIAN_BRICKS);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.CHISELED_COBSIDIAN_RUNIC_SLAB, ModBlocks.CHISELED_COBSIDIAN_RUNIC);
 
         // Wool
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.WHITE_WOOL_SLAB, Blocks.WHITE_WOOL);
@@ -279,6 +320,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         // Walls
+
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_BRICKS_WALL, ModBlocks.SMOOTH_STONE_BRICKS);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_WALL, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_BRICKS_MOSSY_WALL, ModBlocks.SMOOTH_STONE_BRICKS_MOSSY);
 
         // Dirt
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.DIRT_WALL, Blocks.DIRT);
@@ -661,6 +706,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_DIORITE, ModBlocks.DIORITE_BRICKS_SLAB);
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN, ModBlocks.CHISELED_OBSIDIAN);
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_COBSIDIAN_RUNIC, ModBlocks.CHISELED_COBSIDIAN_RUNIC_SLAB);
+        offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED, ModBlocks.SMOOTH_STONE_CHISELED_SLAB);
 
         // Custom Bricks Crafting
 
@@ -689,6 +735,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCrackingRecipe(exporter, ModBlocks.TILES_CRACKED_DIORITE, ModBlocks.TILES_DIORITE);
         offerCrackingRecipe(exporter, ModBlocks.CHISELED_CRACKED_OBSIDIAN, ModBlocks.CHISELED_OBSIDIAN);
         offerCrackingRecipe(exporter, ModBlocks.TILES_CRACKED_OBSIDIAN, ModBlocks.TILES_OBSIDIAN);
+        offerCrackingRecipe(exporter, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED, ModBlocks.SMOOTH_STONE_BRICKS);
+        offerCrackingRecipe(exporter, ModBlocks.SMOOTH_STONE_TILES_CRACKED, ModBlocks.SMOOTH_STONE_TILES);
 
 
          // Mossy Recipes
