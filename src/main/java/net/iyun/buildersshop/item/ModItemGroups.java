@@ -397,7 +397,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHISELED_STONE_BRICKS_WALL);
                         entries.add(ModBlocks.CHISELED_STONE_BRICKS_SLAB);
                         entries.add(ModBlocks.CHISELED_STONE_BRICKS_STAIRS);
-                        entries.add(ModBlocks.CHISELED_STONE_BRICKS_FENCE);
                         entries.add(ModBlocks.MOSSY_STONE_BRICKS_FENCE);
                         entries.add(ModBlocks.MOSSY_STONE_BRICKS_VERTICAL_SLAB);
                         entries.add(ModBlocks.GRANITE_FENCE);
@@ -409,7 +408,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COBBLED_DEEPSLATE_FENCE);
                         entries.add(ModBlocks.COBBLED_DEEPSLATE_VERTICAL_SLAB);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_VERTICAL_SLAB);
-                        entries.add(ModBlocks.CHISELED_DEEPSLATE_FENCE);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_WALL);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_SLAB);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
@@ -434,6 +432,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL);
                         entries.add(ModBlocks.BRICKS_FENCE);
                         entries.add(ModBlocks.BRICKS_VERTICAL_SLAB);
+
                     }).build());
 
     public static void registerItemGroups() {

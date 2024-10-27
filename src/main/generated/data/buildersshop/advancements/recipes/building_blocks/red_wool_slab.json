@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "buildersshop:red_wool_slab"
+        "recipe": "minecraft:red_wool_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "buildersshop:red_wool_slab"
+      "minecraft:red_wool_slab"
     ]
   },
   "sends_telemetry_event": false

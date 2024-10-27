@@ -284,7 +284,6 @@ public class ModBlocks {
 
     public static final Block CHISELED_STONE_BRICKS_SLAB = registerBlock("chiseled_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
     public static final Block CHISELED_STONE_BRICKS_WALL = registerBlock("chiseled_stone_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
-    public static final Block CHISELED_STONE_BRICKS_FENCE = registerBlock("chiseled_stone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
     public static final Block CHISELED_STONE_BRICKS_VERTICAL_SLAB = registerBlock("chiseled_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
     public static final Block CHISELED_STONE_BRICKS_STAIRS = registerBlock("chiseled_stone_bricks_stairs", new StairsBlock(Blocks.CHISELED_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
 
@@ -303,7 +302,6 @@ public class ModBlocks {
     public static final Block COBBLED_DEEPSLATE_FENCE = registerBlock("cobbled_deepslate_fence", new FenceBlock(FabricBlockSettings.copyOf(COBBLED_DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_VERTICAL_SLAB = registerBlock("cobbled_deepslate_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(COBBLED_DEEPSLATE)));
 
-    public static final Block CHISELED_DEEPSLATE_FENCE = registerBlock("chiseled_deepslate_fence", new FenceBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
     public static final Block CHISELED_DEEPSLATE_WALL = registerBlock("chiseled_deepslate_wall", new WallBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
     public static final Block CHISELED_DEEPSLATE_SLAB = registerBlock("chiseled_deepslate_slab", new SlabBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
     public static final Block CHISELED_DEEPSLATE_STAIRS = registerBlock("chiseled_deepslate_stairs", new StairsBlock(Blocks.CHISELED_DEEPSLATE.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));

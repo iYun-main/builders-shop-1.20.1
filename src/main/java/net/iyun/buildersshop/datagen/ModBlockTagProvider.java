@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.iyun.buildersshop.block.ModBlocks;
 import net.iyun.buildersshop.util.ModTags;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -234,13 +235,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_STONE_FENCE)
                 .add(ModBlocks.STONE_FENCE)
                 .add(ModBlocks.CRACKED_STONE_BRICKS_FENCE)
-                .add(ModBlocks.CHISELED_STONE_BRICKS_FENCE)
                 .add(ModBlocks.MOSSY_STONE_BRICKS_FENCE)
                 .add(ModBlocks.GRANITE_FENCE)
                 .add(ModBlocks.DIORITE_FENCE)
                 .add(ModBlocks.ANDESITE_FENCE)
                 .add(ModBlocks.COBBLED_DEEPSLATE_FENCE)
-                .add(ModBlocks.CHISELED_DEEPSLATE_FENCE)
                 .add(ModBlocks.POLISHED_DEEPSLATE_FENCE)
                 .add(ModBlocks.DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE)
@@ -517,5 +516,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TILES_VERTICAL_SLAB)
                 .add(ModBlocks.BRICKS_VERTICAL_SLAB)
                 .add(ModBlocks.DIRT_VERTICAL_SLAB);
+
+
     }
 }

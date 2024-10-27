@@ -13,13 +13,13 @@ public class ModTags {
 
         public static final TagKey<Block> V_SLAB = createTag("vertical_slabs");
 
-
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(BuildersShop.MOD_ID, name));
     }
 }
     public static class Items {
 
+        public static final TagKey<Item> MOSS = createTag("moss");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(BuildersShop.MOD_ID, name));

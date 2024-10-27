@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "buildersshop:yellow_wool_slab"
+        "recipe": "minecraft:yellow_wool_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "buildersshop:yellow_wool_slab"
+      "minecraft:yellow_wool_slab"
     ]
   },
   "sends_telemetry_event": false

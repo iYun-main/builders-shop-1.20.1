@@ -203,13 +203,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STONE_BRICKS_FENCE );
         addDrop(ModBlocks.STONE_FENCE );
         addDrop(ModBlocks.CRACKED_STONE_BRICKS_FENCE);
-        addDrop(ModBlocks.CHISELED_STONE_BRICKS_FENCE );
         addDrop(ModBlocks.MOSSY_STONE_BRICKS_FENCE );
         addDrop(ModBlocks.GRANITE_FENCE );
         addDrop(ModBlocks.DIORITE_FENCE);
         addDrop(ModBlocks.ANDESITE_FENCE);
         addDrop(ModBlocks.COBBLED_DEEPSLATE_FENCE);
-        addDrop(ModBlocks.CHISELED_DEEPSLATE_FENCE);
         addDrop(ModBlocks.POLISHED_DEEPSLATE_FENCE);
         addDrop(ModBlocks.DEEPSLATE_BRICKS_FENCE);
         addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE);

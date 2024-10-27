@@ -160,6 +160,8 @@ public class ModModelProvider extends FabricModelProvider {
         // Bricks
         BlockStateModelGenerator.BlockTexturePool brickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
 
+
+
         smoothtilesm.slab(ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB);
         smoothtilesm.stairs(ModBlocks.SMOOTH_STONE_TILES_MOSSY_STAIRS);
         smoothtilesm.fence(ModBlocks.SMOOTH_STONE_TILES_MOSSY_FENCE);
@@ -350,7 +352,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         chisleddeepslatepool.slab(ModBlocks.CHISELED_DEEPSLATE_SLAB);
         chisleddeepslatepool.wall(ModBlocks.CHISELED_DEEPSLATE_WALL);
-        chisleddeepslatepool.fence(ModBlocks.CHISELED_DEEPSLATE_FENCE);
         chisleddeepslatepool.stairs(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.CHISELED_DEEPSLATE, ModBlocks.CHISELED_DEEPSLATE_VERTICAL_SLAB);
 
@@ -371,7 +372,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         chisledstoneepool.slab(ModBlocks.CHISELED_STONE_BRICKS_SLAB);
         chisledstoneepool.wall(ModBlocks.CHISELED_STONE_BRICKS_WALL);
-        chisledstoneepool.fence(ModBlocks.CHISELED_STONE_BRICKS_FENCE);
         chisledstoneepool.stairs(ModBlocks.CHISELED_STONE_BRICKS_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.CHISELED_STONE_BRICKS, ModBlocks.CHISELED_STONE_BRICKS_VERTICAL_SLAB);
 

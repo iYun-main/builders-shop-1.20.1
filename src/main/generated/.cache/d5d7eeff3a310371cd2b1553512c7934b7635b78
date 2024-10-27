@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-25T20:40:50.6306249	Builders Shop/Block Loot Tables
+// 1.20.1	2024-10-27T13:41:52.8608014	Builders Shop/Block Loot Tables
 034aeddfdead1e94334a3b1733768a40c7f2671a data\buildersshop\loot_tables\blocks\deepslate_tiles_vertical_slab.json
 bf8e4aa61f3f0b678ab948c1ff6bc5e90ee88f29 data\buildersshop\loot_tables\blocks\packed_mud_wall.json
 d78155d99d06d4e21d77cc1ec34047ef9405dff1 data\buildersshop\loot_tables\blocks\stone_vertical_slab.json
@@ -46,7 +46,6 @@ d35fc964b9fb0742ef949f9cbd291e7e92fbeb4f data\buildersshop\loot_tables\blocks\br
 1c899b788a9add543ea0643d1b29e65486c306ca data\buildersshop\loot_tables\blocks\granite_bricks_wall.json
 f8ecd363109571057e23a7f5d539e47e3f360c20 data\buildersshop\loot_tables\blocks\lime_wool_wall.json
 96928b4010af2efe74262d471ee9afac5a99c0d2 data\buildersshop\loot_tables\blocks\cracked_stone_bricks_wall.json
-e8dd4e9f31e1db5f3cd3c1c383eaf75220e3a9ec data\buildersshop\loot_tables\blocks\chiseled_deepslate_fence.json
 593361cfddb2517f7e397fd57f13323f086cb98a data\buildersshop\loot_tables\blocks\cracked_deepslate_bricks_slab.json
 b8f91744bc554c3bdefd8b057154bc03ed6751d7 data\buildersshop\loot_tables\blocks\light_gray_wool_wall.json
 9cb2025c74cf37807194949cd4c42deb86e4669b data\buildersshop\loot_tables\blocks\obsidian_bricks_cracked_vertical_slab.json
@@ -175,7 +174,6 @@ a1fe730aae24b8a344b452fd667fea94e175f2bb data\buildersshop\loot_tables\blocks\ob
 aa59ab9336047159000797e5fadcf5b7975b331a data\buildersshop\loot_tables\blocks\purple_wool_vertical_slab.json
 a8a6cb407636b6c430113b8ca73a4d2ec42bdcff data\buildersshop\loot_tables\blocks\vertical_dark_oak_slab.json
 9ff4d1f220e23aa4edadc7a6156c1fa60f06f82a data\buildersshop\loot_tables\blocks\vertical_bamboo_slab.json
-e3c839da3ceb9bc125b0f6c59e0f0b7134d98bbb data\buildersshop\loot_tables\blocks\chiseled_stone_bricks_fence.json
 1674ceee50022f5e486ed3f91231f86998e2013c data\buildersshop\loot_tables\blocks\granite_bricks_mossy_stairs.json
 d721fe3c21dfef790a183684e9d25e8a8ea723aa data\buildersshop\loot_tables\blocks\coarse_dirt_slab.json
 3a9dfa662f0ca2e57bf1a7b2b9e6ef2412d8e4c2 data\buildersshop\loot_tables\blocks\dirt_wall.json
