@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "buildersshop:horizontal_oak_fence",
     "buildersshop:white_wool_fence",
     "buildersshop:light_gray_wool_fence",
     "buildersshop:gray_wool_fence",
@@ -53,6 +54,12 @@
     "buildersshop:deepslate_tiles_fence",
     "buildersshop:bricks_fence",
     "buildersshop:stone_bricks_fence",
+    "buildersshop:smooth_stone_bricks_fence",
+    "buildersshop:smooth_stone_bricks_cracked_fence",
+    "buildersshop:smooth_stone_bricks_mossy_fence",
+    "buildersshop:smooth_stone_tiles_fence",
+    "buildersshop:smooth_stone_tiles_cracked_fence",
+    "buildersshop:smooth_stone_tiles_mossy_fence",
     "buildersshop:cracked_deepslate_tiles_fence"
   ]
 }

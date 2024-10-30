@@ -183,11 +183,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLUE_WOOL_FENCE );
         addDrop(ModBlocks.PURPLE_WOOL_FENCE );
         addDrop(ModBlocks.MAGENTA_WOOL_FENCE );
-        addDrop(ModBlocks.PINK_WOOL_FENCE );
+        addDrop(ModBlocks.PINK_WOOL_FENCE);
         addDrop(ModBlocks.ANDESITE_BRICKS_FENCE);
         addDrop(ModBlocks.ANDESITE_BRICKS_CRACKED_FENCE);
         addDrop(ModBlocks.ANDESITE_BRICKS_MOSSY_FENCE);
-        addDrop(ModBlocks.GRANITE_BRICKS_FENCE );
+        addDrop(ModBlocks.GRANITE_BRICKS_FENCE);
         addDrop(ModBlocks.GRANITE_BRICKS_CRACKED_FENCE);
         addDrop(ModBlocks.GRANITE_BRICKS_MOSSY_FENCE);
         addDrop(ModBlocks.DIORITE_BRICKS_FENCE);
@@ -196,15 +196,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.OBSIDIAN_BRICKS_FENCE);
         addDrop(ModBlocks.OBSIDIAN_BRICKS_CRACKED_FENCE);
         addDrop(ModBlocks.OBSIDIAN_BRICKS_MOSSY_FENCE);
-        addDrop(ModBlocks.COBSIDIAN_BRICKS_FENCE );
-        addDrop(ModBlocks.COBBLESTONE_FENCE );
-        addDrop(ModBlocks.MOSSY_COBBLESTONE_FENCE );
+        addDrop(ModBlocks.COBSIDIAN_BRICKS_FENCE);
+        addDrop(ModBlocks.COBBLESTONE_FENCE);
+        addDrop(ModBlocks.MOSSY_COBBLESTONE_FENCE);
         addDrop(ModBlocks.SMOOTH_STONE_FENCE);
-        addDrop(ModBlocks.STONE_BRICKS_FENCE );
-        addDrop(ModBlocks.STONE_FENCE );
+        addDrop(ModBlocks.STONE_BRICKS_FENCE);
+        addDrop(ModBlocks.STONE_FENCE);
         addDrop(ModBlocks.CRACKED_STONE_BRICKS_FENCE);
         addDrop(ModBlocks.MOSSY_STONE_BRICKS_FENCE );
-        addDrop(ModBlocks.GRANITE_FENCE );
+        addDrop(ModBlocks.GRANITE_FENCE);
         addDrop(ModBlocks.DIORITE_FENCE);
         addDrop(ModBlocks.ANDESITE_FENCE);
         addDrop(ModBlocks.COBBLED_DEEPSLATE_FENCE);
@@ -256,6 +256,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICKS_STAIRS);
         addDrop(ModBlocks.CRACKED_DEEPSLATE_TILES_STAIRS);
         addDrop(ModBlocks.DEEPSLATE_TILES_STAIRS);
+        addDrop(ModBlocks.GRANITE_BRICKS);
 
 
     }

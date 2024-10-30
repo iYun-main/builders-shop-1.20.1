@@ -43,6 +43,12 @@
     "buildersshop:cracked_deepslate_bricks_wall",
     "buildersshop:cracked_deepslate_tiles_wall",
     "buildersshop:deepslate_tiles_wall",
+    "buildersshop:smooth_stone_bricks_wall",
+    "buildersshop:smooth_stone_bricks_cracked_wall",
+    "buildersshop:smooth_stone_bricks_mossy_wall",
+    "buildersshop:smooth_stone_tiles_wall",
+    "buildersshop:smooth_stone_tiles_cracked_wall",
+    "buildersshop:smooth_stone_tiles_mossy_wall",
     "buildersshop:coarse_dirt_wall"
   ]
 }
