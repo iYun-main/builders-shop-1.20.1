@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:orange_wool_slab"
+        "recipe": "buildersshop:orange_wool_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:orange_wool_slab"
+      "buildersshop:orange_wool_slab"
     ]
   },
   "sends_telemetry_event": false

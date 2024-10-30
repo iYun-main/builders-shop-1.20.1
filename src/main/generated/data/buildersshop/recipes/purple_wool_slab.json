@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "A": {
+    "#": {
       "item": "minecraft:purple_wool"
-    },
-    "X": {
-      "item": "minecraft:string"
     }
   },
   "pattern": [
-    "AXA",
-    "AXA"
+    "###"
   ],
   "result": {
+    "count": 6,
     "item": "buildersshop:purple_wool_slab"
   },
   "show_notification": true
