@@ -33,7 +33,17 @@ public class ModBlocks {
     public static final Block HORIZONTAL_OAK_PLANK_VERTICAL_SLAB = registerBlock("horizontal_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
     public static final Block HORIZONTAL_OAK_PLANK_STAIRS = registerBlock("horizontal_oak_stairs", new StairsBlock(ModBlocks.HORIZONTAL_OAK_PLANK.getDefaultState(), FabricBlockSettings.copyOf(OAK_PLANKS)));
     public static final Block HORIZONTAL_OAK_PLANK_FENCE = registerBlock("horizontal_oak_fence", new FenceBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block HORIZONTAL_OAK_PLANK_WALL = registerBlock("horizontal_oak_wall", new WallBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
     public static final Block HORIZONTAL_OAK_PLANK_FENCE_GATE = registerBlock("horizontal_oak_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(OAK_PLANKS), WoodType.OAK));
+
+    public static final Block HORIZONTAL_BIRCH_PLANK = registerBlock("horizontal_birch_planks", new Block(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block HORIZONTAL_BIRCH_PLANK_SLAB = registerBlock("horizontal_birch_slab", new SlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block HORIZONTAL_BIRCH_PLANK_VERTICAL_SLAB = registerBlock("horizontal_birch_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block HORIZONTAL_BIRCH_PLANK_STAIRS = registerBlock("horizontal_birch_stairs", new StairsBlock(ModBlocks.HORIZONTAL_BIRCH_PLANK.getDefaultState(), FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block HORIZONTAL_BIRCH_PLANK_FENCE = registerBlock("horizontal_birch_fence", new FenceBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block HORIZONTAL_BIRCH_PLANK_WALL = registerBlock("horizontal_birch_wall", new WallBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block HORIZONTAL_BIRCH_PLANK_FENCE_GATE = registerBlock("horizontal_birch_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS), WoodType.BIRCH));
+
 
     public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks", new Block(FabricBlockSettings.copyOf(ANDESITE)));
     public static final Block ANDESITE_BRICKS_WALL = registerBlock("andesite_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(ANDESITE)));
@@ -458,7 +468,7 @@ public class ModBlocks {
 
     public static final Block CHISELED_CRACKED_OBSIDIAN = registerBlock("obsidian_chiseled_cracked", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block CHISELED_CRACKED_OBSIDIAN_STAIRS = registerBlock("obsidian_chiseled_cracked_stairs", new StairsBlock(ModBlocks.CHISELED_CRACKED_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
-    public static final Block CHISELED_CRACKED_OBSIDIAN_SLAB = registerBlock("obsidian_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block CHISELED_CRACKED_OBSIDIAN_SLAB = registerBlock("obsidian_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OAK_PRESSURE_PLATE).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block CHISELED_CRACKED_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_chiseled_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
     public static final Block CHISELED_OBSIDIAN_MOSSY = registerBlock("obsidian_chiseled_mossy", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));

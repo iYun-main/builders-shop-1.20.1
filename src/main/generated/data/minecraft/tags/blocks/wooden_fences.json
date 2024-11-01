@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "buildersshop:horizontal_birch_fence",
     "buildersshop:horizontal_oak_fence"
   ]
 }

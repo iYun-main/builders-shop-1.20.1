@@ -177,11 +177,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_STONE_TILES_STAIRS)
                 .add(ModBlocks.SMOOTH_STONE_TILES_CRACKED_STAIRS)
                 .add(ModBlocks.SMOOTH_STONE_TILES_MOSSY_STAIRS)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS)
+                .add(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS)
                 .add(ModBlocks.PINK_WOOL_STAIRS);
 
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.DIRT_WALL)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_WALL)
+                .add(ModBlocks.HORIZONTAL_OAK_PLANK_WALL)
                 .add(ModBlocks.MUD_WALL)
                 .add(ModBlocks.CLAY_WALL)
                 .add(ModBlocks.RDIRT_WALL)
@@ -232,10 +236,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CDIRT_WALL);
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE)
                 .add(ModBlocks.WHITE_WOOL_FENCE)
                 .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE)
                 .add(ModBlocks.GRAY_WOOL_FENCE)
@@ -285,7 +291,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_DEEPSLATE_FENCE)
                 .add(ModBlocks.DEEPSLATE_BRICKS_FENCE)
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE)
-                .add(ModBlocks.DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.BRICKS_FENCE)
                 .add(ModBlocks.STONE_BRICKS_FENCE)
                 .add(ModBlocks.SMOOTH_STONE_BRICKS_FENCE)
@@ -381,6 +386,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_STONE_TILES_SLAB)
                 .add(ModBlocks.SMOOTH_STONE_TILES_CRACKED_SLAB)
                 .add(ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_SLAB)
+                .add(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB)
+                .add(ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB)
                 .add(ModBlocks.DIRT_SLAB);
 
 
@@ -423,6 +431,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRIMSON_VERTICAL_SLAB)
                 .add(ModBlocks.WARPED_VERTICAL_SLAB)
                 .add(ModBlocks.OAK_VERTICAL_SLAB)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_WALL)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_VERTICAL_SLAB)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE_GATE)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_SLAB)
+                .add(ModBlocks.HORIZONTAL_OAK_PLANK_WALL)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_VERTICAL_SLAB)
@@ -433,6 +449,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.POLISHED_DEEPSLATE_VERTICAL_SLAB)
+                .add(ModBlocks.BRICKS_FENCE)
+                .add(ModBlocks.DEEPSLATE_BRICKS_FENCE)
+                .add(ModBlocks.DIORITE_FENCE)
+                .add(ModBlocks.STONE_FENCE)
+                .add(ModBlocks.STONE_BRICKS_FENCE)
+                .add(ModBlocks.CRACKED_STONE_BRICKS_FENCE)
+                .add(ModBlocks.ANDESITE_FENCE)
+                .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_FENCE)
+                .add(ModBlocks.COBBLED_DEEPSLATE_FENCE)
+                .add(ModBlocks.MOSSY_STONE_BRICKS_FENCE)
+                .add(ModBlocks.MOSSY_COBBLESTONE_FENCE)
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_FENCE)
+                .add(ModBlocks.PMUD_FENCE)
+                .add(ModBlocks.GRANITE_FENCE)
+                .add(ModBlocks.DEEPSLATE_TILES_FENCE)
                 .add(ModBlocks.OBSIDIAN_BRICKS_FENCE)
                 .add(ModBlocks.OBSIDIAN_BRICKS_SLAB)
                 .add(ModBlocks.OBSIDIAN_BRICKS_STAIRS)

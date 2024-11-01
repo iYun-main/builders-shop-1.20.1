@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "buildersshop:dirt_wall",
+    "buildersshop:horizontal_birch_wall",
+    "buildersshop:horizontal_oak_wall",
     "buildersshop:mud_wall",
     "buildersshop:clay_wall",
     "buildersshop:rooted_dirt_wall",

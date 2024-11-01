@@ -434,10 +434,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BRICKS_VERTICAL_SLAB);
                         entries.add(ModBlocks.HORIZONTAL_OAK_PLANK);
                         entries.add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE);
+                        entries.add(ModBlocks.HORIZONTAL_OAK_PLANK_WALL);
                         entries.add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE_GATE);
                         entries.add(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB);
                         entries.add(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS);
                         entries.add(ModBlocks.HORIZONTAL_OAK_PLANK_VERTICAL_SLAB);
+                        entries.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_WALL);
+                        entries.add(ModBlocks.HORIZONTAL_BIRCH_PLANK);
+                        entries.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_SLAB);
+                        entries.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS);
+                        entries.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_VERTICAL_SLAB);
+                        entries.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE);
+                        entries.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE_GATE);
 
                     }).build());
 

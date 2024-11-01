@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/horizontal_birch_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "buildersshop:block/horizontal_birch_planks"
+    },
+    "type=front": {
+      "model": "buildersshop:block/horizontal_birch_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/horizontal_birch_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/horizontal_birch_vertical_slab_right"
+    }
+  }
+}

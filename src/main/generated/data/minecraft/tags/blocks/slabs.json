@@ -84,6 +84,9 @@
     "buildersshop:smooth_stone_tiles_slab",
     "buildersshop:smooth_stone_tiles_cracked_slab",
     "buildersshop:smooth_stone_tiles_mossy_slab",
+    "buildersshop:horizontal_birch_slab",
+    "buildersshop:horizontal_oak_slab",
+    "buildersshop:smooth_stone_tiles_mossy_slab",
     "buildersshop:dirt_slab"
   ]
 }
