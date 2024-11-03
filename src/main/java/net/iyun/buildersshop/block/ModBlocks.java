@@ -301,7 +301,6 @@ public class ModBlocks {
     public static final Block CRACKED_STONE_BRICKS_STAIRS = registerBlock("cracked_stone_bricks_stairs", new StairsBlock(Blocks.CRACKED_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CRACKED_STONE_BRICKS)));
 
     public static final Block CHISELED_STONE_BRICKS_SLAB = registerBlock("chiseled_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
-    public static final Block CHISELED_STONE_BRICKS_WALL = registerBlock("chiseled_stone_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
     public static final Block CHISELED_STONE_BRICKS_VERTICAL_SLAB = registerBlock("chiseled_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
     public static final Block CHISELED_STONE_BRICKS_STAIRS = registerBlock("chiseled_stone_bricks_stairs", new StairsBlock(Blocks.CHISELED_STONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_STONE_BRICKS)));
 

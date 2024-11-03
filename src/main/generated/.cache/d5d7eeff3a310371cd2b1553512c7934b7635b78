@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-03T12:40:13.8731901	Builders Shop/Block Loot Tables
+// 1.20.1	2024-11-03T13:47:54.4235915	Builders Shop/Block Loot Tables
 81a093f4014617a4dfce035751fa3360a1a0dc40 data\buildersshop\loot_tables\blocks\smooth_stone_bricks_mossy_fence.json
 4cb824628e50cc17668eb9faac897038e6b9ea96 data\buildersshop\loot_tables\blocks\obsidian_tiles_stairs.json
 bf8e4aa61f3f0b678ab948c1ff6bc5e90ee88f29 data\buildersshop\loot_tables\blocks\packed_mud_wall.json
@@ -137,7 +137,6 @@ c3d2d1031b57afe94ed2e02398cf1542c220b811 data\buildersshop\loot_tables\blocks\sm
 3a9dfa662f0ca2e57bf1a7b2b9e6ef2412d8e4c2 data\buildersshop\loot_tables\blocks\dirt_wall.json
 b2b303d728ae22c1d6b05bb19b7aea6447514c7a data\buildersshop\loot_tables\blocks\granite_tiles_wall.json
 7d7804e0d33cc2bd7b9a7586365e96360889d6a4 data\buildersshop\loot_tables\blocks\granite_chiseled_mossy_slab.json
-e3b7759866a3a208909d27ceef03eee6d3047adb data\buildersshop\loot_tables\blocks\chiseled_stone_bricks_wall.json
 b588ec6d203f37fd8a2fdc891497ab221ffa6923 data\buildersshop\loot_tables\blocks\andesite_vertical_slab.json
 93e56266ba9b5aa53bd699cd92c4c993fbbae33c data\buildersshop\loot_tables\blocks\andesite_tiles_stairs.json
 86c793fd041ccf0ef19e70fac3125ace5f7ac1b7 data\buildersshop\loot_tables\blocks\diorite_tiles_cracked_wall.json

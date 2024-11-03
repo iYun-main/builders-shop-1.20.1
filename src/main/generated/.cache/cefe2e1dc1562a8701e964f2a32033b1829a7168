@@ -1,11 +1,11 @@
-// 1.20.1	2024-11-03T12:40:13.9021645	Builders Shop/Tags for minecraft:block
+// 1.20.1	2024-11-03T13:47:54.4507442	Builders Shop/Tags for minecraft:block
 bb7cd29fc9935b63a3525d09930d6c71aecba2a5 data\minecraft\tags\blocks\slabs.json
 71ce46f6ef6d7cc624dbade67ad9beef7c7e7631 data\minecraft\tags\blocks\fence_gates.json
 42b11348ac02522f87d0c690a84703033eed13ec data\minecraft\tags\blocks\wooden_fences.json
 a7b9fa2429c0354baa8ac111de3b27186df5fdd6 data\buildersshop\tags\blocks\vertical_slabs.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\hoe.json
 aa689972caf5e5e08e0902685446b6e2778f1e18 data\minecraft\tags\blocks\mineable\axe.json
-e313cba07ca29a7ebcb1812a099e179b1ab236b5 data\minecraft\tags\blocks\walls.json
+e0df92bbd0326ce71a696efdb3c16291ec46e878 data\minecraft\tags\blocks\walls.json
 ea63eaf503ec096e46680576ed21903f6591d5c6 data\minecraft\tags\blocks\wooden_stairs.json
 ea0181b88507a02115c3f7ff678d7f20e81330a6 data\minecraft\tags\blocks\wool.json
 9d77867ea8d1823eaf0b1e6ed2e79ba49d9e73c3 data\minecraft\tags\blocks\mineable\pickaxe.json
