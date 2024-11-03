@@ -44,6 +44,14 @@ public class ModBlocks {
     public static final Block HORIZONTAL_BIRCH_PLANK_WALL = registerBlock("horizontal_birch_wall", new WallBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
     public static final Block HORIZONTAL_BIRCH_PLANK_FENCE_GATE = registerBlock("horizontal_birch_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS), WoodType.BIRCH));
 
+    public static final Block HORIZONTAL_SPRUCE_PLANK = registerBlock("horizontal_spruce_planks", new Block(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block HORIZONTAL_SPRUCE_PLANK_SLAB = registerBlock("horizontal_spruce_slab", new SlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block HORIZONTAL_SPRUCE_PLANK_VERTICAL_SLAB = registerBlock("horizontal_spruce_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block HORIZONTAL_SPRUCE_PLANK_STAIRS = registerBlock("horizontal_spruce_stairs", new StairsBlock(ModBlocks.HORIZONTAL_SPRUCE_PLANK.getDefaultState(), FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block HORIZONTAL_SPRUCE_PLANK_FENCE = registerBlock("horizontal_spruce_fence", new FenceBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block HORIZONTAL_SPRUCE_PLANK_WALL = registerBlock("horizontal_spruce_wall", new WallBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block HORIZONTAL_SPRUCE_PLANK_FENCE_GATE = registerBlock("horizontal_spruce_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS), WoodType.SPRUCE));
+
 
     public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks", new Block(FabricBlockSettings.copyOf(ANDESITE)));
     public static final Block ANDESITE_BRICKS_WALL = registerBlock("andesite_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(ANDESITE)));

@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-01T18:49:49.1590352	Builders Shop/Block Loot Tables
+// 1.20.1	2024-11-03T12:40:13.8731901	Builders Shop/Block Loot Tables
 81a093f4014617a4dfce035751fa3360a1a0dc40 data\buildersshop\loot_tables\blocks\smooth_stone_bricks_mossy_fence.json
 4cb824628e50cc17668eb9faac897038e6b9ea96 data\buildersshop\loot_tables\blocks\obsidian_tiles_stairs.json
 bf8e4aa61f3f0b678ab948c1ff6bc5e90ee88f29 data\buildersshop\loot_tables\blocks\packed_mud_wall.json
@@ -97,8 +97,8 @@ d12774e1d4e4f39fcec976a533cf2c8f7d1e06c3 data\buildersshop\loot_tables\blocks\di
 3f1627f552c1aee3aba8c7f2cac94faecebe0aad data\buildersshop\loot_tables\blocks\smooth_stone_bricks_mossy_slab.json
 2a4108e1385ebe8bc2fafb4858341f5b7140c86e data\buildersshop\loot_tables\blocks\magenta_wool_fence.json
 6fe5b4e2f390e6886d7427552ae0f2e94c2bb949 data\buildersshop\loot_tables\blocks\cyan_wool_fence.json
-35f6c19b962cc24b9386a9f3c748e01bc31a0198 data\buildersshop\loot_tables\blocks\smooth_stone_bricks_mossy_stairs.json
 c7c816d1bd4ade468624bd1e1384c8adbba0db2c data\buildersshop\loot_tables\blocks\obsidian_bricks_mossy_vertical_slab.json
+35f6c19b962cc24b9386a9f3c748e01bc31a0198 data\buildersshop\loot_tables\blocks\smooth_stone_bricks_mossy_stairs.json
 9bd94393ceed1269f1439a4211128b93d4b8acda data\buildersshop\loot_tables\blocks\cracked_deepslate_bricks_wall.json
 1570ea357c065fc6cfef19e7757f3be257efc7eb data\buildersshop\loot_tables\blocks\horizontal_oak_slab.json
 1c5357ff94bb1b4e3dd4ea6a790fb413acb469f2 data\buildersshop\loot_tables\blocks\cracked_deepslate_tiles_fence.json

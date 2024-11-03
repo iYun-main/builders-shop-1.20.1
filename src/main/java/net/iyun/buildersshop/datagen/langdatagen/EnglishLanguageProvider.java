@@ -438,6 +438,20 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE_GATE,"Horizontal Oak Fence Gate");
         translationBuilder.add(ModBlocks.HORIZONTAL_OAK_PLANK_VERTICAL_SLAB,"Vertical Horizontal Oak Slab");
 
+        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK,"Horizontal Birch Planks");
+        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_SLAB,"Horizontal Birch Slab");
+        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS,"Horizontal Birch Stairs");
+        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE,"Horizontal Birch Fence");
+        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE_GATE,"Horizontal Birch Fence Gate");
+        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_VERTICAL_SLAB,"Vertical Horizontal Birch Slab");
+
+        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK,"Horizontal Spruce Planks");
+        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_SLAB,"Horizontal Spruce Slab");
+        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_STAIRS,"Horizontal Spruce Stairs");
+        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE,"Horizontal Spruce Fence");
+        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE_GATE,"Horizontal Spruce Fence Gate");
+        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_VERTICAL_SLAB,"Vertical Horizontal Spruce Slab");
+
         translationBuilder.add(ModBlocks.SMOOTH_STONE_CHISELED,"Chiseled Smooth Stone");
         translationBuilder.add(ModBlocks.SMOOTH_STONE_CHISELED_SLAB,"Chiseled Smooth Stone Slab");
         translationBuilder.add(ModBlocks.SMOOTH_STONE_CHISELED_VERTICAL_SLAB,"Vertical Chiseled Smooth Stone Slab");

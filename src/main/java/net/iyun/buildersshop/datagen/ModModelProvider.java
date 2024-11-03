@@ -73,6 +73,7 @@ public class ModModelProvider extends FabricModelProvider {
         // Horizontal Wood
         BlockStateModelGenerator.BlockTexturePool hoakplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONTAL_OAK_PLANK);
         BlockStateModelGenerator.BlockTexturePool birchplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONTAL_BIRCH_PLANK);
+        BlockStateModelGenerator.BlockTexturePool spruceplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONTAL_SPRUCE_PLANK);
 
         // Andesite
         BlockStateModelGenerator.BlockTexturePool andeistepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ANDESITE);
@@ -474,6 +475,13 @@ public class ModModelProvider extends FabricModelProvider {
         birchplank.stairs(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.HORIZONTAL_BIRCH_PLANK, ModBlocks.HORIZONTAL_BIRCH_PLANK_VERTICAL_SLAB);
 
+        spruceplank.slab(ModBlocks.HORIZONTAL_SPRUCE_PLANK_SLAB);
+        spruceplank.fence(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE);
+        spruceplank.wall(ModBlocks.HORIZONTAL_SPRUCE_PLANK_WALL);
+        spruceplank.fenceGate(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE_GATE);
+        spruceplank.stairs(ModBlocks.HORIZONTAL_SPRUCE_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.HORIZONTAL_SPRUCE_PLANK, ModBlocks.HORIZONTAL_SPRUCE_PLANK_VERTICAL_SLAB);
+
         granbrickc.fence(ModBlocks.GRANITE_BRICKS_CRACKED_FENCE);
         granbrickc.slab(ModBlocks.GRANITE_BRICKS_CRACKED_SLAB);
         granbrickc.stairs(ModBlocks.GRANITE_BRICKS_CRACKED_STAIRS);
@@ -633,48 +641,11 @@ public class ModModelProvider extends FabricModelProvider {
     itemModelGenerator.register(ModItems.STONE_BRICK, Models.GENERATED);
 
     }
-    private void renderSmoothStone(BlockStateModelGenerator blockStateModelGenerator) {
-        TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(Blocks.SMOOTH_STONE))
-                .put(TextureKey.SIDE, TextureMap.getId(Blocks.SMOOTH_STONE_SLAB).withSuffixedPath("_side"))
-                .put(TextureKey.BOTTOM, TextureMap.getId(Blocks.SMOOTH_STONE))
-                .put(TextureKey.PARTICLE, TextureMap.getId(Blocks.SMOOTH_STONE));
-        TextureMap textureMap2 = TextureMap.sideEnd(TextureMap.getSubId(Blocks.SMOOTH_STONE_SLAB, "_side"), textureMap.getTexture(TextureKey.TOP));
-
-        Identifier modelId = ModBlockModels.VERTICAL_SLAB.upload(ModBlocks.SMOOTH_STONE_VERTICAL_SLAB, textureMap, blockStateModelGenerator.modelCollector);
-        Identifier leftModelId = ModBlockModels.VERTICAL_SLAB_LEFT.upload(ModBlocks.SMOOTH_STONE_VERTICAL_SLAB, "_left", textureMap, blockStateModelGenerator.modelCollector);
-        Identifier rightModelId = ModBlockModels.VERTICAL_SLAB_RIGHT.upload(ModBlocks.SMOOTH_STONE_VERTICAL_SLAB, "_right", textureMap, blockStateModelGenerator.modelCollector);
-        Identifier backModelId = ModBlockModels.VERTICAL_SLAB_BACK.upload(ModBlocks.SMOOTH_STONE_VERTICAL_SLAB, "_back", textureMap, blockStateModelGenerator.modelCollector);
-        Identifier fullBlockId = Models.CUBE_COLUMN.uploadWithoutVariant(ModBlocks.SMOOTH_STONE_VERTICAL_SLAB, "_double", textureMap2, blockStateModelGenerator.modelCollector);
-
-        blockStateModelGenerator.blockStateCollector.accept(createVerticalSlabBlockState(ModBlocks.SMOOTH_STONE_VERTICAL_SLAB, modelId, leftModelId, rightModelId, backModelId, fullBlockId));
-    }
 
     private void renderVerticalSlabBlockModel(BlockStateModelGenerator blockStateModelGenerator, Block textureBlock, Block block) {
         TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(textureBlock))
                 .put(TextureKey.SIDE, TextureMap.getId(textureBlock))
                 .put(TextureKey.BOTTOM, TextureMap.getId(textureBlock))
-                .put(TextureKey.PARTICLE, TextureMap.getId(textureBlock));
-
-        generateVerticalSlabBlockModel(blockStateModelGenerator, textureMap, textureBlock, block);
-    }
-
-    private void generateVerticalSlabBlockModel(BlockStateModelGenerator blockStateModelGenerator, Block textureBlock, Block fullBlock, String suffix, Block block) {
-        generateVerticalSlabBlockModel(blockStateModelGenerator, textureBlock, fullBlock, suffix, suffix, suffix, block);
-    }
-
-    private void generateVerticalSlabBlockModel(BlockStateModelGenerator blockStateModelGenerator, Block textureBlock, Block fullBlock, String topSuffix, String sideSuffix, String bottomSuffix, Block block) {
-        TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(textureBlock).withSuffixedPath(topSuffix))
-                .put(TextureKey.SIDE, TextureMap.getId(textureBlock).withSuffixedPath(sideSuffix))
-                .put(TextureKey.BOTTOM, TextureMap.getId(textureBlock).withSuffixedPath(bottomSuffix))
-                .put(TextureKey.PARTICLE, TextureMap.getId(textureBlock).withSuffixedPath(topSuffix));
-
-        generateVerticalSlabBlockModel(blockStateModelGenerator, textureMap, fullBlock, block);
-    }
-
-    private void generateVerticalSlabBlockModelForCutSandstone(BlockStateModelGenerator blockStateModelGenerator, Block textureBlock, Block secondTextureBlock, Block block) {
-        TextureMap textureMap = new TextureMap().put(TextureKey.TOP, TextureMap.getId(secondTextureBlock).withSuffixedPath(TOP_SUFFIX))
-                .put(TextureKey.SIDE, TextureMap.getId(textureBlock))
-                .put(TextureKey.BOTTOM, TextureMap.getId(secondTextureBlock).withSuffixedPath(BOTTOM_SUFFIX))
                 .put(TextureKey.PARTICLE, TextureMap.getId(textureBlock));
 
         generateVerticalSlabBlockModel(blockStateModelGenerator, textureMap, textureBlock, block);

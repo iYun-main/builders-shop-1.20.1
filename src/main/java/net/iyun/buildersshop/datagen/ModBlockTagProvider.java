@@ -18,7 +18,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
-
         getOrCreateTagBuilder(BlockTags.WOOL)
                 .add(ModBlocks.WHITE_WOOL_WALL)
                 .add(ModBlocks.LIGHT_GRAY_WOOL_WALL)
@@ -179,13 +178,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_STONE_TILES_MOSSY_STAIRS)
                 .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_STAIRS)
                 .add(ModBlocks.PINK_WOOL_STAIRS);
 
+        getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_STAIRS)
+                .add(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_SLABS)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_SLAB)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_SLAB)
+                .add(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.DIRT_WALL)
                 .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_WALL)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_WALL)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_WALL)
                 .add(ModBlocks.MUD_WALL)
                 .add(ModBlocks.CLAY_WALL)
                 .add(ModBlocks.RDIRT_WALL)
@@ -237,11 +247,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
                 .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE)
                 .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE)
                 .add(ModBlocks.WHITE_WOOL_FENCE)
                 .add(ModBlocks.LIGHT_GRAY_WOOL_FENCE)
                 .add(ModBlocks.GRAY_WOOL_FENCE)
@@ -388,6 +400,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB)
                 .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_SLAB)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_SLAB)
                 .add(ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB)
                 .add(ModBlocks.DIRT_SLAB);
 
@@ -431,6 +444,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRIMSON_VERTICAL_SLAB)
                 .add(ModBlocks.WARPED_VERTICAL_SLAB)
                 .add(ModBlocks.OAK_VERTICAL_SLAB)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_WALL)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_STAIRS)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_VERTICAL_SLAB)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE_GATE)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_SLAB)
                 .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_WALL)
                 .add(ModBlocks.HORIZONTAL_BIRCH_PLANK)
                 .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS)
@@ -446,6 +466,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE_GATE)
                 .add(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB);
 
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE_GATE)
+                .add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE_GATE)
+                .add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.POLISHED_DEEPSLATE_VERTICAL_SLAB)
