@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_dirt": {
+    "has_mud": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:dirt"
+              "minecraft:mud"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:stone_wall_from_dirt_stonecutting"
+        "recipe": "minecraft:mud_wall_from_mud_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_dirt",
+      "has_mud",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:stone_wall_from_dirt_stonecutting"
+      "minecraft:mud_wall_from_mud_stonecutting"
     ]
   },
   "sends_telemetry_event": false

@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft:dirt"
+    "item": "minecraft:stone"
   },
-  "result": "buildersshop:stone_fence"
+  "result": "buildersshop:stone_wall"
 }
