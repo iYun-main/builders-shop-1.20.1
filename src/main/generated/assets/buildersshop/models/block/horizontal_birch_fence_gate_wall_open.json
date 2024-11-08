@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_fence_gate_wall_open",
-  "textures": {
-    "texture": "buildersshop:block/horizontal_birch_planks"
-  }
-}

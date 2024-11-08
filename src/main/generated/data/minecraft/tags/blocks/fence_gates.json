@@ -1,8 +1,16 @@
 {
   "replace": false,
   "values": [
-    "buildersshop:horizontal_spruce_fence_gate",
-    "buildersshop:horizontal_birch_fence_gate",
-    "buildersshop:horizontal_oak_fence_gate"
+    "buildersshop:vertical_spruce_fence_gate",
+    "buildersshop:vertical_birch_fence_gate",
+    "buildersshop:vertical_jungle_fence_gate",
+    "buildersshop:vertical_acacia_fence_gate",
+    "buildersshop:vertical_cherry_fence_gate",
+    "buildersshop:vertical_dark_oak_fence_gate",
+    "buildersshop:vertical_mangrove_fence_gate",
+    "buildersshop:vertical_bamboo_fence_gate",
+    "buildersshop:vertical_crimson_fence_gate",
+    "buildersshop:vertical_warped_fence_gate",
+    "buildersshop:vertical_oak_fence_gate"
   ]
 }

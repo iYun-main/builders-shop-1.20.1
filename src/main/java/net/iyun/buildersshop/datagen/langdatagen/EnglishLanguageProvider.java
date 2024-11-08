@@ -130,17 +130,17 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.RDIRT_VERTICAL_SLAB,"Vertical Rooted Dirt Slab");
         translationBuilder.add(ModBlocks.RDIRT_STAIRS,"Rooted Dirt Stairs");
 
-        translationBuilder.add(ModBlocks.OAK_VERTICAL_SLAB,"Vertical Oak Slab");
-        translationBuilder.add(ModBlocks.SPRUCE_VERTICAL_SLAB,"Vertical Spruce Slab");
-        translationBuilder.add(ModBlocks.BIRCH_VERTICAL_SLAB,"Vertical Birch Slab");
-        translationBuilder.add(ModBlocks.JUNGLE_VERTICAL_SLAB,"Vertical Jungle Slab");
-        translationBuilder.add(ModBlocks.ACA_VERTICAL_SLAB,"Vertical Acacia Slab");
-        translationBuilder.add(ModBlocks.DARK_OAK_VERTICAL_SLAB,"Vertical Dark Oak Slab");
-        translationBuilder.add(ModBlocks.MANGROVE_VERTICAL_SLAB,"Vertical Mangrove Slab");
-        translationBuilder.add(ModBlocks.CHERRY_VERTICAL_SLAB,"Vertical Cherry Slab");
-        translationBuilder.add(ModBlocks.BAMBOO_VERTICAL_SLAB,"Vertical Bamboo Slab");
-        translationBuilder.add(ModBlocks.CRIMSON_VERTICAL_SLAB,"Vertical Crimson Slab");
-        translationBuilder.add(ModBlocks.WARPED_VERTICAL_SLAB,"Vertical Warped Slab");
+        translationBuilder.add(ModBlocks.OAK_VERTICAL_SLAB,"Oak Vertical Slab");
+        translationBuilder.add(ModBlocks.SPRUCE_VERTICAL_SLAB,"Spruce Vertical Slab");
+        translationBuilder.add(ModBlocks.BIRCH_VERTICAL_SLAB,"Birch Vertical Slab");
+        translationBuilder.add(ModBlocks.JUNGLE_VERTICAL_SLAB,"Jungle Vertical Slab");
+        translationBuilder.add(ModBlocks.ACA_VERTICAL_SLAB,"Acacia Vertical Slab");
+        translationBuilder.add(ModBlocks.DARK_OAK_VERTICAL_SLAB,"Dark Oak Vertical Slab");
+        translationBuilder.add(ModBlocks.MANGROVE_VERTICAL_SLAB,"Mangrove Vertical Slab");
+        translationBuilder.add(ModBlocks.CHERRY_VERTICAL_SLAB,"Cherry Vertical Slab");
+        translationBuilder.add(ModBlocks.BAMBOO_VERTICAL_SLAB,"Bamboo Vertical Slab");
+        translationBuilder.add(ModBlocks.CRIMSON_VERTICAL_SLAB,"Crimson Vertical Slab");
+        translationBuilder.add(ModBlocks.WARPED_VERTICAL_SLAB,"Warped Vertical Slab");
 
         translationBuilder.add(ModBlocks.WHITE_WOOL_VERTICAL_SLAB,"Vertical White Wool Slab");
         translationBuilder.add(ModBlocks.LIGHT_GRAY_WOOL_VERTICAL_SLAB,"Vertical Light Gray Wool Slab");
@@ -430,26 +430,93 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CHISELED_COBSIDIAN_RUNIC_STAIRS,"Runic Crying Obsidian Stairs");
         translationBuilder.add(ModBlocks.CHISELED_COBSIDIAN_RUNIC_VERTICAL_SLAB,"Vertical Runic Crying Obsidian Slab");
 
-        translationBuilder.add(ModBlocks.HORIZONTAL_OAK_PLANK,"Horizontal Oak Planks");
-        translationBuilder.add(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB,"Horizontal Oak Slab");
-        translationBuilder.add(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS,"Horizontal Oak Stairs");
-        translationBuilder.add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE,"Horizontal Oak Fence");
-        translationBuilder.add(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE_GATE,"Horizontal Oak Fence Gate");
-        translationBuilder.add(ModBlocks.HORIZONTAL_OAK_PLANK_VERTICAL_SLAB,"Vertical Horizontal Oak Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_OAK_PLANK,"Vertical Oak Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_OAK_PLANK_SLAB,"Vertical Oak Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_OAK_PLANK_WALL,"Vertical Oak Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_OAK_PLANK_STAIRS,"Vertical Oak Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_OAK_PLANK_FENCE,"Vertical Oak Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_OAK_PLANK_FENCE_GATE,"Vertical Oak Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_OAK_PLANK_VERTICAL_SLAB,"Vertical Oak Vertical Slab");
 
-        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK,"Horizontal Birch Planks");
-        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_SLAB,"Horizontal Birch Slab");
-        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS,"Horizontal Birch Stairs");
-        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE,"Horizontal Birch Fence");
-        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE_GATE,"Horizontal Birch Fence Gate");
-        translationBuilder.add(ModBlocks.HORIZONTAL_BIRCH_PLANK_VERTICAL_SLAB,"Vertical Horizontal Birch Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_BIRCH_PLANK,"Vertical Birch Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_BIRCH_PLANK_SLAB,"Vertical Birch Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_BIRCH_PLANK_WALL,"Vertical Birch Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_BIRCH_PLANK_STAIRS,"Vertical Birch Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE,"Vertical Birch Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE_GATE,"Vertical Birch Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_BIRCH_PLANK_VERTICAL_SLAB,"Vertical Birch Vertical Slab");
 
-        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK,"Horizontal Spruce Planks");
-        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_SLAB,"Horizontal Spruce Slab");
-        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_STAIRS,"Horizontal Spruce Stairs");
-        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE,"Horizontal Spruce Fence");
-        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE_GATE,"Horizontal Spruce Fence Gate");
-        translationBuilder.add(ModBlocks.HORIZONTAL_SPRUCE_PLANK_VERTICAL_SLAB,"Vertical Horizontal Spruce Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_SPRUCE_PLANK,"Vertical Spruce Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_SPRUCE_PLANK_SLAB,"Vertical Spruce Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_SPRUCE_PLANK_WALL,"Vertical Spruce Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_SPRUCE_PLANK_STAIRS,"Vertical Spruce Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE,"Vertical Spruce Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE_GATE,"Vertical Spruce Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_SPRUCE_PLANK_VERTICAL_SLAB,"Vertical Spruce Vertical Slab");
+
+        translationBuilder.add(ModBlocks.VERTICAL_JUNGLE_PLANK,"Vertical Jungle Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_JUNGLE_PLANK_SLAB,"Vertical Jungle Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_JUNGLE_PLANK_WALL,"Vertical Jungle Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_JUNGLE_PLANK_STAIRS,"Vertical Jungle Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE,"Vertical Jungle Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE_GATE,"Vertical Jungle Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_JUNGLE_PLANK_VERTICAL_SLAB,"Vertical Jungle Vertical Slab");
+
+        translationBuilder.add(ModBlocks.VERTICAL_ACACIA_PLANK,"Vertical Acacia Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_ACACIA_PLANK_SLAB,"Vertical Acacia Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_ACACIA_PLANK_WALL,"Vertical Acacia Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_ACACIA_PLANK_STAIRS,"Vertical Acacia Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE,"Vertical Acacia Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE_GATE,"Vertical Acacia Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_ACACIA_PLANK_VERTICAL_SLAB,"Vertical Acacia Vertical Slab");
+
+        translationBuilder.add(ModBlocks.VERTICAL_CHERRY_PLANK,"Vertical Cherry Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_CHERRY_PLANK_SLAB,"Vertical Cherry Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_CHERRY_PLANK_WALL,"Vertical Cherry Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_CHERRY_PLANK_STAIRS,"Vertical Cherry Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_CHERRY_PLANK_FENCE,"Vertical Cherry Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_CHERRY_PLANK_FENCE_GATE,"Vertical Cherry Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_CHERRY_PLANK_VERTICAL_SLAB,"Vertical Cherry Vertical Slab");
+
+        translationBuilder.add(ModBlocks.VERTICAL_DARK_OAK_PLANK,"Vertical Dark Oak Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_DARK_OAK_PLANK_SLAB,"Vertical Dark Oak Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_DARK_OAK_PLANK_WALL,"Vertical Dark Oak Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_DARK_OAK_PLANK_STAIRS,"Vertical Dark Oak Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE,"Vertical Dark Oak Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE_GATE,"Vertical Dark Oak Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_DARK_OAK_PLANK_VERTICAL_SLAB,"Vertical Dark Oak Vertical Slab");
+
+        translationBuilder.add(ModBlocks.VERTICAL_MANGROVE_PLANK,"Vertical Mangrove Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_MANGROVE_PLANK_SLAB,"Vertical Mangrove Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_MANGROVE_PLANK_WALL,"Vertical Mangrove Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_MANGROVE_PLANK_STAIRS,"Vertical Mangrove Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE,"Vertical Mangrove Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE_GATE,"Vertical Mangrove Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_MANGROVE_PLANK_VERTICAL_SLAB,"Vertical Mangrove Vertical Slab");
+
+        translationBuilder.add(ModBlocks.VERTICAL_BAMBOO_PLANK,"Vertical Bamboo Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_BAMBOO_PLANK_SLAB,"Vertical Bamboo Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_BAMBOO_PLANK_WALL,"Vertical Bamboo Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_BAMBOO_PLANK_STAIRS,"Vertical Bamboo Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE,"Vertical Bamboo Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE_GATE,"Vertical Bamboo Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_BAMBOO_PLANK_VERTICAL_SLAB,"Vertical Bamboo Vertical Slab");
+
+        translationBuilder.add(ModBlocks.VERTICAL_CRIMSON_PLANK,"Vertical Crimson Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_CRIMSON_PLANK_SLAB,"Vertical Crimson Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_CRIMSON_PLANK_WALL,"Vertical Crimson Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_CRIMSON_PLANK_STAIRS,"Vertical Crimson Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE,"Vertical Crimson Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE_GATE,"Vertical Crimson Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_CRIMSON_PLANK_VERTICAL_SLAB,"Vertical Crimson Vertical Slab");
+
+        translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK,"Vertical Warped Planks");
+        translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_SLAB,"Vertical Warped Slab");
+        translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_WALL,"Vertical Warped Wall");
+        translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_STAIRS,"Vertical Warped Stairs");
+        translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_FENCE,"Vertical Warped Fence");
+        translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_FENCE_GATE,"Vertical Warped Fence Gate");
+        translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_VERTICAL_SLAB,"Vertical Warped Vertical Slab");
 
         translationBuilder.add(ModBlocks.SMOOTH_STONE_CHISELED,"Chiseled Smooth Stone");
         translationBuilder.add(ModBlocks.SMOOTH_STONE_CHISELED_SLAB,"Chiseled Smooth Stone Slab");

@@ -13,11 +13,6 @@ import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
 
-
-    private static final String TOP_SUFFIX = "_top";
-    private static final String SIDE_SUFFIX = "_side";
-    private static final String BOTTOM_SUFFIX = "_bottom";
-
     public ModModelProvider(FabricDataOutput output) {
         super(output);
     }
@@ -52,6 +47,8 @@ public class ModModelProvider extends FabricModelProvider {
         //Clay
         BlockStateModelGenerator.BlockTexturePool clayPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CLAY);
 
+        BlockStateModelGenerator.createSingletonBlockState(ModBlocks.HONEY_SLAB,new Identifier("honey_slab"));
+
         // The Wool
         BlockStateModelGenerator.BlockTexturePool whitewoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_WOOL);
         BlockStateModelGenerator.BlockTexturePool lightgraywoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_WOOL);
@@ -71,9 +68,17 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool pinkwoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_WOOL);
 
         // Horizontal Wood
-        BlockStateModelGenerator.BlockTexturePool hoakplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONTAL_OAK_PLANK);
-        BlockStateModelGenerator.BlockTexturePool birchplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONTAL_BIRCH_PLANK);
-        BlockStateModelGenerator.BlockTexturePool spruceplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.HORIZONTAL_SPRUCE_PLANK);
+        BlockStateModelGenerator.BlockTexturePool hoakplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_OAK_PLANK);
+        BlockStateModelGenerator.BlockTexturePool birchplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_BIRCH_PLANK);
+        BlockStateModelGenerator.BlockTexturePool spruceplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_SPRUCE_PLANK);
+        BlockStateModelGenerator.BlockTexturePool jungleplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_JUNGLE_PLANK);
+        BlockStateModelGenerator.BlockTexturePool acaplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_ACACIA_PLANK);
+        BlockStateModelGenerator.BlockTexturePool cherryplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_CHERRY_PLANK);
+        BlockStateModelGenerator.BlockTexturePool doakplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_DARK_OAK_PLANK);
+        BlockStateModelGenerator.BlockTexturePool mangroveplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_MANGROVE_PLANK);
+        BlockStateModelGenerator.BlockTexturePool bambooplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_BAMBOO_PLANK);
+        BlockStateModelGenerator.BlockTexturePool warpedplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_WARPED_PLANK);
+        BlockStateModelGenerator.BlockTexturePool crimsonplank = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.VERTICAL_CRIMSON_PLANK);
 
         // Andesite
         BlockStateModelGenerator.BlockTexturePool andeistepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ANDESITE);
@@ -124,7 +129,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         // Crying Obsidian
         BlockStateModelGenerator.BlockTexturePool cobsibrickc = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.COBSIDIAN_BRICKS);
-        BlockStateModelGenerator.BlockTexturePool cobsirunic= blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_COBSIDIAN_RUNIC);
+        BlockStateModelGenerator.BlockTexturePool cobsirunic = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_COBSIDIAN_RUNIC);
 
         // Stone
         BlockStateModelGenerator.BlockTexturePool stonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE);
@@ -163,6 +168,63 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool brickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
 
 
+
+
+        crimsonplank.slab(ModBlocks.VERTICAL_CRIMSON_PLANK_SLAB);
+        crimsonplank.fence(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE);
+        crimsonplank.wall(ModBlocks.VERTICAL_CRIMSON_PLANK_WALL);
+        crimsonplank.fenceGate(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE_GATE);
+        crimsonplank.stairs(ModBlocks.VERTICAL_CRIMSON_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_CRIMSON_PLANK, ModBlocks.VERTICAL_CRIMSON_PLANK_VERTICAL_SLAB);
+
+        warpedplank.slab(ModBlocks.VERTICAL_WARPED_PLANK_SLAB);
+        warpedplank.fence(ModBlocks.VERTICAL_WARPED_PLANK_FENCE);
+        warpedplank.wall(ModBlocks.VERTICAL_WARPED_PLANK_WALL);
+        warpedplank.fenceGate(ModBlocks.VERTICAL_WARPED_PLANK_FENCE_GATE);
+        warpedplank.stairs(ModBlocks.VERTICAL_WARPED_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_WARPED_PLANK, ModBlocks.VERTICAL_WARPED_PLANK_VERTICAL_SLAB);
+
+        bambooplank.slab(ModBlocks.VERTICAL_BAMBOO_PLANK_SLAB);
+        bambooplank.fence(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE);
+        bambooplank.wall(ModBlocks.VERTICAL_BAMBOO_PLANK_WALL);
+        bambooplank.fenceGate(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE_GATE);
+        bambooplank.stairs(ModBlocks.VERTICAL_BAMBOO_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_BAMBOO_PLANK, ModBlocks.VERTICAL_BAMBOO_PLANK_VERTICAL_SLAB);
+
+        mangroveplank.slab(ModBlocks.VERTICAL_MANGROVE_PLANK_SLAB);
+        mangroveplank.fence(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE);
+        mangroveplank.wall(ModBlocks.VERTICAL_MANGROVE_PLANK_WALL);
+        mangroveplank.fenceGate(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE_GATE);
+        mangroveplank.stairs(ModBlocks.VERTICAL_MANGROVE_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_MANGROVE_PLANK, ModBlocks.VERTICAL_MANGROVE_PLANK_VERTICAL_SLAB);
+
+        doakplank.slab(ModBlocks.VERTICAL_DARK_OAK_PLANK_SLAB);
+        doakplank.fence(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE);
+        doakplank.wall(ModBlocks.VERTICAL_DARK_OAK_PLANK_WALL);
+        doakplank.fenceGate(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE_GATE);
+        doakplank.stairs(ModBlocks.VERTICAL_DARK_OAK_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_DARK_OAK_PLANK, ModBlocks.VERTICAL_DARK_OAK_PLANK_VERTICAL_SLAB);
+
+        cherryplank.slab(ModBlocks.VERTICAL_CHERRY_PLANK_SLAB);
+        cherryplank.fence(ModBlocks.VERTICAL_CHERRY_PLANK_FENCE);
+        cherryplank.wall(ModBlocks.VERTICAL_CHERRY_PLANK_WALL);
+        cherryplank.fenceGate(ModBlocks.VERTICAL_CHERRY_PLANK_FENCE_GATE);
+        cherryplank.stairs(ModBlocks.VERTICAL_CHERRY_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_CHERRY_PLANK, ModBlocks.VERTICAL_CHERRY_PLANK_VERTICAL_SLAB);
+
+        acaplank.slab(ModBlocks.VERTICAL_ACACIA_PLANK_SLAB);
+        acaplank.fence(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE);
+        acaplank.wall(ModBlocks.VERTICAL_ACACIA_PLANK_WALL);
+        acaplank.fenceGate(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE_GATE);
+        acaplank.stairs(ModBlocks.VERTICAL_ACACIA_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_ACACIA_PLANK, ModBlocks.VERTICAL_ACACIA_PLANK_VERTICAL_SLAB);
+
+        jungleplank.slab(ModBlocks.VERTICAL_JUNGLE_PLANK_SLAB);
+        jungleplank.fence(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE);
+        jungleplank.wall(ModBlocks.VERTICAL_JUNGLE_PLANK_WALL);
+        jungleplank.fenceGate(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE_GATE);
+        jungleplank.stairs(ModBlocks.VERTICAL_JUNGLE_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_JUNGLE_PLANK, ModBlocks.VERTICAL_JUNGLE_PLANK_VERTICAL_SLAB);
 
         smoothtilesm.slab(ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB);
         smoothtilesm.stairs(ModBlocks.SMOOTH_STONE_TILES_MOSSY_STAIRS);
@@ -460,26 +522,26 @@ public class ModModelProvider extends FabricModelProvider {
         andbrickc.fence(ModBlocks.ANDESITE_BRICKS_CRACKED_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.ANDESITE_BRICKS_CRACKED, ModBlocks.ANDESITE_BRICKS_CRACKED_VERTICAL_SLAB);
 
-        hoakplank.slab(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB);
-        hoakplank.fence(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE);
-        hoakplank.wall(ModBlocks.HORIZONTAL_OAK_PLANK_WALL);
-        hoakplank.fenceGate(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE_GATE);
-        hoakplank.stairs(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS);
-        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.HORIZONTAL_OAK_PLANK, ModBlocks.HORIZONTAL_OAK_PLANK_VERTICAL_SLAB);
+        hoakplank.slab(ModBlocks.VERTICAL_OAK_PLANK_SLAB);
+        hoakplank.fence(ModBlocks.VERTICAL_OAK_PLANK_FENCE);
+        hoakplank.wall(ModBlocks.VERTICAL_OAK_PLANK_WALL);
+        hoakplank.fenceGate(ModBlocks.VERTICAL_OAK_PLANK_FENCE_GATE);
+        hoakplank.stairs(ModBlocks.VERTICAL_OAK_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_OAK_PLANK, ModBlocks.VERTICAL_OAK_PLANK_VERTICAL_SLAB);
 
-        birchplank.slab(ModBlocks.HORIZONTAL_BIRCH_PLANK_SLAB);
-        birchplank.fence(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE);
-        birchplank.wall(ModBlocks.HORIZONTAL_BIRCH_PLANK_WALL);
-        birchplank.fenceGate(ModBlocks.HORIZONTAL_BIRCH_PLANK_FENCE_GATE);
-        birchplank.stairs(ModBlocks.HORIZONTAL_BIRCH_PLANK_STAIRS);
-        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.HORIZONTAL_BIRCH_PLANK, ModBlocks.HORIZONTAL_BIRCH_PLANK_VERTICAL_SLAB);
+        birchplank.slab(ModBlocks.VERTICAL_BIRCH_PLANK_SLAB);
+        birchplank.fence(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE);
+        birchplank.wall(ModBlocks.VERTICAL_BIRCH_PLANK_WALL);
+        birchplank.fenceGate(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE_GATE);
+        birchplank.stairs(ModBlocks.VERTICAL_BIRCH_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_BIRCH_PLANK, ModBlocks.VERTICAL_BIRCH_PLANK_VERTICAL_SLAB);
 
-        spruceplank.slab(ModBlocks.HORIZONTAL_SPRUCE_PLANK_SLAB);
-        spruceplank.fence(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE);
-        spruceplank.wall(ModBlocks.HORIZONTAL_SPRUCE_PLANK_WALL);
-        spruceplank.fenceGate(ModBlocks.HORIZONTAL_SPRUCE_PLANK_FENCE_GATE);
-        spruceplank.stairs(ModBlocks.HORIZONTAL_SPRUCE_PLANK_STAIRS);
-        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.HORIZONTAL_SPRUCE_PLANK, ModBlocks.HORIZONTAL_SPRUCE_PLANK_VERTICAL_SLAB);
+        spruceplank.slab(ModBlocks.VERTICAL_SPRUCE_PLANK_SLAB);
+        spruceplank.fence(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE);
+        spruceplank.wall(ModBlocks.VERTICAL_SPRUCE_PLANK_WALL);
+        spruceplank.fenceGate(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE_GATE);
+        spruceplank.stairs(ModBlocks.VERTICAL_SPRUCE_PLANK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.VERTICAL_SPRUCE_PLANK, ModBlocks.VERTICAL_SPRUCE_PLANK_VERTICAL_SLAB);
 
         granbrickc.fence(ModBlocks.GRANITE_BRICKS_CRACKED_FENCE);
         granbrickc.slab(ModBlocks.GRANITE_BRICKS_CRACKED_SLAB);
@@ -631,6 +693,8 @@ public class ModModelProvider extends FabricModelProvider {
         cdirtPool.slab(ModBlocks.CDIRT_SLAB);
         cdirtPool.stairs(ModBlocks.CDIRT_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.COARSE_DIRT, ModBlocks.CDIRT_VERTICAL_SLAB);
+
+
 
     }
 

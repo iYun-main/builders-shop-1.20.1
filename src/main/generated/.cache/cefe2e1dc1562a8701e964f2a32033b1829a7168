@@ -1,16 +1,16 @@
-// 1.20.1	2024-11-03T14:24:43.0216255	Builders Shop/Tags for minecraft:block
-bb7cd29fc9935b63a3525d09930d6c71aecba2a5 data\minecraft\tags\blocks\slabs.json
-71ce46f6ef6d7cc624dbade67ad9beef7c7e7631 data\minecraft\tags\blocks\fence_gates.json
-42b11348ac02522f87d0c690a84703033eed13ec data\minecraft\tags\blocks\wooden_fences.json
+// 1.20.1	2024-11-06T21:35:38.1639163	Builders Shop/Tags for minecraft:block
+c1aeca8c71e36a4b817b0be297e882ee896e9538 data\minecraft\tags\blocks\slabs.json
+a253077109d4bfd0f8ae6dd3e5a23e92abb79ccc data\minecraft\tags\blocks\fence_gates.json
+64a056d39916e471e8b71ebc0fc7ed3edbe04456 data\minecraft\tags\blocks\wooden_fences.json
 a7b9fa2429c0354baa8ac111de3b27186df5fdd6 data\buildersshop\tags\blocks\vertical_slabs.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\hoe.json
-aa689972caf5e5e08e0902685446b6e2778f1e18 data\minecraft\tags\blocks\mineable\axe.json
-e0df92bbd0326ce71a696efdb3c16291ec46e878 data\minecraft\tags\blocks\walls.json
-ea63eaf503ec096e46680576ed21903f6591d5c6 data\minecraft\tags\blocks\wooden_stairs.json
+7e9258ed4fc25b132178a6e7fb4e785f1683049a data\minecraft\tags\blocks\mineable\axe.json
+43e47570e1445abbf103a7624a5509d4418c6905 data\minecraft\tags\blocks\walls.json
+96ec11e464a1ef90b262f8212c3b999c55addd96 data\minecraft\tags\blocks\wooden_stairs.json
 ea0181b88507a02115c3f7ff678d7f20e81330a6 data\minecraft\tags\blocks\wool.json
 9d77867ea8d1823eaf0b1e6ed2e79ba49d9e73c3 data\minecraft\tags\blocks\mineable\pickaxe.json
-1d196de6eda17fe65f92565642081bb846550dd5 data\minecraft\tags\blocks\wooden_slabs.json
-e681995244f54ef22a6dd1922c7f639bd02e418c data\minecraft\tags\blocks\stairs.json
+a168c901242e37e36b7cc9a01c3b31ff937c6410 data\minecraft\tags\blocks\wooden_slabs.json
+381c8617cb9c9706845fee5ee09966ccd0e07b13 data\minecraft\tags\blocks\stairs.json
 1cf08689dd613fe534ad7451e4d550cdea991b5a data\minecraft\tags\blocks\mineable\shovel.json
 cf65341743c12a12d4fb4750484f645225cb98bc data\minecraft\tags\blocks\needs_diamond_tool.json
-08bfe6e506fe148efa0f0b08676cd9a20c36ac01 data\minecraft\tags\blocks\fences.json
+2ebe96d728d195ee29fafa4e65511ba32ea26782 data\minecraft\tags\blocks\fences.json

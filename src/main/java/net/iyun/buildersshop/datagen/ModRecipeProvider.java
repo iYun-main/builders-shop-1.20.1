@@ -59,7 +59,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         verticalslab(ModBlocks.CHERRY_VERTICAL_SLAB, Blocks.CHERRY_PLANKS,exporter);
         verticalslab(ModBlocks.BAMBOO_VERTICAL_SLAB, Blocks.BAMBOO_PLANKS,exporter);
         verticalslab(ModBlocks.WARPED_VERTICAL_SLAB, Blocks.WARPED_PLANKS,exporter);
-        verticalslab(ModBlocks.CRIMSON_VERTICAL_SLAB, Blocks.CRIMSON_PLANKS,exporter);
+
+        verticalslab(ModBlocks.VERTICAL_OAK_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_OAK_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_BIRCH_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_BIRCH_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_SPRUCE_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_SPRUCE_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_JUNGLE_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_JUNGLE_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_ACACIA_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_ACACIA_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_DARK_OAK_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_DARK_OAK_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_MANGROVE_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_MANGROVE_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_CHERRY_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_CHERRY_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_BAMBOO_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_BAMBOO_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_WARPED_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_WARPED_PLANK,exporter);
+        verticalslab(ModBlocks.VERTICAL_CRIMSON_PLANK_VERTICAL_SLAB, ModBlocks.VERTICAL_CRIMSON_PLANK,exporter);
 
         verticalslab(ModBlocks.COBSIDIAN_BRICKS_VERTICAL_SLAB, ModBlocks.OBSIDIAN_BRICKS,exporter);
         verticalslab(ModBlocks.COBBLESTONE_VERTICAL_SLAB, Blocks.COBBLESTONE,exporter);
@@ -131,9 +142,45 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         // Fences
-        createFenceRecipe(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE, Ingredient.ofItems(ModBlocks.HORIZONTAL_OAK_PLANK))
-                .criterion(hasItem(ModBlocks.HORIZONTAL_OAK_PLANK), conditionsFromItem(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE)));
+        createFenceRecipe(ModBlocks.VERTICAL_OAK_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_OAK_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_OAK_PLANK), conditionsFromItem(ModBlocks.VERTICAL_OAK_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_OAK_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_BIRCH_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_BIRCH_PLANK), conditionsFromItem(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_SPRUCE_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_SPRUCE_PLANK), conditionsFromItem(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_ACACIA_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_ACACIA_PLANK), conditionsFromItem(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_DARK_OAK_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_DARK_OAK_PLANK), conditionsFromItem(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_JUNGLE_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_JUNGLE_PLANK), conditionsFromItem(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_MANGROVE_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_MANGROVE_PLANK), conditionsFromItem(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_BAMBOO_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_BAMBOO_PLANK), conditionsFromItem(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_WARPED_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_WARPED_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_WARPED_PLANK), conditionsFromItem(ModBlocks.VERTICAL_WARPED_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_WARPED_PLANK_FENCE)));
+
+        createFenceRecipe(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE, Ingredient.ofItems(ModBlocks.VERTICAL_CRIMSON_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_CRIMSON_PLANK), conditionsFromItem(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE)));
 
         createFenceRecipe(ModBlocks.DIRT_FENCE, Ingredient.ofItems(Blocks.DIRT))
                 .criterion(hasItem(ModBlocks.DIRT_FENCE), conditionsFromItem(Blocks.DIRT))
@@ -222,6 +269,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         stonefences(ModBlocks.SMOOTH_STONE_TILES_MOSSY_FENCE, ModBlocks.SMOOTH_STONE_TILES_MOSSY, exporter);
 
 
+
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_OAK_PLANK_SLAB, ModBlocks.VERTICAL_OAK_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_BIRCH_PLANK_SLAB, ModBlocks.VERTICAL_BIRCH_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_SPRUCE_PLANK_SLAB, ModBlocks.VERTICAL_SPRUCE_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_JUNGLE_PLANK_SLAB, ModBlocks.VERTICAL_JUNGLE_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_CHERRY_PLANK_SLAB, ModBlocks.VERTICAL_CHERRY_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_ACACIA_PLANK_SLAB, ModBlocks.VERTICAL_ACACIA_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_DARK_OAK_PLANK_SLAB, ModBlocks.VERTICAL_DARK_OAK_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_WARPED_PLANK_SLAB, ModBlocks.VERTICAL_WARPED_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_CRIMSON_PLANK_SLAB, ModBlocks.VERTICAL_CRIMSON_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_BAMBOO_PLANK_SLAB, ModBlocks.VERTICAL_BAMBOO_PLANK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_MANGROVE_PLANK_SLAB, ModBlocks.VERTICAL_MANGROVE_PLANK);
 
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_BRICKS_SLAB, ModBlocks.SMOOTH_STONE_BRICKS);
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED_SLAB, ModBlocks.SMOOTH_STONE_BRICKS_CRACKED);
@@ -397,6 +456,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // Crying Obsidian
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.COBSIDIAN_BRICKS_WALL, ModBlocks.COBSIDIAN_BRICKS);
+
+
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_OAK_PLANK_WALL, ModBlocks.VERTICAL_OAK_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_BAMBOO_PLANK_WALL, ModBlocks.VERTICAL_BAMBOO_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_MANGROVE_PLANK_WALL, ModBlocks.VERTICAL_MANGROVE_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_BIRCH_PLANK_WALL, ModBlocks.VERTICAL_BIRCH_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_SPRUCE_PLANK_WALL, ModBlocks.VERTICAL_SPRUCE_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_ACACIA_PLANK_WALL, ModBlocks.VERTICAL_ACACIA_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_DARK_OAK_PLANK_WALL, ModBlocks.VERTICAL_DARK_OAK_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_CHERRY_PLANK_WALL, ModBlocks.VERTICAL_CHERRY_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_JUNGLE_PLANK_WALL, ModBlocks.VERTICAL_JUNGLE_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_WARPED_PLANK_WALL, ModBlocks.VERTICAL_WARPED_PLANK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.VERTICAL_CRIMSON_PLANK_WALL, ModBlocks.VERTICAL_CRIMSON_PLANK);
 
         // Stairs
         createStairsRecipe(ModBlocks.DIRT_STAIRS, Ingredient.ofItems(Blocks.DIRT))
@@ -759,9 +831,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.HORIZONTAL_OAK_PLANK, Blocks.OAK_PLANKS);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.HORIZONTAL_BIRCH_PLANK, Blocks.BIRCH_PLANKS);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.HORIZONTAL_SPRUCE_PLANK, Blocks.SPRUCE_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_OAK_PLANK, Blocks.OAK_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_MANGROVE_PLANK, Blocks.MANGROVE_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_BIRCH_PLANK, Blocks.BIRCH_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_SPRUCE_PLANK, Blocks.SPRUCE_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_JUNGLE_PLANK, Blocks.JUNGLE_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_ACACIA_PLANK, Blocks.ACACIA_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_DARK_OAK_PLANK, Blocks.DARK_OAK_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_BAMBOO_PLANK, Blocks.BAMBOO_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_WARPED_PLANK, Blocks.WARPED_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_CRIMSON_PLANK, Blocks.CRIMSON_PLANKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_CHERRY_PLANK, Blocks.CHERRY_PLANKS);
 
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRT_SLAB, Blocks.DIRT,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRT_VERTICAL_SLAB, Blocks.DIRT,2);

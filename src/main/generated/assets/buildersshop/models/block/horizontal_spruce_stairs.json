@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "buildersshop:block/horizontal_spruce_planks",
-    "side": "buildersshop:block/horizontal_spruce_planks",
-    "top": "buildersshop:block/horizontal_spruce_planks"
-  }
-}

@@ -257,13 +257,82 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_TILES_STAIRS);
         addDrop(ModBlocks.GRANITE_BRICKS);
 
-        addDrop(ModBlocks.HORIZONTAL_OAK_PLANK);
-        addDrop(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE);
-        addDrop(ModBlocks.HORIZONTAL_OAK_PLANK_FENCE_GATE);
-        addDrop(ModBlocks.HORIZONTAL_OAK_PLANK_STAIRS);
-        addDrop(ModBlocks.HORIZONTAL_OAK_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.HORIZONTAL_OAK_PLANK_VERTICAL_SLAB));
-        addDrop(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB, slabDrops(ModBlocks.HORIZONTAL_OAK_PLANK_SLAB));
+        addDrop(ModBlocks.VERTICAL_OAK_PLANK);
+        addDrop(ModBlocks.VERTICAL_OAK_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_OAK_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_OAK_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_OAK_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_OAK_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_OAK_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_OAK_PLANK_SLAB));
 
+        addDrop(ModBlocks.VERTICAL_BIRCH_PLANK);
+        addDrop(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_BIRCH_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_BIRCH_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_BIRCH_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_BIRCH_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_BIRCH_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_SPRUCE_PLANK);
+        addDrop(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_SPRUCE_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_SPRUCE_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_SPRUCE_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_SPRUCE_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_SPRUCE_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_JUNGLE_PLANK);
+        addDrop(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_JUNGLE_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_JUNGLE_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_JUNGLE_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_JUNGLE_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_JUNGLE_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_JUNGLE_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_ACACIA_PLANK);
+        addDrop(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_ACACIA_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_ACACIA_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_ACACIA_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_ACACIA_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_ACACIA_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_CHERRY_PLANK);
+        addDrop(ModBlocks.VERTICAL_CHERRY_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_CHERRY_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_CHERRY_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_CHERRY_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_CHERRY_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_CHERRY_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_CHERRY_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_MANGROVE_PLANK);
+        addDrop(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_MANGROVE_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_MANGROVE_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_MANGROVE_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_MANGROVE_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_MANGROVE_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_DARK_OAK_PLANK);
+        addDrop(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_DARK_OAK_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_DARK_OAK_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_DARK_OAK_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_DARK_OAK_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_DARK_OAK_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_DARK_OAK_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_BAMBOO_PLANK);
+        addDrop(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_BAMBOO_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_BAMBOO_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_BAMBOO_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_BAMBOO_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_BAMBOO_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_BAMBOO_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_WARPED_PLANK);
+        addDrop(ModBlocks.VERTICAL_WARPED_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_WARPED_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_WARPED_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_WARPED_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_WARPED_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_WARPED_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_WARPED_PLANK_SLAB));
+
+        addDrop(ModBlocks.VERTICAL_CRIMSON_PLANK);
+        addDrop(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE_GATE);
+        addDrop(ModBlocks.VERTICAL_CRIMSON_PLANK_STAIRS);
+        addDrop(ModBlocks.VERTICAL_CRIMSON_PLANK_VERTICAL_SLAB, slabDrops(ModBlocks.VERTICAL_CRIMSON_PLANK_VERTICAL_SLAB));
+        addDrop(ModBlocks.VERTICAL_CRIMSON_PLANK_SLAB, slabDrops(ModBlocks.VERTICAL_CRIMSON_PLANK_SLAB));
 
         addDrop(ModBlocks.SMOOTH_STONE_BRICKS);
         addDrop(ModBlocks.SMOOTH_STONE_BRICKS_SLAB, slabDrops(ModBlocks.SMOOTH_STONE_BRICKS_SLAB));
