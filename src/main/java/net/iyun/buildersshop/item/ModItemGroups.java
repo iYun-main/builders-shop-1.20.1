@@ -508,7 +508,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VERTICAL_WARPED_PLANK_VERTICAL_SLAB);
                         entries.add(ModBlocks.VERTICAL_WARPED_PLANK_FENCE);
                         entries.add(ModBlocks.VERTICAL_WARPED_PLANK_FENCE_GATE);
-                        entries.add(ModBlocks.HONEY_SLAB);
                     }).build());
 
     public static void registerItemGroups() {

@@ -47,8 +47,6 @@ public class ModModelProvider extends FabricModelProvider {
         //Clay
         BlockStateModelGenerator.BlockTexturePool clayPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CLAY);
 
-        BlockStateModelGenerator.createSingletonBlockState(ModBlocks.HONEY_SLAB,new Identifier("honey_slab"));
-
         // The Wool
         BlockStateModelGenerator.BlockTexturePool whitewoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_WOOL);
         BlockStateModelGenerator.BlockTexturePool lightgraywoolPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_WOOL);
