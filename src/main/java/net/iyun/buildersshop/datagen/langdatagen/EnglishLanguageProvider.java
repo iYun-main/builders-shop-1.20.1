@@ -202,7 +202,6 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.COBBLED_DEEPSLATE_FENCE,"Cobbled Deepslate Fence");
         translationBuilder.add(ModBlocks.COBBLED_DEEPSLATE_VERTICAL_SLAB,"Vertical Cobbled Deepslate Slab");
 
-        translationBuilder.add(ModBlocks.CHISELED_DEEPSLATE_WALL,"Chiseled Deepslate Wall");
         translationBuilder.add(ModBlocks.CHISELED_DEEPSLATE_SLAB,"Chiseled Deepslate Slab");
         translationBuilder.add(ModBlocks.CHISELED_DEEPSLATE_STAIRS,"Chiseled Deepslate Stairs");
         translationBuilder.add(ModBlocks.CHISELED_DEEPSLATE_VERTICAL_SLAB,"Vertical Chiseled Deepslate Slab");
@@ -517,6 +516,28 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_FENCE,"Vertical Warped Fence");
         translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_FENCE_GATE,"Vertical Warped Fence Gate");
         translationBuilder.add(ModBlocks.VERTICAL_WARPED_PLANK_VERTICAL_SLAB,"Vertical Warped Vertical Slab");
+
+        translationBuilder.add(ModBlocks.SEA_LANTERN_SLAB,"Sea Lantern Slab");
+        translationBuilder.add(ModBlocks.SEA_LANTERN_WALL,"Sea Lantern Wall");
+        translationBuilder.add(ModBlocks.SEA_LANTERN_STAIRS,"Sea Lantern Stairs");
+        translationBuilder.add(ModBlocks.SEA_LANTERN_FENCE,"Sea Lantern Fence");
+        translationBuilder.add(ModBlocks.SEA_LANTERN_VERTICAL_SLAB,"Vertical Sea Lantern Slab");
+
+        translationBuilder.add(ModBlocks.SMOOTH_SANDSTONE_WALL,"Smooth Sandstone Wall");
+        translationBuilder.add(ModBlocks.SMOOTH_SANDSTONE_FENCE,"Smooth Sandstone Fence");
+
+        translationBuilder.add(ModBlocks.SMOOTH_RED_SANDSTONE_WALL,"Smooth Red Sandstone Wall");
+        translationBuilder.add(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE,"Smooth Red Sandstone Fence");
+
+        translationBuilder.add(ModBlocks.PRISMARINE_FENCE,"Prismarine Fence");
+        translationBuilder.add(ModBlocks.PRISMARINE_VERTICAL_SLAB,"Vertical Prismarine Slab");
+
+
+        translationBuilder.add(ModBlocks.PRISMARINE_BRICKS_FENCE,"Prismarine Bricks Fence");
+        translationBuilder.add(ModBlocks.PRISMARINE_BRICKS_WALL,"Prismarine Bricks Wall");
+        translationBuilder.add(ModBlocks.PRISMARINE_BRICKS_VERTICAL_SLAB,"Vertical Prismarine Bricks Slab");
+
+
 
         translationBuilder.add(ModBlocks.SMOOTH_STONE_CHISELED,"Chiseled Smooth Stone");
         translationBuilder.add(ModBlocks.SMOOTH_STONE_CHISELED_SLAB,"Chiseled Smooth Stone Slab");

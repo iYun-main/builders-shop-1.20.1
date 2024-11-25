@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "buildersshop:diorite_tiles_cracked"
-  },
-  "result": "buildersshop:diorite_tiles_cracked_stairs"
-}

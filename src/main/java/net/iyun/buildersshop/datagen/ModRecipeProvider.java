@@ -418,7 +418,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CRACKED_STONE_BRICKS_WALL, Blocks.CRACKED_STONE_BRICKS);
 
         // Deepslate
-        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CHISELED_DEEPSLATE_WALL, Blocks.CHISELED_DEEPSLATE);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.DEEPSLATE_TILES_WALL, Blocks.DEEPSLATE_TILES);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CRACKED_DEEPSLATE_TILES_WALL, Blocks.CRACKED_DEEPSLATE_TILES);
 
@@ -571,15 +570,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.ANDESITE_BRICKS_MOSSY),conditionsFromItem(ModBlocks.ANDESITE_BRICKS_MOSSY_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANDESITE_BRICKS_MOSSY_STAIRS)));
 
-        createStairsRecipe(ModBlocks.GRANITE_BRICKS_SLAB, Ingredient.ofItems(ModBlocks.GRANITE_BRICKS))
+        createStairsRecipe(ModBlocks.GRANITE_BRICKS_STAIRS, Ingredient.ofItems(ModBlocks.GRANITE_BRICKS))
                 .criterion(hasItem(ModBlocks.GRANITE_BRICKS),conditionsFromItem(ModBlocks.GRANITE_BRICKS_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GRANITE_BRICKS_STAIRS)));
 
-        createStairsRecipe(ModBlocks.GRANITE_BRICKS_CRACKED_SLAB, Ingredient.ofItems(ModBlocks.GRANITE_BRICKS_CRACKED))
+        createStairsRecipe(ModBlocks.GRANITE_BRICKS_CRACKED_STAIRS, Ingredient.ofItems(ModBlocks.GRANITE_BRICKS_CRACKED))
                 .criterion(hasItem(ModBlocks.GRANITE_BRICKS_CRACKED),conditionsFromItem(ModBlocks.GRANITE_BRICKS_CRACKED_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GRANITE_BRICKS_CRACKED_STAIRS)));
 
-        createStairsRecipe(ModBlocks.GRANITE_BRICKS_MOSSY_SLAB, Ingredient.ofItems(ModBlocks.GRANITE_BRICKS_MOSSY))
+        createStairsRecipe(ModBlocks.GRANITE_BRICKS_MOSSY_STAIRS, Ingredient.ofItems(ModBlocks.GRANITE_BRICKS_MOSSY))
                 .criterion(hasItem(ModBlocks.GRANITE_BRICKS_MOSSY),conditionsFromItem(ModBlocks.GRANITE_BRICKS_MOSSY_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GRANITE_BRICKS_MOSSY_STAIRS)));
 
@@ -603,11 +602,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.COBSIDIAN_BRICKS),conditionsFromItem(ModBlocks.COBSIDIAN_BRICKS_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.COBSIDIAN_BRICKS_STAIRS)));
 
-        createStairsRecipe(ModBlocks.OBSIDIAN_BRICKS_CRACKED_SLAB, Ingredient.ofItems(ModBlocks.OBSIDIAN_BRICKS_CRACKED))
+        createStairsRecipe(ModBlocks.OBSIDIAN_BRICKS_CRACKED_STAIRS, Ingredient.ofItems(ModBlocks.OBSIDIAN_BRICKS_CRACKED))
                 .criterion(hasItem(ModBlocks.OBSIDIAN_BRICKS_CRACKED),conditionsFromItem(ModBlocks.OBSIDIAN_BRICKS_CRACKED_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.OBSIDIAN_BRICKS_CRACKED_STAIRS)));
 
-        createStairsRecipe(ModBlocks.OBSIDIAN_BRICKS_MOSSY_SLAB, Ingredient.ofItems(ModBlocks.OBSIDIAN_BRICKS_MOSSY))
+        createStairsRecipe(ModBlocks.OBSIDIAN_BRICKS_MOSSY_STAIRS, Ingredient.ofItems(ModBlocks.OBSIDIAN_BRICKS_MOSSY))
                 .criterion(hasItem(ModBlocks.OBSIDIAN_BRICKS_MOSSY),conditionsFromItem(ModBlocks.OBSIDIAN_BRICKS_MOSSY_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.OBSIDIAN_BRICKS_MOSSY_STAIRS)));
 
@@ -771,6 +770,50 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.SMOOTH_STONE_TILES_MOSSY),conditionsFromItem(ModBlocks.SMOOTH_STONE_TILES_MOSSY_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SMOOTH_STONE_TILES_MOSSY_STAIRS)));
 
+        createStairsRecipe(ModBlocks.VERTICAL_OAK_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_OAK_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_OAK_PLANK),conditionsFromItem(ModBlocks.VERTICAL_OAK_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_OAK_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_BIRCH_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_BIRCH_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_BIRCH_PLANK),conditionsFromItem(ModBlocks.VERTICAL_BIRCH_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_BIRCH_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_SPRUCE_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_SPRUCE_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_SPRUCE_PLANK),conditionsFromItem(ModBlocks.VERTICAL_SPRUCE_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_SPRUCE_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_JUNGLE_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_JUNGLE_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_JUNGLE_PLANK),conditionsFromItem(ModBlocks.VERTICAL_JUNGLE_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_JUNGLE_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_ACACIA_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_ACACIA_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_ACACIA_PLANK),conditionsFromItem(ModBlocks.VERTICAL_ACACIA_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_ACACIA_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_CHERRY_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_CHERRY_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_CHERRY_PLANK),conditionsFromItem(ModBlocks.VERTICAL_CHERRY_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_CHERRY_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_DARK_OAK_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_DARK_OAK_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_DARK_OAK_PLANK),conditionsFromItem(ModBlocks.VERTICAL_DARK_OAK_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_DARK_OAK_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_MANGROVE_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_MANGROVE_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_MANGROVE_PLANK),conditionsFromItem(ModBlocks.VERTICAL_MANGROVE_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_MANGROVE_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_BAMBOO_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_BAMBOO_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_BAMBOO_PLANK),conditionsFromItem(ModBlocks.VERTICAL_BAMBOO_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_BAMBOO_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_CRIMSON_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_CRIMSON_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_CRIMSON_PLANK),conditionsFromItem(ModBlocks.VERTICAL_CRIMSON_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_CRIMSON_PLANK_STAIRS)));
+
+        createStairsRecipe(ModBlocks.VERTICAL_WARPED_PLANK_STAIRS, Ingredient.ofItems(ModBlocks.VERTICAL_WARPED_PLANK))
+                .criterion(hasItem(ModBlocks.VERTICAL_WARPED_PLANK),conditionsFromItem(ModBlocks.VERTICAL_WARPED_PLANK_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.VERTICAL_WARPED_PLANK_STAIRS)));
+
         // Chiseled
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE, ModBlocks.ANDESITE_BRICKS_SLAB);
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE, ModBlocks.GRANITE_BRICKS_SLAB);
@@ -843,6 +886,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_CRIMSON_PLANK, Blocks.CRIMSON_PLANKS);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.VERTICAL_CHERRY_PLANK, Blocks.CHERRY_PLANKS);
 
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CDIRT_STAIRS, Blocks.COARSE_DIRT);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RDIRT_STAIRS, Blocks.ROOTED_DIRT);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_STAIRS, Blocks.SMOOTH_STONE);
+
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRT_SLAB, Blocks.DIRT,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRT_VERTICAL_SLAB, Blocks.DIRT,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIRT_STAIRS, Blocks.DIRT);
@@ -869,15 +916,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_COBBLESTONE_VERTICAL_SLAB, Blocks.MOSSY_COBBLESTONE,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_COBBLESTONE_FENCE, Blocks.MOSSY_COBBLESTONE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_BRICKS_FENCE, Blocks.STONE_BRICKS);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_BRICKS_VERTICAL_SLAB, Blocks.STONE_BRICKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_BRICKS_VERTICAL_SLAB, Blocks.STONE_BRICKS,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModItems.STONE_BRICK, Blocks.STONE,9);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModItems.STONE_BRICK, Blocks.COBBLESTONE,9);
 
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICKS_STAIRS, Blocks.STONE_BRICKS);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICKS_WALL, Blocks.STONE_BRICKS);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICKS_FENCE, Blocks.STONE_BRICKS);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICKS_SLAB, Blocks.STONE_BRICKS,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_STONE_BRICKS_VERTICAL_SLAB, Blocks.STONE_BRICKS,2);
+
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_STONE_BRICKS_FENCE, Blocks.MOSSY_STONE_BRICKS);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_STONE_BRICKS_VERTICAL_SLAB, Blocks.MOSSY_STONE_BRICKS,2);
 
@@ -891,9 +934,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE_VERTICAL_SLAB, ModBlocks.CHISELED_ANDESITE,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE_STAIRS, ModBlocks.CHISELED_ANDESITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE_SLAB, ModBlocks.CHISELED_ANDESITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_ANDESITE_SLAB, ModBlocks.CHISELED_CRACKED_ANDESITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_ANDESITE_VERTICAL_SLAB, ModBlocks.CHISELED_CRACKED_ANDESITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_ANDESITE_STAIRS, ModBlocks.CHISELED_CRACKED_ANDESITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE_MOSSY_SLAB, ModBlocks.CHISELED_ANDESITE_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE_MOSSY_VERTICAL_SLAB, ModBlocks.CHISELED_ANDESITE_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE_MOSSY_STAIRS, ModBlocks.CHISELED_ANDESITE_MOSSY);
@@ -920,10 +960,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_ANDESITE_SLAB, ModBlocks.TILES_MOSSY_ANDESITE,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_ANDESITE_WALL, ModBlocks.TILES_MOSSY_ANDESITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_ANDESITE_VERTICAL_SLAB, ModBlocks.TILES_MOSSY_ANDESITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_ANDESITE_SLAB, ModBlocks.TILES_CRACKED_ANDESITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_ANDESITE_VERTICAL_SLAB, ModBlocks.TILES_CRACKED_ANDESITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_ANDESITE_STAIRS, ModBlocks.TILES_CRACKED_ANDESITE);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_ANDESITE_WALL, ModBlocks.TILES_CRACKED_ANDESITE);
 
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE, Blocks.GRANITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_FENCE, Blocks.GRANITE);
@@ -933,9 +969,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE_VERTICAL_SLAB, ModBlocks.CHISELED_GRANITE,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE_STAIRS, ModBlocks.CHISELED_GRANITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE_SLAB, ModBlocks.CHISELED_GRANITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_GRANITE_SLAB, ModBlocks.CHISELED_CRACKED_GRANITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_GRANITE_VERTICAL_SLAB, ModBlocks.CHISELED_CRACKED_GRANITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_GRANITE_STAIRS, ModBlocks.CHISELED_CRACKED_GRANITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE_MOSSY_SLAB, ModBlocks.CHISELED_GRANITE_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE_MOSSY_VERTICAL_SLAB, ModBlocks.CHISELED_GRANITE_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE_MOSSY_STAIRS, ModBlocks.CHISELED_GRANITE_MOSSY);
@@ -962,10 +995,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_GRANITE_SLAB, ModBlocks.TILES_MOSSY_GRANITE,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_GRANITE_WALL, ModBlocks.TILES_MOSSY_GRANITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_GRANITE_VERTICAL_SLAB, ModBlocks.TILES_MOSSY_GRANITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_GRANITE_SLAB, ModBlocks.TILES_CRACKED_GRANITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_GRANITE_VERTICAL_SLAB, ModBlocks.TILES_CRACKED_GRANITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_GRANITE_STAIRS, ModBlocks.TILES_CRACKED_GRANITE);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_GRANITE_WALL, ModBlocks.TILES_CRACKED_GRANITE);
 
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_DIORITE, Blocks.DIORITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIORITE_FENCE, Blocks.DIORITE);
@@ -975,9 +1004,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_DIORITE_VERTICAL_SLAB, ModBlocks.CHISELED_DIORITE,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_DIORITE_STAIRS, ModBlocks.CHISELED_DIORITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_DIORITE_SLAB, ModBlocks.CHISELED_DIORITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_DIORITE_SLAB, ModBlocks.CHISELED_CRACKED_DIORITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_DIORITE_VERTICAL_SLAB, ModBlocks.CHISELED_CRACKED_DIORITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_DIORITE_STAIRS, ModBlocks.CHISELED_CRACKED_DIORITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_DIORITE_MOSSY_SLAB, ModBlocks.CHISELED_DIORITE_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_DIORITE_MOSSY_VERTICAL_SLAB, ModBlocks.CHISELED_DIORITE_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_DIORITE_MOSSY_STAIRS, ModBlocks.CHISELED_DIORITE_MOSSY);
@@ -1004,10 +1030,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_DIORITE_SLAB, ModBlocks.TILES_MOSSY_DIORITE,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_DIORITE_WALL, ModBlocks.TILES_MOSSY_DIORITE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_DIORITE_VERTICAL_SLAB, ModBlocks.TILES_MOSSY_DIORITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_DIORITE_SLAB, ModBlocks.TILES_CRACKED_DIORITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_DIORITE_VERTICAL_SLAB, ModBlocks.TILES_CRACKED_DIORITE,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_DIORITE_STAIRS, ModBlocks.TILES_CRACKED_DIORITE);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_DIORITE_WALL, ModBlocks.TILES_CRACKED_DIORITE);
 
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN, Blocks.OBSIDIAN);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN_STAIRS, Blocks.OBSIDIAN);
@@ -1016,9 +1038,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN_VERTICAL_SLAB, ModBlocks.CHISELED_OBSIDIAN,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN_STAIRS, ModBlocks.CHISELED_OBSIDIAN);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN_SLAB, ModBlocks.CHISELED_OBSIDIAN,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_OBSIDIAN_SLAB, ModBlocks.CHISELED_CRACKED_OBSIDIAN,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_OBSIDIAN_VERTICAL_SLAB, ModBlocks.CHISELED_CRACKED_OBSIDIAN,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_CRACKED_OBSIDIAN_STAIRS, ModBlocks.CHISELED_CRACKED_OBSIDIAN);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN_MOSSY_SLAB, ModBlocks.CHISELED_OBSIDIAN_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN_MOSSY_VERTICAL_SLAB, ModBlocks.CHISELED_OBSIDIAN_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN_MOSSY_STAIRS, ModBlocks.CHISELED_OBSIDIAN_MOSSY);
@@ -1045,11 +1064,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_OBSIDIAN_SLAB, ModBlocks.TILES_MOSSY_OBSIDIAN,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_OBSIDIAN_WALL, ModBlocks.TILES_MOSSY_OBSIDIAN);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB, ModBlocks.TILES_MOSSY_OBSIDIAN,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_OBSIDIAN_SLAB, ModBlocks.TILES_CRACKED_OBSIDIAN,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB, ModBlocks.TILES_CRACKED_OBSIDIAN,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_OBSIDIAN_STAIRS, ModBlocks.TILES_CRACKED_OBSIDIAN);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILES_CRACKED_OBSIDIAN_WALL, ModBlocks.TILES_CRACKED_OBSIDIAN);
-
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED, Blocks.SMOOTH_STONE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_STAIRS, Blocks.SMOOTH_STONE);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_SLAB, Blocks.SMOOTH_STONE,2);
@@ -1057,9 +1071,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_CHISELED,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_STAIRS, ModBlocks.SMOOTH_STONE_CHISELED);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_SLAB, ModBlocks.SMOOTH_STONE_CHISELED,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED_SLAB, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED_STAIRS, ModBlocks.SMOOTH_STONE_CHISELED_CRACKED);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY_SLAB, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY_STAIRS, ModBlocks.SMOOTH_STONE_CHISELED_MOSSY);
@@ -1086,10 +1097,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB, ModBlocks.SMOOTH_STONE_TILES_MOSSY,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_MOSSY_WALL, ModBlocks.SMOOTH_STONE_TILES_MOSSY);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_MOSSY_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_TILES_MOSSY,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_SLAB, ModBlocks.SMOOTH_STONE_TILES_CRACKED,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_VERTICAL_SLAB, ModBlocks.SMOOTH_STONE_TILES_CRACKED,2);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_STAIRS, ModBlocks.SMOOTH_STONE_TILES_CRACKED);
-        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_WALL, ModBlocks.SMOOTH_STONE_TILES_CRACKED);
     }
 
     private void verticalslab(ItemConvertible output, ItemConvertible itemConvertible, Consumer<RecipeJsonProvider> exporter) {

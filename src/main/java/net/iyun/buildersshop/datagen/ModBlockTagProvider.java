@@ -264,7 +264,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.OBSIDIAN_BRICKS_CRACKED_WALL)
                 .add(ModBlocks.OBSIDIAN_BRICKS_MOSSY_WALL)
                 .add(ModBlocks.CRACKED_STONE_BRICKS_WALL)
-                .add(ModBlocks.CHISELED_DEEPSLATE_WALL)
                 .add(ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL)
                 .add(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL)
                 .add(ModBlocks.DEEPSLATE_TILES_WALL)

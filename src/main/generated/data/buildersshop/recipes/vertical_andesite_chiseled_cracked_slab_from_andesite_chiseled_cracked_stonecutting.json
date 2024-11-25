@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "buildersshop:andesite_chiseled_cracked"
-  },
-  "result": "buildersshop:vertical_andesite_chiseled_cracked_slab"
-}

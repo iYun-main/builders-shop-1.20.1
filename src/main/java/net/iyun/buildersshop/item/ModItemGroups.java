@@ -407,7 +407,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COBBLED_DEEPSLATE_FENCE);
                         entries.add(ModBlocks.COBBLED_DEEPSLATE_VERTICAL_SLAB);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_VERTICAL_SLAB);
-                        entries.add(ModBlocks.CHISELED_DEEPSLATE_WALL);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_SLAB);
                         entries.add(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
                         entries.add(ModBlocks.POLISHED_DEEPSLATE_FENCE);
@@ -508,6 +507,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VERTICAL_WARPED_PLANK_VERTICAL_SLAB);
                         entries.add(ModBlocks.VERTICAL_WARPED_PLANK_FENCE);
                         entries.add(ModBlocks.VERTICAL_WARPED_PLANK_FENCE_GATE);
+                        entries.add(ModBlocks.SEA_LANTERN_SLAB);
+                        entries.add(ModBlocks.SEA_LANTERN_STAIRS);
+                        entries.add(ModBlocks.SEA_LANTERN_WALL);
+                        entries.add(ModBlocks.SEA_LANTERN_FENCE);
+                        entries.add(ModBlocks.SEA_LANTERN_VERTICAL_SLAB);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_FENCE);
+                        entries.add(ModBlocks.SMOOTH_SANDSTONE_WALL);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+                        entries.add(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
+                        entries.add(ModBlocks.PRISMARINE_FENCE);
+                        entries.add(ModBlocks.PRISMARINE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.PRISMARINE_BRICKS_FENCE);
+                        entries.add(ModBlocks.PRISMARINE_BRICKS_WALL);
+                        entries.add(ModBlocks.PRISMARINE_BRICKS_VERTICAL_SLAB);
                     }).build());
 
     public static void registerItemGroups() {

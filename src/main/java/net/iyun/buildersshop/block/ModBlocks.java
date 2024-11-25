@@ -382,7 +382,6 @@ public class ModBlocks {
     public static final Block COBBLED_DEEPSLATE_FENCE = registerBlock("cobbled_deepslate_fence", new FenceBlock(FabricBlockSettings.copyOf(COBBLED_DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_VERTICAL_SLAB = registerBlock("cobbled_deepslate_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(COBBLED_DEEPSLATE)));
 
-    public static final Block CHISELED_DEEPSLATE_WALL = registerBlock("chiseled_deepslate_wall", new WallBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
     public static final Block CHISELED_DEEPSLATE_SLAB = registerBlock("chiseled_deepslate_slab", new SlabBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
     public static final Block CHISELED_DEEPSLATE_STAIRS = registerBlock("chiseled_deepslate_stairs", new StairsBlock(Blocks.CHISELED_DEEPSLATE.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
     public static final Block CHISELED_DEEPSLATE_VERTICAL_SLAB = registerBlock("chiseled_deepslate_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_DEEPSLATE)));
@@ -607,6 +606,25 @@ public class ModBlocks {
     public static final Block SMOOTH_STONE_TILES_MOSSY_SLAB = registerBlock("smooth_stone_tiles_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
     public static final Block SMOOTH_STONE_TILES_MOSSY_STAIRS = registerBlock("smooth_stone_tiles_mossy_stairs", new StairsBlock(ModBlocks.SMOOTH_STONE_TILES_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_STONE)));
     public static final Block SMOOTH_STONE_TILES_MOSSY_VERTICAL_SLAB = registerBlock("smooth_stone_tiles_mossy_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_STONE)));
+
+    public static final Block SMOOTH_SANDSTONE_WALL = registerBlock("smooth_sandstone_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_SANDSTONE)));
+    public static final Block SMOOTH_SANDSTONE_FENCE = registerBlock("smooth_sandstone_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_SANDSTONE)));
+
+    public static final Block SMOOTH_RED_SANDSTONE_WALL = registerBlock("smooth_red_sandstone_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_RED_SANDSTONE)));
+    public static final Block SMOOTH_RED_SANDSTONE_FENCE = registerBlock("smooth_red_sandstone_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_RED_SANDSTONE)));
+
+    public static final Block SEA_LANTERN_SLAB = registerBlock("sea_lantern_slab", new SlabBlock(FabricBlockSettings.copyOf(SEA_LANTERN)));
+    public static final Block SEA_LANTERN_VERTICAL_SLAB = registerBlock("sea_lantern_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SEA_LANTERN)));
+    public static final Block SEA_LANTERN_WALL = registerBlock("sea_lantern_wall", new WallBlock(FabricBlockSettings.copyOf(SEA_LANTERN)));
+    public static final Block SEA_LANTERN_FENCE = registerBlock("sea_lantern_fence", new FenceBlock(FabricBlockSettings.copyOf(SEA_LANTERN)));
+    public static final Block SEA_LANTERN_STAIRS = registerBlock("sea_lantern_stairs", new StairsBlock(SEA_LANTERN.getDefaultState(),FabricBlockSettings.copyOf(SEA_LANTERN)));
+
+    public static final Block PRISMARINE_FENCE = registerBlock("prismarine_fence", new FenceBlock(FabricBlockSettings.copyOf(PRISMARINE)));
+    public static final Block PRISMARINE_VERTICAL_SLAB = registerBlock("prismarine_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PRISMARINE)));
+
+    public static final Block PRISMARINE_BRICKS_FENCE = registerBlock("prismarine_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(PRISMARINE_BRICKS)));
+    public static final Block PRISMARINE_BRICKS_WALL = registerBlock("prismarine_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(PRISMARINE_BRICKS)));
+    public static final Block PRISMARINE_BRICKS_VERTICAL_SLAB = registerBlock("prismarine_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PRISMARINE_BRICKS)));
 
 
     private static Block registerBlock(String name, Block block) {

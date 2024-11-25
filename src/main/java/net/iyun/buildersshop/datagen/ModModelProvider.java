@@ -165,8 +165,31 @@ public class ModModelProvider extends FabricModelProvider {
         // Bricks
         BlockStateModelGenerator.BlockTexturePool brickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
 
+        BlockStateModelGenerator.BlockTexturePool sealantpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SEA_LANTERN);
+        BlockStateModelGenerator.BlockTexturePool prismaticpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE);
+        BlockStateModelGenerator.BlockTexturePool prismbrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS);
 
+        BlockStateModelGenerator.BlockTexturePool ssandpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_SANDSTONE);
+        BlockStateModelGenerator.BlockTexturePool sredsandpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_RED_SANDSTONE);
 
+        prismbrickpool.fence(ModBlocks.PRISMARINE_BRICKS_FENCE);
+        prismbrickpool.wall(ModBlocks.PRISMARINE_BRICKS_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.PRISMARINE_BRICKS, ModBlocks.PRISMARINE_BRICKS_VERTICAL_SLAB);
+
+        prismaticpool.fence(ModBlocks.PRISMARINE_FENCE);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.PRISMARINE, ModBlocks.PRISMARINE_VERTICAL_SLAB);
+
+        sredsandpool.wall(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+        sredsandpool.fence(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
+
+        ssandpool.wall(ModBlocks.SMOOTH_SANDSTONE_WALL);
+        ssandpool.fence(ModBlocks.SMOOTH_SANDSTONE_FENCE);
+
+        sealantpool.slab(ModBlocks.SEA_LANTERN_SLAB);
+        sealantpool.fence(ModBlocks.SEA_LANTERN_FENCE);
+        sealantpool.wall(ModBlocks.SEA_LANTERN_WALL);
+        sealantpool.stairs(ModBlocks.SEA_LANTERN_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.SEA_LANTERN, ModBlocks.SEA_LANTERN_VERTICAL_SLAB);
 
         crimsonplank.slab(ModBlocks.VERTICAL_CRIMSON_PLANK_SLAB);
         crimsonplank.fence(ModBlocks.VERTICAL_CRIMSON_PLANK_FENCE);
@@ -413,7 +436,6 @@ public class ModModelProvider extends FabricModelProvider {
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.POLISHED_DEEPSLATE, ModBlocks.POLISHED_DEEPSLATE_VERTICAL_SLAB);
 
         chisleddeepslatepool.slab(ModBlocks.CHISELED_DEEPSLATE_SLAB);
-        chisleddeepslatepool.wall(ModBlocks.CHISELED_DEEPSLATE_WALL);
         chisleddeepslatepool.stairs(ModBlocks.CHISELED_DEEPSLATE_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator, Blocks.CHISELED_DEEPSLATE, ModBlocks.CHISELED_DEEPSLATE_VERTICAL_SLAB);
 

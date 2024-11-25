@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "buildersshop:obsidian_chiseled_cracked"
-  },
-  "result": "buildersshop:obsidian_chiseled_cracked_stairs"
-}

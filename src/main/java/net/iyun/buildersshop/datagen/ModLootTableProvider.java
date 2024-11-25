@@ -3,6 +3,7 @@ package net.iyun.buildersshop.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.iyun.buildersshop.block.ModBlocks;
+import net.minecraft.item.Items;
 
 import javax.sound.midi.MidiChannel;
 
@@ -157,7 +158,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_STONE_WALL);
         addDrop(ModBlocks.STONE_WALL);
         addDrop(ModBlocks.CRACKED_STONE_BRICKS_WALL);
-        addDrop(ModBlocks.CHISELED_DEEPSLATE_WALL);
         addDrop(ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL);
         addDrop(ModBlocks.CRACKED_DEEPSLATE_TILES_WALL);
         addDrop(ModBlocks.DEEPSLATE_TILES_WALL);
@@ -506,6 +506,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIORITE_BRICKS_CRACKED);
         addDrop(ModBlocks.DIORITE_BRICKS_MOSSY);
         addDrop(ModBlocks.DIORITE_BRICKS);
+
+
     }
 
 }
