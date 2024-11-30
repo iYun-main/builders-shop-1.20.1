@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:granite_tiles"
+  },
+  "result": "buildersshop:granite_tiles_slab"
+}
