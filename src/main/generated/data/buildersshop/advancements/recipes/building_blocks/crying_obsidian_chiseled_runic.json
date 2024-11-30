@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crying_obsidian_chiseled_runic_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:crying_obsidian_chiseled_runic_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "buildersshop:crying_obsidian_chiseled_runic"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crying_obsidian_chiseled_runic_slab",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "buildersshop:crying_obsidian_chiseled_runic"
+    ]
+  },
+  "sends_telemetry_event": false
+}

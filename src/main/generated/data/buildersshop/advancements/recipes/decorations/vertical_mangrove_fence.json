@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:vertical_mangrove_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vertical_mangrove_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:vertical_mangrove_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vertical_mangrove_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:vertical_mangrove_fence"
+    ]
+  },
+  "sends_telemetry_event": false
+}

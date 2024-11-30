@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "buildersshop:obsidian_tiles"
+    },
+    {
+      "tag": "buildersshop:moss"
+    }
+  ],
+  "result": {
+    "item": "buildersshop:obsidian_tiles_mossy"
+  }
+}

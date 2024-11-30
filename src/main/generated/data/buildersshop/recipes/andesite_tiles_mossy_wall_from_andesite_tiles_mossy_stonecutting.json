@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "buildersshop:andesite_tiles_mossy"
+  },
+  "result": "buildersshop:andesite_tiles_mossy_wall"
+}

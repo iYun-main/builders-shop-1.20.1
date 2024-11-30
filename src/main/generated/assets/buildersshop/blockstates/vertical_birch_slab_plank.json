@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/vertical_birch_slab_plank"
+    },
+    "type=double": {
+      "model": "buildersshop:block/vertical_birch_planks"
+    },
+    "type=top": {
+      "model": "buildersshop:block/vertical_birch_slab_plank_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/cracked_stone_bricks_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/cracked_stone_bricks"
+    },
+    "type=top": {
+      "model": "buildersshop:block/cracked_stone_bricks_slab_top"
+    }
+  }
+}

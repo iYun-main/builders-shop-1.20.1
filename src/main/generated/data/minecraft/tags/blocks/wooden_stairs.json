@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "buildersshop:vertical_birch_stairs",
+    "buildersshop:vertical_spruce_stairs",
+    "buildersshop:vertical_jungle_stairs",
+    "buildersshop:vertical_acacia_stairs",
+    "buildersshop:vertical_cherry_stairs",
+    "buildersshop:vertical_dark_oak_stairs",
+    "buildersshop:vertical_mangrove_stairs",
+    "buildersshop:vertical_bamboo_stairs",
+    "buildersshop:vertical_crimson_stairs",
+    "buildersshop:vertical_warped_stairs",
+    "buildersshop:vertical_oak_stairs"
+  ]
+}

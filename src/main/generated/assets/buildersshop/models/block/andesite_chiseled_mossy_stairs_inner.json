@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "buildersshop:block/andesite_chiseled_mossy",
+    "side": "buildersshop:block/andesite_chiseled_mossy",
+    "top": "buildersshop:block/andesite_chiseled_mossy"
+  }
+}

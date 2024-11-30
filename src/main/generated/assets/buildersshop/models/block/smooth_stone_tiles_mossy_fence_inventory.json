@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "buildersshop:block/smooth_stone_tiles_mossy"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/rooted_dirt_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/rooted_dirt"
+    },
+    "type=front": {
+      "model": "buildersshop:block/rooted_dirt_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/rooted_dirt_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/rooted_dirt_vertical_slab_right"
+    }
+  }
+}

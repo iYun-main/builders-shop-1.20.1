@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "buildersshop:andesite_bricks"
+  },
+  "result": "buildersshop:andesite_bricks_stairs"
+}
