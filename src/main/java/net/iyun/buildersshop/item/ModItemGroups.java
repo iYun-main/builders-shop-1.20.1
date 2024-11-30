@@ -15,7 +15,6 @@ public class ModItemGroups {
             new Identifier(BuildersShop.MOD_ID, "aashop"),
             FabricItemGroup.builder().displayName(Text.literal("Builders Shop"))
                     .icon(() -> new ItemStack(ModBlocks.DIRT_SLAB)).entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.PLACE);
                         entries.add(ModBlocks.DIRT_SLAB);
                         entries.add(ModBlocks.DIRT_WALL);
                         entries.add(ModBlocks.DIRT_FENCE);
@@ -521,6 +520,45 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PRISMARINE_BRICKS_FENCE);
                         entries.add(ModBlocks.PRISMARINE_BRICKS_WALL);
                         entries.add(ModBlocks.PRISMARINE_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.DARK_PRISMARINE_FENCE);
+                        entries.add(ModBlocks.DARK_PRISMARINE_WALL);
+                        entries.add(ModBlocks.DARK_PRISMARINE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.NETHERRACK_SLAB);
+                        entries.add(ModBlocks.NETHERRACK_STAIRS);
+                        entries.add(ModBlocks.NETHERRACK_FENCE);
+                        entries.add(ModBlocks.NETHERRACK_WALL);
+                        entries.add(ModBlocks.NETHERRACK_VERTICAL_SLAB);
+                        entries.add(ModBlocks.NETHER_BRICK_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_SLAB);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_STAIRS);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_WALL);
+                        entries.add(ModBlocks.CRACKED_NETHER_BRICK_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CHISELED_NETHER_BRICK_SLAB);
+                        entries.add(ModBlocks.CHISELED_NETHER_BRICK_STAIRS);
+                        entries.add(ModBlocks.CHISELED_NETHER_BRICK_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS);
+                        entries.add(ModBlocks.CALCITE_BRICKS_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.CALCITE_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS_WALL);
+                        entries.add(ModBlocks.CALCITE_BRICKS_FENCE);
+                        entries.add(ModBlocks.CALCITE_TILES);
+                        entries.add(ModBlocks.CALCITE_TILES_SLAB);
+                        entries.add(ModBlocks.CALCITE_TILES_STAIRS);
+                        entries.add(ModBlocks.CALCITE_TILES_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_TILES_WALL);
+                        entries.add(ModBlocks.CALCITE_TILES_FENCE);
+                        entries.add(ModBlocks.CHISELED_CALCITE);
+                        entries.add(ModBlocks.CHISELED_CALCITE_SLAB);
+                        entries.add(ModBlocks.CHISELED_CALCITE_STAIRS);
+                        entries.add(ModBlocks.CHISELED_CALCITE_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS_CRACKED);
+                        entries.add(ModBlocks.CALCITE_BRICKS_CRACKED_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS_CRACKED_STAIRS);
+                        entries.add(ModBlocks.CALCITE_BRICKS_CRACKED_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS_CRACKED_WALL);
+                        entries.add(ModBlocks.CALCITE_BRICKS_CRACKED_FENCE);
                     }).build());
 
     public static void registerItemGroups() {

@@ -14,7 +14,6 @@ import net.minecraft.util.Identifier;
 import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
-    public static final Block PLACE = registerBlock("placeholder", new Block(FabricBlockSettings.copyOf(DIRT)));
 
     public static final Block OAK_VERTICAL_SLAB = registerBlock("vertical_oak_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
     public static final Block SPRUCE_VERTICAL_SLAB = registerBlock("vertical_spruce_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
@@ -626,6 +625,53 @@ public class ModBlocks {
     public static final Block PRISMARINE_BRICKS_WALL = registerBlock("prismarine_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(PRISMARINE_BRICKS)));
     public static final Block PRISMARINE_BRICKS_VERTICAL_SLAB = registerBlock("prismarine_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PRISMARINE_BRICKS)));
 
+    public static final Block DARK_PRISMARINE_WALL = registerBlock("dark_prismarine_wall", new WallBlock(FabricBlockSettings.copyOf(DARK_PRISMARINE)));
+    public static final Block DARK_PRISMARINE_FENCE = registerBlock("dark_prismarine_fence", new FenceBlock(FabricBlockSettings.copyOf(DARK_PRISMARINE)));
+    public static final Block DARK_PRISMARINE_VERTICAL_SLAB = registerBlock("dark_prismarine_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_PRISMARINE)));
+
+    public static final Block NETHERRACK_SLAB = registerBlock("netherrack_slab", new SlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block NETHERRACK_VERTICAL_SLAB = registerBlock("netherrack_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block NETHERRACK_WALL = registerBlock("netherrack_wall", new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block NETHERRACK_FENCE = registerBlock("netherrack_fence", new FenceBlock(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block NETHERRACK_STAIRS = registerBlock("netherrack_stairs", new StairsBlock(NETHERRACK.getDefaultState(),FabricBlockSettings.copyOf(NETHERRACK)));
+
+    public static final Block NETHER_BRICK_VERTICAL_SLAB = registerBlock("nether_brick_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(NETHER_BRICKS)));
+
+    public static final Block CRACKED_NETHER_BRICK_VERTICAL_SLAB = registerBlock("cracked_nether_brick_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRACKED_NETHER_BRICKS)));
+    public static final Block CRACKED_NETHER_BRICK_STAIRS = registerBlock("cracked_nether_brick_stairs", new StairsBlock(CRACKED_NETHER_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CRACKED_NETHER_BRICKS)));
+    public static final Block CRACKED_NETHER_BRICK_SLAB = registerBlock("cracked_nether_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(CRACKED_NETHER_BRICKS)));
+    public static final Block CRACKED_NETHER_BRICK_FENCE = registerBlock("cracked_nether_brick_fence", new FenceBlock(FabricBlockSettings.copyOf(CRACKED_NETHER_BRICKS)));
+    public static final Block CRACKED_NETHER_BRICK_WALL = registerBlock("cracked_nether_brick_wall", new WallBlock(FabricBlockSettings.copyOf(CRACKED_NETHER_BRICKS)));
+
+    public static final Block CHISELED_NETHER_BRICK_SLAB = registerBlock("chiseled_nether_brick_slab", new SlabBlock(FabricBlockSettings.copyOf(CHISELED_NETHER_BRICKS)));
+    public static final Block CHISELED_NETHER_BRICK_VERTICAL_SLAB = registerBlock("chiseled_nether_brick_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_NETHER_BRICKS)));
+    public static final Block CHISELED_NETHER_BRICK_STAIRS = registerBlock("chiseled_nether_brick_stairs", new StairsBlock(CHISELED_NETHER_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_NETHER_BRICKS)));
+
+    public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_SLAB = registerBlock("calcite_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_VERTICAL_SLAB = registerBlock("calcite_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_STAIRS = registerBlock("calcite_bricks_stairs", new StairsBlock(ModBlocks.CALCITE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_WALL = registerBlock("calcite_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_FENCE = registerBlock("calcite_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(CALCITE)));
+
+    public static final Block CALCITE_TILES  = registerBlock("calcite_tiles", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_SLAB = registerBlock("calcite_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_VERTICAL_SLAB = registerBlock("calcite_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_STAIRS = registerBlock("calcite_tiles_stairs", new StairsBlock(ModBlocks.CALCITE_TILES.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_WALL = registerBlock("calcite_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_FENCE = registerBlock("calcite_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(CALCITE)));
+
+    public static final Block CHISELED_CALCITE = registerBlock("chiseled_calcite", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_SLAB = registerBlock("chiseled_calcite_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_VERTICAL_SLAB = registerBlock("chiseled_calcite_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_STAIRS = registerBlock("chiseled_calcite_stairs", new StairsBlock(CHISELED_CALCITE.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+
+    public static final Block CALCITE_BRICKS_CRACKED = registerBlock("cracked_calcite_bricks", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_CRACKED_SLAB = registerBlock("cracked_calcite_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_CRACKED_VERTICAL_SLAB = registerBlock("cracked_calcite_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_CRACKED_STAIRS = registerBlock("cracked_calcite_bricks_stairs", new StairsBlock(ModBlocks.CALCITE_BRICKS_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_CRACKED_WALL = registerBlock("cracked_calcite_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_CRACKED_FENCE = registerBlock("cracked_calcite_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(CALCITE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

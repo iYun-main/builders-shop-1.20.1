@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/nether_brick_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/nether_bricks"
+    },
+    "type=front": {
+      "model": "buildersshop:block/nether_brick_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/nether_brick_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/nether_brick_vertical_slab_right"
+    }
+  }
+}

@@ -12,7 +12,6 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
-        translationBuilder.add(ModBlocks.PLACE,"Placeholder");
 
         translationBuilder.add(ModBlocks.DIRT_WALL,"Dirt Wall");
         translationBuilder.add(ModBlocks.DIRT_FENCE,"Dirt Fence");
@@ -537,6 +536,9 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PRISMARINE_BRICKS_WALL,"Prismarine Bricks Wall");
         translationBuilder.add(ModBlocks.PRISMARINE_BRICKS_VERTICAL_SLAB,"Vertical Prismarine Bricks Slab");
 
+        translationBuilder.add(ModBlocks.DARK_PRISMARINE_WALL,"Dark Prismarine Wall");
+        translationBuilder.add(ModBlocks.DARK_PRISMARINE_FENCE,"Dark Prismarine Fence");
+        translationBuilder.add(ModBlocks.DARK_PRISMARINE_VERTICAL_SLAB,"Vertical Dark Prismarine Slab");
 
 
         translationBuilder.add(ModBlocks.SMOOTH_STONE_CHISELED,"Chiseled Smooth Stone");

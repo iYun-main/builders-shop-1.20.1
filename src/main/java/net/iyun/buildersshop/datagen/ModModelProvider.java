@@ -165,12 +165,67 @@ public class ModModelProvider extends FabricModelProvider {
         // Bricks
         BlockStateModelGenerator.BlockTexturePool brickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
 
+       // Calcite
+        BlockStateModelGenerator.BlockTexturePool calcitebrickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALCITE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool calcitebrickcracspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALCITE_BRICKS_CRACKED);
+        BlockStateModelGenerator.BlockTexturePool calcitetilespool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALCITE_TILES);
+        BlockStateModelGenerator.BlockTexturePool calcitechiselspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_CALCITE);
+
         BlockStateModelGenerator.BlockTexturePool sealantpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SEA_LANTERN);
         BlockStateModelGenerator.BlockTexturePool prismaticpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE);
         BlockStateModelGenerator.BlockTexturePool prismbrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool darkprism = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DARK_PRISMARINE);
 
         BlockStateModelGenerator.BlockTexturePool ssandpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_SANDSTONE);
         BlockStateModelGenerator.BlockTexturePool sredsandpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_RED_SANDSTONE);
+
+        BlockStateModelGenerator.BlockTexturePool netherrackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
+        BlockStateModelGenerator.BlockTexturePool cracknetherpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_NETHER_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool chiselnetherpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_NETHER_BRICKS);
+
+        calcitechiselspool.slab(ModBlocks.CHISELED_CALCITE_SLAB);
+        calcitechiselspool.stairs(ModBlocks.CHISELED_CALCITE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_CALCITE, ModBlocks.CHISELED_CALCITE_VERTICAL_SLAB);
+
+        chiselnetherpool.slab(ModBlocks.CHISELED_NETHER_BRICK_SLAB);
+        chiselnetherpool.stairs(ModBlocks.CHISELED_NETHER_BRICK_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.CHISELED_NETHER_BRICKS, ModBlocks.CHISELED_NETHER_BRICK_VERTICAL_SLAB);
+
+        calcitetilespool.wall(ModBlocks.CALCITE_TILES_WALL);
+        calcitetilespool.fence(ModBlocks.CALCITE_TILES_FENCE);
+        calcitetilespool.stairs(ModBlocks.CALCITE_TILES_STAIRS);
+        calcitetilespool.slab(ModBlocks.CALCITE_TILES_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CALCITE_TILES, ModBlocks.CALCITE_TILES_VERTICAL_SLAB);
+
+        calcitebrickcracspool.wall(ModBlocks.CALCITE_BRICKS_CRACKED_WALL);
+        calcitebrickcracspool.fence(ModBlocks.CALCITE_BRICKS_CRACKED_FENCE);
+        calcitebrickcracspool.stairs(ModBlocks.CALCITE_BRICKS_CRACKED_STAIRS);
+        calcitebrickcracspool.slab(ModBlocks.CALCITE_BRICKS_CRACKED_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CALCITE_BRICKS_CRACKED, ModBlocks.CALCITE_BRICKS_CRACKED_VERTICAL_SLAB);
+
+        calcitebrickspool.wall(ModBlocks.CALCITE_BRICKS_WALL);
+        calcitebrickspool.fence(ModBlocks.CALCITE_BRICKS_FENCE);
+        calcitebrickspool.stairs(ModBlocks.CALCITE_BRICKS_STAIRS);
+        calcitebrickspool.slab(ModBlocks.CALCITE_BRICKS_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CALCITE_BRICKS, ModBlocks.CALCITE_BRICKS_VERTICAL_SLAB);
+
+        cracknetherpool.wall(ModBlocks.CRACKED_NETHER_BRICK_WALL);
+        cracknetherpool.fence(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
+        cracknetherpool.stairs(ModBlocks.CRACKED_NETHER_BRICK_STAIRS);
+        cracknetherpool.slab(ModBlocks.CRACKED_NETHER_BRICK_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.CRACKED_NETHER_BRICKS, ModBlocks.CRACKED_NETHER_BRICK_VERTICAL_SLAB);
+
+        netherrackpool.wall(ModBlocks.NETHERRACK_WALL);
+        netherrackpool.fence(ModBlocks.NETHERRACK_FENCE);
+        netherrackpool.stairs(ModBlocks.NETHERRACK_STAIRS);
+        netherrackpool.slab(ModBlocks.NETHERRACK_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.NETHERRACK, ModBlocks.NETHERRACK_VERTICAL_SLAB);
+
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.NETHER_BRICKS, ModBlocks.NETHER_BRICK_VERTICAL_SLAB);
+
+        darkprism.fence(ModBlocks.DARK_PRISMARINE_FENCE);
+        darkprism.wall(ModBlocks.DARK_PRISMARINE_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.DARK_PRISMARINE, ModBlocks.DARK_PRISMARINE_VERTICAL_SLAB);
 
         prismbrickpool.fence(ModBlocks.PRISMARINE_BRICKS_FENCE);
         prismbrickpool.wall(ModBlocks.PRISMARINE_BRICKS_WALL);
