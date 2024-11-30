@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab",
-  "textures": {
-    "bottom": "buildersshop:block/diorite_bricks_mossy",
-    "side": "buildersshop:block/diorite_bricks_mossy",
-    "top": "buildersshop:block/diorite_bricks_mossy"
-  }
-}

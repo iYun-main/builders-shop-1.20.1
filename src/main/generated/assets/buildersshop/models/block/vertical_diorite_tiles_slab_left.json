@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab_left",
-  "textures": {
-    "bottom": "buildersshop:block/diorite_tiles",
-    "side": "buildersshop:block/diorite_tiles",
-    "top": "buildersshop:block/diorite_tiles"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab_back",
-  "textures": {
-    "bottom": "buildersshop:block/obsidian_bricks_crying",
-    "side": "buildersshop:block/obsidian_bricks_crying",
-    "top": "buildersshop:block/obsidian_bricks_crying"
-  }
-}

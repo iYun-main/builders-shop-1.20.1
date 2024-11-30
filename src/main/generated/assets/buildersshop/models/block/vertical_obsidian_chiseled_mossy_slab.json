@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab",
-  "textures": {
-    "bottom": "buildersshop:block/obsidian_chiseled_mossy",
-    "side": "buildersshop:block/obsidian_chiseled_mossy",
-    "top": "buildersshop:block/obsidian_chiseled_mossy"
-  }
-}

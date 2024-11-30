@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "buildersshop:block/obsidian_bricks",
-    "side": "buildersshop:block/obsidian_bricks",
-    "top": "buildersshop:block/obsidian_bricks"
-  }
-}

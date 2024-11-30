@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "buildersshop:obsidian_chiseled"
-  },
-  "result": "buildersshop:vertical_obsidian_chiseled_slab"
-}

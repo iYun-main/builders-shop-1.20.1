@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "buildersshop:block/obsidian_tiles_mossy",
-    "side": "buildersshop:block/obsidian_tiles_mossy",
-    "top": "buildersshop:block/obsidian_tiles_mossy"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "buildersshop:block/andesite_tiles",
-    "side": "buildersshop:block/andesite_tiles",
-    "top": "buildersshop:block/andesite_tiles"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "buildersshop:block/vertical_bamboo_planks",
-    "side": "buildersshop:block/vertical_bamboo_planks",
-    "top": "buildersshop:block/vertical_bamboo_planks"
-  }
-}
