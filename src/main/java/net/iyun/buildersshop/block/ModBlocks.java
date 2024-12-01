@@ -666,12 +666,44 @@ public class ModBlocks {
     public static final Block CHISELED_CALCITE_VERTICAL_SLAB = registerBlock("chiseled_calcite_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
     public static final Block CHISELED_CALCITE_STAIRS = registerBlock("chiseled_calcite_stairs", new StairsBlock(CHISELED_CALCITE.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
 
+    public static final Block CHISELED_CALCITE_CRACKED = registerBlock("cracked_chiseled_calcite", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_CRACKED_SLAB = registerBlock("cracked_chiseled_calcite_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_CRACKED_VERTICAL_SLAB = registerBlock("cracked_chiseled_calcite_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_CRACKED_STAIRS = registerBlock("cracked_chiseled_calcite_stairs", new StairsBlock(CHISELED_CALCITE_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+
+    public static final Block CHISELED_CALCITE_MOSSY = registerBlock("mossy_chiseled_calcite", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_MOSSY_SLAB = registerBlock("mossy_chiseled_calcite_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_MOSSY_VERTICAL_SLAB = registerBlock("mossy_chiseled_calcite_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CHISELED_CALCITE_MOSSY_STAIRS = registerBlock("mossy_chiseled_calcite_stairs", new StairsBlock(CHISELED_CALCITE_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+
     public static final Block CALCITE_BRICKS_CRACKED = registerBlock("cracked_calcite_bricks", new Block(FabricBlockSettings.copyOf(CALCITE)));
     public static final Block CALCITE_BRICKS_CRACKED_SLAB = registerBlock("cracked_calcite_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
     public static final Block CALCITE_BRICKS_CRACKED_VERTICAL_SLAB = registerBlock("cracked_calcite_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
     public static final Block CALCITE_BRICKS_CRACKED_STAIRS = registerBlock("cracked_calcite_bricks_stairs", new StairsBlock(ModBlocks.CALCITE_BRICKS_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
     public static final Block CALCITE_BRICKS_CRACKED_WALL = registerBlock("cracked_calcite_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CALCITE)));
     public static final Block CALCITE_BRICKS_CRACKED_FENCE = registerBlock("cracked_calcite_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(CALCITE)));
+
+    public static final Block CALCITE_TILES_CRACKED = registerBlock("cracked_calcite_tiles", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_CRACKED_SLAB = registerBlock("cracked_calcite_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_CRACKED_VERTICAL_SLAB = registerBlock("cracked_calcite_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_CRACKED_STAIRS = registerBlock("cracked_calcite_tiles_stairs", new StairsBlock(ModBlocks.CALCITE_TILES_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_CRACKED_WALL = registerBlock("cracked_calcite_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_CRACKED_FENCE = registerBlock("cracked_calcite_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(CALCITE)));
+
+    public static final Block CALCITE_BRICKS_MOSSY = registerBlock("mossy_calcite_bricks", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_MOSSY_SLAB = registerBlock("mossy_calcite_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_MOSSY_VERTICAL_SLAB = registerBlock("mossy_calcite_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_MOSSY_STAIRS = registerBlock("mossy_calcite_bricks_stairs", new StairsBlock(ModBlocks.CALCITE_BRICKS_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_MOSSY_WALL = registerBlock("mossy_calcite_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_BRICKS_MOSSY_FENCE = registerBlock("mossy_calcite_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(CALCITE)));
+
+    public static final Block CALCITE_TILES_MOSSY = registerBlock("mossy_calcite_tiles", new Block(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_MOSSY_SLAB = registerBlock("mossy_calcite_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_MOSSY_VERTICAL_SLAB = registerBlock("mossy_calcite_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_MOSSY_STAIRS = registerBlock("mossy_calcite_tiles_stairs", new StairsBlock(ModBlocks.CALCITE_TILES_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_MOSSY_WALL = registerBlock("mossy_calcite_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(CALCITE)));
+    public static final Block CALCITE_TILES_MOSSY_FENCE = registerBlock("mossy_calcite_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(CALCITE)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

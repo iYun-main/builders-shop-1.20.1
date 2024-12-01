@@ -559,6 +559,32 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CALCITE_BRICKS_CRACKED_VERTICAL_SLAB);
                         entries.add(ModBlocks.CALCITE_BRICKS_CRACKED_WALL);
                         entries.add(ModBlocks.CALCITE_BRICKS_CRACKED_FENCE);
+                        entries.add(ModBlocks.CALCITE_TILES_CRACKED);
+                        entries.add(ModBlocks.CALCITE_TILES_CRACKED_SLAB);
+                        entries.add(ModBlocks.CALCITE_TILES_CRACKED_STAIRS);
+                        entries.add(ModBlocks.CALCITE_TILES_CRACKED_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_TILES_CRACKED_WALL);
+                        entries.add(ModBlocks.CALCITE_TILES_CRACKED_FENCE);
+                        entries.add(ModBlocks.CHISELED_CALCITE_CRACKED);
+                        entries.add(ModBlocks.CHISELED_CALCITE_CRACKED_SLAB);
+                        entries.add(ModBlocks.CHISELED_CALCITE_CRACKED_STAIRS);
+                        entries.add(ModBlocks.CHISELED_CALCITE_CRACKED_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS_MOSSY);
+                        entries.add(ModBlocks.CALCITE_BRICKS_MOSSY_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS_MOSSY_STAIRS);
+                        entries.add(ModBlocks.CALCITE_BRICKS_MOSSY_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICKS_MOSSY_WALL);
+                        entries.add(ModBlocks.CALCITE_BRICKS_MOSSY_FENCE);
+                        entries.add(ModBlocks.CALCITE_TILES_MOSSY);
+                        entries.add(ModBlocks.CALCITE_TILES_MOSSY_SLAB);
+                        entries.add(ModBlocks.CALCITE_TILES_MOSSY_STAIRS);
+                        entries.add(ModBlocks.CALCITE_TILES_MOSSY_VERTICAL_SLAB);
+                        entries.add(ModBlocks.CALCITE_TILES_MOSSY_WALL);
+                        entries.add(ModBlocks.CALCITE_TILES_MOSSY_FENCE);
+                        entries.add(ModBlocks.CHISELED_CALCITE_MOSSY);
+                        entries.add(ModBlocks.CHISELED_CALCITE_MOSSY_SLAB);
+                        entries.add(ModBlocks.CHISELED_CALCITE_MOSSY_STAIRS);
+                        entries.add(ModBlocks.CHISELED_CALCITE_MOSSY_VERTICAL_SLAB);
                     }).build());
 
     public static void registerItemGroups() {
