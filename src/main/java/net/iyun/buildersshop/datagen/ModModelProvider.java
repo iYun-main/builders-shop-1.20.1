@@ -176,6 +176,18 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool calcitechiselcrackspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_CALCITE_CRACKED);
         BlockStateModelGenerator.BlockTexturePool calcitechiselmossspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_CALCITE_MOSSY);
 
+
+        BlockStateModelGenerator.BlockTexturePool tuffbrickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TUFF_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool tuffbrickcracspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TUFF_BRICKS_CRACKED);
+        BlockStateModelGenerator.BlockTexturePool tufftilesmossyspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TUFF_TILES_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool tufftilespool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TUFF_TILES);
+        BlockStateModelGenerator.BlockTexturePool tufftilescrackedpool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TUFF_TILES_CRACKED);
+        BlockStateModelGenerator.BlockTexturePool tuffbrickmossydpool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TUFF_BRICKS_MOSSY);
+        BlockStateModelGenerator.BlockTexturePool tuffchiselspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_TUFF);
+        BlockStateModelGenerator.BlockTexturePool tuffchiselcrackspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_TUFF_CRACKED);
+        BlockStateModelGenerator.BlockTexturePool tuffchiselmossspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHISELED_TUFF_MOSSY);
+
+
         BlockStateModelGenerator.BlockTexturePool sealantpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SEA_LANTERN);
         BlockStateModelGenerator.BlockTexturePool prismaticpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE);
         BlockStateModelGenerator.BlockTexturePool prismbrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS);
@@ -187,6 +199,55 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool netherrackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
         BlockStateModelGenerator.BlockTexturePool cracknetherpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool chiselnetherpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_NETHER_BRICKS);
+
+
+        tuffchiselmossspool.slab(ModBlocks.CHISELED_TUFF_MOSSY_SLAB);
+        tuffchiselmossspool.stairs(ModBlocks.CHISELED_TUFF_MOSSY_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_TUFF_MOSSY, ModBlocks.CHISELED_TUFF_MOSSY_VERTICAL_SLAB);
+
+        tuffchiselspool.slab(ModBlocks.CHISELED_TUFF_CRACKED_SLAB);
+        tuffchiselspool.stairs(ModBlocks.CHISELED_TUFF_CRACKED_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_TUFF_CRACKED, ModBlocks.CHISELED_TUFF_CRACKED_VERTICAL_SLAB);
+
+        tuffchiselcrackspool.slab(ModBlocks.CHISELED_TUFF_SLAB);
+        tuffchiselcrackspool.stairs(ModBlocks.CHISELED_TUFF_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_TUFF, ModBlocks.CHISELED_TUFF_VERTICAL_SLAB);
+
+        tufftilespool.wall(ModBlocks.TUFF_TILES_WALL);
+        tufftilespool.fence(ModBlocks.TUFF_TILES_FENCE);
+        tufftilespool.stairs(ModBlocks.TUFF_TILES_STAIRS);
+        tufftilespool.slab(ModBlocks.TUFF_TILES_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.TUFF_TILES, ModBlocks.TUFF_TILES_VERTICAL_SLAB);
+
+        tufftilescrackedpool.wall(ModBlocks.TUFF_TILES_CRACKED_WALL);
+        tufftilescrackedpool.fence(ModBlocks.TUFF_TILES_CRACKED_FENCE);
+        tufftilescrackedpool.stairs(ModBlocks.TUFF_TILES_CRACKED_STAIRS);
+        tufftilescrackedpool.slab(ModBlocks.TUFF_TILES_CRACKED_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.TUFF_TILES_CRACKED, ModBlocks.TUFF_TILES_CRACKED_VERTICAL_SLAB);
+
+        tuffbrickmossydpool.wall(ModBlocks.TUFF_BRICKS_MOSSY_WALL);
+        tuffbrickmossydpool.fence(ModBlocks.TUFF_BRICKS_MOSSY_FENCE);
+        tuffbrickmossydpool.stairs(ModBlocks.TUFF_BRICKS_MOSSY_STAIRS);
+        tuffbrickmossydpool.slab(ModBlocks.TUFF_BRICKS_MOSSY_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.TUFF_BRICKS_MOSSY, ModBlocks.TUFF_BRICKS_MOSSY_VERTICAL_SLAB);
+
+        tufftilesmossyspool.wall(ModBlocks.TUFF_TILES_MOSSY_WALL);
+        tufftilesmossyspool.fence(ModBlocks.TUFF_TILES_MOSSY_FENCE);
+        tufftilesmossyspool.stairs(ModBlocks.TUFF_TILES_MOSSY_STAIRS);
+        tufftilesmossyspool.slab(ModBlocks.TUFF_TILES_MOSSY_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.TUFF_TILES_MOSSY, ModBlocks.TUFF_TILES_MOSSY_VERTICAL_SLAB);
+
+        tuffbrickcracspool.wall(ModBlocks.TUFF_BRICKS_CRACKED_WALL);
+        tuffbrickcracspool.fence(ModBlocks.TUFF_BRICKS_CRACKED_FENCE);
+        tuffbrickcracspool.stairs(ModBlocks.TUFF_BRICKS_CRACKED_STAIRS);
+        tuffbrickcracspool.slab(ModBlocks.TUFF_BRICKS_CRACKED_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.TUFF_BRICKS_CRACKED, ModBlocks.TUFF_BRICKS_CRACKED_VERTICAL_SLAB);
+
+        tuffbrickspool.wall(ModBlocks.TUFF_BRICKS_WALL);
+        tuffbrickspool.fence(ModBlocks.TUFF_BRICKS_FENCE);
+        tuffbrickspool.stairs(ModBlocks.TUFF_BRICKS_STAIRS);
+        tuffbrickspool.slab(ModBlocks.TUFF_BRICKS_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.TUFF_BRICKS, ModBlocks.TUFF_BRICKS_VERTICAL_SLAB);
 
         calcitechiselmossspool.slab(ModBlocks.CHISELED_CALCITE_MOSSY_SLAB);
         calcitechiselmossspool.stairs(ModBlocks.CHISELED_CALCITE_MOSSY_STAIRS);

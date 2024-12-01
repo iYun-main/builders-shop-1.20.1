@@ -704,6 +704,63 @@ public class ModBlocks {
     public static final Block CALCITE_TILES_MOSSY_WALL = registerBlock("mossy_calcite_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(CALCITE)));
     public static final Block CALCITE_TILES_MOSSY_FENCE = registerBlock("mossy_calcite_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(CALCITE)));
 
+    public static final Block TUFF_BRICKS = registerBlock("tuff_bricks", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_SLAB = registerBlock("tuff_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_VERTICAL_SLAB = registerBlock("tuff_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_STAIRS = registerBlock("tuff_bricks_stairs", new StairsBlock(ModBlocks.TUFF_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_WALL = registerBlock("tuff_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_FENCE = registerBlock("tuff_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(TUFF)));
+
+    public static final Block TUFF_TILES  = registerBlock("tuff_tiles", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_SLAB = registerBlock("tuff_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_VERTICAL_SLAB = registerBlock("tuff_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_STAIRS = registerBlock("tuff_tiles_stairs", new StairsBlock(ModBlocks.TUFF_TILES.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_WALL = registerBlock("tuff_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_FENCE = registerBlock("tuff_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(TUFF)));
+
+    public static final Block CHISELED_TUFF = registerBlock("chiseled_tuff", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_SLAB = registerBlock("chiseled_tuff_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_VERTICAL_SLAB = registerBlock("chiseled_tuff_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_STAIRS = registerBlock("chiseled_tuff_stairs", new StairsBlock(CHISELED_TUFF.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+
+    public static final Block CHISELED_TUFF_CRACKED = registerBlock("cracked_chiseled_tuff", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_CRACKED_SLAB = registerBlock("cracked_chiseled_tuff_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_CRACKED_VERTICAL_SLAB = registerBlock("cracked_chiseled_tuff_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_CRACKED_STAIRS = registerBlock("cracked_chiseled_tuff_stairs", new StairsBlock(CHISELED_TUFF_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+
+    public static final Block CHISELED_TUFF_MOSSY = registerBlock("mossy_chiseled_tuff", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_MOSSY_SLAB = registerBlock("mossy_chiseled_tuff_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_MOSSY_VERTICAL_SLAB = registerBlock("mossy_chiseled_tuff_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block CHISELED_TUFF_MOSSY_STAIRS = registerBlock("mossy_chiseled_tuff_stairs", new StairsBlock(CHISELED_TUFF_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+
+    public static final Block TUFF_BRICKS_CRACKED = registerBlock("cracked_tuff_bricks", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_CRACKED_SLAB = registerBlock("cracked_tuff_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_CRACKED_VERTICAL_SLAB = registerBlock("cracked_tuff_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_CRACKED_STAIRS = registerBlock("cracked_tuff_bricks_stairs", new StairsBlock(ModBlocks.TUFF_BRICKS_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_CRACKED_WALL = registerBlock("cracked_tuff_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_CRACKED_FENCE = registerBlock("cracked_tuff_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(TUFF)));
+
+    public static final Block TUFF_TILES_CRACKED = registerBlock("cracked_tuff_tiles", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_CRACKED_SLAB = registerBlock("cracked_tuff_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_CRACKED_VERTICAL_SLAB = registerBlock("cracked_tuff_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_CRACKED_STAIRS = registerBlock("cracked_tuff_tiles_stairs", new StairsBlock(ModBlocks.TUFF_TILES_CRACKED.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_CRACKED_WALL = registerBlock("cracked_tuff_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_CRACKED_FENCE = registerBlock("cracked_tuff_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(TUFF)));
+
+    public static final Block TUFF_BRICKS_MOSSY = registerBlock("mossy_tuff_bricks", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_MOSSY_SLAB = registerBlock("mossy_tuff_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_MOSSY_VERTICAL_SLAB = registerBlock("mossy_tuff_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_MOSSY_STAIRS = registerBlock("mossy_tuff_bricks_stairs", new StairsBlock(ModBlocks.TUFF_BRICKS_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_MOSSY_WALL = registerBlock("mossy_tuff_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_BRICKS_MOSSY_FENCE = registerBlock("mossy_tuff_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(TUFF)));
+
+    public static final Block TUFF_TILES_MOSSY = registerBlock("mossy_tuff_tiles", new Block(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_MOSSY_SLAB = registerBlock("mossy_tuff_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_MOSSY_VERTICAL_SLAB = registerBlock("mossy_tuff_tiles_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_MOSSY_STAIRS = registerBlock("mossy_tuff_tiles_stairs", new StairsBlock(ModBlocks.TUFF_TILES_MOSSY.getDefaultState(),FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_MOSSY_WALL = registerBlock("mossy_tuff_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(TUFF)));
+    public static final Block TUFF_TILES_MOSSY_FENCE = registerBlock("mossy_tuff_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(TUFF)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
