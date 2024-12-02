@@ -633,6 +633,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHISELED_TUFF_MOSSY_SLAB);
                         entries.add(ModBlocks.CHISELED_TUFF_MOSSY_STAIRS);
                         entries.add(ModBlocks.CHISELED_TUFF_MOSSY_VERTICAL_SLAB);
+                        entries.add(ModBlocks.RED_NETHER_BRICKS_FENCE);
+                        entries.add(ModBlocks.RED_NETHER_BRICKS_VERTICAL_SLAB);
+                        entries.add(ModBlocks.SMOOTH_BASALT_SLAB);
+                        entries.add(ModBlocks.SMOOTH_BASALT_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_BASALT_VERTICAL_SLAB);
+                        entries.add(ModBlocks.SMOOTH_BASALT_WALL);
+                        entries.add(ModBlocks.SMOOTH_BASALT_FENCE);
+                        entries.add(ModBlocks.BLACKSTONE_FENCE);
+                        entries.add(ModBlocks.BLACKSTONE_VERTICAL_SLAB);
                     }).build());
 
     public static void registerItemGroups() {

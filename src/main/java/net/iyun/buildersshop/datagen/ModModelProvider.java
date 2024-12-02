@@ -164,6 +164,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         // Bricks
         BlockStateModelGenerator.BlockTexturePool brickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BRICKS);
+        BlockStateModelGenerator.BlockTexturePool rednetherbrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_NETHER_BRICKS);
 
        // Calcite
         BlockStateModelGenerator.BlockTexturePool calcitebrickspool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALCITE_BRICKS);
@@ -199,7 +200,20 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool netherrackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
         BlockStateModelGenerator.BlockTexturePool cracknetherpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool chiselnetherpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_NETHER_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool smoothbasaltpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
+        BlockStateModelGenerator.BlockTexturePool blackstonepools = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACKSTONE);
 
+        blackstonepools.fence(ModBlocks.BLACKSTONE_FENCE);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BLACKSTONE, ModBlocks.BLACKSTONE_VERTICAL_SLAB);
+
+        smoothbasaltpool.wall(ModBlocks.SMOOTH_BASALT_WALL);
+        smoothbasaltpool.fence(ModBlocks.SMOOTH_BASALT_FENCE);
+        smoothbasaltpool.stairs(ModBlocks.SMOOTH_BASALT_STAIRS);
+        smoothbasaltpool.slab(ModBlocks.SMOOTH_BASALT_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.SMOOTH_BASALT, ModBlocks.SMOOTH_BASALT_VERTICAL_SLAB);
+
+        rednetherbrickpool.fence(ModBlocks.RED_NETHER_BRICKS_FENCE);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.RED_NETHER_BRICKS, ModBlocks.RED_NETHER_BRICKS_VERTICAL_SLAB);
 
         tuffchiselmossspool.slab(ModBlocks.CHISELED_TUFF_MOSSY_SLAB);
         tuffchiselmossspool.stairs(ModBlocks.CHISELED_TUFF_MOSSY_STAIRS);

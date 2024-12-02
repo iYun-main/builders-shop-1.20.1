@@ -761,6 +761,18 @@ public class ModBlocks {
     public static final Block TUFF_TILES_MOSSY_WALL = registerBlock("mossy_tuff_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(TUFF)));
     public static final Block TUFF_TILES_MOSSY_FENCE = registerBlock("mossy_tuff_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(TUFF)));
 
+    public static final Block RED_NETHER_BRICKS_FENCE = registerBlock("red_nether_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(RED_NETHER_BRICKS)));
+    public static final Block RED_NETHER_BRICKS_VERTICAL_SLAB = registerBlock("red_nether_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(RED_NETHER_BRICKS)));
+
+    public static final Block SMOOTH_BASALT_SLAB = registerBlock("smooth_basalt_slab", new SlabBlock(FabricBlockSettings.copyOf(SMOOTH_BASALT)));
+    public static final Block SMOOTH_BASALT_STAIRS = registerBlock("smooth_basalt_stairs", new StairsBlock(SMOOTH_BASALT.getDefaultState(),FabricBlockSettings.copyOf(SMOOTH_BASALT)));
+    public static final Block SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_BASALT)));
+    public static final Block SMOOTH_BASALT_FENCE = registerBlock("smooth_basalt_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_BASALT)));
+    public static final Block SMOOTH_BASALT_VERTICAL_SLAB = registerBlock("smooth_basalt_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SMOOTH_BASALT)));
+
+    public static final Block BLACKSTONE_FENCE = registerBlock("blackstone_fence", new FenceBlock(FabricBlockSettings.copyOf(BLACKSTONE)));
+    public static final Block BLACKSTONE_VERTICAL_SLAB = registerBlock("blackstone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BLACKSTONE)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
