@@ -202,9 +202,21 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool chiselnetherpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_NETHER_BRICKS);
         BlockStateModelGenerator.BlockTexturePool smoothbasaltpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
         BlockStateModelGenerator.BlockTexturePool blackstonepools = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACKSTONE);
+        BlockStateModelGenerator.BlockTexturePool gildblackstonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GILDED_BLACKSTONE);
+        BlockStateModelGenerator.BlockTexturePool chiselblackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_POLISHED_BLACKSTONE);
 
         blackstonepools.fence(ModBlocks.BLACKSTONE_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BLACKSTONE, ModBlocks.BLACKSTONE_VERTICAL_SLAB);
+
+        chiselblackpool.stairs(ModBlocks.CHISELED_POLISHED_BLACKSTONE_STAIRS);
+        chiselblackpool.slab(ModBlocks.CHISELED_POLISHED_BLACKSTONE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.CHISELED_POLISHED_BLACKSTONE, ModBlocks.CHISELED_POLISHED_BLACKSTONE_VERTICAL_SLAB);
+
+        gildblackstonepool.wall(ModBlocks.GILDED_BLACKSTONE_WALL);
+        gildblackstonepool.fence(ModBlocks.GILDED_BLACKSTONE_FENCE);
+        gildblackstonepool.stairs(ModBlocks.GILDED_BLACKSTONE_STAIRS);
+        gildblackstonepool.slab(ModBlocks.GILDED_BLACKSTONE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.GILDED_BLACKSTONE, ModBlocks.GILDED_BLACKSTONE_VERTICAL_SLAB);
 
         smoothbasaltpool.wall(ModBlocks.SMOOTH_BASALT_WALL);
         smoothbasaltpool.fence(ModBlocks.SMOOTH_BASALT_FENCE);

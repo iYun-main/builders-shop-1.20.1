@@ -590,6 +590,138 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMOOTH_STONE_TILES_MOSSY_FENCE,"Mossy Smooth Stone Tiles Fence");
         translationBuilder.add(ModBlocks.SMOOTH_STONE_TILES_MOSSY_VERTICAL_SLAB,"Vertical Mossy Smooth Stone Tiles Slab");
 
+        translationBuilder.add(ModBlocks.NETHERRACK_SLAB,"Netherrack Slab");
+        translationBuilder.add(ModBlocks.NETHERRACK_STAIRS,"Netherrack Stairs");
+        translationBuilder.add(ModBlocks.NETHERRACK_VERTICAL_SLAB,"Netherrack Vertical Slab");
+        translationBuilder.add(ModBlocks.NETHERRACK_FENCE,"Netherrack Fence");
+        translationBuilder.add(ModBlocks.NETHERRACK_WALL,"Netherrack Wall");
+
+        translationBuilder.add(ModBlocks.NETHER_BRICK_VERTICAL_SLAB,"Nether Bricks Vertical Slab");
+        translationBuilder.add(ModBlocks.CRACKED_NETHER_BRICK_FENCE,"Cracked Nether Bricks Fence");
+        translationBuilder.add(ModBlocks.CRACKED_NETHER_BRICK_SLAB,"Cracked Nether Bricks Slab");
+        translationBuilder.add(ModBlocks.CRACKED_NETHER_BRICK_STAIRS,"Cracked Nether Bricks Stairs");
+        translationBuilder.add(ModBlocks.CRACKED_NETHER_BRICK_WALL,"Cracked Nether Bricks Wall");
+        translationBuilder.add(ModBlocks.CRACKED_NETHER_BRICK_VERTICAL_SLAB,"Cracked Nether Bricks Vertical Slab");
+        translationBuilder.add(ModBlocks.CHISELED_NETHER_BRICK_SLAB,"Chiseled Nether Brick Slab");
+        translationBuilder.add(ModBlocks.CHISELED_NETHER_BRICK_STAIRS,"Chiseled Nether Brick Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_NETHER_BRICK_VERTICAL_SLAB,"Chiseled Nether Brick Vertical Slab");
+        translationBuilder.add(ModBlocks.RED_NETHER_BRICKS_FENCE,"Red Nether Brick Fence");
+        translationBuilder.add(ModBlocks.RED_NETHER_BRICKS_VERTICAL_SLAB,"Red Nether Brick Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_BASALT_SLAB,"Smooth Basalt Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_BASALT_STAIRS,"Smooth Basalt Stairs");
+        translationBuilder.add(ModBlocks.SMOOTH_BASALT_VERTICAL_SLAB,"Smooth Basalt Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_BASALT_FENCE,"Smooth Basalt Fence");
+        translationBuilder.add(ModBlocks.SMOOTH_BASALT_WALL,"Smooth Basalt Wall");
+        translationBuilder.add(ModBlocks.BLACKSTONE_VERTICAL_SLAB,"Blackstone Vertical Slab");
+        translationBuilder.add(ModBlocks.BLACKSTONE_FENCE,"Blackstone Fence");
+        translationBuilder.add(ModBlocks.GILDED_BLACKSTONE_FENCE,"Gilded Blackstone Fence");
+        translationBuilder.add(ModBlocks.GILDED_BLACKSTONE_SLAB,"Gilded Blackstone Slab");
+        translationBuilder.add(ModBlocks.GILDED_BLACKSTONE_STAIRS,"Gilded Blackstone Stairs");
+        translationBuilder.add(ModBlocks.GILDED_BLACKSTONE_VERTICAL_SLAB,"Gilded Blackstone Vertical Slab");
+        translationBuilder.add(ModBlocks.GILDED_BLACKSTONE_WALL,"Gilded Blackstone Wall");
+        translationBuilder.add(ModBlocks.CHISELED_POLISHED_BLACKSTONE_SLAB,"Chiseled Polished Blackstone Slab");
+        translationBuilder.add(ModBlocks.CHISELED_POLISHED_BLACKSTONE_STAIRS,"Chiseled Polished Blackstone Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_POLISHED_BLACKSTONE_VERTICAL_SLAB,"Chiseled Polished Blackstone Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS,"Calcite Bricks");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_SLAB,"Calcite Bricks Slab");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_STAIRS,"Calcite Bricks Stairs");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_WALL,"Calcite Bricks Wall");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_FENCE,"Calcite Bricks Fence");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_VERTICAL_SLAB,"Calcite Bricks Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_CRACKED,"Cracked Calcite Bricks");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_CRACKED_SLAB,"Cracked Calcite Bricks Slab");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_CRACKED_STAIRS,"Cracked Calcite Bricks Stairs");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_CRACKED_WALL,"Cracked Calcite Bricks Wall");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_CRACKED_FENCE,"Cracked Calcite Bricks Fence");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_CRACKED_VERTICAL_SLAB,"Cracked Calcite Bricks Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_MOSSY,"Mossy Calcite Bricks");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_MOSSY_SLAB,"Mossy Calcite Bricks Slab");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_MOSSY_STAIRS,"Mossy Calcite Bricks Stairs");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_MOSSY_WALL,"Mossy Calcite Bricks Wall");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_MOSSY_FENCE,"Mossy Calcite Bricks Fence");
+        translationBuilder.add(ModBlocks.CALCITE_BRICKS_MOSSY_VERTICAL_SLAB,"Mossy Calcite Bricks Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED,"Cracked Calcite Tiles");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED_SLAB,"Cracked Calcite Tiles Slab");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED_STAIRS,"Cracked Calcite Tiles Stairs");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED_WALL,"Cracked Calcite Tiles Wall");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED_FENCE,"Cracked Calcite Tiles Fence");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED_VERTICAL_SLAB,"Cracked Calcite Tiles Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CALCITE_TILES_MOSSY,"Mossy Calcite Tiles");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_MOSSY_SLAB,"Mossy Calcite Tiles Slab");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_MOSSY_STAIRS,"Mossy Calcite Tiles Stairs");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_MOSSY_WALL,"Mossy Calcite Tiles Wall");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_MOSSY_FENCE,"Mossy Calcite Tiles Fence");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_MOSSY_VERTICAL_SLAB,"Mossy Calcite Tiles Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE,"Chiseled Calcite");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_SLAB,"Chiseled Calcite Slab");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_STAIRS,"Chiseled Calcite Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_VERTICAL_SLAB,"Chiseled Calcite Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_CRACKED,"Cracked Chiseled Calcite");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_CRACKED_SLAB,"Cracked Chiseled Calcite Slab");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_CRACKED_STAIRS,"Cracked Chiseled Calcite Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_CRACKED_VERTICAL_SLAB,"Cracked Chiseled Calcite Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_MOSSY,"Mossy Chiseled Calcite");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_MOSSY_SLAB,"Mossy Chiseled Calcite Slab");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_MOSSY_STAIRS,"Mossy Chiseled Calcite Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_CALCITE_MOSSY_VERTICAL_SLAB,"Mossy Chiseled Calcite Vertical Slab");
+
+        translationBuilder.add(ModBlocks.TUFF_BRICKS,"Tuff Bricks");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_SLAB,"Tuff Bricks Slab");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_STAIRS,"Tuff Bricks Stairs");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_WALL,"Tuff Bricks Wall");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_FENCE,"Tuff Bricks Fence");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_VERTICAL_SLAB,"Tuff Bricks Vertical Slab");
+
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_CRACKED,"Cracked Tuff Bricks");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_CRACKED_SLAB,"Cracked Tuff Bricks Slab");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_CRACKED_STAIRS,"Cracked Tuff Bricks Stairs");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_CRACKED_WALL,"Cracked Tuff Bricks Wall");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_CRACKED_FENCE,"Cracked Tuff Bricks Fence");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_CRACKED_VERTICAL_SLAB,"Cracked Tuff Bricks Vertical Slab");
+
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY,"Mossy Tuff Bricks");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY_SLAB,"Mossy Tuff Bricks Slab");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY_STAIRS,"Mossy Tuff Bricks Stairs");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY_WALL,"Mossy Tuff Bricks Wall");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY_FENCE,"Mossy Tuff Bricks Fence");
+        translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY_VERTICAL_SLAB,"Mossy Tuff Bricks Vertical Slab");
+
+        translationBuilder.add(ModBlocks.TUFF_TILES_CRACKED,"Cracked Tuff Tiles");
+        translationBuilder.add(ModBlocks.TUFF_TILES_CRACKED_SLAB,"Cracked Tuff Tiles Slab");
+        translationBuilder.add(ModBlocks.TUFF_TILES_CRACKED_STAIRS,"Cracked Tuff Tiles Stairs");
+        translationBuilder.add(ModBlocks.TUFF_TILES_CRACKED_WALL,"Cracked Tuff Tiles Wall");
+        translationBuilder.add(ModBlocks.TUFF_TILES_CRACKED_FENCE,"Cracked Tuff Tiles Fence");
+        translationBuilder.add(ModBlocks.TUFF_TILES_CRACKED_VERTICAL_SLAB,"Cracked Tuff Tiles Vertical Slab");
+
+        translationBuilder.add(ModBlocks.TUFF_TILES_MOSSY,"Mossy Tuff Tiles");
+        translationBuilder.add(ModBlocks.TUFF_TILES_MOSSY_SLAB,"Mossy Tuff Tiles Slab");
+        translationBuilder.add(ModBlocks.TUFF_TILES_MOSSY_STAIRS,"Mossy Tuff Tiles Stairs");
+        translationBuilder.add(ModBlocks.TUFF_TILES_MOSSY_WALL,"Mossy Tuff Tiles Wall");
+        translationBuilder.add(ModBlocks.TUFF_TILES_MOSSY_FENCE,"Mossy Tuff Tiles Fence");
+        translationBuilder.add(ModBlocks.TUFF_TILES_MOSSY_VERTICAL_SLAB,"Mossy Tuff Tiles Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CHISELED_TUFF,"Chiseled Tuff");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_SLAB,"Chiseled Tuff Slab");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_STAIRS,"Chiseled Tuff Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_VERTICAL_SLAB,"Chiseled Tuff Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_CRACKED,"Cracked Chiseled Tuff");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_CRACKED_SLAB,"Cracked Chiseled Tuff Slab");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_CRACKED_STAIRS,"Cracked Chiseled Tuff Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_CRACKED_VERTICAL_SLAB,"Cracked Chiseled Tuff Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_MOSSY,"Mossy Chiseled Tuff");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_MOSSY_SLAB,"Mossy Chiseled Tuff Slab");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_MOSSY_STAIRS,"Mossy Chiseled Tuff Stairs");
+        translationBuilder.add(ModBlocks.CHISELED_TUFF_MOSSY_VERTICAL_SLAB,"Mossy Chiseled Tuff Vertical Slab");
 
         translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 

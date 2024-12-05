@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/gilded_blackstone_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/gilded_blackstone"
+    },
+    "type=front": {
+      "model": "buildersshop:block/gilded_blackstone_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/gilded_blackstone_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/gilded_blackstone_vertical_slab_right"
+    }
+  }
+}

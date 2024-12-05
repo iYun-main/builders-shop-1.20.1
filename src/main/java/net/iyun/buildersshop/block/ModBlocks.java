@@ -773,6 +773,16 @@ public class ModBlocks {
     public static final Block BLACKSTONE_FENCE = registerBlock("blackstone_fence", new FenceBlock(FabricBlockSettings.copyOf(BLACKSTONE)));
     public static final Block BLACKSTONE_VERTICAL_SLAB = registerBlock("blackstone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BLACKSTONE)));
 
+    public static final Block GILDED_BLACKSTONE_SLAB = registerBlock("gilded_blackstone_slab", new SlabBlock(FabricBlockSettings.copyOf(GILDED_BLACKSTONE)));
+    public static final Block GILDED_BLACKSTONE_STAIRS = registerBlock("gilded_blackstone_stairs", new StairsBlock(GILDED_BLACKSTONE.getDefaultState(),FabricBlockSettings.copyOf(GILDED_BLACKSTONE)));
+    public static final Block GILDED_BLACKSTONE_WALL = registerBlock("gilded_blackstone_wall", new WallBlock(FabricBlockSettings.copyOf(GILDED_BLACKSTONE)));
+    public static final Block GILDED_BLACKSTONE_FENCE = registerBlock("gilded_blackstone_fence", new FenceBlock(FabricBlockSettings.copyOf(GILDED_BLACKSTONE)));
+    public static final Block GILDED_BLACKSTONE_VERTICAL_SLAB = registerBlock("gilded_blackstone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GILDED_BLACKSTONE)));
+
+    public static final Block CHISELED_POLISHED_BLACKSTONE_SLAB = registerBlock("chiseled_polished_blackstone_slab", new SlabBlock(FabricBlockSettings.copyOf(CHISELED_POLISHED_BLACKSTONE)));
+    public static final Block CHISELED_POLISHED_BLACKSTONE_VERTICAL_SLAB = registerBlock("chiseled_polished_blackstone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_POLISHED_BLACKSTONE)));
+    public static final Block CHISELED_POLISHED_BLACKSTONE_STAIRS = registerBlock("chiseled_polished_blackstone_stairs", new StairsBlock(CHISELED_POLISHED_BLACKSTONE.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_POLISHED_BLACKSTONE)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
