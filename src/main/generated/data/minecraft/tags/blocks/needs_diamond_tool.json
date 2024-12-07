@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "buildersshop:obsidian_bricks_fence",
+    "buildersshop:obsidian_tiles_fence",
+    "buildersshop:obsidian_tiles_mossy_fence",
+    "buildersshop:obsidian_tiles_cracked_fence",
     "buildersshop:obsidian_bricks_slab",
     "buildersshop:obsidian_bricks_stairs",
     "buildersshop:obsidian_bricks_wall",

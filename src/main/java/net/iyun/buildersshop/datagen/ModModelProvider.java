@@ -475,16 +475,19 @@ public class ModModelProvider extends FabricModelProvider {
         obistilesmossy.slab(ModBlocks.TILES_MOSSY_OBSIDIAN_SLAB);
         obistilesmossy.stairs(ModBlocks.TILES_MOSSY_OBSIDIAN_STAIRS);
         obistilesmossy.wall(ModBlocks.TILES_MOSSY_OBSIDIAN_WALL);
+        obistilesmossy.fence(ModBlocks.TILES_MOSSY_OBSIDIAN_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_MOSSY_OBSIDIAN, ModBlocks.TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB);
 
         obistilescracked.slab(ModBlocks.TILES_CRACKED_OBSIDIAN_SLAB);
         obistilescracked.stairs(ModBlocks.TILES_CRACKED_OBSIDIAN_STAIRS);
         obistilescracked.wall(ModBlocks.TILES_CRACKED_OBSIDIAN_WALL);
+        obistilescracked.fence(ModBlocks.TILES_CRACKED_OBSIDIAN_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_CRACKED_OBSIDIAN, ModBlocks.TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB);
 
         obistiles.slab(ModBlocks.TILES_OBSIDIAN_SLAB);
         obistiles.stairs(ModBlocks.TILES_OBSIDIAN_STAIRS);
         obistiles.wall(ModBlocks.TILES_OBSIDIAN_WALL);
+        obistiles.fence(ModBlocks.TILES_OBSIDIAN_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.TILES_OBSIDIAN, ModBlocks.TILES_OBSIDIAN_VERTICAL_SLAB);
 
         obischiselmossy.slab(ModBlocks.CHISELED_OBSIDIAN_MOSSY_SLAB);

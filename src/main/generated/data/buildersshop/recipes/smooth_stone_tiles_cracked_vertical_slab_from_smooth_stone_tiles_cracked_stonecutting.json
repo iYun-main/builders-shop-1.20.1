@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:smooth_stone_tiles_cracked"
+  },
+  "result": "buildersshop:smooth_stone_tiles_cracked_vertical_slab"
+}

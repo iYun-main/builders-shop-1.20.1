@@ -399,16 +399,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TILES_OBSIDIAN_SLAB,slabDrops(ModBlocks.TILES_OBSIDIAN_SLAB));
         addDrop(ModBlocks.TILES_OBSIDIAN_STAIRS);
         addDrop(ModBlocks.TILES_OBSIDIAN_WALL);
+        addDrop(ModBlocks.TILES_OBSIDIAN_FENCE);
         addDrop(ModBlocks.TILES_OBSIDIAN_VERTICAL_SLAB,slabDrops(ModBlocks.TILES_OBSIDIAN_VERTICAL_SLAB));
         addDrop(ModBlocks.TILES_CRACKED_OBSIDIAN);
         addDrop(ModBlocks.TILES_CRACKED_OBSIDIAN_SLAB,slabDrops(ModBlocks.TILES_CRACKED_OBSIDIAN_SLAB));
         addDrop(ModBlocks.TILES_CRACKED_OBSIDIAN_STAIRS);
         addDrop(ModBlocks.TILES_CRACKED_OBSIDIAN_WALL);
+        addDrop(ModBlocks.TILES_CRACKED_OBSIDIAN_FENCE);
         addDrop(ModBlocks.TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB,slabDrops(ModBlocks.TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB));
         addDrop(ModBlocks.TILES_MOSSY_OBSIDIAN);
         addDrop(ModBlocks.TILES_MOSSY_OBSIDIAN_SLAB,slabDrops(ModBlocks.TILES_MOSSY_OBSIDIAN_SLAB));
         addDrop(ModBlocks.TILES_MOSSY_OBSIDIAN_STAIRS);
         addDrop(ModBlocks.TILES_MOSSY_OBSIDIAN_WALL);
+        addDrop(ModBlocks.TILES_MOSSY_OBSIDIAN_FENCE);
         addDrop(ModBlocks.TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB,slabDrops(ModBlocks.TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB));
         addDrop(ModBlocks.CHISELED_COBSIDIAN_RUNIC);
         addDrop(ModBlocks.CHISELED_COBSIDIAN_RUNIC_SLAB, slabDrops(ModBlocks.CHISELED_COBSIDIAN_RUNIC_SLAB));
@@ -507,6 +510,168 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIORITE_BRICKS_MOSSY);
         addDrop(ModBlocks.DIORITE_BRICKS);
 
+        addDrop(ModBlocks.TUFF_BRICKS);
+        addDrop(ModBlocks.TUFF_BRICKS_STAIRS);
+        addDrop(ModBlocks.TUFF_BRICKS_FENCE);
+        addDrop(ModBlocks.TUFF_BRICKS_WALL);
+        addDrop(ModBlocks.TUFF_BRICKS_SLAB, slabDrops(ModBlocks.TUFF_BRICKS_SLAB));
+        addDrop(ModBlocks.TUFF_BRICKS_VERTICAL_SLAB, slabDrops(ModBlocks.TUFF_BRICKS_VERTICAL_SLAB));
+        addDrop(ModBlocks.TUFF_TILES);
+        addDrop(ModBlocks.TUFF_TILES_STAIRS);
+        addDrop(ModBlocks.TUFF_TILES_FENCE);
+        addDrop(ModBlocks.TUFF_TILES_WALL);
+        addDrop(ModBlocks.TUFF_TILES_SLAB, slabDrops(ModBlocks.TUFF_TILES_SLAB));
+        addDrop(ModBlocks.TUFF_TILES_VERTICAL_SLAB, slabDrops(ModBlocks.TUFF_TILES_VERTICAL_SLAB));
+        addDrop(ModBlocks.CHISELED_TUFF);
+        addDrop(ModBlocks.CHISELED_TUFF_STAIRS);
+        addDrop(ModBlocks.CHISELED_TUFF_SLAB, slabDrops(ModBlocks.CHISELED_TUFF_SLAB));
+        addDrop(ModBlocks.CHISELED_TUFF_VERTICAL_SLAB, slabDrops(ModBlocks.CHISELED_TUFF_VERTICAL_SLAB));
+
+        addDrop(ModBlocks.TUFF_BRICKS_CRACKED);
+        addDrop(ModBlocks.TUFF_BRICKS_CRACKED_STAIRS);
+        addDrop(ModBlocks.TUFF_BRICKS_CRACKED_FENCE);
+        addDrop(ModBlocks.TUFF_BRICKS_CRACKED_WALL);
+        addDrop(ModBlocks.TUFF_BRICKS_CRACKED_SLAB, slabDrops(ModBlocks.TUFF_BRICKS_CRACKED_SLAB));
+        addDrop(ModBlocks.TUFF_BRICKS_CRACKED_VERTICAL_SLAB, slabDrops(ModBlocks.TUFF_BRICKS_CRACKED_VERTICAL_SLAB));
+        addDrop(ModBlocks.TUFF_TILES_CRACKED);
+        addDrop(ModBlocks.TUFF_TILES_CRACKED_STAIRS);
+        addDrop(ModBlocks.TUFF_TILES_CRACKED_FENCE);
+        addDrop(ModBlocks.TUFF_TILES_CRACKED_WALL);
+        addDrop(ModBlocks.TUFF_TILES_CRACKED_SLAB, slabDrops(ModBlocks.TUFF_TILES_CRACKED_SLAB));
+        addDrop(ModBlocks.TUFF_TILES_CRACKED_VERTICAL_SLAB, slabDrops(ModBlocks.TUFF_TILES_CRACKED_VERTICAL_SLAB));
+        addDrop(ModBlocks.CHISELED_TUFF_CRACKED);
+        addDrop(ModBlocks.CHISELED_TUFF_CRACKED_STAIRS);
+        addDrop(ModBlocks.CHISELED_TUFF_CRACKED_SLAB, slabDrops(ModBlocks.CHISELED_TUFF_CRACKED_SLAB));
+        addDrop(ModBlocks.CHISELED_TUFF_CRACKED_VERTICAL_SLAB, slabDrops(ModBlocks.CHISELED_TUFF_CRACKED_VERTICAL_SLAB));
+
+        addDrop(ModBlocks.TUFF_BRICKS_MOSSY);
+        addDrop(ModBlocks.TUFF_BRICKS_MOSSY_STAIRS);
+        addDrop(ModBlocks.TUFF_BRICKS_MOSSY_FENCE);
+        addDrop(ModBlocks.TUFF_BRICKS_MOSSY_WALL);
+        addDrop(ModBlocks.TUFF_BRICKS_MOSSY_SLAB, slabDrops(ModBlocks.TUFF_BRICKS_MOSSY_SLAB));
+        addDrop(ModBlocks.TUFF_BRICKS_MOSSY_VERTICAL_SLAB, slabDrops(ModBlocks.TUFF_BRICKS_MOSSY_VERTICAL_SLAB));
+        addDrop(ModBlocks.TUFF_TILES_MOSSY);
+        addDrop(ModBlocks.TUFF_TILES_MOSSY_STAIRS);
+        addDrop(ModBlocks.TUFF_TILES_MOSSY_FENCE);
+        addDrop(ModBlocks.TUFF_TILES_MOSSY_WALL);
+        addDrop(ModBlocks.TUFF_TILES_MOSSY_SLAB, slabDrops(ModBlocks.TUFF_TILES_MOSSY_SLAB));
+        addDrop(ModBlocks.TUFF_TILES_MOSSY_VERTICAL_SLAB, slabDrops(ModBlocks.TUFF_TILES_MOSSY_VERTICAL_SLAB));
+        addDrop(ModBlocks.CHISELED_TUFF_MOSSY);
+        addDrop(ModBlocks.CHISELED_TUFF_MOSSY_STAIRS);
+        addDrop(ModBlocks.CHISELED_TUFF_MOSSY_SLAB, slabDrops(ModBlocks.CHISELED_TUFF_MOSSY_SLAB));
+        addDrop(ModBlocks.CHISELED_TUFF_MOSSY_VERTICAL_SLAB, slabDrops(ModBlocks.CHISELED_TUFF_MOSSY_VERTICAL_SLAB));
+
+        addDrop(ModBlocks.CALCITE_BRICKS);
+        addDrop(ModBlocks.CALCITE_BRICKS_STAIRS);
+        addDrop(ModBlocks.CALCITE_BRICKS_FENCE);
+        addDrop(ModBlocks.CALCITE_BRICKS_WALL);
+        addDrop(ModBlocks.CALCITE_BRICKS_SLAB, slabDrops(ModBlocks.CALCITE_BRICKS_SLAB));
+        addDrop(ModBlocks.CALCITE_BRICKS_VERTICAL_SLAB, slabDrops(ModBlocks.CALCITE_BRICKS_VERTICAL_SLAB));
+        addDrop(ModBlocks.CALCITE_TILES);
+        addDrop(ModBlocks.CALCITE_TILES_STAIRS);
+        addDrop(ModBlocks.CALCITE_TILES_FENCE);
+        addDrop(ModBlocks.CALCITE_TILES_WALL);
+        addDrop(ModBlocks.CALCITE_TILES_SLAB, slabDrops(ModBlocks.CALCITE_TILES_SLAB));
+        addDrop(ModBlocks.CALCITE_TILES_VERTICAL_SLAB, slabDrops(ModBlocks.CALCITE_TILES_VERTICAL_SLAB));
+        addDrop(ModBlocks.CHISELED_CALCITE);
+        addDrop(ModBlocks.CHISELED_CALCITE_STAIRS);
+        addDrop(ModBlocks.CHISELED_CALCITE_SLAB, slabDrops(ModBlocks.CHISELED_CALCITE_SLAB));
+        addDrop(ModBlocks.CHISELED_CALCITE_VERTICAL_SLAB, slabDrops(ModBlocks.CHISELED_CALCITE_VERTICAL_SLAB));
+
+        addDrop(ModBlocks.CALCITE_BRICKS_CRACKED);
+        addDrop(ModBlocks.CALCITE_BRICKS_CRACKED_STAIRS);
+        addDrop(ModBlocks.CALCITE_BRICKS_CRACKED_FENCE);
+        addDrop(ModBlocks.CALCITE_BRICKS_CRACKED_WALL);
+        addDrop(ModBlocks.CALCITE_BRICKS_CRACKED_SLAB, slabDrops(ModBlocks.CALCITE_BRICKS_CRACKED_SLAB));
+        addDrop(ModBlocks.CALCITE_BRICKS_CRACKED_VERTICAL_SLAB, slabDrops(ModBlocks.CALCITE_BRICKS_CRACKED_VERTICAL_SLAB));
+        addDrop(ModBlocks.CALCITE_TILES_CRACKED);
+        addDrop(ModBlocks.CALCITE_TILES_CRACKED_STAIRS);
+        addDrop(ModBlocks.CALCITE_TILES_CRACKED_FENCE);
+        addDrop(ModBlocks.CALCITE_TILES_CRACKED_WALL);
+        addDrop(ModBlocks.CALCITE_TILES_CRACKED_SLAB, slabDrops(ModBlocks.CALCITE_TILES_CRACKED_SLAB));
+        addDrop(ModBlocks.CALCITE_TILES_CRACKED_VERTICAL_SLAB, slabDrops(ModBlocks.CALCITE_TILES_CRACKED_VERTICAL_SLAB));
+        addDrop(ModBlocks.CHISELED_CALCITE_CRACKED);
+        addDrop(ModBlocks.CHISELED_CALCITE_CRACKED_STAIRS);
+        addDrop(ModBlocks.CHISELED_CALCITE_CRACKED_SLAB, slabDrops(ModBlocks.CHISELED_CALCITE_CRACKED_SLAB));
+        addDrop(ModBlocks.CHISELED_CALCITE_CRACKED_VERTICAL_SLAB, slabDrops(ModBlocks.CHISELED_CALCITE_CRACKED_VERTICAL_SLAB));
+
+        addDrop(ModBlocks.CALCITE_BRICKS_MOSSY);
+        addDrop(ModBlocks.CALCITE_BRICKS_MOSSY_STAIRS);
+        addDrop(ModBlocks.CALCITE_BRICKS_MOSSY_FENCE);
+        addDrop(ModBlocks.CALCITE_BRICKS_MOSSY_WALL);
+        addDrop(ModBlocks.CALCITE_BRICKS_MOSSY_SLAB, slabDrops(ModBlocks.CALCITE_BRICKS_MOSSY_SLAB));
+        addDrop(ModBlocks.CALCITE_BRICKS_MOSSY_VERTICAL_SLAB, slabDrops(ModBlocks.CALCITE_BRICKS_MOSSY_VERTICAL_SLAB));
+        addDrop(ModBlocks.CALCITE_TILES_MOSSY);
+        addDrop(ModBlocks.CALCITE_TILES_MOSSY_STAIRS);
+        addDrop(ModBlocks.CALCITE_TILES_MOSSY_FENCE);
+        addDrop(ModBlocks.CALCITE_TILES_MOSSY_WALL);
+        addDrop(ModBlocks.CALCITE_TILES_MOSSY_SLAB, slabDrops(ModBlocks.CALCITE_TILES_MOSSY_SLAB));
+        addDrop(ModBlocks.CALCITE_TILES_MOSSY_VERTICAL_SLAB, slabDrops(ModBlocks.CALCITE_TILES_MOSSY_VERTICAL_SLAB));
+        addDrop(ModBlocks.CHISELED_CALCITE_MOSSY);
+        addDrop(ModBlocks.CHISELED_CALCITE_MOSSY_STAIRS);
+        addDrop(ModBlocks.CHISELED_CALCITE_MOSSY_SLAB, slabDrops(ModBlocks.CHISELED_CALCITE_MOSSY_SLAB));
+        addDrop(ModBlocks.CHISELED_CALCITE_MOSSY_VERTICAL_SLAB, slabDrops(ModBlocks.CHISELED_CALCITE_MOSSY_VERTICAL_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_SANDSTONE_FENCE);
+        addDrop(ModBlocks.SMOOTH_SANDSTONE_WALL);
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
+        addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
+
+        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_STAIRS);
+        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_SLAB);
+        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_VERTICAL_SLAB);
+        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_FENCE);
+        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_WALL);
+
+        addDrop(ModBlocks.PRISMARINE_VERTICAL_SLAB);
+        addDrop(ModBlocks.PRISMARINE_FENCE);
+
+        addDrop(ModBlocks.PRISMARINE_BRICKS_FENCE);
+        addDrop(ModBlocks.PRISMARINE_BRICKS_VERTICAL_SLAB);
+        addDrop(ModBlocks.PRISMARINE_BRICKS_WALL);
+
+        addDrop(ModBlocks.DARK_PRISMARINE_FENCE);
+        addDrop(ModBlocks.DARK_PRISMARINE_WALL);
+        addDrop(ModBlocks.DARK_PRISMARINE_VERTICAL_SLAB);
+
+        addDrop(ModBlocks.NETHERRACK_SLAB);
+        addDrop(ModBlocks.NETHERRACK_VERTICAL_SLAB);
+        addDrop(ModBlocks.NETHERRACK_STAIRS);
+        addDrop(ModBlocks.NETHERRACK_WALL);
+        addDrop(ModBlocks.NETHERRACK_FENCE);
+
+        addDrop(ModBlocks.NETHER_BRICK_VERTICAL_SLAB);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_VERTICAL_SLAB);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_SLAB);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_WALL);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_FENCE);
+        addDrop(ModBlocks.CRACKED_NETHER_BRICK_STAIRS);
+
+        addDrop(ModBlocks.CHISELED_NETHER_BRICK_VERTICAL_SLAB);
+        addDrop(ModBlocks.CHISELED_NETHER_BRICK_SLAB);
+        addDrop(ModBlocks.CHISELED_NETHER_BRICK_STAIRS);
+
+        addDrop(ModBlocks.RED_NETHER_BRICKS_FENCE);
+        addDrop(ModBlocks.RED_NETHER_BRICKS_VERTICAL_SLAB);
+
+        addDrop(ModBlocks.SMOOTH_BASALT_VERTICAL_SLAB);
+        addDrop(ModBlocks.SMOOTH_BASALT_SLAB);
+        addDrop(ModBlocks.SMOOTH_BASALT_STAIRS);
+        addDrop(ModBlocks.SMOOTH_BASALT_WALL);
+        addDrop(ModBlocks.SMOOTH_BASALT_FENCE);
+
+        addDrop(ModBlocks.BLACKSTONE_VERTICAL_SLAB);
+        addDrop(ModBlocks.BLACKSTONE_FENCE);
+
+        addDrop(ModBlocks.GILDED_BLACKSTONE_FENCE);
+        addDrop(ModBlocks.GILDED_BLACKSTONE_WALL);
+        addDrop(ModBlocks.GILDED_BLACKSTONE_SLAB);
+        addDrop(ModBlocks.GILDED_BLACKSTONE_VERTICAL_SLAB);
+        addDrop(ModBlocks.GILDED_BLACKSTONE_STAIRS);
+
+        addDrop(ModBlocks.CHISELED_POLISHED_BLACKSTONE_SLAB);
+        addDrop(ModBlocks.CHISELED_POLISHED_BLACKSTONE_STAIRS);
+        addDrop(ModBlocks.CHISELED_POLISHED_BLACKSTONE_VERTICAL_SLAB);
 
     }
 

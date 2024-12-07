@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "buildersshop:cracked_tuff_bricks_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "buildersshop:cracked_chiseled_tuff"
+  },
+  "show_notification": true
+}

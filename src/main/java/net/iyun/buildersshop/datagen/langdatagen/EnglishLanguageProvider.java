@@ -404,16 +404,19 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.TILES_OBSIDIAN_SLAB,"Obsidian Tiles Slab");
         translationBuilder.add(ModBlocks.TILES_OBSIDIAN_STAIRS,"Obsidian Tiles Stairs");
         translationBuilder.add(ModBlocks.TILES_OBSIDIAN_WALL,"Obsidian Tiles Wall");
+        translationBuilder.add(ModBlocks.TILES_OBSIDIAN_FENCE,"Obsidian Tiles Fence");
         translationBuilder.add(ModBlocks.TILES_OBSIDIAN_VERTICAL_SLAB,"Vertical Obsidian Tiles Slab");
         translationBuilder.add(ModBlocks.TILES_CRACKED_OBSIDIAN,"Cracked Obsidian Tiles");
         translationBuilder.add(ModBlocks.TILES_CRACKED_OBSIDIAN_SLAB,"Cracked Obsidian Tiles Slab");
         translationBuilder.add(ModBlocks.TILES_CRACKED_OBSIDIAN_STAIRS,"Cracked Obsidian Tiles Stairs");
         translationBuilder.add(ModBlocks.TILES_CRACKED_OBSIDIAN_WALL,"Cracked Obsidian Tiles Wall");
+        translationBuilder.add(ModBlocks.TILES_CRACKED_OBSIDIAN_FENCE,"Cracked Obsidian Tiles Fence");
         translationBuilder.add(ModBlocks.TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB,"Vertical Cracked Obsidian Tiles Slab");
         translationBuilder.add(ModBlocks.TILES_MOSSY_OBSIDIAN,"Mossy Obsidian Tiles");
         translationBuilder.add(ModBlocks.TILES_MOSSY_OBSIDIAN_SLAB,"Mossy Obsidian Tiles Slab");
         translationBuilder.add(ModBlocks.TILES_MOSSY_OBSIDIAN_STAIRS,"Mossy Obsidian Tiles Stairs");
         translationBuilder.add(ModBlocks.TILES_MOSSY_OBSIDIAN_WALL,"Mossy Obsidian Tiles Wall");
+        translationBuilder.add(ModBlocks.TILES_MOSSY_OBSIDIAN_FENCE,"Mossy Obsidian Tiles Fence");
         translationBuilder.add(ModBlocks.TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB,"Vertical Mossy Obsidian Tiles Slab");
 
         translationBuilder.add(ModBlocks.COBSIDIAN_BRICKS,"Crying Obsidian Bricks");
@@ -644,6 +647,13 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CALCITE_BRICKS_MOSSY_FENCE,"Mossy Calcite Bricks Fence");
         translationBuilder.add(ModBlocks.CALCITE_BRICKS_MOSSY_VERTICAL_SLAB,"Mossy Calcite Bricks Vertical Slab");
 
+        translationBuilder.add(ModBlocks.CALCITE_TILES,"Calcite Tiles");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_SLAB,"Calcite Tiles Slab");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_STAIRS,"Calcite Tiles Stairs");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_WALL,"Calcite Tiles Wall");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_FENCE,"Calcite Tiles Fence");
+        translationBuilder.add(ModBlocks.CALCITE_TILES_VERTICAL_SLAB,"Calcite Tiles Vertical Slab");
+
         translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED,"Cracked Calcite Tiles");
         translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED_SLAB,"Cracked Calcite Tiles Slab");
         translationBuilder.add(ModBlocks.CALCITE_TILES_CRACKED_STAIRS,"Cracked Calcite Tiles Stairs");
@@ -693,6 +703,13 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY_WALL,"Mossy Tuff Bricks Wall");
         translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY_FENCE,"Mossy Tuff Bricks Fence");
         translationBuilder.add(ModBlocks.TUFF_BRICKS_MOSSY_VERTICAL_SLAB,"Mossy Tuff Bricks Vertical Slab");
+
+        translationBuilder.add(ModBlocks.TUFF_TILES,"Tuff Tiles");
+        translationBuilder.add(ModBlocks.TUFF_TILES_SLAB,"Tuff Tiles Slab");
+        translationBuilder.add(ModBlocks.TUFF_TILES_STAIRS,"Tuff Tiles Stairs");
+        translationBuilder.add(ModBlocks.TUFF_TILES_WALL,"Tuff Tiles Wall");
+        translationBuilder.add(ModBlocks.TUFF_TILES_FENCE,"Tuff Tiles Fence");
+        translationBuilder.add(ModBlocks.TUFF_TILES_VERTICAL_SLAB,"Tuff Tiles Vertical Slab");
 
         translationBuilder.add(ModBlocks.TUFF_TILES_CRACKED,"Cracked Tuff Tiles");
         translationBuilder.add(ModBlocks.TUFF_TILES_CRACKED_SLAB,"Cracked Tuff Tiles Slab");

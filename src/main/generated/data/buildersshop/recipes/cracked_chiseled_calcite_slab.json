@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "buildersshop:cracked_chiseled_calcite"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "buildersshop:cracked_chiseled_calcite_slab"
+  },
+  "show_notification": true
+}

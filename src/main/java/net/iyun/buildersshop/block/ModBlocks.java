@@ -513,18 +513,21 @@ public class ModBlocks {
 
     public static final Block TILES_OBSIDIAN = registerBlock("obsidian_tiles", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_OBSIDIAN_WALL = registerBlock("obsidian_tiles_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block TILES_OBSIDIAN_FENCE = registerBlock("obsidian_tiles_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_OBSIDIAN_STAIRS = registerBlock("obsidian_tiles_stairs", new StairsBlock(ModBlocks.TILES_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_OBSIDIAN_SLAB = registerBlock("obsidian_tiles_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_tiles_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
     public static final Block TILES_CRACKED_OBSIDIAN = registerBlock("obsidian_tiles_cracked", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_CRACKED_OBSIDIAN_WALL = registerBlock("obsidian_tiles_cracked_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block TILES_CRACKED_OBSIDIAN_FENCE = registerBlock("obsidian_tiles_cracked_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_CRACKED_OBSIDIAN_STAIRS = registerBlock("obsidian_tiles_cracked_stairs", new StairsBlock(ModBlocks.TILES_CRACKED_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_CRACKED_OBSIDIAN_SLAB = registerBlock("obsidian_tiles_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_CRACKED_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_tiles_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
     public static final Block TILES_MOSSY_OBSIDIAN = registerBlock("obsidian_tiles_mossy", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_MOSSY_OBSIDIAN_WALL = registerBlock("obsidian_tiles_mossy_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block TILES_MOSSY_OBSIDIAN_FENCE = registerBlock("obsidian_tiles_mossy_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_MOSSY_OBSIDIAN_STAIRS = registerBlock("obsidian_tiles_mossy_stairs", new StairsBlock(ModBlocks.TILES_MOSSY_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_MOSSY_OBSIDIAN_SLAB = registerBlock("obsidian_tiles_mossy_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block TILES_MOSSY_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_tiles_mossy_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));

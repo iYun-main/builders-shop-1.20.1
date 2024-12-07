@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "X": {
+      "item": "buildersshop:mossy_chiseled_calcite"
+    }
+  },
+  "pattern": [
+    "X",
+    "X",
+    "X"
+  ],
+  "result": {
+    "count": 6,
+    "item": "buildersshop:mossy_chiseled_calcite_vertical_slab"
+  },
+  "show_notification": true
+}

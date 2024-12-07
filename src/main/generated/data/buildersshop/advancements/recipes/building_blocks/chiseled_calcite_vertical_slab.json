@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chiseled_calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:chiseled_calcite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:chiseled_calcite_vertical_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_chiseled_calcite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:chiseled_calcite_vertical_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

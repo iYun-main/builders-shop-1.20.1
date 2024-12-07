@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "X": {
+      "item": "buildersshop:tuff_bricks"
+    }
+  },
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "result": {
+    "count": 4,
+    "item": "buildersshop:tuff_tiles"
+  },
+  "show_notification": true
+}
