@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "buildersshop:block/mossy_calcite_tiles",
-    "side": "buildersshop:block/mossy_calcite_tiles",
-    "top": "buildersshop:block/mossy_calcite_tiles"
-  }
-}

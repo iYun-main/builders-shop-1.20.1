@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab_back",
-  "textures": {
-    "bottom": "buildersshop:block/cracked_tuff_tiles",
-    "side": "buildersshop:block/cracked_tuff_tiles",
-    "top": "buildersshop:block/cracked_tuff_tiles"
-  }
-}

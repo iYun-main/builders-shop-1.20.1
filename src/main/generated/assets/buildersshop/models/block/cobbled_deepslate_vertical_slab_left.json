@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab_left",
-  "textures": {
-    "bottom": "minecraft:block/cobbled_deepslate",
-    "side": "minecraft:block/cobbled_deepslate",
-    "top": "minecraft:block/cobbled_deepslate"
-  }
-}

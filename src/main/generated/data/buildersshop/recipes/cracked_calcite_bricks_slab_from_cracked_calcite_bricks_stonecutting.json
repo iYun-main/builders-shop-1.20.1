@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "buildersshop:cracked_calcite_bricks"
-  },
-  "result": "buildersshop:cracked_calcite_bricks_slab"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab_back",
-  "textures": {
-    "bottom": "minecraft:block/cracked_deepslate_tiles",
-    "side": "minecraft:block/cracked_deepslate_tiles",
-    "top": "minecraft:block/cracked_deepslate_tiles"
-  }
-}

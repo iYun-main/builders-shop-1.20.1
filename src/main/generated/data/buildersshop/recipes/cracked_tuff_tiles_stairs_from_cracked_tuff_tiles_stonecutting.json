@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "buildersshop:cracked_tuff_tiles"
-  },
-  "result": "buildersshop:cracked_tuff_tiles_stairs"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "buildersshop:block/mossy_chiseled_tuff",
-    "side": "buildersshop:block/mossy_chiseled_tuff",
-    "top": "buildersshop:block/mossy_chiseled_tuff"
-  }
-}

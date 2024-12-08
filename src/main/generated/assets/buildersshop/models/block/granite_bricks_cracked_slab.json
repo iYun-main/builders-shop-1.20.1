@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "buildersshop:block/granite_bricks_cracked",
-    "side": "buildersshop:block/granite_bricks_cracked",
-    "top": "buildersshop:block/granite_bricks_cracked"
-  }
-}

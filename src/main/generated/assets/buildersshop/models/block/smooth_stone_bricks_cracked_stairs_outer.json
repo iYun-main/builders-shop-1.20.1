@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "buildersshop:block/smooth_stone_bricks_cracked",
-    "side": "buildersshop:block/smooth_stone_bricks_cracked",
-    "top": "buildersshop:block/smooth_stone_bricks_cracked"
-  }
-}

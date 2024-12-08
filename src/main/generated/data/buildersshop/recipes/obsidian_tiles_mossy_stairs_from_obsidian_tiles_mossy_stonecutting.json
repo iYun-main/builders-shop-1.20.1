@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "buildersshop:obsidian_tiles_mossy"
-  },
-  "result": "buildersshop:obsidian_tiles_mossy_stairs"
-}

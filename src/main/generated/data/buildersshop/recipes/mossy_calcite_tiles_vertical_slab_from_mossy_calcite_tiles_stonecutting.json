@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "buildersshop:mossy_calcite_tiles"
-  },
-  "result": "buildersshop:mossy_calcite_tiles_vertical_slab"
-}

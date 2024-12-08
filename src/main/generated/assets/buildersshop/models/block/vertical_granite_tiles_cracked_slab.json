@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab",
-  "textures": {
-    "bottom": "buildersshop:block/granite_tiles_cracked",
-    "side": "buildersshop:block/granite_tiles_cracked",
-    "top": "buildersshop:block/granite_tiles_cracked"
-  }
-}

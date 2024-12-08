@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "buildersshop:andesite_tiles"
-  },
-  "result": "buildersshop:andesite_tiles_wall"
-}

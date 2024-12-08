@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:diorite"
-  },
-  "result": "buildersshop:vertical_diorite_tiles_slab"
-}

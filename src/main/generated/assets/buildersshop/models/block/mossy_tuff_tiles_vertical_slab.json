@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab",
-  "textures": {
-    "bottom": "buildersshop:block/mossy_tuff_tiles",
-    "side": "buildersshop:block/mossy_tuff_tiles",
-    "top": "buildersshop:block/mossy_tuff_tiles"
-  }
-}

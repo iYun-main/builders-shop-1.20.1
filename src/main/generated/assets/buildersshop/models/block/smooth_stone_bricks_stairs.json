@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "buildersshop:block/smooth_stone_bricks",
-    "side": "buildersshop:block/smooth_stone_bricks",
-    "top": "buildersshop:block/smooth_stone_bricks"
-  }
-}

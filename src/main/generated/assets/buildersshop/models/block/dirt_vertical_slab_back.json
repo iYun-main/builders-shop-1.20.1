@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab_back",
-  "textures": {
-    "bottom": "minecraft:block/dirt",
-    "side": "minecraft:block/dirt",
-    "top": "minecraft:block/dirt"
-  }
-}

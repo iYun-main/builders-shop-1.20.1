@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "buildersshop:block/cracked_chiseled_tuff",
-    "side": "buildersshop:block/cracked_chiseled_tuff",
-    "top": "buildersshop:block/cracked_chiseled_tuff"
-  }
-}

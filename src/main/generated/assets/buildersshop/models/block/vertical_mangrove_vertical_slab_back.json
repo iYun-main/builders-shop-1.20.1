@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab_back",
-  "textures": {
-    "bottom": "buildersshop:block/vertical_mangrove_planks",
-    "side": "buildersshop:block/vertical_mangrove_planks",
-    "top": "buildersshop:block/vertical_mangrove_planks"
-  }
-}

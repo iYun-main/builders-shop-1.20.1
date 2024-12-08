@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "buildersshop:block/obsidian_tiles",
-    "side": "buildersshop:block/obsidian_tiles",
-    "top": "buildersshop:block/obsidian_tiles"
-  }
-}

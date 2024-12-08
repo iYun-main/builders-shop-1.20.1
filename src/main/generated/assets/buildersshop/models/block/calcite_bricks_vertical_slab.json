@@ -1,8 +1,0 @@
-{
-  "parent": "buildersshop:block/parent/vertical_slab",
-  "textures": {
-    "bottom": "buildersshop:block/calcite_bricks",
-    "side": "buildersshop:block/calcite_bricks",
-    "top": "buildersshop:block/calcite_bricks"
-  }
-}
