@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "buildersshop:dirt_vertical_slab",
+    "buildersshop:clay_slab",
+    "buildersshop:clay_wall",
+    "buildersshop:clay_fence",
+    "buildersshop:clay_stairs",
+    "buildersshop:clay_vertical_slab",
+    "buildersshop:mud_slab",
+    "buildersshop:mud_wall",
+    "buildersshop:mud_fence",
+    "buildersshop:mud_stairs",
+    "buildersshop:mud_vertical_slab",
+    "buildersshop:rooted_dirt_vertical_slab",
+    "buildersshop:coarse_dirt_vertical_slab",
+    "buildersshop:rooted_dirt_slab",
+    "buildersshop:rooted_dirt_wall",
+    "buildersshop:coarse_dirt_wall",
+    "buildersshop:dirt_wall",
+    "buildersshop:dirt_fence",
+    "buildersshop:coarse_dirt_fence",
+    "buildersshop:rooted_dirt_fence",
+    "buildersshop:rooted_dirt_slab",
+    "buildersshop:coarse_dirt_slab",
+    "buildersshop:dirt_slab"
+  ]
+}

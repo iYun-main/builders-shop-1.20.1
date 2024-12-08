@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "buildersshop:block/cracked_tuff_tiles",
+    "side": "buildersshop:block/cracked_tuff_tiles",
+    "top": "buildersshop:block/cracked_tuff_tiles"
+  }
+}

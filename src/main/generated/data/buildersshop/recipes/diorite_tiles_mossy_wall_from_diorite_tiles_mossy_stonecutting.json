@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "buildersshop:diorite_tiles_mossy"
+  },
+  "result": "buildersshop:diorite_tiles_mossy_wall"
+}

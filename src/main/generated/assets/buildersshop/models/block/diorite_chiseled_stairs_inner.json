@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "buildersshop:block/diorite_chiseled",
+    "side": "buildersshop:block/diorite_chiseled",
+    "top": "buildersshop:block/diorite_chiseled"
+  }
+}

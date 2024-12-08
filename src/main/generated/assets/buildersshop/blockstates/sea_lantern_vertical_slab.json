@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/sea_lantern_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/sea_lantern"
+    },
+    "type=front": {
+      "model": "buildersshop:block/sea_lantern_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/sea_lantern_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/sea_lantern_vertical_slab_right"
+    }
+  }
+}

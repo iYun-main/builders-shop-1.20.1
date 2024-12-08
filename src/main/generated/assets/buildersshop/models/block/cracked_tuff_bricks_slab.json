@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "buildersshop:block/cracked_tuff_bricks",
+    "side": "buildersshop:block/cracked_tuff_bricks",
+    "top": "buildersshop:block/cracked_tuff_bricks"
+  }
+}

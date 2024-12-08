@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "buildersshop:block/andesite_chiseled_cracked",
+    "side": "buildersshop:block/andesite_chiseled_cracked",
+    "top": "buildersshop:block/andesite_chiseled_cracked"
+  }
+}

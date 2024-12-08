@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/mossy_chiseled_calcite_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/mossy_chiseled_calcite"
+    },
+    "type=top": {
+      "model": "buildersshop:block/mossy_chiseled_calcite_slab_top"
+    }
+  }
+}

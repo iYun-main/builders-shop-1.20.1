@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/mossy_calcite_tiles_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/mossy_calcite_tiles"
+    },
+    "type=top": {
+      "model": "buildersshop:block/mossy_calcite_tiles_slab_top"
+    }
+  }
+}

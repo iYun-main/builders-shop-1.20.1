@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:granite_chiseled_mossy"
+  },
+  "result": "buildersshop:granite_chiseled_mossy_slab"
+}

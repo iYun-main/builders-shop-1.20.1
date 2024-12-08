@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/crying_obsidian_chiseled_runic_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/crying_obsidian_chiseled_runic"
+    },
+    "type=top": {
+      "model": "buildersshop:block/crying_obsidian_chiseled_runic_slab_top"
+    }
+  }
+}

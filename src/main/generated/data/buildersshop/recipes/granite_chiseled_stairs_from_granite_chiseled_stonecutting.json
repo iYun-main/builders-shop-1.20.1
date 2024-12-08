@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "buildersshop:granite_chiseled"
+  },
+  "result": "buildersshop:granite_chiseled_stairs"
+}

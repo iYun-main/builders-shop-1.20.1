@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:smooth_stone_chiseled"
+  },
+  "result": "buildersshop:smooth_stone_chiseled_slab"
+}

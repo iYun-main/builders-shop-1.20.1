@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "buildersshop:block/cracked_chiseled_calcite",
+    "side": "buildersshop:block/cracked_chiseled_calcite",
+    "top": "buildersshop:block/cracked_chiseled_calcite"
+  }
+}
