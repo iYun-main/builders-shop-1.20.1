@@ -231,13 +231,13 @@ public class ModModelProvider extends FabricModelProvider {
         tuffchiselmossspool.stairs(ModBlocks.CHISELED_TUFF_MOSSY_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_TUFF_MOSSY, ModBlocks.CHISELED_TUFF_MOSSY_VERTICAL_SLAB);
 
-        tuffchiselspool.slab(ModBlocks.CHISELED_TUFF_CRACKED_SLAB);
-        tuffchiselspool.stairs(ModBlocks.CHISELED_TUFF_CRACKED_STAIRS);
-        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_TUFF_CRACKED, ModBlocks.CHISELED_TUFF_CRACKED_VERTICAL_SLAB);
-
-        tuffchiselcrackspool.slab(ModBlocks.CHISELED_TUFF_SLAB);
-        tuffchiselcrackspool.stairs(ModBlocks.CHISELED_TUFF_STAIRS);
+        tuffchiselspool.slab(ModBlocks.CHISELED_TUFF_SLAB);
+        tuffchiselspool.stairs(ModBlocks.CHISELED_TUFF_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_TUFF, ModBlocks.CHISELED_TUFF_VERTICAL_SLAB);
+
+        tuffchiselcrackspool.slab(ModBlocks.CHISELED_TUFF_CRACKED_SLAB);
+        tuffchiselcrackspool.stairs(ModBlocks.CHISELED_TUFF_CRACKED_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_TUFF_CRACKED, ModBlocks.CHISELED_TUFF_CRACKED_VERTICAL_SLAB);
 
         tufftilespool.wall(ModBlocks.TUFF_TILES_WALL);
         tufftilespool.fence(ModBlocks.TUFF_TILES_FENCE);
@@ -279,13 +279,13 @@ public class ModModelProvider extends FabricModelProvider {
         calcitechiselmossspool.stairs(ModBlocks.CHISELED_CALCITE_MOSSY_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_CALCITE_MOSSY, ModBlocks.CHISELED_CALCITE_MOSSY_VERTICAL_SLAB);
 
-        calcitechiselspool.slab(ModBlocks.CHISELED_CALCITE_CRACKED_SLAB);
-        calcitechiselspool.stairs(ModBlocks.CHISELED_CALCITE_CRACKED_STAIRS);
-        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_CALCITE_CRACKED, ModBlocks.CHISELED_CALCITE_CRACKED_VERTICAL_SLAB);
-
-        calcitechiselcrackspool.slab(ModBlocks.CHISELED_CALCITE_SLAB);
-        calcitechiselcrackspool.stairs(ModBlocks.CHISELED_CALCITE_STAIRS);
+        calcitechiselspool.slab(ModBlocks.CHISELED_CALCITE_SLAB);
+        calcitechiselspool.stairs(ModBlocks.CHISELED_CALCITE_STAIRS);
         renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_CALCITE, ModBlocks.CHISELED_CALCITE_VERTICAL_SLAB);
+
+        calcitechiselcrackspool.slab(ModBlocks.CHISELED_CALCITE_CRACKED_SLAB);
+        calcitechiselcrackspool.stairs(ModBlocks.CHISELED_CALCITE_CRACKED_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.CHISELED_CALCITE_CRACKED, ModBlocks.CHISELED_CALCITE_CRACKED_VERTICAL_SLAB);
 
         chiselnetherpool.slab(ModBlocks.CHISELED_NETHER_BRICK_SLAB);
         chiselnetherpool.stairs(ModBlocks.CHISELED_NETHER_BRICK_STAIRS);

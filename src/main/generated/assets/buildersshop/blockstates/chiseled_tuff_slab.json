@@ -4,7 +4,7 @@
       "model": "buildersshop:block/chiseled_tuff_slab"
     },
     "type=double": {
-      "model": "buildersshop:block/cracked_chiseled_tuff"
+      "model": "buildersshop:block/chiseled_tuff"
     },
     "type=top": {
       "model": "buildersshop:block/chiseled_tuff_slab_top"

@@ -4,7 +4,7 @@
       "model": "buildersshop:block/cracked_chiseled_calcite_slab"
     },
     "type=double": {
-      "model": "buildersshop:block/chiseled_calcite"
+      "model": "buildersshop:block/cracked_chiseled_calcite"
     },
     "type=top": {
       "model": "buildersshop:block/cracked_chiseled_calcite_slab_top"

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "buildersshop:mossy_tuff_tiles"
+  },
+  "result": "buildersshop:mossy_tuff_tiles_stairs"
+}
