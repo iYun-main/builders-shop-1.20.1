@@ -338,6 +338,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.VERTICAL_OAK_PLANK_FENCE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.SEA_LANTERN_FENCE)
                 .add(ModBlocks.VERTICAL_OAK_PLANK_FENCE)
                 .add(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE)
                 .add(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE)

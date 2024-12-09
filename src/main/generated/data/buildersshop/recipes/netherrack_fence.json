@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:netherrack"
+    },
+    "X": {
+      "item": "buildersshop:stone_brick"
+    }
+  },
+  "pattern": [
+    "AXA",
+    "AXA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "buildersshop:netherrack_fence"
+  },
+  "show_notification": true
+}

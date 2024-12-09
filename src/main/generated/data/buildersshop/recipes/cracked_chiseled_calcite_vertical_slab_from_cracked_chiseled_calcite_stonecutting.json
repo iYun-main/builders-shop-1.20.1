@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:cracked_chiseled_calcite"
+  },
+  "result": "buildersshop:cracked_chiseled_calcite_vertical_slab"
+}
