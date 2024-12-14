@@ -339,6 +339,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.SEA_LANTERN_FENCE)
+                .add(ModBlocks.POLISHED_BLACKSTONE_FENCE)
                 .add(ModBlocks.VERTICAL_OAK_PLANK_FENCE)
                 .add(ModBlocks.VERTICAL_BIRCH_PLANK_FENCE)
                 .add(ModBlocks.VERTICAL_SPRUCE_PLANK_FENCE)
@@ -687,6 +688,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.STONE_VERTICAL_SLAB)
+                .add(ModBlocks.POLISHED_BLACKSTONE_FENCE)
+                .add(ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB)
                 .add(ModBlocks.COBBLESTONE_VERTICAL_SLAB)
                 .add(ModBlocks.COBBLESTONE_FENCE)
                 .add(ModBlocks.MOSSY_COBBLESTONE_VERTICAL_SLAB)

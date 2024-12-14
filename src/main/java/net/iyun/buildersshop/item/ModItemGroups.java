@@ -653,6 +653,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHISELED_POLISHED_BLACKSTONE_SLAB);
                         entries.add(ModBlocks.CHISELED_POLISHED_BLACKSTONE_VERTICAL_SLAB);
                         entries.add(ModBlocks.CHISELED_POLISHED_BLACKSTONE_STAIRS);
+                        entries.add(ModBlocks.POLISHED_BLACKSTONE_FENCE);
+                        entries.add(ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB);
                     }).build());
 
     public static void registerItemGroups() {

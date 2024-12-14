@@ -205,6 +205,11 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool gildblackstonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GILDED_BLACKSTONE);
         BlockStateModelGenerator.BlockTexturePool chiselblackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_POLISHED_BLACKSTONE);
 
+        BlockStateModelGenerator.BlockTexturePool polishblackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE);
+
+        polishblackpool.fence(ModBlocks.POLISHED_BLACKSTONE_FENCE);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.POLISHED_BLACKSTONE, ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB);
+
         blackstonepools.fence(ModBlocks.BLACKSTONE_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BLACKSTONE, ModBlocks.BLACKSTONE_VERTICAL_SLAB);
 

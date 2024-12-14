@@ -786,6 +786,10 @@ public class ModBlocks {
     public static final Block CHISELED_POLISHED_BLACKSTONE_VERTICAL_SLAB = registerBlock("chiseled_polished_blackstone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHISELED_POLISHED_BLACKSTONE)));
     public static final Block CHISELED_POLISHED_BLACKSTONE_STAIRS = registerBlock("chiseled_polished_blackstone_stairs", new StairsBlock(CHISELED_POLISHED_BLACKSTONE.getDefaultState(),FabricBlockSettings.copyOf(CHISELED_POLISHED_BLACKSTONE)));
 
+    public static final Block POLISHED_BLACKSTONE_VERTICAL_SLAB = registerBlock("polished_blackstone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE)));
+    public static final Block POLISHED_BLACKSTONE_FENCE = registerBlock("polished_blackstone_fence", new FenceBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE)));
+
+    
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

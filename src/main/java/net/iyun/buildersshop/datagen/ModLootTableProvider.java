@@ -673,6 +673,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CHISELED_POLISHED_BLACKSTONE_STAIRS);
         addDrop(ModBlocks.CHISELED_POLISHED_BLACKSTONE_VERTICAL_SLAB);
 
+        addDrop(ModBlocks.POLISHED_BLACKSTONE_FENCE);
+        addDrop(ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB,slabDrops(ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB));
+
     }
 
 }
