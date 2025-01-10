@@ -789,7 +789,14 @@ public class ModBlocks {
     public static final Block POLISHED_BLACKSTONE_VERTICAL_SLAB = registerBlock("polished_blackstone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE)));
     public static final Block POLISHED_BLACKSTONE_FENCE = registerBlock("polished_blackstone_fence", new FenceBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE)));
 
-    
+    public static final Block POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB = registerBlock("polished_blackstone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
+    public static final Block POLISHED_BLACKSTONE_BRICKS_FENCE = registerBlock("polished_blackstone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
+
+    public static final Block CRACKED_POLISHED_BLACKSTONE_BRICKS_FENCE = registerBlock("cracked_polished_blackstone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
+    public static final Block CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS = registerBlock("cracked_polished_blackstone_bricks_stairs", new StairsBlock(CRACKED_POLISHED_BLACKSTONE_BRICKS.getDefaultState(),FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
+    public static final Block CRACKED_POLISHED_BLACKSTONE_BRICKS_WALL = registerBlock("cracked_polished_blackstone_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
+    public static final Block CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB = registerBlock("cracked_polished_blackstone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
+    public static final Block CRACKED_POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB = registerBlock("cracked_polished_blackstone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

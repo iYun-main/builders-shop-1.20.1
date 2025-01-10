@@ -740,6 +740,12 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CHISELED_TUFF_MOSSY_STAIRS,"Mossy Chiseled Tuff Stairs");
         translationBuilder.add(ModBlocks.CHISELED_TUFF_MOSSY_VERTICAL_SLAB,"Mossy Chiseled Tuff Vertical Slab");
 
+        translationBuilder.add(ModBlocks.POLISHED_BLACKSTONE_FENCE,"Polished Blackstone Fence");
+        translationBuilder.add(ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB,"Polished Blackstone Vertical Slab");
+
+        translationBuilder.add(ModBlocks.POLISHED_BLACKSTONE_BRICKS_FENCE,"Polished Blackstone Brick Fence");
+        translationBuilder.add(ModBlocks.POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB,"Polished Blackstone Brick Vertical Slab");
+
         translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 
     }

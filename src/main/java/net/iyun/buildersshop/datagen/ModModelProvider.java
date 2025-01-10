@@ -206,6 +206,17 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool chiselblackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CHISELED_POLISHED_BLACKSTONE);
 
         BlockStateModelGenerator.BlockTexturePool polishblackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE);
+        BlockStateModelGenerator.BlockTexturePool polishblackbrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool polishblackbrickcrackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+
+        polishblackbrickcrackpool.fence(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_FENCE);
+        polishblackbrickcrackpool.slab(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB);
+        polishblackbrickcrackpool.stairs(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS);
+        polishblackbrickcrackpool.wall(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS, ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB);
+
+        polishblackbrickpool.fence(ModBlocks.POLISHED_BLACKSTONE_BRICKS_FENCE);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.POLISHED_BLACKSTONE_BRICKS, ModBlocks.POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB);
 
         polishblackpool.fence(ModBlocks.POLISHED_BLACKSTONE_FENCE);
         renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.POLISHED_BLACKSTONE, ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB);
