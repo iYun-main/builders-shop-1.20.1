@@ -172,6 +172,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         verticalslab(ModBlocks.GILDED_BLACKSTONE_VERTICAL_SLAB, Blocks.GILDED_BLACKSTONE,exporter);
         verticalslab(ModBlocks.CHISELED_POLISHED_BLACKSTONE_VERTICAL_SLAB, Blocks.CHISELED_POLISHED_BLACKSTONE,exporter);
 
+        verticalslab(ModBlocks.AMETHYST_VERTICAL_SLAB, Blocks.AMETHYST_BLOCK,exporter);
+        verticalslab(ModBlocks.PURPUR_VERTICAL_SLAB, Blocks.PURPUR_BLOCK,exporter);
+        verticalslab(ModBlocks.END_STONE_VERTICAL_SLAB, Blocks.END_STONE,exporter);
+        verticalslab(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS,exporter);
+        verticalslab(ModBlocks.POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB, Blocks.POLISHED_BLACKSTONE_BRICKS,exporter);
+        verticalslab(ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB, Blocks.POLISHED_BLACKSTONE,exporter);
+        verticalslab(ModBlocks.END_STONE_BRICKS_VERTICAL_SLAB, Blocks.END_STONE_BRICKS,exporter);
+        verticalslab(ModBlocks.QUARTZ_BRICKS_VERTICAL_SLAB, Blocks.QUARTZ_BRICKS,exporter);
+        verticalslab(ModBlocks.TERRACOTTA_VERTICAL_SLAB, Blocks.TERRACOTTA,exporter);
+        verticalslab(ModBlocks.WHITE_TERRACOTTA_VERTICAL_SLAB, Blocks.WHITE_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.LIGHT_GRAY_TERRACOTTA_VERTICAL_SLAB, Blocks.LIGHT_GRAY_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.GRAY_TERRACOTTA_VERTICAL_SLAB, Blocks.GRAY_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.BLACK_TERRACOTTA_VERTICAL_SLAB, Blocks.BLACK_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.BROWN_TERRACOTTA_VERTICAL_SLAB, Blocks.BROWN_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.RED_TERRACOTTA_VERTICAL_SLAB, Blocks.RED_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.ORANGE_TERRACOTTA_VERTICAL_SLAB, Blocks.ORANGE_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.YELLOW_TERRACOTTA_VERTICAL_SLAB, Blocks.YELLOW_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.LIME_TERRACOTTA_VERTICAL_SLAB, Blocks.LIME_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.GREEN_TERRACOTTA_VERTICAL_SLAB, Blocks.GREEN_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.CYAN_TERRACOTTA_VERTICAL_SLAB, Blocks.CYAN_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.LIGHT_BLUE_TERRACOTTA_VERTICAL_SLAB, Blocks.LIGHT_BLUE_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.BLUE_TERRACOTTA_VERTICAL_SLAB, Blocks.BLUE_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.PURPLE_TERRACOTTA_VERTICAL_SLAB, Blocks.PURPLE_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.MAGENTA_TERRACOTTA_VERTICAL_SLAB, Blocks.MAGENTA_TERRACOTTA,exporter);
+        verticalslab(ModBlocks.PINK_TERRACOTTA_VERTICAL_SLAB, Blocks.PINK_TERRACOTTA,exporter);
+
         stonefences(ModBlocks.TUFF_TILES_FENCE, ModBlocks.TUFF_TILES,exporter);
         stonefences(ModBlocks.TUFF_BRICKS_FENCE, ModBlocks.TUFF_BRICKS,exporter);
         stonefences(ModBlocks.TUFF_TILES_MOSSY_FENCE, ModBlocks.TUFF_TILES_MOSSY,exporter);
@@ -203,6 +229,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.TUFF_BRICKS_MOSSY_WALL, ModBlocks.TUFF_BRICKS_MOSSY);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.TUFF_TILES_CRACKED_WALL, ModBlocks.TUFF_TILES_CRACKED);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.TUFF_BRICKS_CRACKED_WALL, ModBlocks.TUFF_BRICKS_CRACKED);
+
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.AMETHYST_WALL, Blocks.AMETHYST_BLOCK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PURPUR_WALL, Blocks.PURPUR_BLOCK);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.END_STONE_WALL, Blocks.END_STONE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_WALL, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.QUARTZ_BRICKS_WALL, Blocks.QUARTZ_BRICKS);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.TERRACOTTA_WALL, Blocks.TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.WHITE_TERRACOTTA_WALL, Blocks.WHITE_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL, Blocks.LIGHT_GRAY_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GRAY_TERRACOTTA_WALL, Blocks.GRAY_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BLACK_TERRACOTTA_WALL, Blocks.BLACK_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BROWN_TERRACOTTA_WALL, Blocks.BROWN_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.RED_TERRACOTTA_WALL, Blocks.RED_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.ORANGE_TERRACOTTA_WALL, Blocks.ORANGE_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.YELLOW_TERRACOTTA_WALL, Blocks.YELLOW_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIME_TERRACOTTA_WALL, Blocks.LIME_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GREEN_TERRACOTTA_WALL, Blocks.GREEN_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CYAN_TERRACOTTA_WALL, Blocks.CYAN_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL, Blocks.LIGHT_BLUE_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BLUE_TERRACOTTA_WALL, Blocks.BLUE_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PURPLE_TERRACOTTA_WALL, Blocks.PURPLE_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.MAGENTA_TERRACOTTA_WALL, Blocks.MAGENTA_TERRACOTTA);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PINK_TERRACOTTA_WALL, Blocks.PINK_TERRACOTTA);
 
         createStairsRecipe(ModBlocks.TUFF_TILES_STAIRS, Ingredient.ofItems(ModBlocks.TUFF_TILES))
                 .criterion(hasItem(ModBlocks.TUFF_TILES),conditionsFromItem(ModBlocks.TUFF_TILES_STAIRS))
@@ -386,6 +435,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         stonefences(ModBlocks.CALCITE_TILES_CRACKED_FENCE, ModBlocks.CALCITE_TILES_CRACKED,exporter);
         stonefences(ModBlocks.CALCITE_BRICKS_CRACKED_FENCE, ModBlocks.CALCITE_BRICKS_CRACKED,exporter);
 
+        stonefences(ModBlocks.AMETHYST_FENCE, Blocks.AMETHYST_BLOCK,exporter);
+        stonefences(ModBlocks.PURPUR_FENCE, Blocks.PURPUR_BLOCK,exporter);
+        stonefences(ModBlocks.END_STONE_FENCE, Blocks.END_STONE,exporter);
+        stonefences(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_FENCE, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS,exporter);
+        stonefences(ModBlocks.POLISHED_BLACKSTONE_BRICKS_FENCE, Blocks.POLISHED_BLACKSTONE_BRICKS,exporter);
+        stonefences(ModBlocks.POLISHED_BLACKSTONE_FENCE, Blocks.POLISHED_BLACKSTONE,exporter);
+        stonefences(ModBlocks.END_STONE_BRICKS_FENCE, Blocks.END_STONE_BRICKS,exporter);
+        stonefences(ModBlocks.QUARTZ_BRICKS_FENCE, Blocks.QUARTZ_BRICKS,exporter);
+        stonefences(ModBlocks.TERRACOTTA_FENCE, Blocks.TERRACOTTA,exporter);
+        stonefences(ModBlocks.WHITE_TERRACOTTA_FENCE, Blocks.WHITE_TERRACOTTA,exporter);
+        stonefences(ModBlocks.LIGHT_GRAY_TERRACOTTA_FENCE, Blocks.LIGHT_GRAY_TERRACOTTA,exporter);
+        stonefences(ModBlocks.GRAY_TERRACOTTA_FENCE, Blocks.GRAY_TERRACOTTA,exporter);
+        stonefences(ModBlocks.BLACK_TERRACOTTA_FENCE, Blocks.BLACK_TERRACOTTA,exporter);
+        stonefences(ModBlocks.BROWN_TERRACOTTA_FENCE, Blocks.BROWN_TERRACOTTA,exporter);
+        stonefences(ModBlocks.RED_TERRACOTTA_FENCE, Blocks.RED_TERRACOTTA,exporter);
+        stonefences(ModBlocks.ORANGE_TERRACOTTA_FENCE, Blocks.ORANGE_TERRACOTTA,exporter);
+        stonefences(ModBlocks.YELLOW_TERRACOTTA_FENCE, Blocks.YELLOW_TERRACOTTA,exporter);
+        stonefences(ModBlocks.LIME_TERRACOTTA_FENCE, Blocks.LIME_TERRACOTTA,exporter);
+        stonefences(ModBlocks.GREEN_TERRACOTTA_FENCE, Blocks.GREEN_TERRACOTTA,exporter);
+        stonefences(ModBlocks.CYAN_TERRACOTTA_FENCE, Blocks.CYAN_TERRACOTTA,exporter);
+        stonefences(ModBlocks.LIGHT_BLUE_TERRACOTTA_FENCE, Blocks.LIGHT_BLUE_TERRACOTTA,exporter);
+        stonefences(ModBlocks.BLUE_TERRACOTTA_FENCE, Blocks.BLUE_TERRACOTTA,exporter);
+        stonefences(ModBlocks.PURPLE_TERRACOTTA_FENCE, Blocks.PURPLE_TERRACOTTA,exporter);
+        stonefences(ModBlocks.MAGENTA_TERRACOTTA_FENCE, Blocks.MAGENTA_TERRACOTTA,exporter);
+        stonefences(ModBlocks.PINK_TERRACOTTA_FENCE, Blocks.PINK_TERRACOTTA,exporter);
+
 
 
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_OAK_PLANK_SLAB, ModBlocks.VERTICAL_OAK_PLANK);
@@ -511,6 +586,27 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CHISELED_NETHER_BRICK_SLAB, Blocks.CHISELED_NETHER_BRICKS);
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.SMOOTH_BASALT_SLAB, Blocks.SMOOTH_BASALT);
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GILDED_BLACKSTONE_SLAB, Blocks.GILDED_BLACKSTONE);
+
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.AMETHYST_SLAB, Blocks.AMETHYST_BLOCK);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.END_STONE_SLAB, Blocks.END_STONE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.TERRACOTTA_SLAB, Blocks.TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.WHITE_TERRACOTTA_SLAB, Blocks.WHITE_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB, Blocks.LIGHT_GRAY_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GRAY_TERRACOTTA_SLAB, Blocks.GRAY_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BLACK_TERRACOTTA_SLAB, Blocks.BLACK_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BROWN_TERRACOTTA_SLAB, Blocks.BROWN_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.RED_TERRACOTTA_SLAB, Blocks.RED_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.ORANGE_TERRACOTTA_SLAB, Blocks.ORANGE_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.YELLOW_TERRACOTTA_SLAB, Blocks.YELLOW_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIME_TERRACOTTA_SLAB, Blocks.LIME_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GREEN_TERRACOTTA_SLAB, Blocks.GREEN_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CYAN_TERRACOTTA_SLAB, Blocks.CYAN_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB, Blocks.LIGHT_BLUE_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BLUE_TERRACOTTA_SLAB, Blocks.BLUE_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PURPLE_TERRACOTTA_SLAB, Blocks.PURPLE_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.MAGENTA_TERRACOTTA_SLAB, Blocks.MAGENTA_TERRACOTTA);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PINK_TERRACOTTA_SLAB, Blocks.PINK_TERRACOTTA);
 
 
         // Walls
@@ -1456,6 +1552,120 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_SLAB, ModBlocks.SMOOTH_STONE_TILES_CRACKED,2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_STAIRS, ModBlocks.SMOOTH_STONE_TILES_CRACKED);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_WALL, ModBlocks.SMOOTH_STONE_TILES_CRACKED);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_FENCE, Blocks.AMETHYST_BLOCK);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPUR_FENCE, Blocks.PURPUR_BLOCK);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_FENCE, Blocks.END_STONE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_FENCE, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_BLACKSTONE_BRICKS_FENCE, Blocks.POLISHED_BLACKSTONE_BRICKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_BLACKSTONE_FENCE, Blocks.POLISHED_BLACKSTONE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_BRICKS_FENCE, Blocks.END_STONE_BRICKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUARTZ_BRICKS_FENCE, Blocks.QUARTZ_BRICKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_FENCE, Blocks.TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_TERRACOTTA_FENCE, Blocks.WHITE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_TERRACOTTA_FENCE, Blocks.LIGHT_GRAY_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_TERRACOTTA_FENCE, Blocks.GRAY_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_TERRACOTTA_FENCE, Blocks.BLACK_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_TERRACOTTA_FENCE, Blocks.BROWN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_TERRACOTTA_FENCE, Blocks.RED_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_TERRACOTTA_FENCE, Blocks.ORANGE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_TERRACOTTA_FENCE, Blocks.YELLOW_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_TERRACOTTA_FENCE, Blocks.LIME_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_TERRACOTTA_FENCE, Blocks.GREEN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_TERRACOTTA_FENCE, Blocks.CYAN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_TERRACOTTA_FENCE, Blocks.LIGHT_BLUE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_TERRACOTTA_FENCE, Blocks.BLUE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_TERRACOTTA_FENCE, Blocks.PURPLE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_TERRACOTTA_FENCE, Blocks.MAGENTA_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_TERRACOTTA_FENCE, Blocks.PINK_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_STAIRS, Blocks.AMETHYST_BLOCK);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_STAIRS, Blocks.END_STONE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_STAIRS, Blocks.TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_TERRACOTTA_STAIRS, Blocks.WHITE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS, Blocks.LIGHT_GRAY_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_TERRACOTTA_STAIRS, Blocks.GRAY_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_TERRACOTTA_STAIRS, Blocks.BLACK_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_TERRACOTTA_STAIRS, Blocks.BROWN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_TERRACOTTA_STAIRS, Blocks.RED_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_TERRACOTTA_STAIRS, Blocks.ORANGE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_TERRACOTTA_STAIRS, Blocks.YELLOW_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_TERRACOTTA_STAIRS, Blocks.LIME_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_TERRACOTTA_STAIRS, Blocks.GREEN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_TERRACOTTA_STAIRS, Blocks.CYAN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS, Blocks.LIGHT_BLUE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_TERRACOTTA_STAIRS, Blocks.BLUE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_TERRACOTTA_STAIRS, Blocks.PURPLE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_TERRACOTTA_STAIRS, Blocks.MAGENTA_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_TERRACOTTA_STAIRS, Blocks.PINK_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_WALL, Blocks.AMETHYST_BLOCK);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPUR_WALL, Blocks.PURPUR_BLOCK);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_WALL, Blocks.END_STONE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_WALL, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUARTZ_BRICKS_WALL, Blocks.QUARTZ_BRICKS);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_WALL, Blocks.TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_TERRACOTTA_WALL, Blocks.WHITE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL, Blocks.LIGHT_GRAY_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_TERRACOTTA_WALL, Blocks.GRAY_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_TERRACOTTA_WALL, Blocks.BLACK_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_TERRACOTTA_WALL, Blocks.BROWN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_TERRACOTTA_WALL, Blocks.RED_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_TERRACOTTA_WALL, Blocks.ORANGE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_TERRACOTTA_WALL, Blocks.YELLOW_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_TERRACOTTA_WALL, Blocks.LIME_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_TERRACOTTA_WALL, Blocks.GREEN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_TERRACOTTA_WALL, Blocks.CYAN_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL, Blocks.LIGHT_BLUE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_TERRACOTTA_WALL, Blocks.BLUE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_TERRACOTTA_WALL, Blocks.PURPLE_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_TERRACOTTA_WALL, Blocks.MAGENTA_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_TERRACOTTA_WALL, Blocks.PINK_TERRACOTTA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_SLAB, Blocks.AMETHYST_BLOCK, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_SLAB, Blocks.END_STONE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_SLAB, Blocks.TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_TERRACOTTA_SLAB, Blocks.WHITE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB, Blocks.LIGHT_GRAY_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_TERRACOTTA_SLAB, Blocks.GRAY_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_TERRACOTTA_SLAB, Blocks.BLACK_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_TERRACOTTA_SLAB, Blocks.BROWN_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_TERRACOTTA_SLAB, Blocks.RED_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_TERRACOTTA_SLAB, Blocks.ORANGE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_TERRACOTTA_SLAB, Blocks.YELLOW_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_TERRACOTTA_SLAB, Blocks.LIME_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_TERRACOTTA_SLAB, Blocks.GREEN_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_TERRACOTTA_SLAB, Blocks.CYAN_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB, Blocks.LIGHT_BLUE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_TERRACOTTA_SLAB, Blocks.BLUE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_TERRACOTTA_SLAB, Blocks.PURPLE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_TERRACOTTA_SLAB, Blocks.MAGENTA_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_TERRACOTTA_SLAB, Blocks.PINK_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_VERTICAL_SLAB, Blocks.AMETHYST_BLOCK, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPUR_VERTICAL_SLAB, Blocks.PURPUR_BLOCK, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_VERTICAL_SLAB, Blocks.END_STONE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB, Blocks.POLISHED_BLACKSTONE_BRICKS, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB, Blocks.POLISHED_BLACKSTONE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.END_STONE_BRICKS_VERTICAL_SLAB, Blocks.END_STONE_BRICKS, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.QUARTZ_BRICKS_VERTICAL_SLAB, Blocks.QUARTZ_BRICKS, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_VERTICAL_SLAB, Blocks.TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_TERRACOTTA_VERTICAL_SLAB, Blocks.WHITE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_TERRACOTTA_VERTICAL_SLAB, Blocks.LIGHT_GRAY_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_TERRACOTTA_VERTICAL_SLAB, Blocks.GRAY_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_TERRACOTTA_VERTICAL_SLAB, Blocks.BLACK_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_TERRACOTTA_VERTICAL_SLAB, Blocks.BROWN_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_TERRACOTTA_VERTICAL_SLAB, Blocks.RED_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_TERRACOTTA_VERTICAL_SLAB, Blocks.ORANGE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_TERRACOTTA_VERTICAL_SLAB, Blocks.YELLOW_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_TERRACOTTA_VERTICAL_SLAB, Blocks.LIME_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_TERRACOTTA_VERTICAL_SLAB, Blocks.GREEN_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_TERRACOTTA_VERTICAL_SLAB, Blocks.CYAN_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_TERRACOTTA_VERTICAL_SLAB, Blocks.LIGHT_BLUE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_TERRACOTTA_VERTICAL_SLAB, Blocks.BLUE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_TERRACOTTA_VERTICAL_SLAB, Blocks.PURPLE_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_TERRACOTTA_VERTICAL_SLAB, Blocks.MAGENTA_TERRACOTTA, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_TERRACOTTA_VERTICAL_SLAB, Blocks.PINK_TERRACOTTA, 2);
+
     }
 
     private void verticalslab(ItemConvertible output, ItemConvertible itemConvertible, Consumer<RecipeJsonProvider> exporter) {

@@ -209,6 +209,160 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool polishblackbrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_BLACKSTONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool polishblackbrickcrackpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
 
+        BlockStateModelGenerator.BlockTexturePool endstonepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
+        BlockStateModelGenerator.BlockTexturePool endstonebrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE_BRICKS);
+
+        BlockStateModelGenerator.BlockTexturePool purpurpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool quartzpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.QUARTZ_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool squartzpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ);
+        BlockStateModelGenerator.BlockTexturePool amethystpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.AMETHYST_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool terra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool wterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool lgterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool gterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool blaterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool broterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool redterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool orangeterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool yelterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool limeterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool greterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool cyaterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool lbterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool bterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool pterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool mterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_TERRACOTTA);
+        BlockStateModelGenerator.BlockTexturePool piterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_TERRACOTTA);
+
+        piterra.wall(ModBlocks.PINK_TERRACOTTA_WALL);
+        piterra.fence(ModBlocks.PINK_TERRACOTTA_FENCE);
+        piterra.slab(ModBlocks.PINK_TERRACOTTA_SLAB);
+        piterra.stairs(ModBlocks.PINK_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.PINK_TERRACOTTA, ModBlocks.PINK_TERRACOTTA_VERTICAL_SLAB);
+
+        mterra.wall(ModBlocks.MAGENTA_TERRACOTTA_WALL);
+        mterra.fence(ModBlocks.MAGENTA_TERRACOTTA_FENCE);
+        mterra.slab(ModBlocks.MAGENTA_TERRACOTTA_SLAB);
+        mterra.stairs(ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.MAGENTA_TERRACOTTA, ModBlocks.MAGENTA_TERRACOTTA_VERTICAL_SLAB);
+
+        pterra.wall(ModBlocks.PURPLE_TERRACOTTA_WALL);
+        pterra.fence(ModBlocks.PURPLE_TERRACOTTA_FENCE);
+        pterra.slab(ModBlocks.PURPLE_TERRACOTTA_SLAB);
+        pterra.stairs(ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.PURPLE_TERRACOTTA, ModBlocks.PURPLE_TERRACOTTA_VERTICAL_SLAB);
+
+        bterra.wall(ModBlocks.BLUE_TERRACOTTA_WALL);
+        bterra.fence(ModBlocks.BLUE_TERRACOTTA_FENCE);
+        bterra.slab(ModBlocks.BLUE_TERRACOTTA_SLAB);
+        bterra.stairs(ModBlocks.BLUE_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BLUE_TERRACOTTA, ModBlocks.BLUE_TERRACOTTA_VERTICAL_SLAB);
+
+        lbterra.wall(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL);
+        lbterra.fence(ModBlocks.LIGHT_BLUE_TERRACOTTA_FENCE);
+        lbterra.slab(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB);
+        lbterra.stairs(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.LIGHT_BLUE_TERRACOTTA, ModBlocks.LIGHT_BLUE_TERRACOTTA_VERTICAL_SLAB);
+
+        cyaterra.wall(ModBlocks.CYAN_TERRACOTTA_WALL);
+        cyaterra.fence(ModBlocks.CYAN_TERRACOTTA_FENCE);
+        cyaterra.slab(ModBlocks.CYAN_TERRACOTTA_SLAB);
+        cyaterra.stairs(ModBlocks.CYAN_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.CYAN_TERRACOTTA, ModBlocks.CYAN_TERRACOTTA_VERTICAL_SLAB);
+
+        greterra.wall(ModBlocks.GREEN_TERRACOTTA_WALL);
+        greterra.fence(ModBlocks.GREEN_TERRACOTTA_FENCE);
+        greterra.slab(ModBlocks.GREEN_TERRACOTTA_SLAB);
+        greterra.stairs(ModBlocks.GREEN_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.GREEN_TERRACOTTA, ModBlocks.GREEN_TERRACOTTA_VERTICAL_SLAB);
+
+        limeterra.wall(ModBlocks.LIME_TERRACOTTA_WALL);
+        limeterra.fence(ModBlocks.LIME_TERRACOTTA_FENCE);
+        limeterra.slab(ModBlocks.LIME_TERRACOTTA_SLAB);
+        limeterra.stairs(ModBlocks.LIME_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.LIME_TERRACOTTA, ModBlocks.LIME_TERRACOTTA_VERTICAL_SLAB);
+
+        yelterra.wall(ModBlocks.YELLOW_TERRACOTTA_WALL);
+        yelterra.fence(ModBlocks.YELLOW_TERRACOTTA_FENCE);
+        yelterra.slab(ModBlocks.YELLOW_TERRACOTTA_SLAB);
+        yelterra.stairs(ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.YELLOW_TERRACOTTA, ModBlocks.YELLOW_TERRACOTTA_VERTICAL_SLAB);
+
+        orangeterra.wall(ModBlocks.ORANGE_TERRACOTTA_WALL);
+        orangeterra.fence(ModBlocks.ORANGE_TERRACOTTA_FENCE);
+        orangeterra.slab(ModBlocks.ORANGE_TERRACOTTA_SLAB);
+        orangeterra.stairs(ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.ORANGE_TERRACOTTA, ModBlocks.ORANGE_TERRACOTTA_VERTICAL_SLAB);
+
+        redterra.wall(ModBlocks.RED_TERRACOTTA_WALL);
+        redterra.fence(ModBlocks.RED_TERRACOTTA_FENCE);
+        redterra.slab(ModBlocks.RED_TERRACOTTA_SLAB);
+        redterra.stairs(ModBlocks.RED_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.RED_TERRACOTTA, ModBlocks.RED_TERRACOTTA_VERTICAL_SLAB);
+
+        broterra.wall(ModBlocks.BROWN_TERRACOTTA_WALL);
+        broterra.fence(ModBlocks.BROWN_TERRACOTTA_FENCE);
+        broterra.slab(ModBlocks.BROWN_TERRACOTTA_SLAB);
+        broterra.stairs(ModBlocks.BROWN_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BROWN_TERRACOTTA, ModBlocks.BROWN_TERRACOTTA_VERTICAL_SLAB);
+
+        blaterra.wall(ModBlocks.BLACK_TERRACOTTA_WALL);
+        blaterra.fence(ModBlocks.BLACK_TERRACOTTA_FENCE);
+        blaterra.slab(ModBlocks.BLACK_TERRACOTTA_SLAB);
+        blaterra.stairs(ModBlocks.BLACK_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BLACK_TERRACOTTA, ModBlocks.BLACK_TERRACOTTA_VERTICAL_SLAB);
+
+        lgterra.wall(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL);
+        lgterra.fence(ModBlocks.LIGHT_GRAY_TERRACOTTA_FENCE);
+        lgterra.slab(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB);
+        lgterra.stairs(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.LIGHT_GRAY_TERRACOTTA, ModBlocks.LIGHT_GRAY_TERRACOTTA_VERTICAL_SLAB);
+
+        gterra.wall(ModBlocks.GRAY_TERRACOTTA_WALL);
+        gterra.fence(ModBlocks.GRAY_TERRACOTTA_FENCE);
+        gterra.slab(ModBlocks.GRAY_TERRACOTTA_SLAB);
+        gterra.stairs(ModBlocks.GRAY_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.GRAY_TERRACOTTA, ModBlocks.GRAY_TERRACOTTA_VERTICAL_SLAB);
+
+        wterra.wall(ModBlocks.WHITE_TERRACOTTA_WALL);
+        wterra.fence(ModBlocks.WHITE_TERRACOTTA_FENCE);
+        wterra.slab(ModBlocks.WHITE_TERRACOTTA_SLAB);
+        wterra.stairs(ModBlocks.WHITE_TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.WHITE_TERRACOTTA, ModBlocks.WHITE_TERRACOTTA_VERTICAL_SLAB);
+
+        terra.wall(ModBlocks.TERRACOTTA_WALL);
+        terra.fence(ModBlocks.TERRACOTTA_FENCE);
+        terra.slab(ModBlocks.TERRACOTTA_SLAB);
+        terra.stairs(ModBlocks.TERRACOTTA_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.TERRACOTTA, ModBlocks.TERRACOTTA_VERTICAL_SLAB);
+
+        amethystpool.wall(ModBlocks.AMETHYST_WALL);
+        amethystpool.fence(ModBlocks.AMETHYST_FENCE);
+        amethystpool.slab(ModBlocks.AMETHYST_SLAB);
+        amethystpool.stairs(ModBlocks.AMETHYST_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.AMETHYST_BLOCK, ModBlocks.AMETHYST_VERTICAL_SLAB);
+
+        squartzpool.fence(ModBlocks.SMOOTH_QUARTZ_FENCE);
+        squartzpool.wall(ModBlocks.SMOOTH_QUARTZ_WALL);
+
+        quartzpool.fence(ModBlocks.QUARTZ_BRICKS_FENCE);
+        quartzpool.wall(ModBlocks.QUARTZ_BRICKS_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.QUARTZ_BRICKS, ModBlocks.QUARTZ_BRICKS_VERTICAL_SLAB);
+
+        purpurpool.fence(ModBlocks.PURPUR_FENCE);
+        purpurpool.wall(ModBlocks.PURPUR_WALL);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.PURPUR_BLOCK, ModBlocks.PURPUR_VERTICAL_SLAB);
+
+        endstonebrickpool.fence(ModBlocks.END_STONE_BRICKS_FENCE);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.END_STONE_BRICKS, ModBlocks.END_STONE_BRICKS_VERTICAL_SLAB);
+
+        endstonepool.stairs(ModBlocks.END_STONE_STAIRS);
+        endstonepool.wall(ModBlocks.END_STONE_WALL);
+        endstonepool.fence(ModBlocks.END_STONE_FENCE);
+        endstonepool.slab(ModBlocks.END_STONE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.END_STONE, ModBlocks.END_STONE_VERTICAL_SLAB);
+
         polishblackbrickcrackpool.fence(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_FENCE);
         polishblackbrickcrackpool.slab(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB);
         polishblackbrickcrackpool.stairs(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS);

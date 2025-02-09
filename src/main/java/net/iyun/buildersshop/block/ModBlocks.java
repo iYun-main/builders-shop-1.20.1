@@ -798,6 +798,135 @@ public class ModBlocks {
     public static final Block CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB = registerBlock("cracked_polished_blackstone_bricks_slab", new SlabBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
     public static final Block CRACKED_POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB = registerBlock("cracked_polished_blackstone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(POLISHED_BLACKSTONE_BRICKS)));
 
+    public static final Block END_STONE_SLAB = registerBlock("end_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(END_STONE)));
+    public static final Block END_STONE_STAIRS = registerBlock("end_stone_stairs", new StairsBlock(END_STONE.getDefaultState(),FabricBlockSettings.copyOf(END_STONE)));
+    public static final Block END_STONE_WALL = registerBlock("end_stone_wall", new WallBlock(FabricBlockSettings.copyOf(END_STONE)));
+    public static final Block END_STONE_FENCE = registerBlock("end_stone_fence", new FenceBlock(FabricBlockSettings.copyOf(END_STONE)));
+    public static final Block END_STONE_VERTICAL_SLAB = registerBlock("end_stone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(END_STONE)));
+
+    public static final Block END_STONE_BRICKS_VERTICAL_SLAB = registerBlock("end_stone_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(END_STONE_BRICKS)));
+    public static final Block END_STONE_BRICKS_FENCE = registerBlock("end_stone_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(END_STONE_BRICKS)));
+
+    public static final Block PURPUR_WALL = registerBlock("purpur_wall", new WallBlock(FabricBlockSettings.copyOf(PURPUR_BLOCK)));
+    public static final Block PURPUR_FENCE = registerBlock("purpur_fence", new FenceBlock(FabricBlockSettings.copyOf(PURPUR_BLOCK)));
+    public static final Block PURPUR_VERTICAL_SLAB = registerBlock("purpur_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PURPUR_BLOCK)));
+
+    public static final Block QUARTZ_BRICKS_VERTICAL_SLAB = registerBlock("quartz_bricks_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(QUARTZ_BRICKS)));
+    public static final Block QUARTZ_BRICKS_WALL = registerBlock("quartz_bricks_wall", new WallBlock(FabricBlockSettings.copyOf(QUARTZ_BLOCK)));
+    public static final Block QUARTZ_BRICKS_FENCE = registerBlock("quartz_bricks_fence", new FenceBlock(FabricBlockSettings.copyOf(QUARTZ_BLOCK)));
+
+    public static final Block SMOOTH_QUARTZ_FENCE = registerBlock("smooth_quartz_fence", new FenceBlock(FabricBlockSettings.copyOf(SMOOTH_QUARTZ)));
+    public static final Block SMOOTH_QUARTZ_WALL = registerBlock("smooth_quartz_wall", new WallBlock(FabricBlockSettings.copyOf(SMOOTH_QUARTZ)));
+
+    public static final Block AMETHYST_SLAB = registerBlock("amethyst_block_slab", new SlabBlock(FabricBlockSettings.copyOf(AMETHYST_BLOCK)));
+    public static final Block AMETHYST_STAIRS = registerBlock("amethyst_stairs", new StairsBlock(AMETHYST_BLOCK.getDefaultState(),FabricBlockSettings.copyOf(AMETHYST_BLOCK)));
+    public static final Block AMETHYST_WALL = registerBlock("amethyst_wall", new WallBlock(FabricBlockSettings.copyOf(AMETHYST_BLOCK)));
+    public static final Block AMETHYST_FENCE = registerBlock("amethyst_fence", new FenceBlock(FabricBlockSettings.copyOf(AMETHYST_BLOCK)));
+    public static final Block AMETHYST_VERTICAL_SLAB = registerBlock("amethyst_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(AMETHYST_BLOCK)));
+
+    public static final Block TERRACOTTA_SLAB = registerBlock("terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(TERRACOTTA)));
+    public static final Block TERRACOTTA_STAIRS = registerBlock("terracotta_stairs", new StairsBlock(TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(TERRACOTTA)));
+    public static final Block TERRACOTTA_WALL = registerBlock("terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(TERRACOTTA)));
+    public static final Block TERRACOTTA_FENCE = registerBlock("terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(TERRACOTTA)));
+    public static final Block TERRACOTTA_VERTICAL_SLAB = registerBlock("terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(TERRACOTTA)));
+
+    public static final Block WHITE_TERRACOTTA_SLAB = registerBlock("white_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(WHITE_TERRACOTTA)));
+    public static final Block WHITE_TERRACOTTA_STAIRS = registerBlock("white_terracotta_stairs", new StairsBlock(WHITE_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(WHITE_TERRACOTTA)));
+    public static final Block WHITE_TERRACOTTA_WALL = registerBlock("white_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(WHITE_TERRACOTTA)));
+    public static final Block WHITE_TERRACOTTA_FENCE = registerBlock("white_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(WHITE_TERRACOTTA)));
+    public static final Block WHITE_TERRACOTTA_VERTICAL_SLAB = registerBlock("white_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WHITE_TERRACOTTA)));
+
+    public static final Block LIGHT_GRAY_TERRACOTTA_SLAB = registerBlock("light_gray_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(LIGHT_GRAY_TERRACOTTA)));
+    public static final Block LIGHT_GRAY_TERRACOTTA_STAIRS = registerBlock("light_gray_terracotta_stairs", new StairsBlock(LIGHT_GRAY_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(LIGHT_GRAY_TERRACOTTA)));
+    public static final Block LIGHT_GRAY_TERRACOTTA_WALL = registerBlock("light_gray_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(LIGHT_GRAY_TERRACOTTA)));
+    public static final Block LIGHT_GRAY_TERRACOTTA_FENCE = registerBlock("light_gray_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(LIGHT_GRAY_TERRACOTTA)));
+    public static final Block LIGHT_GRAY_TERRACOTTA_VERTICAL_SLAB = registerBlock("light_gray_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(LIGHT_GRAY_TERRACOTTA)));
+
+    public static final Block GRAY_TERRACOTTA_SLAB = registerBlock("gray_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(GRAY_TERRACOTTA)));
+    public static final Block GRAY_TERRACOTTA_STAIRS = registerBlock("gray_terracotta_stairs", new StairsBlock(GRAY_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(GRAY_TERRACOTTA)));
+    public static final Block GRAY_TERRACOTTA_WALL = registerBlock("gray_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(GRAY_TERRACOTTA)));
+    public static final Block GRAY_TERRACOTTA_FENCE = registerBlock("gray_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(GRAY_TERRACOTTA)));
+    public static final Block GRAY_TERRACOTTA_VERTICAL_SLAB = registerBlock("gray_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GRAY_TERRACOTTA)));
+
+    public static final Block BLACK_TERRACOTTA_SLAB = registerBlock("black_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(BLACK_TERRACOTTA)));
+    public static final Block BLACK_TERRACOTTA_STAIRS = registerBlock("black_terracotta_stairs", new StairsBlock(BLACK_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(BLACK_TERRACOTTA)));
+    public static final Block BLACK_TERRACOTTA_WALL = registerBlock("black_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(BLACK_TERRACOTTA)));
+    public static final Block BLACK_TERRACOTTA_FENCE = registerBlock("black_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(BLACK_TERRACOTTA)));
+    public static final Block BLACK_TERRACOTTA_VERTICAL_SLAB = registerBlock("black_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BLACK_TERRACOTTA)));
+
+    public static final Block BROWN_TERRACOTTA_SLAB = registerBlock("brown_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(BROWN_TERRACOTTA)));
+    public static final Block BROWN_TERRACOTTA_STAIRS = registerBlock("brown_terracotta_stairs", new StairsBlock(BROWN_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(BROWN_TERRACOTTA)));
+    public static final Block BROWN_TERRACOTTA_WALL = registerBlock("brown_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(BROWN_TERRACOTTA)));
+    public static final Block BROWN_TERRACOTTA_FENCE = registerBlock("brown_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(BROWN_TERRACOTTA)));
+    public static final Block BROWN_TERRACOTTA_VERTICAL_SLAB = registerBlock("brown_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BROWN_TERRACOTTA)));
+
+    public static final Block RED_TERRACOTTA_SLAB = registerBlock("red_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(RED_TERRACOTTA)));
+    public static final Block RED_TERRACOTTA_STAIRS = registerBlock("red_terracotta_stairs", new StairsBlock(RED_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(RED_TERRACOTTA)));
+    public static final Block RED_TERRACOTTA_WALL = registerBlock("red_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(RED_TERRACOTTA)));
+    public static final Block RED_TERRACOTTA_FENCE = registerBlock("red_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(RED_TERRACOTTA)));
+    public static final Block RED_TERRACOTTA_VERTICAL_SLAB = registerBlock("red_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(RED_TERRACOTTA)));
+
+    public static final Block ORANGE_TERRACOTTA_SLAB = registerBlock("orange_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(ORANGE_TERRACOTTA)));
+    public static final Block ORANGE_TERRACOTTA_STAIRS = registerBlock("orange_terracotta_stairs", new StairsBlock(ORANGE_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(ORANGE_TERRACOTTA)));
+    public static final Block ORANGE_TERRACOTTA_WALL = registerBlock("orange_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(ORANGE_TERRACOTTA)));
+    public static final Block ORANGE_TERRACOTTA_FENCE = registerBlock("orange_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(ORANGE_TERRACOTTA)));
+    public static final Block ORANGE_TERRACOTTA_VERTICAL_SLAB = registerBlock("orange_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ORANGE_TERRACOTTA)));
+
+    public static final Block YELLOW_TERRACOTTA_SLAB = registerBlock("yellow_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(YELLOW_TERRACOTTA)));
+    public static final Block YELLOW_TERRACOTTA_STAIRS = registerBlock("yellow_terracotta_stairs", new StairsBlock(YELLOW_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(YELLOW_TERRACOTTA)));
+    public static final Block YELLOW_TERRACOTTA_WALL = registerBlock("yellow_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(YELLOW_TERRACOTTA)));
+    public static final Block YELLOW_TERRACOTTA_FENCE = registerBlock("yellow_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(YELLOW_TERRACOTTA)));
+    public static final Block YELLOW_TERRACOTTA_VERTICAL_SLAB = registerBlock("yellow_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(YELLOW_TERRACOTTA)));
+
+    public static final Block LIME_TERRACOTTA_SLAB = registerBlock("lime_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(LIME_TERRACOTTA)));
+    public static final Block LIME_TERRACOTTA_STAIRS = registerBlock("lime_terracotta_stairs", new StairsBlock(LIME_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(LIME_TERRACOTTA)));
+    public static final Block LIME_TERRACOTTA_WALL = registerBlock("lime_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(LIME_TERRACOTTA)));
+    public static final Block LIME_TERRACOTTA_FENCE = registerBlock("lime_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(LIME_TERRACOTTA)));
+    public static final Block LIME_TERRACOTTA_VERTICAL_SLAB = registerBlock("lime_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(LIME_TERRACOTTA)));
+
+    public static final Block GREEN_TERRACOTTA_SLAB = registerBlock("green_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(GREEN_TERRACOTTA)));
+    public static final Block GREEN_TERRACOTTA_STAIRS = registerBlock("green_terracotta_stairs", new StairsBlock(GREEN_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(GREEN_TERRACOTTA)));
+    public static final Block GREEN_TERRACOTTA_WALL = registerBlock("green_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(GREEN_TERRACOTTA)));
+    public static final Block GREEN_TERRACOTTA_FENCE = registerBlock("green_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(GREEN_TERRACOTTA)));
+    public static final Block GREEN_TERRACOTTA_VERTICAL_SLAB = registerBlock("green_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(GREEN_TERRACOTTA)));
+
+    public static final Block CYAN_TERRACOTTA_SLAB = registerBlock("cyan_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(CYAN_TERRACOTTA)));
+    public static final Block CYAN_TERRACOTTA_STAIRS = registerBlock("cyan_terracotta_stairs", new StairsBlock(CYAN_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(CYAN_TERRACOTTA)));
+    public static final Block CYAN_TERRACOTTA_WALL = registerBlock("cyan_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(CYAN_TERRACOTTA)));
+    public static final Block CYAN_TERRACOTTA_FENCE = registerBlock("cyan_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(CYAN_TERRACOTTA)));
+    public static final Block CYAN_TERRACOTTA_VERTICAL_SLAB = registerBlock("cyan_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CYAN_TERRACOTTA)));
+
+    public static final Block LIGHT_BLUE_TERRACOTTA_SLAB = registerBlock("light_blue_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(LIGHT_BLUE_TERRACOTTA)));
+    public static final Block LIGHT_BLUE_TERRACOTTA_STAIRS = registerBlock("light_blue_terracotta_stairs", new StairsBlock(LIGHT_BLUE_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(LIGHT_BLUE_TERRACOTTA)));
+    public static final Block LIGHT_BLUE_TERRACOTTA_WALL = registerBlock("light_blue_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(LIGHT_BLUE_TERRACOTTA)));
+    public static final Block LIGHT_BLUE_TERRACOTTA_FENCE = registerBlock("light_blue_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(LIGHT_BLUE_TERRACOTTA)));
+    public static final Block LIGHT_BLUE_TERRACOTTA_VERTICAL_SLAB = registerBlock("light_blue_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(LIGHT_BLUE_TERRACOTTA)));
+
+    public static final Block BLUE_TERRACOTTA_SLAB = registerBlock("blue_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(BLUE_TERRACOTTA)));
+    public static final Block BLUE_TERRACOTTA_STAIRS = registerBlock("blue_terracotta_stairs", new StairsBlock(BLUE_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(BLUE_TERRACOTTA)));
+    public static final Block BLUE_TERRACOTTA_WALL = registerBlock("blue_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(BLUE_TERRACOTTA)));
+    public static final Block BLUE_TERRACOTTA_FENCE = registerBlock("blue_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(BLUE_TERRACOTTA)));
+    public static final Block BLUE_TERRACOTTA_VERTICAL_SLAB = registerBlock("blue_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BLUE_TERRACOTTA)));
+
+    public static final Block PURPLE_TERRACOTTA_SLAB = registerBlock("purple_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(PURPLE_TERRACOTTA)));
+    public static final Block PURPLE_TERRACOTTA_STAIRS = registerBlock("purple_terracotta_stairs", new StairsBlock(PURPLE_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(PURPLE_TERRACOTTA)));
+    public static final Block PURPLE_TERRACOTTA_WALL = registerBlock("purple_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(PURPLE_TERRACOTTA)));
+    public static final Block PURPLE_TERRACOTTA_FENCE = registerBlock("purple_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(PURPLE_TERRACOTTA)));
+    public static final Block PURPLE_TERRACOTTA_VERTICAL_SLAB = registerBlock("purple_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PURPLE_TERRACOTTA)));
+
+    public static final Block MAGENTA_TERRACOTTA_SLAB = registerBlock("magenta_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(MAGENTA_TERRACOTTA)));
+    public static final Block MAGENTA_TERRACOTTA_STAIRS = registerBlock("magenta_terracotta_stairs", new StairsBlock(MAGENTA_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(MAGENTA_TERRACOTTA)));
+    public static final Block MAGENTA_TERRACOTTA_WALL = registerBlock("magenta_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(MAGENTA_TERRACOTTA)));
+    public static final Block MAGENTA_TERRACOTTA_FENCE = registerBlock("magenta_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(MAGENTA_TERRACOTTA)));
+    public static final Block MAGENTA_TERRACOTTA_VERTICAL_SLAB = registerBlock("magenta_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MAGENTA_TERRACOTTA)));
+
+    public static final Block PINK_TERRACOTTA_SLAB = registerBlock("pink_terracotta_block_slab", new SlabBlock(FabricBlockSettings.copyOf(PINK_TERRACOTTA)));
+    public static final Block PINK_TERRACOTTA_STAIRS = registerBlock("pink_terracotta_stairs", new StairsBlock(PINK_TERRACOTTA.getDefaultState(),FabricBlockSettings.copyOf(PINK_TERRACOTTA)));
+    public static final Block PINK_TERRACOTTA_WALL = registerBlock("pink_terracotta_wall", new WallBlock(FabricBlockSettings.copyOf(PINK_TERRACOTTA)));
+    public static final Block PINK_TERRACOTTA_FENCE = registerBlock("pink_terracotta_fence", new FenceBlock(FabricBlockSettings.copyOf(PINK_TERRACOTTA)));
+    public static final Block PINK_TERRACOTTA_VERTICAL_SLAB = registerBlock("pink_terracotta_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PINK_TERRACOTTA)));
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(BuildersShop.MOD_ID, name), block);

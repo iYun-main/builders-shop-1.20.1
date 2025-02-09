@@ -746,6 +746,140 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.POLISHED_BLACKSTONE_BRICKS_FENCE,"Polished Blackstone Brick Fence");
         translationBuilder.add(ModBlocks.POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB,"Polished Blackstone Brick Vertical Slab");
 
+        translationBuilder.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_FENCE,"Cracked Polished Blackstone Brick Fence");
+        translationBuilder.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB,"Cracked Polished Blackstone Brick Slab");
+        translationBuilder.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS,"Cracked Polished Blackstone Brick Stairs");
+        translationBuilder.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_VERTICAL_SLAB,"Cracked Polished Blackstone Brick Vertical Slab");
+        translationBuilder.add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_WALL,"Cracked Polished Blackstone Brick Wall");
+
+        translationBuilder.add(ModBlocks.PURPUR_FENCE,"Purpur Fence");
+        translationBuilder.add(ModBlocks.PURPUR_WALL,"Purpur Wall");
+        translationBuilder.add(ModBlocks.PURPUR_VERTICAL_SLAB,"Purpur Vertical Slab");
+
+        translationBuilder.add(ModBlocks.END_STONE_WALL,"Endstone Wall");
+        translationBuilder.add(ModBlocks.END_STONE_FENCE,"Endstone Fence");
+        translationBuilder.add(ModBlocks.END_STONE_SLAB,"Endstone Slab");
+        translationBuilder.add(ModBlocks.END_STONE_VERTICAL_SLAB,"Endstone Vertical Slab");
+        translationBuilder.add(ModBlocks.END_STONE_STAIRS,"Endstone Stairs");
+
+        translationBuilder.add(ModBlocks.END_STONE_BRICKS_FENCE,"Endstone Brick Fence");
+        translationBuilder.add(ModBlocks.END_STONE_BRICKS_VERTICAL_SLAB,"Endstone Brick Vertical Slab");
+
+        translationBuilder.add(ModBlocks.QUARTZ_BRICKS_VERTICAL_SLAB,"Quartz Bricks Vertical Slab");
+        translationBuilder.add(ModBlocks.QUARTZ_BRICKS_WALL,"Quartz Bricks Wall");
+        translationBuilder.add(ModBlocks.QUARTZ_BRICKS_FENCE,"Quartz Bricks Fence");
+
+        translationBuilder.add(ModBlocks.SMOOTH_QUARTZ_FENCE,"Smooth Quartz Fence");
+        translationBuilder.add(ModBlocks.SMOOTH_QUARTZ_WALL,"Smooth Quartz Wall");
+
+        translationBuilder.add(ModBlocks.AMETHYST_FENCE,"Amethyst Fence");
+        translationBuilder.add(ModBlocks.AMETHYST_WALL,"Amethyst Wall");
+        translationBuilder.add(ModBlocks.AMETHYST_STAIRS,"Amethyst Stairs");
+        translationBuilder.add(ModBlocks.AMETHYST_SLAB,"Amethyst Slab");
+        translationBuilder.add(ModBlocks.AMETHYST_VERTICAL_SLAB,"Amethyst Vertical Slab");
+
+        translationBuilder.add(ModBlocks.TERRACOTTA_FENCE,"Terracotta Fence");
+        translationBuilder.add(ModBlocks.TERRACOTTA_WALL,"Terracotta Wall");
+        translationBuilder.add(ModBlocks.TERRACOTTA_STAIRS,"Terracotta Stairs");
+        translationBuilder.add(ModBlocks.TERRACOTTA_SLAB,"Terracotta Slab");
+        translationBuilder.add(ModBlocks.TERRACOTTA_VERTICAL_SLAB,"Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.WHITE_TERRACOTTA_FENCE,"White Terracotta Fence");
+        translationBuilder.add(ModBlocks.WHITE_TERRACOTTA_WALL,"White Terracotta Wall");
+        translationBuilder.add(ModBlocks.WHITE_TERRACOTTA_STAIRS,"White Terracotta Stairs");
+        translationBuilder.add(ModBlocks.WHITE_TERRACOTTA_SLAB,"White Terracotta Slab");
+        translationBuilder.add(ModBlocks.WHITE_TERRACOTTA_VERTICAL_SLAB,"White Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_FENCE,"Light Gray Terracotta Fence");
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL,"Light Gray Terracotta Wall");
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS,"Light Gray Terracotta Stairs");
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB,"Light Gray Terracotta Slab");
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_TERRACOTTA_VERTICAL_SLAB,"Light Gray Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.GRAY_TERRACOTTA_FENCE,"Gray Terracotta Fence");
+        translationBuilder.add(ModBlocks.GRAY_TERRACOTTA_WALL,"Gray Terracotta Wall");
+        translationBuilder.add(ModBlocks.GRAY_TERRACOTTA_STAIRS,"Gray Terracotta Stairs");
+        translationBuilder.add(ModBlocks.GRAY_TERRACOTTA_SLAB,"Gray Terracotta Slab");
+        translationBuilder.add(ModBlocks.GRAY_TERRACOTTA_VERTICAL_SLAB,"Gray Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.BLACK_TERRACOTTA_FENCE,"Black Terracotta Fence");
+        translationBuilder.add(ModBlocks.BLACK_TERRACOTTA_WALL,"Black Terracotta Wall");
+        translationBuilder.add(ModBlocks.BLACK_TERRACOTTA_STAIRS,"Black Terracotta Stairs");
+        translationBuilder.add(ModBlocks.BLACK_TERRACOTTA_SLAB,"Black Terracotta Slab");
+        translationBuilder.add(ModBlocks.BLACK_TERRACOTTA_VERTICAL_SLAB,"Black Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.BROWN_TERRACOTTA_FENCE,"Brown Terracotta Fence");
+        translationBuilder.add(ModBlocks.BROWN_TERRACOTTA_WALL,"Brown Terracotta Wall");
+        translationBuilder.add(ModBlocks.BROWN_TERRACOTTA_STAIRS,"Brown Terracotta Stairs");
+        translationBuilder.add(ModBlocks.BROWN_TERRACOTTA_SLAB,"Brown Terracotta Slab");
+        translationBuilder.add(ModBlocks.BROWN_TERRACOTTA_VERTICAL_SLAB,"Brown Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.RED_TERRACOTTA_FENCE,"Red Terracotta Fence");
+        translationBuilder.add(ModBlocks.RED_TERRACOTTA_WALL,"Red Terracotta Wall");
+        translationBuilder.add(ModBlocks.RED_TERRACOTTA_STAIRS,"Red Terracotta Stairs");
+        translationBuilder.add(ModBlocks.RED_TERRACOTTA_SLAB,"Red Terracotta Slab");
+        translationBuilder.add(ModBlocks.RED_TERRACOTTA_VERTICAL_SLAB,"Red Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.ORANGE_TERRACOTTA_FENCE,"Orange Terracotta Fence");
+        translationBuilder.add(ModBlocks.ORANGE_TERRACOTTA_WALL,"Orange Terracotta Wall");
+        translationBuilder.add(ModBlocks.ORANGE_TERRACOTTA_STAIRS,"Orange Terracotta Stairs");
+        translationBuilder.add(ModBlocks.ORANGE_TERRACOTTA_SLAB,"Orange Terracotta Slab");
+        translationBuilder.add(ModBlocks.ORANGE_TERRACOTTA_VERTICAL_SLAB,"Orange Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.YELLOW_TERRACOTTA_FENCE,"Yellow Terracotta Fence");
+        translationBuilder.add(ModBlocks.YELLOW_TERRACOTTA_WALL,"Yellow Terracotta Wall");
+        translationBuilder.add(ModBlocks.YELLOW_TERRACOTTA_STAIRS,"Yellow Terracotta Stairs");
+        translationBuilder.add(ModBlocks.YELLOW_TERRACOTTA_SLAB,"Yellow Terracotta Slab");
+        translationBuilder.add(ModBlocks.YELLOW_TERRACOTTA_VERTICAL_SLAB,"Yellow Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.LIME_TERRACOTTA_FENCE,"Lime Terracotta Fence");
+        translationBuilder.add(ModBlocks.LIME_TERRACOTTA_WALL,"Lime Terracotta Wall");
+        translationBuilder.add(ModBlocks.LIME_TERRACOTTA_STAIRS,"Lime Terracotta Stairs");
+        translationBuilder.add(ModBlocks.LIME_TERRACOTTA_SLAB,"Lime Terracotta Slab");
+        translationBuilder.add(ModBlocks.LIME_TERRACOTTA_VERTICAL_SLAB,"Lime Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.GREEN_TERRACOTTA_FENCE,"Green Terracotta Fence");
+        translationBuilder.add(ModBlocks.GREEN_TERRACOTTA_WALL,"Green Terracotta Wall");
+        translationBuilder.add(ModBlocks.GREEN_TERRACOTTA_STAIRS,"Green Terracotta Stairs");
+        translationBuilder.add(ModBlocks.GREEN_TERRACOTTA_SLAB,"Green Terracotta Slab");
+        translationBuilder.add(ModBlocks.GREEN_TERRACOTTA_VERTICAL_SLAB,"Green Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CYAN_TERRACOTTA_FENCE,"Cyan Terracotta Fence");
+        translationBuilder.add(ModBlocks.CYAN_TERRACOTTA_WALL,"Cyan Terracotta Wall");
+        translationBuilder.add(ModBlocks.CYAN_TERRACOTTA_STAIRS,"Cyan Terracotta Stairs");
+        translationBuilder.add(ModBlocks.CYAN_TERRACOTTA_SLAB,"Cyan Terracotta Slab");
+        translationBuilder.add(ModBlocks.CYAN_TERRACOTTA_VERTICAL_SLAB,"Cyan Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_FENCE,"Light Blue Terracotta Fence");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL,"Light Blue Terracotta Wall");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS,"Light Blue Terracotta Stairs");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB,"Light Blue Terracotta Slab");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_TERRACOTTA_VERTICAL_SLAB,"Light Blue Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.BLUE_TERRACOTTA_FENCE,"Blue Terracotta Fence");
+        translationBuilder.add(ModBlocks.BLUE_TERRACOTTA_WALL,"Blue Terracotta Wall");
+        translationBuilder.add(ModBlocks.BLUE_TERRACOTTA_STAIRS,"Blue Terracotta Stairs");
+        translationBuilder.add(ModBlocks.BLUE_TERRACOTTA_SLAB,"Blue Terracotta Slab");
+        translationBuilder.add(ModBlocks.BLUE_TERRACOTTA_VERTICAL_SLAB,"Blue Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.PURPLE_TERRACOTTA_FENCE,"Purple Terracotta Fence");
+        translationBuilder.add(ModBlocks.PURPLE_TERRACOTTA_WALL,"Purple Terracotta Wall");
+        translationBuilder.add(ModBlocks.PURPLE_TERRACOTTA_STAIRS,"Purple Terracotta Stairs");
+        translationBuilder.add(ModBlocks.PURPLE_TERRACOTTA_SLAB,"Purple Terracotta Slab");
+        translationBuilder.add(ModBlocks.PURPLE_TERRACOTTA_VERTICAL_SLAB,"Purple Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.MAGENTA_TERRACOTTA_FENCE,"Magenta Terracotta Fence");
+        translationBuilder.add(ModBlocks.MAGENTA_TERRACOTTA_WALL,"Magenta Terracotta Wall");
+        translationBuilder.add(ModBlocks.MAGENTA_TERRACOTTA_STAIRS,"Magenta Terracotta Stairs");
+        translationBuilder.add(ModBlocks.MAGENTA_TERRACOTTA_SLAB,"Magenta Terracotta Slab");
+        translationBuilder.add(ModBlocks.MAGENTA_TERRACOTTA_VERTICAL_SLAB,"Magenta Terracotta Vertical Slab");
+
+        translationBuilder.add(ModBlocks.PINK_TERRACOTTA_FENCE,"Pink Terracotta Fence");
+        translationBuilder.add(ModBlocks.PINK_TERRACOTTA_WALL,"Pink Terracotta Wall");
+        translationBuilder.add(ModBlocks.PINK_TERRACOTTA_STAIRS,"Pink Terracotta Stairs");
+        translationBuilder.add(ModBlocks.PINK_TERRACOTTA_SLAB,"Pink Terracotta Slab");
+        translationBuilder.add(ModBlocks.PINK_TERRACOTTA_VERTICAL_SLAB,"Pink Terracotta Vertical Slab");
+
         translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 
     }
