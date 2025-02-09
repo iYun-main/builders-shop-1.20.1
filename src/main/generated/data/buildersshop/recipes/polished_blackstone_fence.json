@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "X": {
+      "item": "buildersshop:stone_brick"
+    }
+  },
+  "pattern": [
+    "AXA",
+    "AXA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "buildersshop:polished_blackstone_fence"
+  },
+  "show_notification": true
+}

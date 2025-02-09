@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/gray_terracotta_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/gray_terracotta"
+    },
+    "type=top": {
+      "model": "buildersshop:block/gray_terracotta_block_slab_top"
+    }
+  }
+}

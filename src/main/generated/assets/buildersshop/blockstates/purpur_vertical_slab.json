@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/purpur_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/purpur_block"
+    },
+    "type=front": {
+      "model": "buildersshop:block/purpur_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/purpur_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/purpur_vertical_slab_right"
+    }
+  }
+}

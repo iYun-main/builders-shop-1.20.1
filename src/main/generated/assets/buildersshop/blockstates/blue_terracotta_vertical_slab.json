@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/blue_terracotta_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/blue_terracotta"
+    },
+    "type=front": {
+      "model": "buildersshop:block/blue_terracotta_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/blue_terracotta_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/blue_terracotta_vertical_slab_right"
+    }
+  }
+}
