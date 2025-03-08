@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:magenta_concrete"
+    },
+    "X": {
+      "item": "buildersshop:stone_brick"
+    }
+  },
+  "pattern": [
+    "AXA",
+    "AXA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "buildersshop:magenta_concrete_fence"
+  },
+  "show_notification": true
+}

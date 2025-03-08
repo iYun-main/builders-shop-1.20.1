@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/purple_concrete_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/purple_concrete"
+    },
+    "type=top": {
+      "model": "buildersshop:block/purple_concrete_block_slab_top"
+    }
+  }
+}

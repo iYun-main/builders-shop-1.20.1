@@ -880,6 +880,156 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PINK_TERRACOTTA_SLAB,"Pink Terracotta Slab");
         translationBuilder.add(ModBlocks.PINK_TERRACOTTA_VERTICAL_SLAB,"Pink Terracotta Vertical Slab");
 
+        translationBuilder.add(ModBlocks.WHITE_CONCRETE_FENCE,"White Concrete Fence");
+        translationBuilder.add(ModBlocks.WHITE_CONCRETE_WALL,"White Concrete Wall");
+        translationBuilder.add(ModBlocks.WHITE_CONCRETE_STAIRS,"White Concrete Stairs");
+        translationBuilder.add(ModBlocks.WHITE_CONCRETE_SLAB,"White Concrete Slab");
+        translationBuilder.add(ModBlocks.WHITE_CONCRETE_VERTICAL_SLAB,"White Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE,"Light Gray Concrete Fence");
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_CONCRETE_WALL,"Light Gray Concrete Wall");
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS,"Light Gray Concrete Stairs");
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB,"Light Gray Concrete Slab");
+        translationBuilder.add(ModBlocks.LIGHT_GRAY_CONCRETE_VERTICAL_SLAB,"Light Gray Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.GRAY_CONCRETE_FENCE,"Gray Concrete Fence");
+        translationBuilder.add(ModBlocks.GRAY_CONCRETE_WALL,"Gray Concrete Wall");
+        translationBuilder.add(ModBlocks.GRAY_CONCRETE_STAIRS,"Gray Concrete Stairs");
+        translationBuilder.add(ModBlocks.GRAY_CONCRETE_SLAB,"Gray Concrete Slab");
+        translationBuilder.add(ModBlocks.GRAY_CONCRETE_VERTICAL_SLAB,"Gray Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.BLACK_CONCRETE_FENCE,"Black Concrete Fence");
+        translationBuilder.add(ModBlocks.BLACK_CONCRETE_WALL,"Black Concrete Wall");
+        translationBuilder.add(ModBlocks.BLACK_CONCRETE_STAIRS,"Black Concrete Stairs");
+        translationBuilder.add(ModBlocks.BLACK_CONCRETE_SLAB,"Black Concrete Slab");
+        translationBuilder.add(ModBlocks.BLACK_CONCRETE_VERTICAL_SLAB,"Black Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.BROWN_CONCRETE_FENCE,"Brown Concrete Fence");
+        translationBuilder.add(ModBlocks.BROWN_CONCRETE_WALL,"Brown Concrete Wall");
+        translationBuilder.add(ModBlocks.BROWN_CONCRETE_STAIRS,"Brown Concrete Stairs");
+        translationBuilder.add(ModBlocks.BROWN_CONCRETE_SLAB,"Brown Concrete Slab");
+        translationBuilder.add(ModBlocks.BROWN_CONCRETE_VERTICAL_SLAB,"Brown Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.RED_CONCRETE_FENCE,"Red Concrete Fence");
+        translationBuilder.add(ModBlocks.RED_CONCRETE_WALL,"Red Concrete Wall");
+        translationBuilder.add(ModBlocks.RED_CONCRETE_STAIRS,"Red Concrete Stairs");
+        translationBuilder.add(ModBlocks.RED_CONCRETE_SLAB,"Red Concrete Slab");
+        translationBuilder.add(ModBlocks.RED_CONCRETE_VERTICAL_SLAB,"Red Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.ORANGE_CONCRETE_FENCE,"Orange Concrete Fence");
+        translationBuilder.add(ModBlocks.ORANGE_CONCRETE_WALL,"Orange Concrete Wall");
+        translationBuilder.add(ModBlocks.ORANGE_CONCRETE_STAIRS,"Orange Concrete Stairs");
+        translationBuilder.add(ModBlocks.ORANGE_CONCRETE_SLAB,"Orange Concrete Slab");
+        translationBuilder.add(ModBlocks.ORANGE_CONCRETE_VERTICAL_SLAB,"Orange Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.YELLOW_CONCRETE_FENCE,"Yellow Concrete Fence");
+        translationBuilder.add(ModBlocks.YELLOW_CONCRETE_WALL,"Yellow Concrete Wall");
+        translationBuilder.add(ModBlocks.YELLOW_CONCRETE_STAIRS,"Yellow Concrete Stairs");
+        translationBuilder.add(ModBlocks.YELLOW_CONCRETE_SLAB,"Yellow Concrete Slab");
+        translationBuilder.add(ModBlocks.YELLOW_CONCRETE_VERTICAL_SLAB,"Yellow Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.LIME_CONCRETE_FENCE,"Lime Concrete Fence");
+        translationBuilder.add(ModBlocks.LIME_CONCRETE_WALL,"Lime Concrete Wall");
+        translationBuilder.add(ModBlocks.LIME_CONCRETE_STAIRS,"Lime Concrete Stairs");
+        translationBuilder.add(ModBlocks.LIME_CONCRETE_SLAB,"Lime Concrete Slab");
+        translationBuilder.add(ModBlocks.LIME_CONCRETE_VERTICAL_SLAB,"Lime Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.GREEN_CONCRETE_FENCE,"Green Concrete Fence");
+        translationBuilder.add(ModBlocks.GREEN_CONCRETE_WALL,"Green Concrete Wall");
+        translationBuilder.add(ModBlocks.GREEN_CONCRETE_STAIRS,"Green Concrete Stairs");
+        translationBuilder.add(ModBlocks.GREEN_CONCRETE_SLAB,"Green Concrete Slab");
+        translationBuilder.add(ModBlocks.GREEN_CONCRETE_VERTICAL_SLAB,"Green Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CYAN_CONCRETE_FENCE,"Cyan Concrete Fence");
+        translationBuilder.add(ModBlocks.CYAN_CONCRETE_WALL,"Cyan Concrete Wall");
+        translationBuilder.add(ModBlocks.CYAN_CONCRETE_STAIRS,"Cyan Concrete Stairs");
+        translationBuilder.add(ModBlocks.CYAN_CONCRETE_SLAB,"Cyan Concrete Slab");
+        translationBuilder.add(ModBlocks.CYAN_CONCRETE_VERTICAL_SLAB,"Cyan Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_CONCRETE_FENCE,"Light Blue Concrete Fence");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_CONCRETE_WALL,"Light Blue Concrete Wall");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS,"Light Blue Concrete Stairs");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB,"Light Blue Concrete Slab");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_CONCRETE_VERTICAL_SLAB,"Light Blue Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.BLUE_CONCRETE_FENCE,"Blue Concrete Fence");
+        translationBuilder.add(ModBlocks.BLUE_CONCRETE_WALL,"Blue Concrete Wall");
+        translationBuilder.add(ModBlocks.BLUE_CONCRETE_STAIRS,"Blue Concrete Stairs");
+        translationBuilder.add(ModBlocks.BLUE_CONCRETE_SLAB,"Blue Concrete Slab");
+        translationBuilder.add(ModBlocks.BLUE_CONCRETE_VERTICAL_SLAB,"Blue Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.PURPLE_CONCRETE_FENCE,"Purple Concrete Fence");
+        translationBuilder.add(ModBlocks.PURPLE_CONCRETE_WALL,"Purple Concrete Wall");
+        translationBuilder.add(ModBlocks.PURPLE_CONCRETE_STAIRS,"Purple Concrete Stairs");
+        translationBuilder.add(ModBlocks.PURPLE_CONCRETE_SLAB,"Purple Concrete Slab");
+        translationBuilder.add(ModBlocks.PURPLE_CONCRETE_VERTICAL_SLAB,"Purple Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.MAGENTA_CONCRETE_FENCE,"Magenta Concrete Fence");
+        translationBuilder.add(ModBlocks.MAGENTA_CONCRETE_WALL,"Magenta Concrete Wall");
+        translationBuilder.add(ModBlocks.MAGENTA_CONCRETE_STAIRS,"Magenta Concrete Stairs");
+        translationBuilder.add(ModBlocks.MAGENTA_CONCRETE_SLAB,"Magenta Concrete Slab");
+        translationBuilder.add(ModBlocks.MAGENTA_CONCRETE_VERTICAL_SLAB,"Magenta Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.PINK_CONCRETE_FENCE,"Pink Concrete Fence");
+        translationBuilder.add(ModBlocks.PINK_CONCRETE_WALL,"Pink Concrete Wall");
+        translationBuilder.add(ModBlocks.PINK_CONCRETE_STAIRS,"Pink Concrete Stairs");
+        translationBuilder.add(ModBlocks.PINK_CONCRETE_SLAB,"Pink Concrete Slab");
+        translationBuilder.add(ModBlocks.PINK_CONCRETE_VERTICAL_SLAB,"Pink Concrete Vertical Slab");
+
+        translationBuilder.add(ModBlocks.B_ICE_SLAB,"Blue Ice Slab");
+        translationBuilder.add(ModBlocks.B_ICE_STAIR,"Blue Ice Stair");
+        translationBuilder.add(ModBlocks.B_ICE_WALL,"Blue Ice Wall");
+        translationBuilder.add(ModBlocks.B_ICE_FENCE,"Blue Ice Fence");
+        translationBuilder.add(ModBlocks.B_ICE_V_SLAB,"Blue Ice Vertical Slab");
+
+        translationBuilder.add(ModBlocks.P_ICE_SLAB,"Packed Ice Slab");
+        translationBuilder.add(ModBlocks.P_ICE_STAIR,"Packed Ice Stair");
+        translationBuilder.add(ModBlocks.P_ICE_WALL,"Packed Ice Wall");
+        translationBuilder.add(ModBlocks.P_ICE_FENCE,"Packed Ice Fence");
+        translationBuilder.add(ModBlocks.P_ICE_V_SLAB,"Packed Ice Vertical Slab");
+
+        translationBuilder.add(ModBlocks.MOSS_SLAB,"Moss Slab");
+        translationBuilder.add(ModBlocks.MOSS_STAIR,"Moss Stair");
+        translationBuilder.add(ModBlocks.MOSS_WALL,"Moss Wall");
+        translationBuilder.add(ModBlocks.MOSS_FENCE,"MossFence");
+        translationBuilder.add(ModBlocks.MOSS_V_SLAB,"Moss Vertical Slab");
+
+        translationBuilder.add(ModBlocks.CALCITE_SLAB,"Calcite Slab");
+        translationBuilder.add(ModBlocks.CALCITE_STAIR,"Calcite Stair");
+        translationBuilder.add(ModBlocks.CALCITE_WALL,"Calcite Wall");
+        translationBuilder.add(ModBlocks.CALCITE_FENCE,"CalciteFence");
+        translationBuilder.add(ModBlocks.CALCITE_V_SLAB,"Calcite Vertical Slab");
+
+        translationBuilder.add(ModBlocks.TUFF_SLAB,"Tuff Slab");
+        translationBuilder.add(ModBlocks.TUFF_STAIR,"Tuff Stair");
+        translationBuilder.add(ModBlocks.TUFF_WALL,"Tuff Wall");
+        translationBuilder.add(ModBlocks.TUFF_FENCE,"TuffFence");
+        translationBuilder.add(ModBlocks.TUFF_V_SLAB,"Tuff Vertical Slab");
+        translationBuilder.add(ModBlocks.DRIPSTONE_SLAB,"Dripstone Slab");
+        translationBuilder.add(ModBlocks.DRIPSTONE_STAIR,"Dripstone Stair");
+        translationBuilder.add(ModBlocks.DRIPSTONE_WALL,"Dripstone Wall");
+        translationBuilder.add(ModBlocks.DRIPSTONE_FENCE,"DripstoneFence");
+        translationBuilder.add(ModBlocks.DRIPSTONE_V_SLAB,"Dripstone Vertical Slab");
+
+
+        translationBuilder.add(ModBlocks.OBSIDIAN_SLAB,"Obsidian Slab");
+        translationBuilder.add(ModBlocks.OBSIDIAN_STAIR,"Obsidian Stair");
+        translationBuilder.add(ModBlocks.OBSIDIAN_WALL,"Obsidian Wall");
+        translationBuilder.add(ModBlocks.OBSIDIAN_FENCE,"ObsidianFence");
+        translationBuilder.add(ModBlocks.OBSIDIAN_V_SLAB,"Obsidian Vertical Slab");
+
+        translationBuilder.add(ModBlocks.C_OBSIDIAN_SLAB,"Crying Obsidian Slab");
+        translationBuilder.add(ModBlocks.C_OBSIDIAN_STAIR,"Crying Obsidian Stair");
+        translationBuilder.add(ModBlocks.C_OBSIDIAN_WALL,"Crying Obsidian Wall");
+        translationBuilder.add(ModBlocks.C_OBSIDIAN_FENCE,"Crying ObsidianFence");
+        translationBuilder.add(ModBlocks.C_OBSIDIAN_V_SLAB,"Crying Obsidian Vertical Slab");
+
+        translationBuilder.add(ModBlocks.SOUL_SOIL_SLAB,"Soul Soil Slab");
+        translationBuilder.add(ModBlocks.SOUL_SOIL_STAIR,"Soul Soil Stair");
+        translationBuilder.add(ModBlocks.SOUL_SOIL_WALL,"Soul Soil Wall");
+        translationBuilder.add(ModBlocks.SOUL_SOIL_FENCE,"Soul SoilFence");
+        translationBuilder.add(ModBlocks.SOUL_SOIL_V_SLAB,"Soul Soil Vertical Slab");
+
         translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 
     }

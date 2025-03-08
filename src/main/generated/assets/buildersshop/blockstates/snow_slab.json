@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/snow_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/snow"
+    },
+    "type=top": {
+      "model": "buildersshop:block/snow_slab_top"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/dripstone_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/dripstone_block"
+    },
+    "type=front": {
+      "model": "buildersshop:block/dripstone_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/dripstone_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/dripstone_vertical_slab_right"
+    }
+  }
+}

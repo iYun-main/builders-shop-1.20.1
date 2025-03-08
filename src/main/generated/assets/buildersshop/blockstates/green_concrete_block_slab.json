@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/green_concrete_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/green_concrete"
+    },
+    "type=top": {
+      "model": "buildersshop:block/green_concrete_block_slab_top"
+    }
+  }
+}

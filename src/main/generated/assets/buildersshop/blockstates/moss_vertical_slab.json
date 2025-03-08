@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/moss_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/moss_block"
+    },
+    "type=front": {
+      "model": "buildersshop:block/moss_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/moss_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/moss_vertical_slab_right"
+    }
+  }
+}

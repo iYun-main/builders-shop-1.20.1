@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:brown_concrete"
+  },
+  "result": "buildersshop:brown_concrete_wall"
+}

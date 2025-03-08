@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "type=back": {
+      "model": "buildersshop:block/green_concrete_vertical_slab_back"
+    },
+    "type=double": {
+      "model": "minecraft:block/green_concrete"
+    },
+    "type=front": {
+      "model": "buildersshop:block/green_concrete_vertical_slab"
+    },
+    "type=left": {
+      "model": "buildersshop:block/green_concrete_vertical_slab_left"
+    },
+    "type=right": {
+      "model": "buildersshop:block/green_concrete_vertical_slab_right"
+    }
+  }
+}

@@ -235,6 +235,192 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool mterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_TERRACOTTA);
         BlockStateModelGenerator.BlockTexturePool piterra = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_TERRACOTTA);
 
+        BlockStateModelGenerator.BlockTexturePool wconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool lgconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool gconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool blaconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool broconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool redconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.RED_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool orangeconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool yelconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool limeconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool greconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool cyaconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool lbconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool bconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool pconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool mconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE);
+        BlockStateModelGenerator.BlockTexturePool piconcre = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE);
+
+        BlockStateModelGenerator.BlockTexturePool pice = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PACKED_ICE);
+        BlockStateModelGenerator.BlockTexturePool bice = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_ICE);
+
+        BlockStateModelGenerator.BlockTexturePool snow = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SNOW);
+        BlockStateModelGenerator.BlockTexturePool moss = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MOSS_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool calcite = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CALCITE);
+        BlockStateModelGenerator.BlockTexturePool tuff = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.TUFF);
+        BlockStateModelGenerator.BlockTexturePool drip = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DRIPSTONE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool obsi = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool cobsi = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRYING_OBSIDIAN);
+        BlockStateModelGenerator.BlockTexturePool souls = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SOUL_SOIL);
+
+        souls.wall(ModBlocks.SOUL_SOIL_WALL);
+        souls.fence(ModBlocks.SOUL_SOIL_FENCE);
+        souls.slab(ModBlocks.SOUL_SOIL_SLAB);
+        souls.stairs(ModBlocks.SOUL_SOIL_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.SOUL_SOIL, ModBlocks.SOUL_SOIL_V_SLAB);
+
+        cobsi.wall(ModBlocks.C_OBSIDIAN_WALL);
+        cobsi.fence(ModBlocks.C_OBSIDIAN_FENCE);
+        cobsi.slab(ModBlocks.C_OBSIDIAN_SLAB);
+        cobsi.stairs(ModBlocks.C_OBSIDIAN_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.CRYING_OBSIDIAN, ModBlocks.C_OBSIDIAN_V_SLAB);
+
+        obsi.wall(ModBlocks.OBSIDIAN_WALL);
+        obsi.fence(ModBlocks.OBSIDIAN_FENCE);
+        obsi.slab(ModBlocks.OBSIDIAN_SLAB);
+        obsi.stairs(ModBlocks.OBSIDIAN_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.OBSIDIAN, ModBlocks.OBSIDIAN_V_SLAB);
+
+        drip.wall(ModBlocks.DRIPSTONE_WALL);
+        drip.fence(ModBlocks.DRIPSTONE_FENCE);
+        drip.slab(ModBlocks.DRIPSTONE_SLAB);
+        drip.stairs(ModBlocks.DRIPSTONE_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.DRIPSTONE_BLOCK, ModBlocks.DRIPSTONE_V_SLAB);
+
+        tuff.wall(ModBlocks.TUFF_WALL);
+        tuff.fence(ModBlocks.TUFF_FENCE);
+        tuff.slab(ModBlocks.TUFF_SLAB);
+        tuff.stairs(ModBlocks.TUFF_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.TUFF, ModBlocks.TUFF_V_SLAB);
+
+        calcite.wall(ModBlocks.CALCITE_WALL);
+        calcite.fence(ModBlocks.CALCITE_FENCE);
+        calcite.slab(ModBlocks.CALCITE_SLAB);
+        calcite.stairs(ModBlocks.CALCITE_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.CALCITE, ModBlocks.CALCITE_V_SLAB);
+
+        moss.wall(ModBlocks.MOSS_WALL);
+        moss.fence(ModBlocks.MOSS_FENCE);
+        moss.slab(ModBlocks.MOSS_SLAB);
+        moss.stairs(ModBlocks.MOSS_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.MOSS_BLOCK, ModBlocks.MOSS_V_SLAB);
+
+        snow.wall(ModBlocks.SNOW_WALL);
+        snow.fence(ModBlocks.SNOW_FENCE);
+        snow.slab(ModBlocks.SNOW_SLAB);
+        snow.stairs(ModBlocks.SNOW_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.SNOW, ModBlocks.SNOW_V_SLAB);
+
+        bice.wall(ModBlocks.B_ICE_WALL);
+        bice.fence(ModBlocks.B_ICE_FENCE);
+        bice.slab(ModBlocks.B_ICE_SLAB);
+        bice.stairs(ModBlocks.B_ICE_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BLUE_ICE, ModBlocks.B_ICE_V_SLAB);
+
+        pice.wall(ModBlocks.P_ICE_WALL);
+        pice.fence(ModBlocks.P_ICE_FENCE);
+        pice.slab(ModBlocks.P_ICE_SLAB);
+        pice.stairs(ModBlocks.P_ICE_STAIR);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.PACKED_ICE, ModBlocks.P_ICE_V_SLAB);
+
+        piconcre.wall(ModBlocks.PINK_CONCRETE_WALL);
+        piconcre.fence(ModBlocks.PINK_CONCRETE_FENCE);
+        piconcre.slab(ModBlocks.PINK_CONCRETE_SLAB);
+        piconcre.stairs(ModBlocks.PINK_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.PINK_CONCRETE, ModBlocks.PINK_CONCRETE_VERTICAL_SLAB);
+
+        mconcre.wall(ModBlocks.MAGENTA_CONCRETE_WALL);
+        mconcre.fence(ModBlocks.MAGENTA_CONCRETE_FENCE);
+        mconcre.slab(ModBlocks.MAGENTA_CONCRETE_SLAB);
+        mconcre.stairs(ModBlocks.MAGENTA_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.MAGENTA_CONCRETE, ModBlocks.MAGENTA_CONCRETE_VERTICAL_SLAB);
+
+        pconcre.wall(ModBlocks.PURPLE_CONCRETE_WALL);
+        pconcre.fence(ModBlocks.PURPLE_CONCRETE_FENCE);
+        pconcre.slab(ModBlocks.PURPLE_CONCRETE_SLAB);
+        pconcre.stairs(ModBlocks.PURPLE_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.PURPLE_CONCRETE, ModBlocks.PURPLE_CONCRETE_VERTICAL_SLAB);
+
+        bconcre.wall(ModBlocks.BLUE_CONCRETE_WALL);
+        bconcre.fence(ModBlocks.BLUE_CONCRETE_FENCE);
+        bconcre.slab(ModBlocks.BLUE_CONCRETE_SLAB);
+        bconcre.stairs(ModBlocks.BLUE_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BLUE_CONCRETE, ModBlocks.BLUE_CONCRETE_VERTICAL_SLAB);
+
+        lbconcre.wall(ModBlocks.LIGHT_BLUE_CONCRETE_WALL);
+        lbconcre.fence(ModBlocks.LIGHT_BLUE_CONCRETE_FENCE);
+        lbconcre.slab(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB);
+        lbconcre.stairs(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.LIGHT_BLUE_CONCRETE, ModBlocks.LIGHT_BLUE_CONCRETE_VERTICAL_SLAB);
+
+        cyaconcre.wall(ModBlocks.CYAN_CONCRETE_WALL);
+        cyaconcre.fence(ModBlocks.CYAN_CONCRETE_FENCE);
+        cyaconcre.slab(ModBlocks.CYAN_CONCRETE_SLAB);
+        cyaconcre.stairs(ModBlocks.CYAN_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.CYAN_CONCRETE, ModBlocks.CYAN_CONCRETE_VERTICAL_SLAB);
+
+        greconcre.wall(ModBlocks.GREEN_CONCRETE_WALL);
+        greconcre.fence(ModBlocks.GREEN_CONCRETE_FENCE);
+        greconcre.slab(ModBlocks.GREEN_CONCRETE_SLAB);
+        greconcre.stairs(ModBlocks.GREEN_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.GREEN_CONCRETE, ModBlocks.GREEN_CONCRETE_VERTICAL_SLAB);
+
+        limeconcre.wall(ModBlocks.LIME_CONCRETE_WALL);
+        limeconcre.fence(ModBlocks.LIME_CONCRETE_FENCE);
+        limeconcre.slab(ModBlocks.LIME_CONCRETE_SLAB);
+        limeconcre.stairs(ModBlocks.LIME_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.LIME_CONCRETE, ModBlocks.LIME_CONCRETE_VERTICAL_SLAB);
+
+        yelconcre.wall(ModBlocks.YELLOW_CONCRETE_WALL);
+        yelconcre.fence(ModBlocks.YELLOW_CONCRETE_FENCE);
+        yelconcre.slab(ModBlocks.YELLOW_CONCRETE_SLAB);
+        yelconcre.stairs(ModBlocks.YELLOW_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.YELLOW_CONCRETE, ModBlocks.YELLOW_CONCRETE_VERTICAL_SLAB);
+
+        orangeconcre.wall(ModBlocks.ORANGE_CONCRETE_WALL);
+        orangeconcre.fence(ModBlocks.ORANGE_CONCRETE_FENCE);
+        orangeconcre.slab(ModBlocks.ORANGE_CONCRETE_SLAB);
+        orangeconcre.stairs(ModBlocks.ORANGE_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.ORANGE_CONCRETE, ModBlocks.ORANGE_CONCRETE_VERTICAL_SLAB);
+
+        redconcre.wall(ModBlocks.RED_CONCRETE_WALL);
+        redconcre.fence(ModBlocks.RED_CONCRETE_FENCE);
+        redconcre.slab(ModBlocks.RED_CONCRETE_SLAB);
+        redconcre.stairs(ModBlocks.RED_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.RED_CONCRETE, ModBlocks.RED_CONCRETE_VERTICAL_SLAB);
+
+        broconcre.wall(ModBlocks.BROWN_CONCRETE_WALL);
+        broconcre.fence(ModBlocks.BROWN_CONCRETE_FENCE);
+        broconcre.slab(ModBlocks.BROWN_CONCRETE_SLAB);
+        broconcre.stairs(ModBlocks.BROWN_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BROWN_CONCRETE, ModBlocks.BROWN_CONCRETE_VERTICAL_SLAB);
+
+        blaconcre.wall(ModBlocks.BLACK_CONCRETE_WALL);
+        blaconcre.fence(ModBlocks.BLACK_CONCRETE_FENCE);
+        blaconcre.slab(ModBlocks.BLACK_CONCRETE_SLAB);
+        blaconcre.stairs(ModBlocks.BLACK_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.BLACK_CONCRETE, ModBlocks.BLACK_CONCRETE_VERTICAL_SLAB);
+
+        lgconcre.wall(ModBlocks.LIGHT_GRAY_CONCRETE_WALL);
+        lgconcre.fence(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE);
+        lgconcre.slab(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB);
+        lgconcre.stairs(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.LIGHT_GRAY_CONCRETE, ModBlocks.LIGHT_GRAY_CONCRETE_VERTICAL_SLAB);
+
+        gconcre.wall(ModBlocks.GRAY_CONCRETE_WALL);
+        gconcre.fence(ModBlocks.GRAY_CONCRETE_FENCE);
+        gconcre.slab(ModBlocks.GRAY_CONCRETE_SLAB);
+        gconcre.stairs(ModBlocks.GRAY_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.GRAY_CONCRETE, ModBlocks.GRAY_CONCRETE_VERTICAL_SLAB);
+
+        wconcre.wall(ModBlocks.WHITE_CONCRETE_WALL);
+        wconcre.fence(ModBlocks.WHITE_CONCRETE_FENCE);
+        wconcre.slab(ModBlocks.WHITE_CONCRETE_SLAB);
+        wconcre.stairs(ModBlocks.WHITE_CONCRETE_STAIRS);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.WHITE_CONCRETE, ModBlocks.WHITE_CONCRETE_VERTICAL_SLAB);
+
+
         piterra.wall(ModBlocks.PINK_TERRACOTTA_WALL);
         piterra.fence(ModBlocks.PINK_TERRACOTTA_FENCE);
         piterra.slab(ModBlocks.PINK_TERRACOTTA_SLAB);

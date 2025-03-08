@@ -198,6 +198,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         verticalslab(ModBlocks.MAGENTA_TERRACOTTA_VERTICAL_SLAB, Blocks.MAGENTA_TERRACOTTA,exporter);
         verticalslab(ModBlocks.PINK_TERRACOTTA_VERTICAL_SLAB, Blocks.PINK_TERRACOTTA,exporter);
 
+        verticalslab(ModBlocks.WHITE_CONCRETE_VERTICAL_SLAB, Blocks.WHITE_CONCRETE,exporter);
+        verticalslab(ModBlocks.LIGHT_GRAY_CONCRETE_VERTICAL_SLAB, Blocks.LIGHT_GRAY_CONCRETE,exporter);
+        verticalslab(ModBlocks.GRAY_CONCRETE_VERTICAL_SLAB, Blocks.GRAY_CONCRETE,exporter);
+        verticalslab(ModBlocks.BLACK_CONCRETE_VERTICAL_SLAB, Blocks.BLACK_CONCRETE,exporter);
+        verticalslab(ModBlocks.BROWN_CONCRETE_VERTICAL_SLAB, Blocks.BROWN_CONCRETE,exporter);
+        verticalslab(ModBlocks.RED_CONCRETE_VERTICAL_SLAB, Blocks.RED_CONCRETE,exporter);
+        verticalslab(ModBlocks.ORANGE_CONCRETE_VERTICAL_SLAB, Blocks.ORANGE_CONCRETE,exporter);
+        verticalslab(ModBlocks.YELLOW_CONCRETE_VERTICAL_SLAB, Blocks.YELLOW_CONCRETE,exporter);
+        verticalslab(ModBlocks.LIME_CONCRETE_VERTICAL_SLAB, Blocks.LIME_CONCRETE,exporter);
+        verticalslab(ModBlocks.GREEN_CONCRETE_VERTICAL_SLAB, Blocks.GREEN_CONCRETE,exporter);
+        verticalslab(ModBlocks.CYAN_CONCRETE_VERTICAL_SLAB, Blocks.CYAN_CONCRETE,exporter);
+        verticalslab(ModBlocks.LIGHT_BLUE_CONCRETE_VERTICAL_SLAB, Blocks.LIGHT_BLUE_CONCRETE,exporter);
+        verticalslab(ModBlocks.BLUE_CONCRETE_VERTICAL_SLAB, Blocks.BLUE_CONCRETE,exporter);
+        verticalslab(ModBlocks.PURPLE_CONCRETE_VERTICAL_SLAB, Blocks.PURPLE_CONCRETE,exporter);
+        verticalslab(ModBlocks.MAGENTA_CONCRETE_VERTICAL_SLAB, Blocks.MAGENTA_CONCRETE,exporter);
+        verticalslab(ModBlocks.PINK_CONCRETE_VERTICAL_SLAB, Blocks.PINK_CONCRETE,exporter);
+
         stonefences(ModBlocks.TUFF_TILES_FENCE, ModBlocks.TUFF_TILES,exporter);
         stonefences(ModBlocks.TUFF_BRICKS_FENCE, ModBlocks.TUFF_BRICKS,exporter);
         stonefences(ModBlocks.TUFF_TILES_MOSSY_FENCE, ModBlocks.TUFF_TILES_MOSSY,exporter);
@@ -252,6 +269,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PURPLE_TERRACOTTA_WALL, Blocks.PURPLE_TERRACOTTA);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.MAGENTA_TERRACOTTA_WALL, Blocks.MAGENTA_TERRACOTTA);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PINK_TERRACOTTA_WALL, Blocks.PINK_TERRACOTTA);
+
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.WHITE_CONCRETE_WALL, Blocks.WHITE_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIGHT_GRAY_CONCRETE_WALL, Blocks.LIGHT_GRAY_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GRAY_CONCRETE_WALL, Blocks.GRAY_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BLACK_CONCRETE_WALL, Blocks.BLACK_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BROWN_CONCRETE_WALL, Blocks.BROWN_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.RED_CONCRETE_WALL, Blocks.RED_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.ORANGE_CONCRETE_WALL, Blocks.ORANGE_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.YELLOW_CONCRETE_WALL, Blocks.YELLOW_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIME_CONCRETE_WALL, Blocks.LIME_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GREEN_CONCRETE_WALL, Blocks.GREEN_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CYAN_CONCRETE_WALL, Blocks.CYAN_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIGHT_BLUE_CONCRETE_WALL, Blocks.LIGHT_BLUE_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BLUE_CONCRETE_WALL, Blocks.BLUE_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PURPLE_CONCRETE_WALL, Blocks.PURPLE_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.MAGENTA_CONCRETE_WALL, Blocks.MAGENTA_CONCRETE);
+        offerWallRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PINK_CONCRETE_WALL, Blocks.PINK_CONCRETE);
 
         createStairsRecipe(ModBlocks.TUFF_TILES_STAIRS, Ingredient.ofItems(ModBlocks.TUFF_TILES))
                 .criterion(hasItem(ModBlocks.TUFF_TILES),conditionsFromItem(ModBlocks.TUFF_TILES_STAIRS))
@@ -461,6 +495,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         stonefences(ModBlocks.MAGENTA_TERRACOTTA_FENCE, Blocks.MAGENTA_TERRACOTTA,exporter);
         stonefences(ModBlocks.PINK_TERRACOTTA_FENCE, Blocks.PINK_TERRACOTTA,exporter);
 
+        stonefences(ModBlocks.WHITE_CONCRETE_FENCE, Blocks.WHITE_CONCRETE,exporter);
+        stonefences(ModBlocks.LIGHT_GRAY_CONCRETE_FENCE, Blocks.LIGHT_GRAY_CONCRETE,exporter);
+        stonefences(ModBlocks.GRAY_CONCRETE_FENCE, Blocks.GRAY_CONCRETE,exporter);
+        stonefences(ModBlocks.BLACK_CONCRETE_FENCE, Blocks.BLACK_CONCRETE,exporter);
+        stonefences(ModBlocks.BROWN_CONCRETE_FENCE, Blocks.BROWN_CONCRETE,exporter);
+        stonefences(ModBlocks.RED_CONCRETE_FENCE, Blocks.RED_CONCRETE,exporter);
+        stonefences(ModBlocks.ORANGE_CONCRETE_FENCE, Blocks.ORANGE_CONCRETE,exporter);
+        stonefences(ModBlocks.YELLOW_CONCRETE_FENCE, Blocks.YELLOW_CONCRETE,exporter);
+        stonefences(ModBlocks.LIME_CONCRETE_FENCE, Blocks.LIME_CONCRETE,exporter);
+        stonefences(ModBlocks.GREEN_CONCRETE_FENCE, Blocks.GREEN_CONCRETE,exporter);
+        stonefences(ModBlocks.CYAN_CONCRETE_FENCE, Blocks.CYAN_CONCRETE,exporter);
+        stonefences(ModBlocks.LIGHT_BLUE_CONCRETE_FENCE, Blocks.LIGHT_BLUE_CONCRETE,exporter);
+        stonefences(ModBlocks.BLUE_CONCRETE_FENCE, Blocks.BLUE_CONCRETE,exporter);
+        stonefences(ModBlocks.PURPLE_CONCRETE_FENCE, Blocks.PURPLE_CONCRETE,exporter);
+        stonefences(ModBlocks.MAGENTA_CONCRETE_FENCE, Blocks.MAGENTA_CONCRETE,exporter);
+        stonefences(ModBlocks.PINK_CONCRETE_FENCE, Blocks.PINK_CONCRETE,exporter);
+
 
 
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.VERTICAL_OAK_PLANK_SLAB, ModBlocks.VERTICAL_OAK_PLANK);
@@ -608,6 +659,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.MAGENTA_TERRACOTTA_SLAB, Blocks.MAGENTA_TERRACOTTA);
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PINK_TERRACOTTA_SLAB, Blocks.PINK_TERRACOTTA);
 
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.WHITE_CONCRETE_SLAB, Blocks.WHITE_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIGHT_GRAY_CONCRETE_SLAB, Blocks.LIGHT_GRAY_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GRAY_CONCRETE_SLAB, Blocks.GRAY_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BLACK_CONCRETE_SLAB, Blocks.BLACK_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BROWN_CONCRETE_SLAB, Blocks.BROWN_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.RED_CONCRETE_SLAB, Blocks.RED_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.ORANGE_CONCRETE_SLAB, Blocks.ORANGE_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.YELLOW_CONCRETE_SLAB, Blocks.YELLOW_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIME_CONCRETE_SLAB, Blocks.LIME_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.GREEN_CONCRETE_SLAB, Blocks.GREEN_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.CYAN_CONCRETE_SLAB, Blocks.CYAN_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.LIGHT_BLUE_CONCRETE_SLAB, Blocks.LIGHT_BLUE_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.BLUE_CONCRETE_SLAB, Blocks.BLUE_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PURPLE_CONCRETE_SLAB, Blocks.PURPLE_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.MAGENTA_CONCRETE_SLAB, Blocks.MAGENTA_CONCRETE);
+        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.PINK_CONCRETE_SLAB, Blocks.PINK_CONCRETE);
 
         // Walls
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.SMOOTH_STONE_BRICKS_WALL, ModBlocks.SMOOTH_STONE_BRICKS);
@@ -1123,6 +1190,150 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createStairsRecipe(ModBlocks.CHISELED_CALCITE_CRACKED_STAIRS, Ingredient.ofItems(ModBlocks.CHISELED_CALCITE_CRACKED))
                 .criterion(hasItem(ModBlocks.CHISELED_CALCITE_CRACKED),conditionsFromItem(ModBlocks.CHISELED_CALCITE_CRACKED_STAIRS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CHISELED_CALCITE_CRACKED_STAIRS)));
+
+        createStairsRecipe(ModBlocks.END_STONE_STAIRS, Ingredient.ofItems(Blocks.END_STONE))
+                .criterion(hasItem(Blocks.END_STONE),conditionsFromItem(ModBlocks.END_STONE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.END_STONE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS, Ingredient.ofItems(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS))
+                .criterion(hasItem(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS),conditionsFromItem(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS)));
+
+        createStairsRecipe(ModBlocks.AMETHYST_STAIRS, Ingredient.ofItems(Blocks.AMETHYST_BLOCK))
+                .criterion(hasItem(Blocks.AMETHYST_BLOCK),conditionsFromItem(ModBlocks.AMETHYST_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AMETHYST_STAIRS)));
+
+        createStairsRecipe(ModBlocks.TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.TERRACOTTA))
+                .criterion(hasItem(Blocks.TERRACOTTA),conditionsFromItem(ModBlocks.TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.WHITE_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.WHITE_TERRACOTTA))
+                .criterion(hasItem(Blocks.WHITE_TERRACOTTA),conditionsFromItem(ModBlocks.WHITE_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.WHITE_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.LIGHT_GRAY_TERRACOTTA))
+                .criterion(hasItem(Blocks.LIGHT_GRAY_TERRACOTTA),conditionsFromItem(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.GRAY_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.GRAY_TERRACOTTA))
+                .criterion(hasItem(Blocks.GRAY_TERRACOTTA),conditionsFromItem(ModBlocks.GRAY_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GRAY_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.BLACK_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.BLACK_TERRACOTTA))
+                .criterion(hasItem(Blocks.BLACK_TERRACOTTA),conditionsFromItem(ModBlocks.BLACK_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BLACK_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.BROWN_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.BROWN_TERRACOTTA))
+                .criterion(hasItem(Blocks.BROWN_TERRACOTTA),conditionsFromItem(ModBlocks.BROWN_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BROWN_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.RED_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.RED_TERRACOTTA))
+                .criterion(hasItem(Blocks.RED_TERRACOTTA),conditionsFromItem(ModBlocks.RED_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RED_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.ORANGE_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.ORANGE_TERRACOTTA))
+                .criterion(hasItem(Blocks.ORANGE_TERRACOTTA),conditionsFromItem(ModBlocks.ORANGE_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ORANGE_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.YELLOW_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.YELLOW_TERRACOTTA))
+                .criterion(hasItem(Blocks.YELLOW_TERRACOTTA),conditionsFromItem(ModBlocks.YELLOW_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.YELLOW_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.LIME_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.LIME_TERRACOTTA))
+                .criterion(hasItem(Blocks.LIME_TERRACOTTA),conditionsFromItem(ModBlocks.LIME_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIME_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.GREEN_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.GREEN_TERRACOTTA))
+                .criterion(hasItem(Blocks.GREEN_TERRACOTTA),conditionsFromItem(ModBlocks.GREEN_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GREEN_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.CYAN_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.CYAN_TERRACOTTA))
+                .criterion(hasItem(Blocks.CYAN_TERRACOTTA),conditionsFromItem(ModBlocks.CYAN_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CYAN_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.LIGHT_BLUE_TERRACOTTA))
+                .criterion(hasItem(Blocks.LIGHT_BLUE_TERRACOTTA),conditionsFromItem(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.BLUE_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.BLUE_TERRACOTTA))
+                .criterion(hasItem(Blocks.BLUE_TERRACOTTA),conditionsFromItem(ModBlocks.BLUE_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BLUE_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.PURPLE_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.PURPLE_TERRACOTTA))
+                .criterion(hasItem(Blocks.PURPLE_TERRACOTTA),conditionsFromItem(ModBlocks.PURPLE_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURPLE_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.MAGENTA_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.MAGENTA_TERRACOTTA))
+                .criterion(hasItem(Blocks.MAGENTA_TERRACOTTA),conditionsFromItem(ModBlocks.MAGENTA_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MAGENTA_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.PINK_TERRACOTTA_STAIRS, Ingredient.ofItems(Blocks.PINK_TERRACOTTA))
+                .criterion(hasItem(Blocks.PINK_TERRACOTTA),conditionsFromItem(ModBlocks.PINK_TERRACOTTA_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PINK_TERRACOTTA_STAIRS)));
+
+        createStairsRecipe(ModBlocks.WHITE_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.WHITE_CONCRETE))
+                .criterion(hasItem(Blocks.WHITE_CONCRETE),conditionsFromItem(ModBlocks.WHITE_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.WHITE_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.LIGHT_GRAY_CONCRETE))
+                .criterion(hasItem(Blocks.LIGHT_GRAY_CONCRETE),conditionsFromItem(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.GRAY_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.GRAY_CONCRETE))
+                .criterion(hasItem(Blocks.GRAY_CONCRETE),conditionsFromItem(ModBlocks.GRAY_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GRAY_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.BLACK_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.BLACK_CONCRETE))
+                .criterion(hasItem(Blocks.BLACK_CONCRETE),conditionsFromItem(ModBlocks.BLACK_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BLACK_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.BROWN_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.BROWN_CONCRETE))
+                .criterion(hasItem(Blocks.BROWN_CONCRETE),conditionsFromItem(ModBlocks.BROWN_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BROWN_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.RED_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.RED_CONCRETE))
+                .criterion(hasItem(Blocks.RED_CONCRETE),conditionsFromItem(ModBlocks.RED_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RED_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.ORANGE_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.ORANGE_CONCRETE))
+                .criterion(hasItem(Blocks.ORANGE_CONCRETE),conditionsFromItem(ModBlocks.ORANGE_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ORANGE_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.YELLOW_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.YELLOW_CONCRETE))
+                .criterion(hasItem(Blocks.YELLOW_CONCRETE),conditionsFromItem(ModBlocks.YELLOW_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.YELLOW_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.LIME_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.LIME_CONCRETE))
+                .criterion(hasItem(Blocks.LIME_CONCRETE),conditionsFromItem(ModBlocks.LIME_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIME_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.GREEN_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.GREEN_CONCRETE))
+                .criterion(hasItem(Blocks.GREEN_CONCRETE),conditionsFromItem(ModBlocks.GREEN_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GREEN_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.CYAN_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.CYAN_CONCRETE))
+                .criterion(hasItem(Blocks.CYAN_CONCRETE),conditionsFromItem(ModBlocks.CYAN_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CYAN_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.LIGHT_BLUE_CONCRETE))
+                .criterion(hasItem(Blocks.LIGHT_BLUE_CONCRETE),conditionsFromItem(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.BLUE_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.BLUE_CONCRETE))
+                .criterion(hasItem(Blocks.BLUE_CONCRETE),conditionsFromItem(ModBlocks.BLUE_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BLUE_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.PURPLE_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.PURPLE_CONCRETE))
+                .criterion(hasItem(Blocks.PURPLE_CONCRETE),conditionsFromItem(ModBlocks.PURPLE_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURPLE_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.MAGENTA_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.MAGENTA_CONCRETE))
+                .criterion(hasItem(Blocks.MAGENTA_CONCRETE),conditionsFromItem(ModBlocks.MAGENTA_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MAGENTA_CONCRETE_STAIRS)));
+
+        createStairsRecipe(ModBlocks.PINK_CONCRETE_STAIRS, Ingredient.ofItems(Blocks.PINK_CONCRETE))
+                .criterion(hasItem(Blocks.PINK_CONCRETE),conditionsFromItem(ModBlocks.PINK_CONCRETE_STAIRS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PINK_CONCRETE_STAIRS)));
 
         // Chiseled
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE, ModBlocks.ANDESITE_BRICKS_SLAB);
@@ -1665,6 +1876,88 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_TERRACOTTA_VERTICAL_SLAB, Blocks.PURPLE_TERRACOTTA, 2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_TERRACOTTA_VERTICAL_SLAB, Blocks.MAGENTA_TERRACOTTA, 2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_TERRACOTTA_VERTICAL_SLAB, Blocks.PINK_TERRACOTTA, 2);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_FENCE, Blocks.WHITE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_FENCE, Blocks.LIGHT_GRAY_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_FENCE, Blocks.GRAY_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_FENCE, Blocks.BLACK_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_FENCE, Blocks.BROWN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_FENCE, Blocks.RED_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_FENCE, Blocks.ORANGE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_FENCE, Blocks.YELLOW_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_FENCE, Blocks.LIME_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_FENCE, Blocks.GREEN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_FENCE, Blocks.CYAN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_FENCE, Blocks.LIGHT_BLUE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_FENCE, Blocks.BLUE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_FENCE, Blocks.PURPLE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_FENCE, Blocks.MAGENTA_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_FENCE, Blocks.PINK_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_STAIRS, Blocks.WHITE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS, Blocks.LIGHT_GRAY_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_STAIRS, Blocks.GRAY_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_STAIRS, Blocks.BLACK_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_STAIRS, Blocks.BROWN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_STAIRS, Blocks.RED_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_STAIRS, Blocks.ORANGE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_STAIRS, Blocks.YELLOW_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_STAIRS, Blocks.LIME_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_STAIRS, Blocks.GREEN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_STAIRS, Blocks.CYAN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS, Blocks.LIGHT_BLUE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_STAIRS, Blocks.BLUE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_STAIRS, Blocks.PURPLE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_STAIRS, Blocks.MAGENTA_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_STAIRS, Blocks.PINK_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_WALL, Blocks.WHITE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_WALL, Blocks.LIGHT_GRAY_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_WALL, Blocks.GRAY_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_WALL, Blocks.BLACK_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_WALL, Blocks.BROWN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_WALL, Blocks.RED_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_WALL, Blocks.ORANGE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_WALL, Blocks.YELLOW_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_WALL, Blocks.LIME_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_WALL, Blocks.GREEN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_WALL, Blocks.CYAN_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_WALL, Blocks.LIGHT_BLUE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_WALL, Blocks.BLUE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_WALL, Blocks.PURPLE_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_WALL, Blocks.MAGENTA_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_WALL, Blocks.PINK_CONCRETE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_SLAB, Blocks.WHITE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_SLAB, Blocks.LIGHT_GRAY_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_SLAB, Blocks.GRAY_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_SLAB, Blocks.BLACK_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_SLAB, Blocks.BROWN_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_SLAB, Blocks.RED_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_SLAB, Blocks.ORANGE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_SLAB, Blocks.YELLOW_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_SLAB, Blocks.LIME_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_SLAB, Blocks.GREEN_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_SLAB, Blocks.CYAN_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_SLAB, Blocks.LIGHT_BLUE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_SLAB, Blocks.BLUE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_SLAB, Blocks.PURPLE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_SLAB, Blocks.MAGENTA_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_SLAB, Blocks.PINK_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CONCRETE_VERTICAL_SLAB, Blocks.WHITE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_CONCRETE_VERTICAL_SLAB, Blocks.LIGHT_GRAY_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_CONCRETE_VERTICAL_SLAB, Blocks.GRAY_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_CONCRETE_VERTICAL_SLAB, Blocks.BLACK_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_CONCRETE_VERTICAL_SLAB, Blocks.BROWN_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_CONCRETE_VERTICAL_SLAB, Blocks.RED_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_CONCRETE_VERTICAL_SLAB, Blocks.ORANGE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_CONCRETE_VERTICAL_SLAB, Blocks.YELLOW_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_CONCRETE_VERTICAL_SLAB, Blocks.LIME_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_CONCRETE_VERTICAL_SLAB, Blocks.GREEN_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_CONCRETE_VERTICAL_SLAB, Blocks.CYAN_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_CONCRETE_VERTICAL_SLAB, Blocks.LIGHT_BLUE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_CONCRETE_VERTICAL_SLAB, Blocks.BLUE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_CONCRETE_VERTICAL_SLAB, Blocks.PURPLE_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_VERTICAL_SLAB, Blocks.MAGENTA_CONCRETE, 2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_VERTICAL_SLAB, Blocks.PINK_CONCRETE, 2);
+
 
     }
 

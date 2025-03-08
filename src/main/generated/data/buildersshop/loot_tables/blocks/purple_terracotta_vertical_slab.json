@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "buildersshop:terracotta_vertical_slab",
+                  "block": "buildersshop:purple_terracotta_vertical_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,7 +25,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "buildersshop:terracotta_vertical_slab"
+          "name": "buildersshop:purple_terracotta_vertical_slab"
         }
       ],
       "rolls": 1.0
