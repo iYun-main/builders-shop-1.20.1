@@ -991,37 +991,37 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MOSS_SLAB,"Moss Slab");
         translationBuilder.add(ModBlocks.MOSS_STAIR,"Moss Stair");
         translationBuilder.add(ModBlocks.MOSS_WALL,"Moss Wall");
-        translationBuilder.add(ModBlocks.MOSS_FENCE,"MossFence");
+        translationBuilder.add(ModBlocks.MOSS_FENCE,"Moss Fence");
         translationBuilder.add(ModBlocks.MOSS_V_SLAB,"Moss Vertical Slab");
 
         translationBuilder.add(ModBlocks.CALCITE_SLAB,"Calcite Slab");
         translationBuilder.add(ModBlocks.CALCITE_STAIR,"Calcite Stair");
         translationBuilder.add(ModBlocks.CALCITE_WALL,"Calcite Wall");
-        translationBuilder.add(ModBlocks.CALCITE_FENCE,"CalciteFence");
+        translationBuilder.add(ModBlocks.CALCITE_FENCE,"Calcite Fence");
         translationBuilder.add(ModBlocks.CALCITE_V_SLAB,"Calcite Vertical Slab");
 
         translationBuilder.add(ModBlocks.TUFF_SLAB,"Tuff Slab");
         translationBuilder.add(ModBlocks.TUFF_STAIR,"Tuff Stair");
         translationBuilder.add(ModBlocks.TUFF_WALL,"Tuff Wall");
-        translationBuilder.add(ModBlocks.TUFF_FENCE,"TuffFence");
+        translationBuilder.add(ModBlocks.TUFF_FENCE,"Tuff Fence");
         translationBuilder.add(ModBlocks.TUFF_V_SLAB,"Tuff Vertical Slab");
+
         translationBuilder.add(ModBlocks.DRIPSTONE_SLAB,"Dripstone Slab");
         translationBuilder.add(ModBlocks.DRIPSTONE_STAIR,"Dripstone Stair");
         translationBuilder.add(ModBlocks.DRIPSTONE_WALL,"Dripstone Wall");
-        translationBuilder.add(ModBlocks.DRIPSTONE_FENCE,"DripstoneFence");
+        translationBuilder.add(ModBlocks.DRIPSTONE_FENCE,"Dripstone Fence");
         translationBuilder.add(ModBlocks.DRIPSTONE_V_SLAB,"Dripstone Vertical Slab");
-
 
         translationBuilder.add(ModBlocks.OBSIDIAN_SLAB,"Obsidian Slab");
         translationBuilder.add(ModBlocks.OBSIDIAN_STAIR,"Obsidian Stair");
         translationBuilder.add(ModBlocks.OBSIDIAN_WALL,"Obsidian Wall");
-        translationBuilder.add(ModBlocks.OBSIDIAN_FENCE,"ObsidianFence");
+        translationBuilder.add(ModBlocks.OBSIDIAN_FENCE,"Obsidian Fence");
         translationBuilder.add(ModBlocks.OBSIDIAN_V_SLAB,"Obsidian Vertical Slab");
 
         translationBuilder.add(ModBlocks.C_OBSIDIAN_SLAB,"Crying Obsidian Slab");
         translationBuilder.add(ModBlocks.C_OBSIDIAN_STAIR,"Crying Obsidian Stair");
         translationBuilder.add(ModBlocks.C_OBSIDIAN_WALL,"Crying Obsidian Wall");
-        translationBuilder.add(ModBlocks.C_OBSIDIAN_FENCE,"Crying ObsidianFence");
+        translationBuilder.add(ModBlocks.C_OBSIDIAN_FENCE,"Crying Obsidian Fence");
         translationBuilder.add(ModBlocks.C_OBSIDIAN_V_SLAB,"Crying Obsidian Vertical Slab");
 
         translationBuilder.add(ModBlocks.SOUL_SOIL_SLAB,"Soul Soil Slab");
@@ -1029,6 +1029,12 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SOUL_SOIL_WALL,"Soul Soil Wall");
         translationBuilder.add(ModBlocks.SOUL_SOIL_FENCE,"Soul SoilFence");
         translationBuilder.add(ModBlocks.SOUL_SOIL_V_SLAB,"Soul Soil Vertical Slab");
+
+        translationBuilder.add(ModBlocks.SNOW_SLAB,"Snow Slab");
+        translationBuilder.add(ModBlocks.SNOW_STAIR,"Snow Stair");
+        translationBuilder.add(ModBlocks.SNOW_WALL,"Snow Wall");
+        translationBuilder.add(ModBlocks.SNOW_FENCE,"Snow Fence");
+        translationBuilder.add(ModBlocks.SNOW_V_SLAB,"Snow Vertical Slab");
 
         translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 
