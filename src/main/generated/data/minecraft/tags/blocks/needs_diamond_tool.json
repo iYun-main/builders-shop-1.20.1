@@ -58,6 +58,16 @@
     "buildersshop:obsidian_bricks_crying_stairs",
     "buildersshop:obsidian_bricks_crying_wall",
     "buildersshop:obsidian_bricks_crying_vertical_slab",
+    "buildersshop:obsidian_slab",
+    "buildersshop:obsidian_stairs",
+    "buildersshop:obsidian_fence",
+    "buildersshop:obsidian_wall",
+    "buildersshop:obsidian_vertical_slab",
+    "buildersshop:crying_obsidian_slab",
+    "buildersshop:crying_obsidian_stairs",
+    "buildersshop:crying_obsidian_fence",
+    "buildersshop:crying_obsidian_wall",
+    "buildersshop:crying_obsidian_vertical_slab",
     "buildersshop:obsidian_bricks_crying"
   ]
 }

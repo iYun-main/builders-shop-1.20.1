@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:packed_ice"
+    },
+    "X": {
+      "item": "buildersshop:stone_brick"
+    }
+  },
+  "pattern": [
+    "AXA",
+    "AXA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "buildersshop:packed_ice_fence"
+  },
+  "show_notification": true
+}

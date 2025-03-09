@@ -1,4 +1,10 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "buildersshop:moss_fence",
+    "buildersshop:moss_wall",
+    "buildersshop:moss_stairs",
+    "buildersshop:moss_vertical_slab",
+    "buildersshop:moss_slab"
+  ]
 }

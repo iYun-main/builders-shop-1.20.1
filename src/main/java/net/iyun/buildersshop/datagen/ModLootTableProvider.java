@@ -618,7 +618,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
 
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_STAIRS);
-        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_SLAB);
+        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_SLAB, ModBlocks.SEA_LANTERN_SLAB);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_VERTICAL_SLAB);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_FENCE);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_WALL);

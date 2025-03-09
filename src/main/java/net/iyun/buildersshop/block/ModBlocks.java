@@ -1064,17 +1064,17 @@ public class ModBlocks {
     public static final Block DRIPSTONE_STAIR = registerBlock("dripstone_stairs", new StairsBlock(DRIPSTONE_BLOCK.getDefaultState(),FabricBlockSettings.copyOf(DRIPSTONE_BLOCK)));
     public static final Block DRIPSTONE_V_SLAB = registerBlock("dripstone_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DRIPSTONE_BLOCK)));
 
-    public static final Block OBSIDIAN_SLAB = registerBlock("obsidian_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_WALL = registerBlock("obsidian_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_FENCE = registerBlock("obsidian_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_STAIR = registerBlock("obsidian_stairs", new StairsBlock(OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN)));
-    public static final Block OBSIDIAN_V_SLAB = registerBlock("obsidian_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN)));
+    public static final Block OBSIDIAN_SLAB = registerBlock("obsidian_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_WALL = registerBlock("obsidian_wall", new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_FENCE = registerBlock("obsidian_fence", new FenceBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_STAIR = registerBlock("obsidian_stairs", new StairsBlock(OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block OBSIDIAN_V_SLAB = registerBlock("obsidian_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
-    public static final Block C_OBSIDIAN_SLAB = registerBlock("crying_obsidian_slab", new SlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block C_OBSIDIAN_WALL = registerBlock("crying_obsidian_wall", new WallBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block C_OBSIDIAN_FENCE = registerBlock("crying_obsidian_fence", new FenceBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block C_OBSIDIAN_STAIR = registerBlock("crying_obsidian_stairs", new StairsBlock(CRYING_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
-    public static final Block C_OBSIDIAN_V_SLAB = registerBlock("crying_obsidian_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN)));
+    public static final Block C_OBSIDIAN_SLAB = registerBlock("crying_obsidian_slab", new SlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block C_OBSIDIAN_WALL = registerBlock("crying_obsidian_wall", new WallBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block C_OBSIDIAN_FENCE = registerBlock("crying_obsidian_fence", new FenceBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block C_OBSIDIAN_STAIR = registerBlock("crying_obsidian_stairs", new StairsBlock(CRYING_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block C_OBSIDIAN_V_SLAB = registerBlock("crying_obsidian_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRYING_OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
     public static final Block SOUL_SOIL_SLAB = registerBlock("soul_soil_slab", new SlabBlock(FabricBlockSettings.copyOf(SOUL_SOIL)));
     public static final Block SOUL_SOIL_WALL = registerBlock("soul_soil_wall", new WallBlock(FabricBlockSettings.copyOf(SOUL_SOIL)));

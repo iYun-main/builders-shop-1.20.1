@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "buildersshop:dirt_vertical_slab",
+    "buildersshop:soul_soil_slab",
+    "buildersshop:soul_soil_fence",
+    "buildersshop:soul_soil_wall",
+    "buildersshop:soul_soil_vertical_slab",
+    "buildersshop:soul_soil_stairs",
     "buildersshop:clay_slab",
     "buildersshop:clay_wall",
     "buildersshop:clay_fence",
@@ -23,6 +28,11 @@
     "buildersshop:rooted_dirt_fence",
     "buildersshop:rooted_dirt_slab",
     "buildersshop:coarse_dirt_slab",
+    "buildersshop:snow_slab",
+    "buildersshop:snow_wall",
+    "buildersshop:snow_fence",
+    "buildersshop:snow_vertical_slab",
+    "buildersshop:snow_stair",
     "buildersshop:dirt_slab"
   ]
 }

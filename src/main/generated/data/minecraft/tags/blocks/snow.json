@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "buildersshop:snow_slab",
+    "buildersshop:snow_wall",
+    "buildersshop:snow_fence",
+    "buildersshop:snow_vertical_slab",
+    "buildersshop:snow_stair"
+  ]
+}

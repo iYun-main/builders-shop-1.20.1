@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:snow_block"
+    },
+    "X": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "pattern": [
+    "AXA",
+    "AXA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "buildersshop:snow_fence"
+  },
+  "show_notification": true
+}
