@@ -224,7 +224,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         verticalslab(ModBlocks.OBSIDIAN_V_SLAB, Blocks.OBSIDIAN,exporter);
         verticalslab(ModBlocks.C_OBSIDIAN_V_SLAB, Blocks.CRYING_OBSIDIAN,exporter);
         verticalslab(ModBlocks.SOUL_SOIL_V_SLAB, Blocks.SOUL_SOIL,exporter);
-        verticalslab(ModBlocks.SNOW_V_SLAB, Blocks.SNOW_BLOCK,exporter);
 
         stonefences(ModBlocks.TUFF_TILES_FENCE, ModBlocks.TUFF_TILES,exporter);
         stonefences(ModBlocks.TUFF_BRICKS_FENCE, ModBlocks.TUFF_BRICKS,exporter);
@@ -252,7 +251,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         stonefences(ModBlocks.C_OBSIDIAN_FENCE, Blocks.CRYING_OBSIDIAN,exporter);
         stonefences(ModBlocks.SOUL_SOIL_FENCE, Blocks.SOUL_SOIL,exporter);
 
-        snowfence(ModBlocks.SNOW_FENCE, Blocks.SNOW_BLOCK,exporter);
 
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.TUFF_TILES_SLAB, ModBlocks.TUFF_TILES);
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS,ModBlocks.TUFF_BRICKS_SLAB, ModBlocks.TUFF_BRICKS);
@@ -319,7 +317,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.OBSIDIAN_WALL, Blocks.OBSIDIAN);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.C_OBSIDIAN_WALL, Blocks.CRYING_OBSIDIAN);
         offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.SOUL_SOIL_WALL, Blocks.SOUL_SOIL);
-        offerWallRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.SNOW_WALL, Blocks.SNOW_BLOCK);
 
         createStairsRecipe(ModBlocks.TUFF_TILES_STAIRS, Ingredient.ofItems(ModBlocks.TUFF_TILES))
                 .criterion(hasItem(ModBlocks.TUFF_TILES),conditionsFromItem(ModBlocks.TUFF_TILES_STAIRS))
@@ -579,7 +576,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.OBSIDIAN_SLAB, Blocks.OBSIDIAN);
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.C_OBSIDIAN_SLAB, Blocks.CRYING_OBSIDIAN);
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.SOUL_SOIL_SLAB, Blocks.SOUL_SOIL);
-        offerSlabRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.SNOW_SLAB, Blocks.SNOW_BLOCK);
 
         // Slabs
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.DIRT_SLAB, Blocks.DIRT);
@@ -1389,7 +1385,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         quickstair(ModBlocks.OBSIDIAN_STAIR, Blocks.OBSIDIAN,exporter);
         quickstair(ModBlocks.C_OBSIDIAN_STAIR, Blocks.CRYING_OBSIDIAN,exporter);
         quickstair(ModBlocks.SOUL_SOIL_STAIR, Blocks.SOUL_SOIL,exporter);
-        quickstair(ModBlocks.SNOW_STAIR, Blocks.SNOW_BLOCK,exporter);
 
         // Chiseled
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE, ModBlocks.ANDESITE_BRICKS_SLAB);
@@ -2081,16 +2076,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     }
 
-    private void snowfence(ItemConvertible output, ItemConvertible itemConvertible, Consumer<RecipeJsonProvider> exporter) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output,3)
-                .pattern("AXA")
-                .pattern("AXA")
-                .input('X', Items.SNOWBALL)
-                .input('A', itemConvertible)
-                .criterion(FabricRecipeProvider.hasItem(itemConvertible), FabricRecipeProvider.conditionsFromItem(itemConvertible))
-                .offerTo(exporter, new Identifier(getRecipeName(output)));
-
-    }
 
     private void woolfence(ItemConvertible output, ItemConvertible itemConvertible, Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output,3)

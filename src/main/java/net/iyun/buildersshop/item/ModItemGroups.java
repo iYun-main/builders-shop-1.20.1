@@ -853,11 +853,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.B_ICE_WALL);
                         entries.add(ModBlocks.B_ICE_FENCE);
                         entries.add(ModBlocks.B_ICE_V_SLAB);
-                        entries.add(ModBlocks.SNOW_FENCE);
-                        entries.add(ModBlocks.SNOW_WALL);
-                        entries.add(ModBlocks.SNOW_SLAB);
-                        entries.add(ModBlocks.SNOW_V_SLAB);
-                        entries.add(ModBlocks.SNOW_STAIR);
                         entries.add(ModBlocks.MOSS_FENCE);
                         entries.add(ModBlocks.MOSS_WALL);
                         entries.add(ModBlocks.MOSS_SLAB);
@@ -893,6 +888,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOUL_SOIL_SLAB);
                         entries.add(ModBlocks.SOUL_SOIL_V_SLAB);
                         entries.add(ModBlocks.SOUL_SOIL_STAIR);
+                        entries.add(ModBlocks.BEVEL_OAK);
+                        entries.add(ModBlocks.BEVEL_OAK_SLAB);
+                        entries.add(ModBlocks.BEVEL_OAK_STAIR);
+                        entries.add(ModBlocks.BEVEL_OAK_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_DARK_OAK);
+                        entries.add(ModBlocks.BEVEL_DARK_OAK_SLAB);
+                        entries.add(ModBlocks.BEVEL_DARK_OAK_STAIR);
+                        entries.add(ModBlocks.BEVEL_DARK_OAK_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_BIRCH);
+                        entries.add(ModBlocks.BEVEL_BIRCH_SLAB);
+                        entries.add(ModBlocks.BEVEL_BIRCH_STAIR);
+                        entries.add(ModBlocks.BEVEL_BIRCH_V_SLAB);
                     }).build());
 
     public static void registerItemGroups() {

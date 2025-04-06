@@ -539,7 +539,7 @@ public class ModBlocks {
 
     public static final Block CHISELED_CRACKED_OBSIDIAN = registerBlock("obsidian_chiseled_cracked", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block CHISELED_CRACKED_OBSIDIAN_STAIRS = registerBlock("obsidian_chiseled_cracked_stairs", new StairsBlock(ModBlocks.CHISELED_CRACKED_OBSIDIAN.getDefaultState(),FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
-    public static final Block CHISELED_CRACKED_OBSIDIAN_SLAB = registerBlock("obsidian_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OAK_PRESSURE_PLATE).pistonBehavior(PistonBehavior.BLOCK)));
+    public static final Block CHISELED_CRACKED_OBSIDIAN_SLAB = registerBlock("obsidian_chiseled_cracked_slab", new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
     public static final Block CHISELED_CRACKED_OBSIDIAN_VERTICAL_SLAB = registerBlock("vertical_obsidian_chiseled_cracked_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
 
     public static final Block CHISELED_OBSIDIAN_MOSSY = registerBlock("obsidian_chiseled_mossy", new Block(FabricBlockSettings.copyOf(OBSIDIAN).pistonBehavior(PistonBehavior.BLOCK)));
@@ -1022,23 +1022,17 @@ public class ModBlocks {
     public static final Block PINK_CONCRETE_FENCE = registerBlock("pink_concrete_fence", new FenceBlock(FabricBlockSettings.copyOf(PINK_CONCRETE)));
     public static final Block PINK_CONCRETE_VERTICAL_SLAB = registerBlock("pink_concrete_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PINK_CONCRETE)));
 
-    public static final Block P_ICE_SLAB = registerBlock("packed_ice_slab", new SlabBlock(FabricBlockSettings.copyOf(PACKED_ICE).dropsLike(PACKED_ICE).solidBlock(Blocks::never)));
-    public static final Block P_ICE_STAIR = registerBlock("packed_ice_stair", new StairsBlock(PACKED_ICE.getDefaultState(),FabricBlockSettings.copyOf(PACKED_ICE).dropsLike(PACKED_ICE).solidBlock(Blocks::never)));
-    public static final Block P_ICE_WALL = registerBlock("packed_ice_wall", new WallBlock(FabricBlockSettings.copyOf(PACKED_ICE).dropsLike(PACKED_ICE).solidBlock(Blocks::never)));
-    public static final Block P_ICE_FENCE = registerBlock("packed_ice_fence", new FenceBlock(FabricBlockSettings.copyOf(PACKED_ICE).dropsLike(PACKED_ICE).solidBlock(Blocks::never)));
-    public static final Block P_ICE_V_SLAB = registerBlock("packed_ice_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PACKED_ICE).dropsLike(PACKED_ICE).solidBlock(Blocks::never)));
+    public static final Block P_ICE_SLAB = registerBlock("packed_ice_slab", new SlabBlock(FabricBlockSettings.copyOf(PACKED_ICE).solidBlock(Blocks::never)));
+    public static final Block P_ICE_STAIR = registerBlock("packed_ice_stair", new StairsBlock(PACKED_ICE.getDefaultState(),FabricBlockSettings.copyOf(PACKED_ICE).solidBlock(Blocks::never)));
+    public static final Block P_ICE_WALL = registerBlock("packed_ice_wall", new WallBlock(FabricBlockSettings.copyOf(PACKED_ICE).solidBlock(Blocks::never)));
+    public static final Block P_ICE_FENCE = registerBlock("packed_ice_fence", new FenceBlock(FabricBlockSettings.copyOf(PACKED_ICE).solidBlock(Blocks::never)));
+    public static final Block P_ICE_V_SLAB = registerBlock("packed_ice_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(PACKED_ICE).solidBlock(Blocks::never)));
 
-    public static final Block B_ICE_SLAB = registerBlock("blue_ice_slab", new SlabBlock(FabricBlockSettings.copyOf(BLUE_ICE).dropsLike(BLUE_ICE).solidBlock(Blocks::never)));
-    public static final Block B_ICE_STAIR = registerBlock("blue_ice_stair", new StairsBlock(BLUE_ICE.getDefaultState(),FabricBlockSettings.copyOf(BLUE_ICE).dropsLike(BLUE_ICE).nonOpaque().solidBlock(Blocks::never)));
-    public static final Block B_ICE_WALL = registerBlock("blue_ice_wall", new WallBlock(FabricBlockSettings.copyOf(BLUE_ICE).dropsLike(BLUE_ICE).solidBlock(Blocks::never)));
-    public static final Block B_ICE_FENCE = registerBlock("blue_ice_fence", new FenceBlock(FabricBlockSettings.copyOf(BLUE_ICE).dropsLike(BLUE_ICE).solidBlock(Blocks::never)));
-    public static final Block B_ICE_V_SLAB = registerBlock("blue_ice_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BLUE_ICE).dropsLike(BLUE_ICE).solidBlock(Blocks::never)));
-
-    public static final Block SNOW_SLAB = registerBlock("snow_slab", new SlabBlock(FabricBlockSettings.copyOf(SNOW_BLOCK)));
-    public static final Block SNOW_STAIR = registerBlock("snow_stair", new StairsBlock(SNOW.getDefaultState(),FabricBlockSettings.copyOf(SNOW_BLOCK)));
-    public static final Block SNOW_FENCE = registerBlock("snow_fence", new FenceBlock(FabricBlockSettings.copyOf(SNOW_BLOCK)));
-    public static final Block SNOW_WALL = registerBlock("snow_wall", new WallBlock(FabricBlockSettings.copyOf(SNOW_BLOCK)));
-    public static final Block SNOW_V_SLAB = registerBlock("snow_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SNOW_BLOCK)));
+    public static final Block B_ICE_SLAB = registerBlock("blue_ice_slab", new SlabBlock(FabricBlockSettings.copyOf(BLUE_ICE).solidBlock(Blocks::never)));
+    public static final Block B_ICE_STAIR = registerBlock("blue_ice_stair", new StairsBlock(BLUE_ICE.getDefaultState(),FabricBlockSettings.copyOf(BLUE_ICE).nonOpaque().solidBlock(Blocks::never)));
+    public static final Block B_ICE_WALL = registerBlock("blue_ice_wall", new WallBlock(FabricBlockSettings.copyOf(BLUE_ICE).solidBlock(Blocks::never)));
+    public static final Block B_ICE_FENCE = registerBlock("blue_ice_fence", new FenceBlock(FabricBlockSettings.copyOf(BLUE_ICE).solidBlock(Blocks::never)));
+    public static final Block B_ICE_V_SLAB = registerBlock("blue_ice_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BLUE_ICE).solidBlock(Blocks::never)));
 
     public static final Block MOSS_SLAB = registerBlock("moss_slab", new SlabBlock(FabricBlockSettings.copyOf(MOSS_BLOCK)));
     public static final Block MOSS_WALL = registerBlock("moss_wall", new WallBlock(FabricBlockSettings.copyOf(MOSS_BLOCK)));
@@ -1081,6 +1075,21 @@ public class ModBlocks {
     public static final Block SOUL_SOIL_FENCE = registerBlock("soul_soil_fence", new FenceBlock(FabricBlockSettings.copyOf(SOUL_SOIL)));
     public static final Block SOUL_SOIL_STAIR = registerBlock("soul_soil_stairs", new StairsBlock(SOUL_SOIL.getDefaultState(),FabricBlockSettings.copyOf(SOUL_SOIL)));
     public static final Block SOUL_SOIL_V_SLAB = registerBlock("soul_soil_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SOUL_SOIL)));
+
+    public static final Block BEVEL_OAK = registerBlock("beveled_oak", new Block(FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block BEVEL_OAK_SLAB = registerBlock("beveled_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block BEVEL_OAK_STAIR = registerBlock("beveled_oak_stair", new StairsBlock(ModBlocks.BEVEL_OAK.getDefaultState(),FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block BEVEL_OAK_V_SLAB = registerBlock("beveled_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
+
+    public static final Block BEVEL_DARK_OAK = registerBlock("beveled_dark_oak", new Block(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
+    public static final Block BEVEL_DARK_OAK_SLAB = registerBlock("beveled_dark_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
+    public static final Block BEVEL_DARK_OAK_STAIR = registerBlock("beveled_dark_oak_stair", new StairsBlock(ModBlocks.BEVEL_DARK_OAK.getDefaultState(),FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
+    public static final Block BEVEL_DARK_OAK_V_SLAB = registerBlock("beveled_dark_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
+
+    public static final Block BEVEL_BIRCH = registerBlock("beveled_birch", new Block(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block BEVEL_BIRCH_SLAB = registerBlock("beveled_birch_slab", new SlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block BEVEL_BIRCH_STAIR = registerBlock("beveled_birch_stair", new StairsBlock(ModBlocks.BEVEL_BIRCH.getDefaultState(),FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block BEVEL_BIRCH_V_SLAB = registerBlock("beveled_birch_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
 
 
     private static Block registerBlock(String name, Block block) {

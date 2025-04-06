@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/beveled_oak_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/beveled_oak"
+    },
+    "type=top": {
+      "model": "buildersshop:block/beveled_oak_slab_top"
+    }
+  }
+}

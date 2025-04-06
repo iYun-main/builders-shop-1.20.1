@@ -17,13 +17,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
-        getOrCreateTagBuilder(BlockTags.SNOW)
-                .add(ModBlocks.SNOW_SLAB)
-                .add(ModBlocks.SNOW_WALL)
-                .add(ModBlocks.SNOW_FENCE)
-                .add(ModBlocks.SNOW_V_SLAB)
-                .add(ModBlocks.SNOW_STAIR);
-
         getOrCreateTagBuilder(BlockTags.WOOL)
                 .add(ModBlocks.WHITE_WOOL_WALL)
                 .add(ModBlocks.LIGHT_GRAY_WOOL_WALL)
@@ -260,7 +253,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS)
                 .add(ModBlocks.P_ICE_STAIR)
                 .add(ModBlocks.B_ICE_STAIR)
-                .add(ModBlocks.SNOW_STAIR)
                 .add(ModBlocks.MOSS_STAIR)
                 .add(ModBlocks.CALCITE_STAIR)
                 .add(ModBlocks.TUFF_STAIR)
@@ -300,7 +292,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIRT_WALL)
                 .add(ModBlocks.P_ICE_WALL)
                 .add(ModBlocks.B_ICE_WALL)
-                .add(ModBlocks.SNOW_WALL)
                 .add(ModBlocks.MOSS_WALL)
                 .add(ModBlocks.CALCITE_WALL)
                 .add(ModBlocks.TUFF_WALL)
@@ -422,7 +413,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPUR_WALL)
                 .add(ModBlocks.END_STONE_WALL)
                 .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_WALL)
+                .add(ModBlocks.DIORITE_BRICKS_MOSSY_WALL)
+                .add(ModBlocks.TILES_CRACKED_DIORITE_WALL)
+                .add(ModBlocks.DIORITE_BRICKS_CRACKED_WALL)
+                .add(ModBlocks.GRANITE_BRICKS_CRACKED_WALL)
                 .add(ModBlocks.QUARTZ_BRICKS_WALL)
+                .add(ModBlocks.TILES_GRANITE_WALL)
+                .add(ModBlocks.TILES_CRACKED_GRANITE_WALL)
+                .add(ModBlocks.TILES_MOSSY_GRANITE_WALL)
+                .add(ModBlocks.TILES_CRACKED_ANDESITE_WALL)
+                .add(ModBlocks.TILES_ANDESITE_WALL)
+                .add(ModBlocks.TILES_MOSSY_ANDESITE_WALL)
+                .add(ModBlocks.TILES_OBSIDIAN_WALL)
+                .add(ModBlocks.TILES_CRACKED_OBSIDIAN_WALL)
+                .add(ModBlocks.TILES_MOSSY_DIORITE_WALL)
+                .add(ModBlocks.TILES_MOSSY_OBSIDIAN_WALL)
                 .add(ModBlocks.CDIRT_WALL);
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
@@ -442,7 +447,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SEA_LANTERN_FENCE)
                 .add(ModBlocks.P_ICE_FENCE)
                 .add(ModBlocks.B_ICE_FENCE)
-                .add(ModBlocks.SNOW_FENCE)
                 .add(ModBlocks.MOSS_FENCE)
                 .add(ModBlocks.CALCITE_FENCE)
                 .add(ModBlocks.TUFF_FENCE)
@@ -578,7 +582,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CALCITE_BRICKS_SLAB)
                 .add(ModBlocks.P_ICE_SLAB)
                 .add(ModBlocks.B_ICE_SLAB)
-                .add(ModBlocks.SNOW_SLAB)
                 .add(ModBlocks.MOSS_SLAB)
                 .add(ModBlocks.CALCITE_SLAB)
                 .add(ModBlocks.TUFF_SLAB)
@@ -764,11 +767,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RDIRT_FENCE)
                 .add(ModBlocks.RDIRT_SLAB)
                 .add(ModBlocks.CDIRT_SLAB)
-                .add(ModBlocks.SNOW_SLAB)
-                .add(ModBlocks.SNOW_WALL)
-                .add(ModBlocks.SNOW_FENCE)
-                .add(ModBlocks.SNOW_V_SLAB)
-                .add(ModBlocks.SNOW_STAIR)
+                .add(ModBlocks.DIRT_STAIRS)
+                .add(ModBlocks.RDIRT_STAIRS)
+                .add(ModBlocks.CDIRT_STAIRS)
                 .add(ModBlocks.DIRT_SLAB);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
@@ -883,6 +884,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.STONE_VERTICAL_SLAB)
+                .add(ModBlocks.CHISELED_STONE_BRICKS_VERTICAL_SLAB)
+                .add(ModBlocks.CALCITE_BRICKS_MOSSY_VERTICAL_SLAB)
+                .add(ModBlocks.TUFF_BRICKS_VERTICAL_SLAB)
+                .add(ModBlocks.TUFF_TILES_VERTICAL_SLAB)
+                .add(ModBlocks.CHISELED_TUFF_VERTICAL_SLAB)
+                .add(ModBlocks.TUFF_BRICKS_CRACKED_VERTICAL_SLAB)
+                .add(ModBlocks.TUFF_TILES_CRACKED_VERTICAL_SLAB)
+                .add(ModBlocks.CHISELED_TUFF_CRACKED_VERTICAL_SLAB)
+                .add(ModBlocks.TUFF_BRICKS_MOSSY_VERTICAL_SLAB)
+                .add(ModBlocks.TUFF_TILES_MOSSY_VERTICAL_SLAB)
+                .add(ModBlocks.CHISELED_TUFF_MOSSY_VERTICAL_SLAB)
+                .add(ModBlocks.CALCITE_TILES_MOSSY_VERTICAL_SLAB)
+                .add(ModBlocks.CHISELED_CALCITE_MOSSY_VERTICAL_SLAB)
+                .add(ModBlocks.CALCITE_BRICKS_CRACKED_VERTICAL_SLAB)
+                .add(ModBlocks.CALCITE_TILES_CRACKED_VERTICAL_SLAB)
+                .add(ModBlocks.CHISELED_CALCITE_CRACKED_VERTICAL_SLAB)
+                .add(ModBlocks.CALCITE_BRICKS_VERTICAL_SLAB)
+                .add(ModBlocks.CALCITE_TILES_VERTICAL_SLAB)
+                .add(ModBlocks.CHISELED_CALCITE_VERTICAL_SLAB)
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_VERTICAL_SLAB)
+                .add(ModBlocks.CRACKED_DEEPSLATE_TILES_STAIRS)
                 .add(ModBlocks.POLISHED_BLACKSTONE_FENCE)
                 .add(ModBlocks.POLISHED_BLACKSTONE_VERTICAL_SLAB)
                 .add(ModBlocks.POLISHED_BLACKSTONE_BRICKS_FENCE)
@@ -1533,7 +1555,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.P_ICE_STAIR)
                 .add(ModBlocks.B_ICE_STAIR)
-                .add(ModBlocks.SNOW_STAIR)
                 .add(ModBlocks.MOSS_STAIR)
                 .add(ModBlocks.CALCITE_STAIR)
                 .add(ModBlocks.TUFF_STAIR)
@@ -1541,7 +1562,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.P_ICE_WALL)
                 .add(ModBlocks.B_ICE_WALL)
-                .add(ModBlocks.SNOW_WALL)
                 .add(ModBlocks.MOSS_WALL)
                 .add(ModBlocks.CALCITE_WALL)
                 .add(ModBlocks.TUFF_WALL)
@@ -1549,7 +1569,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.P_ICE_FENCE)
                 .add(ModBlocks.B_ICE_FENCE)
-                .add(ModBlocks.SNOW_FENCE)
                 .add(ModBlocks.MOSS_FENCE)
                 .add(ModBlocks.CALCITE_FENCE)
                 .add(ModBlocks.TUFF_FENCE)
@@ -1557,7 +1576,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.P_ICE_SLAB)
                 .add(ModBlocks.B_ICE_SLAB)
-                .add(ModBlocks.SNOW_SLAB)
                 .add(ModBlocks.MOSS_SLAB)
                 .add(ModBlocks.CALCITE_SLAB)
                 .add(ModBlocks.TUFF_SLAB)
@@ -1565,13 +1583,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.P_ICE_V_SLAB)
                 .add(ModBlocks.B_ICE_V_SLAB)
-                .add(ModBlocks.SNOW_V_SLAB)
                 .add(ModBlocks.MOSS_V_SLAB)
                 .add(ModBlocks.CALCITE_V_SLAB)
                 .add(ModBlocks.TUFF_V_SLAB)
                 .add(ModBlocks.DRIPSTONE_V_SLAB)
 
+                .add(ModBlocks.PMUD_SLAB)
+                .add(ModBlocks.PMUD_STAIRS)
+                .add(ModBlocks.PMUD_VERTICAL_SLAB)
+
                 .add(ModBlocks.COBSIDIAN_BRICKS);
+
+        getOrCreateTagBuilder(BlockTags.ICE)
+           .add(ModBlocks.P_ICE_SLAB)
+           .add(ModBlocks.P_ICE_V_SLAB)
+           .add(ModBlocks.P_ICE_STAIR)
+           .add(ModBlocks.P_ICE_WALL)
+           .add(ModBlocks.P_ICE_FENCE)
+           .add(ModBlocks.B_ICE_SLAB)
+           .add(ModBlocks.B_ICE_V_SLAB)
+           .add(ModBlocks.B_ICE_STAIR)
+           .add(ModBlocks.B_ICE_WALL)
+           .add(ModBlocks.B_ICE_FENCE)
+         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.OBSIDIAN_BRICKS_FENCE)

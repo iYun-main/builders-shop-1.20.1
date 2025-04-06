@@ -1030,11 +1030,6 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SOUL_SOIL_FENCE,"Soul SoilFence");
         translationBuilder.add(ModBlocks.SOUL_SOIL_V_SLAB,"Soul Soil Vertical Slab");
 
-        translationBuilder.add(ModBlocks.SNOW_SLAB,"Snow Slab");
-        translationBuilder.add(ModBlocks.SNOW_STAIR,"Snow Stair");
-        translationBuilder.add(ModBlocks.SNOW_WALL,"Snow Wall");
-        translationBuilder.add(ModBlocks.SNOW_FENCE,"Snow Fence");
-        translationBuilder.add(ModBlocks.SNOW_V_SLAB,"Snow Vertical Slab");
 
         translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 

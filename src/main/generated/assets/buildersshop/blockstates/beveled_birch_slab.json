@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/beveled_birch_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/beveled_birch"
+    },
+    "type=top": {
+      "model": "buildersshop:block/beveled_birch_slab_top"
+    }
+  }
+}

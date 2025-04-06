@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "buildersshop:block/beveled_oak",
+    "side": "buildersshop:block/beveled_oak",
+    "top": "buildersshop:block/beveled_oak"
+  }
+}

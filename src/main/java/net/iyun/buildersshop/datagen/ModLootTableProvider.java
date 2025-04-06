@@ -36,6 +36,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_WOOL_VERTICAL_SLAB, slabDrops(ModBlocks.PURPLE_WOOL_VERTICAL_SLAB));
         addDrop(ModBlocks.MAGENTA_WOOL_VERTICAL_SLAB, slabDrops(ModBlocks.MAGENTA_WOOL_VERTICAL_SLAB));
         addDrop(ModBlocks.PINK_WOOL_VERTICAL_SLAB, slabDrops(ModBlocks.PINK_WOOL_VERTICAL_SLAB));
+        addDrop(ModBlocks.WHITE_WOOL_VERTICAL_SLAB, slabDrops(ModBlocks.WHITE_WOOL_VERTICAL_SLAB));
         addDrop(ModBlocks.OAK_VERTICAL_SLAB,slabDrops(ModBlocks.OAK_VERTICAL_SLAB));
         addDrop(ModBlocks.BIRCH_VERTICAL_SLAB,slabDrops(ModBlocks.BIRCH_VERTICAL_SLAB));
         addDrop(ModBlocks.SPRUCE_VERTICAL_SLAB,slabDrops(ModBlocks.SPRUCE_VERTICAL_SLAB));
@@ -101,6 +102,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_WOOL_SLAB, slabDrops(ModBlocks.PURPLE_WOOL_SLAB));
         addDrop(ModBlocks.MAGENTA_WOOL_SLAB, slabDrops(ModBlocks.MAGENTA_WOOL_SLAB));
         addDrop(ModBlocks.PINK_WOOL_SLAB, slabDrops(ModBlocks.PINK_WOOL_SLAB));
+        addDrop(ModBlocks.WHITE_WOOL_SLAB, slabDrops(ModBlocks.WHITE_WOOL_SLAB));
         addDrop(ModBlocks.ANDESITE_BRICKS_SLAB,slabDrops(ModBlocks.ANDESITE_BRICKS_SLAB));
         addDrop(ModBlocks.ANDESITE_BRICKS_CRACKED_SLAB,slabDrops(ModBlocks.ANDESITE_BRICKS_CRACKED_SLAB));
         addDrop(ModBlocks.ANDESITE_BRICKS_MOSSY_SLAB, slabDrops(ModBlocks.ANDESITE_BRICKS_MOSSY_SLAB));
@@ -142,6 +144,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_WOOL_WALL);
         addDrop(ModBlocks.MAGENTA_WOOL_WALL);
         addDrop(ModBlocks.PINK_WOOL_WALL);
+        addDrop(ModBlocks.WHITE_WOOL_WALL);
         addDrop(ModBlocks.ANDESITE_BRICKS_WALL);
         addDrop(ModBlocks.ANDESITE_BRICKS_CRACKED_WALL);
         addDrop(ModBlocks.ANDESITE_BRICKS_MOSSY_WALL);
@@ -183,6 +186,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_WOOL_FENCE );
         addDrop(ModBlocks.MAGENTA_WOOL_FENCE );
         addDrop(ModBlocks.PINK_WOOL_FENCE);
+        addDrop(ModBlocks.WHITE_WOOL_FENCE);
         addDrop(ModBlocks.ANDESITE_BRICKS_FENCE);
         addDrop(ModBlocks.ANDESITE_BRICKS_CRACKED_FENCE);
         addDrop(ModBlocks.ANDESITE_BRICKS_MOSSY_FENCE);
@@ -235,6 +239,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_WOOL_STAIRS );
         addDrop(ModBlocks.MAGENTA_WOOL_STAIRS );
         addDrop(ModBlocks.PINK_WOOL_STAIRS );
+        addDrop(ModBlocks.WHITE_WOOL_STAIRS );
         addDrop(ModBlocks.ANDESITE_BRICKS_STAIRS);
         addDrop(ModBlocks.ANDESITE_BRICKS_CRACKED_STAIRS);
         addDrop(ModBlocks.ANDESITE_BRICKS_MOSSY_STAIRS);
@@ -617,11 +622,65 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_WALL);
         addDrop(ModBlocks.SMOOTH_RED_SANDSTONE_FENCE);
 
+        addDrop(ModBlocks.MOSS_FENCE);
+        addDrop(ModBlocks.MOSS_WALL);
+        addDrop(ModBlocks.MOSS_V_SLAB, slabDrops(ModBlocks.MOSS_V_SLAB));
+        addDrop(ModBlocks.MOSS_SLAB, slabDrops(ModBlocks.MOSS_SLAB));
+        addDrop(ModBlocks.MOSS_STAIR);
+
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_STAIRS);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_SLAB, ModBlocks.SEA_LANTERN_SLAB);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_VERTICAL_SLAB);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_FENCE);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_WALL);
+
+        addDropWithSilkTouch(ModBlocks.P_ICE_FENCE);
+        addDropWithSilkTouch(ModBlocks.P_ICE_WALL);
+        addDropWithSilkTouch(ModBlocks.P_ICE_STAIR);
+        addDropWithSilkTouch(ModBlocks.P_ICE_V_SLAB, ModBlocks.P_ICE_V_SLAB);
+        addDropWithSilkTouch(ModBlocks.P_ICE_SLAB, ModBlocks.P_ICE_SLAB);
+
+        addDropWithSilkTouch(ModBlocks.B_ICE_FENCE);
+        addDropWithSilkTouch(ModBlocks.B_ICE_WALL);
+        addDropWithSilkTouch(ModBlocks.B_ICE_STAIR);
+        addDropWithSilkTouch(ModBlocks.B_ICE_V_SLAB);
+        addDropWithSilkTouch(ModBlocks.B_ICE_SLAB);
+
+        addDrop(ModBlocks.CALCITE_SLAB, slabDrops(ModBlocks.CALCITE_SLAB));
+        addDrop(ModBlocks.CALCITE_V_SLAB, slabDrops(ModBlocks.CALCITE_V_SLAB));
+        addDrop(ModBlocks.CALCITE_STAIR);
+        addDrop(ModBlocks.CALCITE_FENCE);
+        addDrop(ModBlocks.CALCITE_WALL);
+
+        addDrop(ModBlocks.TUFF_SLAB, slabDrops(ModBlocks.TUFF_SLAB));
+        addDrop(ModBlocks.TUFF_V_SLAB, slabDrops(ModBlocks.TUFF_V_SLAB));
+        addDrop(ModBlocks.TUFF_STAIR);
+        addDrop(ModBlocks.TUFF_FENCE);
+        addDrop(ModBlocks.TUFF_WALL);
+
+        addDrop(ModBlocks.DRIPSTONE_SLAB, slabDrops(ModBlocks.DRIPSTONE_SLAB));
+        addDrop(ModBlocks.DRIPSTONE_V_SLAB, slabDrops(ModBlocks.DRIPSTONE_V_SLAB));
+        addDrop(ModBlocks.DRIPSTONE_STAIR);
+        addDrop(ModBlocks.DRIPSTONE_FENCE);
+        addDrop(ModBlocks.DRIPSTONE_WALL);
+
+        addDrop(ModBlocks.OBSIDIAN_SLAB, slabDrops(ModBlocks.OBSIDIAN_SLAB));
+        addDrop(ModBlocks.OBSIDIAN_V_SLAB, slabDrops(ModBlocks.OBSIDIAN_V_SLAB));
+        addDrop(ModBlocks.OBSIDIAN_STAIR);
+        addDrop(ModBlocks.OBSIDIAN_FENCE);
+        addDrop(ModBlocks.OBSIDIAN_WALL);
+
+        addDrop(ModBlocks.C_OBSIDIAN_SLAB, slabDrops(ModBlocks.C_OBSIDIAN_SLAB));
+        addDrop(ModBlocks.C_OBSIDIAN_V_SLAB, slabDrops(ModBlocks.C_OBSIDIAN_V_SLAB));
+        addDrop(ModBlocks.C_OBSIDIAN_STAIR);
+        addDrop(ModBlocks.C_OBSIDIAN_FENCE);
+        addDrop(ModBlocks.C_OBSIDIAN_WALL);
+
+        addDrop(ModBlocks.SOUL_SOIL_SLAB, slabDrops(ModBlocks.SOUL_SOIL_SLAB));
+        addDrop(ModBlocks.SOUL_SOIL_V_SLAB, slabDrops(ModBlocks.SOUL_SOIL_V_SLAB));
+        addDrop(ModBlocks.SOUL_SOIL_STAIR);
+        addDrop(ModBlocks.SOUL_SOIL_FENCE);
+        addDrop(ModBlocks.SOUL_SOIL_WALL);
 
         addDrop(ModBlocks.PRISMARINE_VERTICAL_SLAB);
         addDrop(ModBlocks.PRISMARINE_FENCE);
@@ -908,6 +967,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.QUARTZ_BRICKS_WALL);
         addDrop(ModBlocks.QUARTZ_BRICKS_FENCE);
         addDrop(ModBlocks.QUARTZ_BRICKS_VERTICAL_SLAB,slabDrops(ModBlocks.QUARTZ_BRICKS_VERTICAL_SLAB));
+
+        addDrop(ModBlocks.OBSIDIAN_BRICKS);
+        addDrop(ModBlocks.OBSIDIAN_BRICKS_CRACKED);
+        addDrop(ModBlocks.OBSIDIAN_BRICKS_MOSSY);
+        addDrop(ModBlocks.COBSIDIAN_BRICKS);
+        addDrop(ModBlocks.VERTICAL_OAK_PLANK_WALL);
+        addDrop(ModBlocks.VERTICAL_DARK_OAK_PLANK_WALL);
+        addDrop(ModBlocks.VERTICAL_BIRCH_PLANK_WALL);
+        addDrop(ModBlocks.VERTICAL_SPRUCE_PLANK_WALL);
+        addDrop(ModBlocks.VERTICAL_JUNGLE_PLANK_WALL);
+        addDrop(ModBlocks.VERTICAL_ACACIA_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_CHERRY_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_MANGROVE_PLANK_FENCE);
+        addDrop(ModBlocks.VERTICAL_BAMBOO_PLANK);
+        addDrop(ModBlocks.VERTICAL_CRIMSON_PLANK);
+        addDrop(ModBlocks.VERTICAL_WARPED_PLANK);
 
     }
 

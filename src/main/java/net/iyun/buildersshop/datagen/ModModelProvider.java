@@ -255,7 +255,6 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool pice = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.PACKED_ICE);
         BlockStateModelGenerator.BlockTexturePool bice = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.BLUE_ICE);
 
-        BlockStateModelGenerator.BlockTexturePool snow = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SNOW);
         BlockStateModelGenerator.BlockTexturePool moss = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.MOSS_BLOCK);
         BlockStateModelGenerator.BlockTexturePool calcite = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CALCITE);
         BlockStateModelGenerator.BlockTexturePool tuff = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.TUFF);
@@ -263,6 +262,22 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool obsi = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.OBSIDIAN);
         BlockStateModelGenerator.BlockTexturePool cobsi = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CRYING_OBSIDIAN);
         BlockStateModelGenerator.BlockTexturePool souls = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SOUL_SOIL);
+
+        BlockStateModelGenerator.BlockTexturePool beveloak = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_OAK);
+        BlockStateModelGenerator.BlockTexturePool beveldoak = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_DARK_OAK);
+        BlockStateModelGenerator.BlockTexturePool bevelbir = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_BIRCH);
+
+        bevelbir.stairs(ModBlocks.BEVEL_BIRCH_STAIR);
+        bevelbir.slab(ModBlocks.BEVEL_BIRCH_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_BIRCH, ModBlocks.BEVEL_BIRCH_V_SLAB);
+
+        beveldoak.stairs(ModBlocks.BEVEL_DARK_OAK_STAIR);
+        beveldoak.slab(ModBlocks.BEVEL_DARK_OAK_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_DARK_OAK, ModBlocks.BEVEL_DARK_OAK_V_SLAB);
+
+        beveloak.stairs(ModBlocks.BEVEL_OAK_STAIR);
+        beveloak.slab(ModBlocks.BEVEL_OAK_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_OAK, ModBlocks.BEVEL_OAK_V_SLAB);
 
         souls.wall(ModBlocks.SOUL_SOIL_WALL);
         souls.fence(ModBlocks.SOUL_SOIL_FENCE);
@@ -305,12 +320,6 @@ public class ModModelProvider extends FabricModelProvider {
         moss.slab(ModBlocks.MOSS_SLAB);
         moss.stairs(ModBlocks.MOSS_STAIR);
         renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.MOSS_BLOCK, ModBlocks.MOSS_V_SLAB);
-
-        snow.wall(ModBlocks.SNOW_WALL);
-        snow.fence(ModBlocks.SNOW_FENCE);
-        snow.slab(ModBlocks.SNOW_SLAB);
-        snow.stairs(ModBlocks.SNOW_STAIR);
-        renderVerticalSlabBlockModel(blockStateModelGenerator,Blocks.SNOW, ModBlocks.SNOW_V_SLAB);
 
         bice.wall(ModBlocks.B_ICE_WALL);
         bice.fence(ModBlocks.B_ICE_FENCE);

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "buildersshop:packed_ice_slab",
+    "buildersshop:packed_ice_vertical_slab",
+    "buildersshop:packed_ice_stair",
+    "buildersshop:packed_ice_wall",
+    "buildersshop:packed_ice_fence",
+    "buildersshop:blue_ice_slab",
+    "buildersshop:blue_ice_vertical_slab",
+    "buildersshop:blue_ice_stair",
+    "buildersshop:blue_ice_wall",
+    "buildersshop:blue_ice_fence"
+  ]
+}

@@ -28,11 +28,9 @@
     "buildersshop:rooted_dirt_fence",
     "buildersshop:rooted_dirt_slab",
     "buildersshop:coarse_dirt_slab",
-    "buildersshop:snow_slab",
-    "buildersshop:snow_wall",
-    "buildersshop:snow_fence",
-    "buildersshop:snow_vertical_slab",
-    "buildersshop:snow_stair",
+    "buildersshop:dirt_stairs",
+    "buildersshop:rooted_dirt_stairs",
+    "buildersshop:coarse_dirt_stairs",
     "buildersshop:dirt_slab"
   ]
 }
