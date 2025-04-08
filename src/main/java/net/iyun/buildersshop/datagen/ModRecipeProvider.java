@@ -225,6 +225,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         verticalslab(ModBlocks.C_OBSIDIAN_V_SLAB, Blocks.CRYING_OBSIDIAN,exporter);
         verticalslab(ModBlocks.SOUL_SOIL_V_SLAB, Blocks.SOUL_SOIL,exporter);
 
+        verticalslab(ModBlocks.BEVEL_OAK_V_SLAB, ModBlocks.BEVEL_OAK,exporter);
+        verticalslab(ModBlocks.BEVEL_DARK_OAK_V_SLAB, ModBlocks.BEVEL_DARK_OAK,exporter);
+        verticalslab(ModBlocks.BEVEL_BIRCH_V_SLAB, ModBlocks.BEVEL_BIRCH,exporter);
+        verticalslab(ModBlocks.BEVEL_ACA_V_SLAB, ModBlocks.BEVEL_ACA,exporter);
+        verticalslab(ModBlocks.BEVEL_CHERRY_V_SLAB, ModBlocks.BEVEL_CHERRY,exporter);
+        verticalslab(ModBlocks.BEVEL_CRIMSON_V_SLAB, ModBlocks.BEVEL_CRIMSON,exporter);
+        verticalslab(ModBlocks.BEVEL_JUNGLE_V_SLAB, ModBlocks.BEVEL_JUNGLE,exporter);
+        verticalslab(ModBlocks.BEVEL_MANGROVE_V_SLAB, ModBlocks.BEVEL_MANGROVE,exporter);
+        verticalslab(ModBlocks.BEVEL_SPRUCE_V_SLAB, ModBlocks.BEVEL_SPRUCE,exporter);
+        verticalslab(ModBlocks.BEVEL_WARPED_V_SLAB, ModBlocks.BEVEL_WARPED,exporter);
+
         stonefences(ModBlocks.TUFF_TILES_FENCE, ModBlocks.TUFF_TILES,exporter);
         stonefences(ModBlocks.TUFF_BRICKS_FENCE, ModBlocks.TUFF_BRICKS,exporter);
         stonefences(ModBlocks.TUFF_TILES_MOSSY_FENCE, ModBlocks.TUFF_TILES_MOSSY,exporter);
@@ -566,6 +577,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_SLAB, ModBlocks.SMOOTH_STONE_TILES);
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_CRACKED_SLAB, ModBlocks.SMOOTH_STONE_TILES_CRACKED);
         offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_STONE_TILES_MOSSY_SLAB, ModBlocks.SMOOTH_STONE_TILES_MOSSY);
+
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_OAK_SLAB, ModBlocks.BEVEL_OAK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_DARK_OAK_SLAB, ModBlocks.BEVEL_DARK_OAK);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_BIRCH_SLAB, ModBlocks.BEVEL_BIRCH);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_ACA_SLAB, ModBlocks.BEVEL_ACA);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_CHERRY_SLAB, ModBlocks.BEVEL_CHERRY);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_CRIMSON_SLAB, ModBlocks.BEVEL_CRIMSON);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_JUNGLE_SLAB, ModBlocks.BEVEL_JUNGLE);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_MANGROVE_SLAB, ModBlocks.BEVEL_MANGROVE);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_SPRUCE_SLAB, ModBlocks.BEVEL_SPRUCE);
+        offerSlabRecipe(exporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.BEVEL_WARPED_SLAB, ModBlocks.BEVEL_WARPED);
 
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.P_ICE_SLAB, Blocks.PACKED_ICE);
         offerSlabRecipe(exporter,RecipeCategory.DECORATIONS, ModBlocks.B_ICE_SLAB, Blocks.BLUE_ICE);
@@ -1386,6 +1408,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         quickstair(ModBlocks.C_OBSIDIAN_STAIR, Blocks.CRYING_OBSIDIAN,exporter);
         quickstair(ModBlocks.SOUL_SOIL_STAIR, Blocks.SOUL_SOIL,exporter);
 
+        quickstair(ModBlocks.BEVEL_OAK_STAIR, ModBlocks.BEVEL_OAK,exporter);
+        quickstair(ModBlocks.BEVEL_DARK_OAK_STAIR, ModBlocks.BEVEL_DARK_OAK,exporter);
+        quickstair(ModBlocks.BEVEL_BIRCH_STAIR, ModBlocks.BEVEL_BIRCH,exporter);
+        quickstair(ModBlocks.BEVEL_ACA_STAIR, ModBlocks.BEVEL_ACA,exporter);
+        quickstair(ModBlocks.BEVEL_CHERRY_STAIR, ModBlocks.BEVEL_CHERRY,exporter);
+        quickstair(ModBlocks.BEVEL_CRIMSON_STAIR, ModBlocks.BEVEL_CRIMSON,exporter);
+        quickstair(ModBlocks.BEVEL_JUNGLE_STAIR, ModBlocks.BEVEL_JUNGLE,exporter);
+        quickstair(ModBlocks.BEVEL_MANGROVE_STAIR, ModBlocks.BEVEL_MANGROVE,exporter);
+        quickstair(ModBlocks.BEVEL_SPRUCE_STAIR, ModBlocks.BEVEL_SPRUCE,exporter);
+        quickstair(ModBlocks.BEVEL_WARPED_STAIR, ModBlocks.BEVEL_WARPED,exporter);
+
         // Chiseled
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_ANDESITE, ModBlocks.ANDESITE_BRICKS_SLAB);
         offerChiseledBlockRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_GRANITE, ModBlocks.GRANITE_BRICKS_SLAB);
@@ -1776,6 +1809,62 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.C_OBSIDIAN_STAIR, Blocks.CRYING_OBSIDIAN);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.C_OBSIDIAN_FENCE, Blocks.CRYING_OBSIDIAN);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.C_OBSIDIAN_WALL, Blocks.CRYING_OBSIDIAN);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOUL_SOIL_SLAB, Blocks.SOUL_SOIL,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOUL_SOIL_V_SLAB, Blocks.SOUL_SOIL,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOUL_SOIL_STAIR, Blocks.SOUL_SOIL);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOUL_SOIL_FENCE, Blocks.SOUL_SOIL);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.SOUL_SOIL_WALL, Blocks.SOUL_SOIL);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_OAK_SLAB, ModBlocks.BEVEL_OAK,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_OAK_V_SLAB, ModBlocks.BEVEL_OAK,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_OAK_STAIR, ModBlocks.BEVEL_OAK);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_OAK, Blocks.OAK_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_DARK_OAK_SLAB, ModBlocks.BEVEL_DARK_OAK,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_DARK_OAK_V_SLAB, ModBlocks.BEVEL_DARK_OAK,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_DARK_OAK_STAIR, ModBlocks.BEVEL_DARK_OAK);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_DARK_OAK, Blocks.DARK_OAK_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_ACA_SLAB, ModBlocks.BEVEL_ACA,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_ACA_V_SLAB, ModBlocks.BEVEL_ACA,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_ACA_STAIR, ModBlocks.BEVEL_ACA);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_ACA, Blocks.ACACIA_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_BIRCH_SLAB, ModBlocks.BEVEL_BIRCH,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_BIRCH_V_SLAB, ModBlocks.BEVEL_BIRCH,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_BIRCH_STAIR, ModBlocks.BEVEL_BIRCH);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_BIRCH, Blocks.BIRCH_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_CHERRY_SLAB, ModBlocks.BEVEL_CHERRY,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_CHERRY_V_SLAB, ModBlocks.BEVEL_CHERRY,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_CHERRY_STAIR, ModBlocks.BEVEL_CHERRY);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_CHERRY, Blocks.CHERRY_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_CRIMSON_SLAB, ModBlocks.BEVEL_CRIMSON,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_CRIMSON_V_SLAB, ModBlocks.BEVEL_CRIMSON,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_CRIMSON_STAIR, ModBlocks.BEVEL_CRIMSON);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_CRIMSON, Blocks.CRIMSON_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_JUNGLE_SLAB, ModBlocks.BEVEL_JUNGLE,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_JUNGLE_V_SLAB, ModBlocks.BEVEL_JUNGLE,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_JUNGLE_STAIR, ModBlocks.BEVEL_JUNGLE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_JUNGLE, Blocks.JUNGLE_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_MANGROVE_SLAB, ModBlocks.BEVEL_MANGROVE,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_MANGROVE_V_SLAB, ModBlocks.BEVEL_MANGROVE,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_MANGROVE_STAIR, ModBlocks.BEVEL_MANGROVE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_MANGROVE, Blocks.MANGROVE_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_SPRUCE_SLAB, ModBlocks.BEVEL_SPRUCE,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_SPRUCE_V_SLAB, ModBlocks.BEVEL_SPRUCE,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_SPRUCE_STAIR, ModBlocks.BEVEL_SPRUCE);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_SPRUCE, Blocks.SPRUCE_PLANKS);
+
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_WARPED_SLAB, ModBlocks.BEVEL_WARPED,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_WARPED_V_SLAB, ModBlocks.BEVEL_WARPED,2);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_WARPED_STAIR, ModBlocks.BEVEL_WARPED);
+        offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEVEL_WARPED, Blocks.WARPED_PLANKS);
 
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN, Blocks.OBSIDIAN);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_OBSIDIAN_STAIRS, Blocks.OBSIDIAN);

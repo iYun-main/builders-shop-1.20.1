@@ -266,6 +266,41 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool beveloak = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_OAK);
         BlockStateModelGenerator.BlockTexturePool beveldoak = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_DARK_OAK);
         BlockStateModelGenerator.BlockTexturePool bevelbir = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_BIRCH);
+        BlockStateModelGenerator.BlockTexturePool bevelaca = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_ACA);
+        BlockStateModelGenerator.BlockTexturePool bevelcher = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_CHERRY);
+        BlockStateModelGenerator.BlockTexturePool bevelcri = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_CRIMSON);
+        BlockStateModelGenerator.BlockTexturePool beveljun = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_JUNGLE);
+        BlockStateModelGenerator.BlockTexturePool bevelman = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_MANGROVE);
+        BlockStateModelGenerator.BlockTexturePool bevelspr = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_SPRUCE);
+        BlockStateModelGenerator.BlockTexturePool bevelwar = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_WARPED);
+
+        bevelwar.stairs(ModBlocks.BEVEL_WARPED_STAIR);
+        bevelwar.slab(ModBlocks.BEVEL_WARPED_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_WARPED, ModBlocks.BEVEL_WARPED_V_SLAB);
+
+        bevelspr.stairs(ModBlocks.BEVEL_SPRUCE_STAIR);
+        bevelspr.slab(ModBlocks.BEVEL_SPRUCE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_SPRUCE, ModBlocks.BEVEL_SPRUCE_V_SLAB);
+
+        bevelman.stairs(ModBlocks.BEVEL_MANGROVE_STAIR);
+        bevelman.slab(ModBlocks.BEVEL_MANGROVE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_MANGROVE, ModBlocks.BEVEL_MANGROVE_V_SLAB);
+
+        beveljun.stairs(ModBlocks.BEVEL_JUNGLE_STAIR);
+        beveljun.slab(ModBlocks.BEVEL_JUNGLE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_JUNGLE, ModBlocks.BEVEL_JUNGLE_V_SLAB);
+
+        bevelcri.stairs(ModBlocks.BEVEL_CRIMSON_STAIR);
+        bevelcri.slab(ModBlocks.BEVEL_CRIMSON_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_CRIMSON, ModBlocks.BEVEL_CRIMSON_V_SLAB);
+
+        bevelcher.stairs(ModBlocks.BEVEL_CHERRY_STAIR);
+        bevelcher.slab(ModBlocks.BEVEL_CHERRY_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_CHERRY, ModBlocks.BEVEL_CHERRY_V_SLAB);
+
+        bevelaca.stairs(ModBlocks.BEVEL_ACA_STAIR);
+        bevelaca.slab(ModBlocks.BEVEL_ACA_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_ACA, ModBlocks.BEVEL_ACA_V_SLAB);
 
         bevelbir.stairs(ModBlocks.BEVEL_BIRCH_STAIR);
         bevelbir.slab(ModBlocks.BEVEL_BIRCH_SLAB);

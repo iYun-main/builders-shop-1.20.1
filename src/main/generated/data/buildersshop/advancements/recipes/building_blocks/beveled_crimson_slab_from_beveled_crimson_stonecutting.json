@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beveled_crimson": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:beveled_crimson"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:beveled_crimson_slab_from_beveled_crimson_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_beveled_crimson",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:beveled_crimson_slab_from_beveled_crimson_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

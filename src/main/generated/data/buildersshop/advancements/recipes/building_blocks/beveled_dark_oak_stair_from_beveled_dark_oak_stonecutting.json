@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beveled_dark_oak": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:beveled_dark_oak"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:beveled_dark_oak_stair_from_beveled_dark_oak_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_beveled_dark_oak",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:beveled_dark_oak_stair_from_beveled_dark_oak_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

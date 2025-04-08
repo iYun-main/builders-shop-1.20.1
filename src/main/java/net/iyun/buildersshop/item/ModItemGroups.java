@@ -900,6 +900,34 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BEVEL_BIRCH_SLAB);
                         entries.add(ModBlocks.BEVEL_BIRCH_STAIR);
                         entries.add(ModBlocks.BEVEL_BIRCH_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_ACA);
+                        entries.add(ModBlocks.BEVEL_ACA_SLAB);
+                        entries.add(ModBlocks.BEVEL_ACA_STAIR);
+                        entries.add(ModBlocks.BEVEL_ACA_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_CHERRY);
+                        entries.add(ModBlocks.BEVEL_CHERRY_SLAB);
+                        entries.add(ModBlocks.BEVEL_CHERRY_STAIR);
+                        entries.add(ModBlocks.BEVEL_CHERRY_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_CRIMSON);
+                        entries.add(ModBlocks.BEVEL_CRIMSON_SLAB);
+                        entries.add(ModBlocks.BEVEL_CRIMSON_STAIR);
+                        entries.add(ModBlocks.BEVEL_CRIMSON_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_JUNGLE);
+                        entries.add(ModBlocks.BEVEL_JUNGLE_SLAB);
+                        entries.add(ModBlocks.BEVEL_JUNGLE_STAIR);
+                        entries.add(ModBlocks.BEVEL_JUNGLE_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_MANGROVE);
+                        entries.add(ModBlocks.BEVEL_MANGROVE_SLAB);
+                        entries.add(ModBlocks.BEVEL_MANGROVE_STAIR);
+                        entries.add(ModBlocks.BEVEL_MANGROVE_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_SPRUCE);
+                        entries.add(ModBlocks.BEVEL_SPRUCE_SLAB);
+                        entries.add(ModBlocks.BEVEL_SPRUCE_STAIR);
+                        entries.add(ModBlocks.BEVEL_SPRUCE_V_SLAB);
+                        entries.add(ModBlocks.BEVEL_WARPED);
+                        entries.add(ModBlocks.BEVEL_WARPED_SLAB);
+                        entries.add(ModBlocks.BEVEL_WARPED_STAIR);
+                        entries.add(ModBlocks.BEVEL_WARPED_V_SLAB);
                     }).build());
 
     public static void registerItemGroups() {

@@ -1030,6 +1030,55 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SOUL_SOIL_FENCE,"Soul SoilFence");
         translationBuilder.add(ModBlocks.SOUL_SOIL_V_SLAB,"Soul Soil Vertical Slab");
 
+        translationBuilder.add(ModBlocks.BEVEL_OAK,"Beveled Oak");
+        translationBuilder.add(ModBlocks.BEVEL_OAK_SLAB,"Beveled Oak Slab");
+        translationBuilder.add(ModBlocks.BEVEL_OAK_V_SLAB,"Beveled Oak Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_OAK_STAIR,"Beveled Oak Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_DARK_OAK,"Beveled Dark Oak");
+        translationBuilder.add(ModBlocks.BEVEL_DARK_OAK_SLAB,"Beveled Dark Oak Slab");
+        translationBuilder.add(ModBlocks.BEVEL_DARK_OAK_V_SLAB,"Beveled Dark Oak Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_DARK_OAK_STAIR,"Beveled Dark Oak Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_BIRCH,"Beveled Birch");
+        translationBuilder.add(ModBlocks.BEVEL_BIRCH_SLAB,"Beveled Birch Slab");
+        translationBuilder.add(ModBlocks.BEVEL_BIRCH_V_SLAB,"Beveled Birch Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_BIRCH_STAIR,"Beveled Birch Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_ACA,"Beveled Acacia");
+        translationBuilder.add(ModBlocks.BEVEL_ACA_SLAB,"Beveled Acacia Slab");
+        translationBuilder.add(ModBlocks.BEVEL_ACA_V_SLAB,"Beveled Acacia Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_ACA_STAIR,"Beveled Acacia Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_CHERRY,"Beveled Cherry");
+        translationBuilder.add(ModBlocks.BEVEL_CHERRY_SLAB,"Beveled Cherry Slab");
+        translationBuilder.add(ModBlocks.BEVEL_CHERRY_V_SLAB,"Beveled Cherry Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_CHERRY_STAIR,"Beveled Cherry Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_CRIMSON,"Beveled Crimson");
+        translationBuilder.add(ModBlocks.BEVEL_CRIMSON_SLAB,"Beveled Crimson Slab");
+        translationBuilder.add(ModBlocks.BEVEL_CRIMSON_V_SLAB,"Beveled Crimson Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_CRIMSON_STAIR,"Beveled Crimson Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_JUNGLE,"Beveled Jungle");
+        translationBuilder.add(ModBlocks.BEVEL_JUNGLE_SLAB,"Beveled Jungle Slab");
+        translationBuilder.add(ModBlocks.BEVEL_JUNGLE_V_SLAB,"Beveled Jungle Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_JUNGLE_STAIR,"Beveled Jungle Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_MANGROVE,"Beveled Mangrove");
+        translationBuilder.add(ModBlocks.BEVEL_MANGROVE_SLAB,"Beveled Mangrove Slab");
+        translationBuilder.add(ModBlocks.BEVEL_MANGROVE_V_SLAB,"Beveled Mangrove Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_MANGROVE_STAIR,"Beveled Mangrove Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_SPRUCE,"Beveled Spruce");
+        translationBuilder.add(ModBlocks.BEVEL_SPRUCE_SLAB,"Beveled Spruce Slab");
+        translationBuilder.add(ModBlocks.BEVEL_SPRUCE_V_SLAB,"Beveled Spruce Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_SPRUCE_STAIR,"Beveled Spruce Stairs");
+
+        translationBuilder.add(ModBlocks.BEVEL_WARPED,"Beveled Warped");
+        translationBuilder.add(ModBlocks.BEVEL_WARPED_SLAB,"Beveled Warped Slab");
+        translationBuilder.add(ModBlocks.BEVEL_WARPED_V_SLAB,"Beveled Warped Vertical Slab");
+        translationBuilder.add(ModBlocks.BEVEL_WARPED_STAIR,"Beveled Warped Stairs");
 
         translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 

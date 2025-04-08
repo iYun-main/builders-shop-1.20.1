@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:beveled_acacia"
+  },
+  "result": "buildersshop:beveled_acacia_vertical_slab"
+}

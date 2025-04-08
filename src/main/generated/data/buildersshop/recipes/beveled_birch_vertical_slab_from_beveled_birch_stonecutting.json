@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:beveled_birch"
+  },
+  "result": "buildersshop:beveled_birch_vertical_slab"
+}

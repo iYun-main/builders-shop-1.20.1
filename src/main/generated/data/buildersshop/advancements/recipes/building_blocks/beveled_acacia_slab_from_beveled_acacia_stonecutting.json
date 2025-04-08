@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beveled_acacia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:beveled_acacia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:beveled_acacia_slab_from_beveled_acacia_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_beveled_acacia",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:beveled_acacia_slab_from_beveled_acacia_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

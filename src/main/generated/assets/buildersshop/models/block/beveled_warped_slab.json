@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "buildersshop:block/beveled_warped",
+    "side": "buildersshop:block/beveled_warped",
+    "top": "buildersshop:block/beveled_warped"
+  }
+}

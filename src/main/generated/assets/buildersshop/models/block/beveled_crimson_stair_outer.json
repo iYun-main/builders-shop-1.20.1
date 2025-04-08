@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "buildersshop:block/beveled_crimson",
+    "side": "buildersshop:block/beveled_crimson",
+    "top": "buildersshop:block/beveled_crimson"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beveled_cherry": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:beveled_cherry"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:beveled_cherry_stair"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_beveled_cherry",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:beveled_cherry_stair"
+    ]
+  },
+  "sends_telemetry_event": false
+}

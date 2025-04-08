@@ -158,6 +158,16 @@
     "buildersshop:pink_terracotta_block_slab",
     "buildersshop:end_stone_slab",
     "buildersshop:cracked_polished_blackstone_bricks_slab",
+    "buildersshop:beveled_dark_oak_slab",
+    "buildersshop:beveled_oak_slab",
+    "buildersshop:beveled_birch_slab",
+    "buildersshop:beveled_acacia_slab",
+    "buildersshop:beveled_cherry_slab",
+    "buildersshop:beveled_crimson_slab",
+    "buildersshop:beveled_jungle_slab",
+    "buildersshop:beveled_mangrove_slab",
+    "buildersshop:beveled_spruce_slab",
+    "buildersshop:beveled_warped_slab",
     "buildersshop:dirt_slab"
   ]
 }

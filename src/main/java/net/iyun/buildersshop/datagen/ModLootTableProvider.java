@@ -630,7 +630,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_STAIRS);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_SLAB, ModBlocks.SEA_LANTERN_SLAB);
-        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_VERTICAL_SLAB);
+        addDropWithSilkTouch(ModBlocks.SEA_LANTERN_VERTICAL_SLAB, ModBlocks.SEA_LANTERN_VERTICAL_SLAB);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_FENCE);
         addDropWithSilkTouch(ModBlocks.SEA_LANTERN_WALL);
 
@@ -643,8 +643,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDropWithSilkTouch(ModBlocks.B_ICE_FENCE);
         addDropWithSilkTouch(ModBlocks.B_ICE_WALL);
         addDropWithSilkTouch(ModBlocks.B_ICE_STAIR);
-        addDropWithSilkTouch(ModBlocks.B_ICE_V_SLAB);
-        addDropWithSilkTouch(ModBlocks.B_ICE_SLAB);
+        addDropWithSilkTouch(ModBlocks.B_ICE_V_SLAB, ModBlocks.B_ICE_V_SLAB);
+        addDropWithSilkTouch(ModBlocks.B_ICE_SLAB, ModBlocks.B_ICE_SLAB);
 
         addDrop(ModBlocks.CALCITE_SLAB, slabDrops(ModBlocks.CALCITE_SLAB));
         addDrop(ModBlocks.CALCITE_V_SLAB, slabDrops(ModBlocks.CALCITE_V_SLAB));
@@ -983,6 +983,57 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.VERTICAL_BAMBOO_PLANK);
         addDrop(ModBlocks.VERTICAL_CRIMSON_PLANK);
         addDrop(ModBlocks.VERTICAL_WARPED_PLANK);
+
+        addDrop(ModBlocks.BEVEL_DARK_OAK);
+        addDrop(ModBlocks.BEVEL_DARK_OAK_STAIR);
+        addDrop(ModBlocks.BEVEL_DARK_OAK_V_SLAB, slabDrops(ModBlocks.BEVEL_DARK_OAK_V_SLAB));
+        addDrop(ModBlocks.BEVEL_DARK_OAK_SLAB, slabDrops(ModBlocks.BEVEL_DARK_OAK_SLAB));
+
+        addDrop(ModBlocks.BEVEL_OAK);
+        addDrop(ModBlocks.BEVEL_OAK_STAIR);
+        addDrop(ModBlocks.BEVEL_OAK_V_SLAB, slabDrops(ModBlocks.BEVEL_OAK_V_SLAB));
+        addDrop(ModBlocks.BEVEL_OAK_SLAB, slabDrops(ModBlocks.BEVEL_OAK_SLAB));
+
+        addDrop(ModBlocks.BEVEL_BIRCH);
+        addDrop(ModBlocks.BEVEL_BIRCH_STAIR);
+        addDrop(ModBlocks.BEVEL_BIRCH_V_SLAB, slabDrops(ModBlocks.BEVEL_BIRCH_V_SLAB));
+        addDrop(ModBlocks.BEVEL_BIRCH_SLAB, slabDrops(ModBlocks.BEVEL_BIRCH_SLAB));
+
+        addDrop(ModBlocks.BEVEL_ACA);
+        addDrop(ModBlocks.BEVEL_ACA_STAIR);
+        addDrop(ModBlocks.BEVEL_ACA_V_SLAB, slabDrops(ModBlocks.BEVEL_ACA_V_SLAB));
+        addDrop(ModBlocks.BEVEL_ACA_SLAB, slabDrops(ModBlocks.BEVEL_ACA_SLAB));
+
+        addDrop(ModBlocks.BEVEL_CHERRY);
+        addDrop(ModBlocks.BEVEL_CHERRY_STAIR);
+        addDrop(ModBlocks.BEVEL_CHERRY_V_SLAB, slabDrops(ModBlocks.BEVEL_CHERRY_V_SLAB));
+        addDrop(ModBlocks.BEVEL_CHERRY_SLAB, slabDrops(ModBlocks.BEVEL_CHERRY_SLAB));
+
+        addDrop(ModBlocks.BEVEL_CRIMSON);
+        addDrop(ModBlocks.BEVEL_CRIMSON_STAIR);
+        addDrop(ModBlocks.BEVEL_CRIMSON_V_SLAB, slabDrops(ModBlocks.BEVEL_CRIMSON_V_SLAB));
+        addDrop(ModBlocks.BEVEL_CRIMSON_SLAB, slabDrops(ModBlocks.BEVEL_CRIMSON_SLAB));
+
+        addDrop(ModBlocks.BEVEL_JUNGLE);
+        addDrop(ModBlocks.BEVEL_JUNGLE_STAIR);
+        addDrop(ModBlocks.BEVEL_JUNGLE_V_SLAB, slabDrops(ModBlocks.BEVEL_JUNGLE_V_SLAB));
+        addDrop(ModBlocks.BEVEL_JUNGLE_SLAB, slabDrops(ModBlocks.BEVEL_JUNGLE_SLAB));
+
+        addDrop(ModBlocks.BEVEL_MANGROVE);
+        addDrop(ModBlocks.BEVEL_MANGROVE_STAIR);
+        addDrop(ModBlocks.BEVEL_MANGROVE_V_SLAB, slabDrops(ModBlocks.BEVEL_MANGROVE_V_SLAB));
+        addDrop(ModBlocks.BEVEL_MANGROVE_SLAB, slabDrops(ModBlocks.BEVEL_MANGROVE_SLAB));
+
+        addDrop(ModBlocks.BEVEL_SPRUCE);
+        addDrop(ModBlocks.BEVEL_SPRUCE_STAIR);
+        addDrop(ModBlocks.BEVEL_SPRUCE_V_SLAB, slabDrops(ModBlocks.BEVEL_SPRUCE_V_SLAB));
+        addDrop(ModBlocks.BEVEL_SPRUCE_SLAB, slabDrops(ModBlocks.BEVEL_SPRUCE_SLAB));
+
+        addDrop(ModBlocks.BEVEL_WARPED);
+        addDrop(ModBlocks.BEVEL_WARPED_STAIR);
+        addDrop(ModBlocks.BEVEL_WARPED_V_SLAB, slabDrops(ModBlocks.BEVEL_WARPED_V_SLAB));
+        addDrop(ModBlocks.BEVEL_WARPED_SLAB, slabDrops(ModBlocks.BEVEL_WARPED_SLAB));
+
 
     }
 

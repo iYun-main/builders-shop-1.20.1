@@ -1091,6 +1091,41 @@ public class ModBlocks {
     public static final Block BEVEL_BIRCH_STAIR = registerBlock("beveled_birch_stair", new StairsBlock(ModBlocks.BEVEL_BIRCH.getDefaultState(),FabricBlockSettings.copyOf(BIRCH_PLANKS)));
     public static final Block BEVEL_BIRCH_V_SLAB = registerBlock("beveled_birch_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
 
+    public static final Block BEVEL_ACA = registerBlock("beveled_acacia", new Block(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
+    public static final Block BEVEL_ACA_SLAB = registerBlock("beveled_acacia_slab", new SlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
+    public static final Block BEVEL_ACA_STAIR = registerBlock("beveled_acacia_stair", new StairsBlock(ModBlocks.BEVEL_ACA.getDefaultState(),FabricBlockSettings.copyOf(ACACIA_PLANKS)));
+    public static final Block BEVEL_ACA_V_SLAB = registerBlock("beveled_acacia_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
+
+    public static final Block BEVEL_CHERRY = registerBlock("beveled_cherry", new Block(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
+    public static final Block BEVEL_CHERRY_SLAB = registerBlock("beveled_cherry_slab", new SlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
+    public static final Block BEVEL_CHERRY_STAIR = registerBlock("beveled_cherry_stair", new StairsBlock(ModBlocks.BEVEL_CHERRY.getDefaultState(),FabricBlockSettings.copyOf(CHERRY_PLANKS)));
+    public static final Block BEVEL_CHERRY_V_SLAB = registerBlock("beveled_cherry_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
+
+    public static final Block BEVEL_CRIMSON = registerBlock("beveled_crimson", new Block(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+    public static final Block BEVEL_CRIMSON_SLAB = registerBlock("beveled_crimson_slab", new SlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+    public static final Block BEVEL_CRIMSON_STAIR = registerBlock("beveled_crimson_stair", new StairsBlock(ModBlocks.BEVEL_CRIMSON.getDefaultState(),FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+    public static final Block BEVEL_CRIMSON_V_SLAB = registerBlock("beveled_crimson_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+
+    public static final Block BEVEL_JUNGLE = registerBlock("beveled_jungle", new Block(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
+    public static final Block BEVEL_JUNGLE_SLAB = registerBlock("beveled_jungle_slab", new SlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
+    public static final Block BEVEL_JUNGLE_STAIR = registerBlock("beveled_jungle_stair", new StairsBlock(ModBlocks.BEVEL_JUNGLE.getDefaultState(),FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
+    public static final Block BEVEL_JUNGLE_V_SLAB = registerBlock("beveled_jungle_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
+
+    public static final Block BEVEL_MANGROVE = registerBlock("beveled_mangrove", new Block(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
+    public static final Block BEVEL_MANGROVE_SLAB = registerBlock("beveled_mangrove_slab", new SlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
+    public static final Block BEVEL_MANGROVE_STAIR = registerBlock("beveled_mangrove_stair", new StairsBlock(ModBlocks.BEVEL_MANGROVE.getDefaultState(),FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
+    public static final Block BEVEL_MANGROVE_V_SLAB = registerBlock("beveled_mangrove_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
+
+    public static final Block BEVEL_SPRUCE = registerBlock("beveled_spruce", new Block(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block BEVEL_SPRUCE_SLAB = registerBlock("beveled_spruce_slab", new SlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block BEVEL_SPRUCE_STAIR = registerBlock("beveled_spruce_stair", new StairsBlock(ModBlocks.BEVEL_SPRUCE.getDefaultState(),FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block BEVEL_SPRUCE_V_SLAB = registerBlock("beveled_spruce_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+
+    public static final Block BEVEL_WARPED = registerBlock("beveled_warped", new Block(FabricBlockSettings.copyOf(WARPED_PLANKS)));
+    public static final Block BEVEL_WARPED_SLAB = registerBlock("beveled_warped_slab", new SlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
+    public static final Block BEVEL_WARPED_STAIR = registerBlock("beveled_warped_stair", new StairsBlock(ModBlocks.BEVEL_WARPED.getDefaultState(),FabricBlockSettings.copyOf(WARPED_PLANKS)));
+    public static final Block BEVEL_WARPED_V_SLAB = registerBlock("beveled_warped_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

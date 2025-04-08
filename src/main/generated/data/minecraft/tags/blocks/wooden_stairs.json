@@ -11,6 +11,16 @@
     "buildersshop:vertical_bamboo_stairs",
     "buildersshop:vertical_crimson_stairs",
     "buildersshop:vertical_warped_stairs",
+    "buildersshop:beveled_dark_oak_stair",
+    "buildersshop:beveled_oak_stair",
+    "buildersshop:beveled_birch_stair",
+    "buildersshop:beveled_acacia_stair",
+    "buildersshop:beveled_cherry_stair",
+    "buildersshop:beveled_crimson_stair",
+    "buildersshop:beveled_jungle_stair",
+    "buildersshop:beveled_mangrove_stair",
+    "buildersshop:beveled_spruce_stair",
+    "buildersshop:beveled_warped_stair",
     "buildersshop:vertical_oak_stairs"
   ]
 }

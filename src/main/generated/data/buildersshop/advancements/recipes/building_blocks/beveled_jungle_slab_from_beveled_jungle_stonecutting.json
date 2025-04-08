@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beveled_jungle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:beveled_jungle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:beveled_jungle_slab_from_beveled_jungle_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_beveled_jungle",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:beveled_jungle_slab_from_beveled_jungle_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}
