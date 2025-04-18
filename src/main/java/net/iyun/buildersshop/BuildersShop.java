@@ -18,6 +18,15 @@ public class BuildersShop implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.OAK_VERTICAL_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.DARK_OAK_VERTICAL_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BIRCH_VERTICAL_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.JUNGLE_VERTICAL_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SPRUCE_VERTICAL_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ACA_VERTICAL_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MANGROVE_VERTICAL_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHERRY_VERTICAL_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BAMBOO_VERTICAL_SLAB,5,20);
 
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_OAK_PLANK,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.VERTICAL_OAK_PLANK_SLAB,5,20);
