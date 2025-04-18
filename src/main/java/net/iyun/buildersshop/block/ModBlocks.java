@@ -5,99 +5,102 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.iyun.buildersshop.BuildersShop;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.data.family.BlockFamily;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import java.security.PublicKey;
+
 import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
 
-    public static final Block OAK_VERTICAL_SLAB = registerBlock("vertical_oak_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block SPRUCE_VERTICAL_SLAB = registerBlock("vertical_spruce_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block BIRCH_VERTICAL_SLAB = registerBlock("vertical_birch_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block JUNGLE_VERTICAL_SLAB = registerBlock("vertical_jungle_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block ACA_VERTICAL_SLAB = registerBlock("vertical_acacia_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block DARK_OAK_VERTICAL_SLAB = registerBlock("vertical_dark_oak_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block MANGROVE_VERTICAL_SLAB = registerBlock("vertical_mangrove_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block CHERRY_VERTICAL_SLAB = registerBlock("vertical_cherry_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block BAMBOO_VERTICAL_SLAB = registerBlock("vertical_bamboo_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS)));
+    public static final Block OAK_VERTICAL_SLAB = registerBlock("vertical_oak_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block SPRUCE_VERTICAL_SLAB = registerBlock("vertical_spruce_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block BIRCH_VERTICAL_SLAB = registerBlock("vertical_birch_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block JUNGLE_VERTICAL_SLAB = registerBlock("vertical_jungle_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
+    public static final Block ACA_VERTICAL_SLAB = registerBlock("vertical_acacia_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block DARK_OAK_VERTICAL_SLAB = registerBlock("vertical_dark_oak_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block MANGROVE_VERTICAL_SLAB = registerBlock("vertical_mangrove_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block CHERRY_VERTICAL_SLAB = registerBlock("vertical_cherry_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block BAMBOO_VERTICAL_SLAB = registerBlock("vertical_bamboo_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS).burnable()));
     public static final Block CRIMSON_VERTICAL_SLAB = registerBlock("vertical_crimson_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
     public static final Block WARPED_VERTICAL_SLAB = registerBlock("vertical_warped_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
 
-    public static final Block VERTICAL_OAK_PLANK = registerBlock("vertical_oak_planks", new Block(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block VERTICAL_OAK_PLANK_SLAB = registerBlock("vertical_oak_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block VERTICAL_OAK_PLANK_VERTICAL_SLAB = registerBlock("vertical_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block VERTICAL_OAK_PLANK_STAIRS = registerBlock("vertical_oak_stairs", new StairsBlock(ModBlocks.VERTICAL_OAK_PLANK.getDefaultState(), FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block VERTICAL_OAK_PLANK_FENCE = registerBlock("vertical_oak_fence", new FenceBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block VERTICAL_OAK_PLANK_WALL = registerBlock("vertical_oak_wall", new WallBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block VERTICAL_OAK_PLANK_FENCE_GATE = registerBlock("vertical_oak_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(OAK_PLANKS), WoodType.OAK));
+    public static final Block VERTICAL_OAK_PLANK = registerBlock("vertical_oak_planks", new Block(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_OAK_PLANK_SLAB = registerBlock("vertical_oak_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_OAK_PLANK_VERTICAL_SLAB = registerBlock("vertical_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_OAK_PLANK_STAIRS = registerBlock("vertical_oak_stairs", new StairsBlock(ModBlocks.VERTICAL_OAK_PLANK.getDefaultState(), FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_OAK_PLANK_FENCE = registerBlock("vertical_oak_fence", new FenceBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_OAK_PLANK_WALL = registerBlock("vertical_oak_wall", new WallBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_OAK_PLANK_FENCE_GATE = registerBlock("vertical_oak_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable(), WoodType.OAK));
 
-    public static final Block VERTICAL_BIRCH_PLANK = registerBlock("vertical_birch_planks", new Block(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block VERTICAL_BIRCH_PLANK_SLAB = registerBlock("vertical_birch_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block VERTICAL_BIRCH_PLANK_VERTICAL_SLAB = registerBlock("vertical_birch_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block VERTICAL_BIRCH_PLANK_STAIRS = registerBlock("vertical_birch_stairs", new StairsBlock(ModBlocks.VERTICAL_BIRCH_PLANK.getDefaultState(), FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block VERTICAL_BIRCH_PLANK_FENCE = registerBlock("vertical_birch_fence", new FenceBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block VERTICAL_BIRCH_PLANK_WALL = registerBlock("vertical_birch_wall", new WallBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block VERTICAL_BIRCH_PLANK_FENCE_GATE = registerBlock("vertical_birch_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS), WoodType.BIRCH));
+    public static final Block VERTICAL_BIRCH_PLANK = registerBlock("vertical_birch_planks", new Block(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block VERTICAL_BIRCH_PLANK_SLAB = registerBlock("vertical_birch_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block VERTICAL_BIRCH_PLANK_VERTICAL_SLAB = registerBlock("vertical_birch_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block VERTICAL_BIRCH_PLANK_STAIRS = registerBlock("vertical_birch_stairs", new StairsBlock(ModBlocks.VERTICAL_BIRCH_PLANK.getDefaultState(), FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block VERTICAL_BIRCH_PLANK_FENCE = registerBlock("vertical_birch_fence", new FenceBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block VERTICAL_BIRCH_PLANK_WALL = registerBlock("vertical_birch_wall", new WallBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block VERTICAL_BIRCH_PLANK_FENCE_GATE = registerBlock("vertical_birch_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable(), WoodType.BIRCH));
 
-    public static final Block VERTICAL_SPRUCE_PLANK = registerBlock("vertical_spruce_planks", new Block(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block VERTICAL_SPRUCE_PLANK_SLAB = registerBlock("vertical_spruce_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block VERTICAL_SPRUCE_PLANK_VERTICAL_SLAB = registerBlock("vertical_spruce_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block VERTICAL_SPRUCE_PLANK_STAIRS = registerBlock("vertical_spruce_stairs", new StairsBlock(ModBlocks.VERTICAL_SPRUCE_PLANK.getDefaultState(), FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block VERTICAL_SPRUCE_PLANK_FENCE = registerBlock("vertical_spruce_fence", new FenceBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block VERTICAL_SPRUCE_PLANK_WALL = registerBlock("vertical_spruce_wall", new WallBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block VERTICAL_SPRUCE_PLANK_FENCE_GATE = registerBlock("vertical_spruce_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS), WoodType.SPRUCE));
+    public static final Block VERTICAL_SPRUCE_PLANK = registerBlock("vertical_spruce_planks", new Block(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block VERTICAL_SPRUCE_PLANK_SLAB = registerBlock("vertical_spruce_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block VERTICAL_SPRUCE_PLANK_VERTICAL_SLAB = registerBlock("vertical_spruce_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block VERTICAL_SPRUCE_PLANK_STAIRS = registerBlock("vertical_spruce_stairs", new StairsBlock(ModBlocks.VERTICAL_SPRUCE_PLANK.getDefaultState(), FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block VERTICAL_SPRUCE_PLANK_FENCE = registerBlock("vertical_spruce_fence", new FenceBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block VERTICAL_SPRUCE_PLANK_WALL = registerBlock("vertical_spruce_wall", new WallBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block VERTICAL_SPRUCE_PLANK_FENCE_GATE = registerBlock("vertical_spruce_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable(), WoodType.SPRUCE));
 
-    public static final Block VERTICAL_JUNGLE_PLANK = registerBlock("vertical_jungle_planks", new Block(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block VERTICAL_JUNGLE_PLANK_SLAB = registerBlock("vertical_jungle_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block VERTICAL_JUNGLE_PLANK_VERTICAL_SLAB = registerBlock("vertical_jungle_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block VERTICAL_JUNGLE_PLANK_STAIRS = registerBlock("vertical_jungle_stairs", new StairsBlock(ModBlocks.VERTICAL_JUNGLE_PLANK.getDefaultState(), FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block VERTICAL_JUNGLE_PLANK_FENCE = registerBlock("vertical_jungle_fence", new FenceBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block VERTICAL_JUNGLE_PLANK_WALL = registerBlock("vertical_jungle_wall", new WallBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block VERTICAL_JUNGLE_PLANK_FENCE_GATE = registerBlock("vertical_jungle_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS), WoodType.JUNGLE));
+    public static final Block VERTICAL_JUNGLE_PLANK = registerBlock("vertical_jungle_planks", new Block(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
+    public static final Block VERTICAL_JUNGLE_PLANK_SLAB = registerBlock("vertical_jungle_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
+    public static final Block VERTICAL_JUNGLE_PLANK_VERTICAL_SLAB = registerBlock("vertical_jungle_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
+    public static final Block VERTICAL_JUNGLE_PLANK_STAIRS = registerBlock("vertical_jungle_stairs", new StairsBlock(ModBlocks.VERTICAL_JUNGLE_PLANK.getDefaultState(), FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
+    public static final Block VERTICAL_JUNGLE_PLANK_FENCE = registerBlock("vertical_jungle_fence", new FenceBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
+    public static final Block VERTICAL_JUNGLE_PLANK_WALL = registerBlock("vertical_jungle_wall", new WallBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
+    public static final Block VERTICAL_JUNGLE_PLANK_FENCE_GATE = registerBlock("vertical_jungle_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable(), WoodType.JUNGLE));
 
-    public static final Block VERTICAL_ACACIA_PLANK = registerBlock("vertical_acacia_planks", new Block(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block VERTICAL_ACACIA_PLANK_SLAB = registerBlock("vertical_acacia_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block VERTICAL_ACACIA_PLANK_VERTICAL_SLAB = registerBlock("vertical_acacia_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block VERTICAL_ACACIA_PLANK_STAIRS = registerBlock("vertical_acacia_stairs", new StairsBlock(ModBlocks.VERTICAL_ACACIA_PLANK.getDefaultState(), FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block VERTICAL_ACACIA_PLANK_FENCE = registerBlock("vertical_acacia_fence", new FenceBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block VERTICAL_ACACIA_PLANK_WALL = registerBlock("vertical_acacia_wall", new WallBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block VERTICAL_ACACIA_PLANK_FENCE_GATE = registerBlock("vertical_acacia_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS), WoodType.ACACIA));
+    public static final Block VERTICAL_ACACIA_PLANK = registerBlock("vertical_acacia_planks", new Block(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block VERTICAL_ACACIA_PLANK_SLAB = registerBlock("vertical_acacia_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block VERTICAL_ACACIA_PLANK_VERTICAL_SLAB = registerBlock("vertical_acacia_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block VERTICAL_ACACIA_PLANK_STAIRS = registerBlock("vertical_acacia_stairs", new StairsBlock(ModBlocks.VERTICAL_ACACIA_PLANK.getDefaultState(), FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block VERTICAL_ACACIA_PLANK_FENCE = registerBlock("vertical_acacia_fence", new FenceBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block VERTICAL_ACACIA_PLANK_WALL = registerBlock("vertical_acacia_wall", new WallBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block VERTICAL_ACACIA_PLANK_FENCE_GATE = registerBlock("vertical_acacia_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable(), WoodType.ACACIA));
 
-    public static final Block VERTICAL_CHERRY_PLANK = registerBlock("vertical_cherry_planks", new Block(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block VERTICAL_CHERRY_PLANK_SLAB = registerBlock("vertical_cherry_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block VERTICAL_CHERRY_PLANK_VERTICAL_SLAB = registerBlock("vertical_cherry_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block VERTICAL_CHERRY_PLANK_STAIRS = registerBlock("vertical_cherry_stairs", new StairsBlock(ModBlocks.VERTICAL_CHERRY_PLANK.getDefaultState(), FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block VERTICAL_CHERRY_PLANK_FENCE = registerBlock("vertical_cherry_fence", new FenceBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block VERTICAL_CHERRY_PLANK_WALL = registerBlock("vertical_cherry_wall", new WallBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block VERTICAL_CHERRY_PLANK_FENCE_GATE = registerBlock("vertical_cherry_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS), WoodType.CHERRY));
+    public static final Block VERTICAL_CHERRY_PLANK = registerBlock("vertical_cherry_planks", new Block(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block VERTICAL_CHERRY_PLANK_SLAB = registerBlock("vertical_cherry_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block VERTICAL_CHERRY_PLANK_VERTICAL_SLAB = registerBlock("vertical_cherry_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block VERTICAL_CHERRY_PLANK_STAIRS = registerBlock("vertical_cherry_stairs", new StairsBlock(ModBlocks.VERTICAL_CHERRY_PLANK.getDefaultState(), FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block VERTICAL_CHERRY_PLANK_FENCE = registerBlock("vertical_cherry_fence", new FenceBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block VERTICAL_CHERRY_PLANK_WALL = registerBlock("vertical_cherry_wall", new WallBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block VERTICAL_CHERRY_PLANK_FENCE_GATE = registerBlock("vertical_cherry_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable(), WoodType.CHERRY));
 
-    public static final Block VERTICAL_DARK_OAK_PLANK = registerBlock("vertical_dark_oak_planks", new Block(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block VERTICAL_DARK_OAK_PLANK_SLAB = registerBlock("vertical_dark_oak_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block VERTICAL_DARK_OAK_PLANK_VERTICAL_SLAB = registerBlock("vertical_dark_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block VERTICAL_DARK_OAK_PLANK_STAIRS = registerBlock("vertical_dark_oak_stairs", new StairsBlock(ModBlocks.VERTICAL_DARK_OAK_PLANK.getDefaultState(), FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block VERTICAL_DARK_OAK_PLANK_FENCE = registerBlock("vertical_dark_oak_fence", new FenceBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block VERTICAL_DARK_OAK_PLANK_WALL = registerBlock("vertical_dark_oak_wall", new WallBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block VERTICAL_DARK_OAK_PLANK_FENCE_GATE = registerBlock("vertical_dark_oak_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS), WoodType.DARK_OAK));
+    public static final Block VERTICAL_DARK_OAK_PLANK = registerBlock("vertical_dark_oak_planks", new Block(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_DARK_OAK_PLANK_SLAB = registerBlock("vertical_dark_oak_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_DARK_OAK_PLANK_VERTICAL_SLAB = registerBlock("vertical_dark_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_DARK_OAK_PLANK_STAIRS = registerBlock("vertical_dark_oak_stairs", new StairsBlock(ModBlocks.VERTICAL_DARK_OAK_PLANK.getDefaultState(), FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_DARK_OAK_PLANK_FENCE = registerBlock("vertical_dark_oak_fence", new FenceBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_DARK_OAK_PLANK_WALL = registerBlock("vertical_dark_oak_wall", new WallBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block VERTICAL_DARK_OAK_PLANK_FENCE_GATE = registerBlock("vertical_dark_oak_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable(), WoodType.DARK_OAK));
 
-    public static final Block VERTICAL_MANGROVE_PLANK = registerBlock("vertical_mangrove_planks", new Block(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block VERTICAL_MANGROVE_PLANK_SLAB = registerBlock("vertical_mangrove_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block VERTICAL_MANGROVE_PLANK_VERTICAL_SLAB = registerBlock("vertical_mangrove_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block VERTICAL_MANGROVE_PLANK_STAIRS = registerBlock("vertical_mangrove_stairs", new StairsBlock(ModBlocks.VERTICAL_MANGROVE_PLANK.getDefaultState(), FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block VERTICAL_MANGROVE_PLANK_FENCE = registerBlock("vertical_mangrove_fence", new FenceBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block VERTICAL_MANGROVE_PLANK_WALL = registerBlock("vertical_mangrove_wall", new WallBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block VERTICAL_MANGROVE_PLANK_FENCE_GATE = registerBlock("vertical_mangrove_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS), WoodType.MANGROVE));
+    public static final Block VERTICAL_MANGROVE_PLANK = registerBlock("vertical_mangrove_planks", new Block(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block VERTICAL_MANGROVE_PLANK_SLAB = registerBlock("vertical_mangrove_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block VERTICAL_MANGROVE_PLANK_VERTICAL_SLAB = registerBlock("vertical_mangrove_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block VERTICAL_MANGROVE_PLANK_STAIRS = registerBlock("vertical_mangrove_stairs", new StairsBlock(ModBlocks.VERTICAL_MANGROVE_PLANK.getDefaultState(), FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block VERTICAL_MANGROVE_PLANK_FENCE = registerBlock("vertical_mangrove_fence", new FenceBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block VERTICAL_MANGROVE_PLANK_WALL = registerBlock("vertical_mangrove_wall", new WallBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block VERTICAL_MANGROVE_PLANK_FENCE_GATE = registerBlock("vertical_mangrove_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable(), WoodType.MANGROVE));
 
-    public static final Block VERTICAL_BAMBOO_PLANK = registerBlock("vertical_bamboo_planks", new Block(FabricBlockSettings.copyOf(BAMBOO_PLANKS)));
-    public static final Block VERTICAL_BAMBOO_PLANK_SLAB = registerBlock("vertical_bamboo_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS)));
-    public static final Block VERTICAL_BAMBOO_PLANK_VERTICAL_SLAB = registerBlock("vertical_bamboo_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS)));
-    public static final Block VERTICAL_BAMBOO_PLANK_STAIRS = registerBlock("vertical_bamboo_stairs", new StairsBlock(ModBlocks.VERTICAL_BAMBOO_PLANK.getDefaultState(), FabricBlockSettings.copyOf(BAMBOO_PLANKS)));
-    public static final Block VERTICAL_BAMBOO_PLANK_FENCE = registerBlock("vertical_bamboo_fence", new FenceBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS)));
-    public static final Block VERTICAL_BAMBOO_PLANK_WALL = registerBlock("vertical_bamboo_wall", new WallBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS)));
-    public static final Block VERTICAL_BAMBOO_PLANK_FENCE_GATE = registerBlock("vertical_bamboo_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS), WoodType.BAMBOO));
+    public static final Block VERTICAL_BAMBOO_PLANK = registerBlock("vertical_bamboo_planks", new Block(FabricBlockSettings.copyOf(BAMBOO_PLANKS).burnable()));
+    public static final Block VERTICAL_BAMBOO_PLANK_SLAB = registerBlock("vertical_bamboo_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS).burnable()));
+    public static final Block VERTICAL_BAMBOO_PLANK_VERTICAL_SLAB = registerBlock("vertical_bamboo_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS).burnable()));
+    public static final Block VERTICAL_BAMBOO_PLANK_STAIRS = registerBlock("vertical_bamboo_stairs", new StairsBlock(ModBlocks.VERTICAL_BAMBOO_PLANK.getDefaultState(), FabricBlockSettings.copyOf(BAMBOO_PLANKS).burnable()));
+    public static final Block VERTICAL_BAMBOO_PLANK_FENCE = registerBlock("vertical_bamboo_fence", new FenceBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS).burnable()));
+    public static final Block VERTICAL_BAMBOO_PLANK_WALL = registerBlock("vertical_bamboo_wall", new WallBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS).burnable()));
+    public static final Block VERTICAL_BAMBOO_PLANK_FENCE_GATE = registerBlock("vertical_bamboo_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(BAMBOO_PLANKS).burnable(), WoodType.BAMBOO));
 
     public static final Block VERTICAL_CRIMSON_PLANK = registerBlock("vertical_crimson_planks", new Block(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
     public static final Block VERTICAL_CRIMSON_PLANK_SLAB = registerBlock("vertical_crimson_slab_plank", new SlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
@@ -1076,50 +1079,50 @@ public class ModBlocks {
     public static final Block SOUL_SOIL_STAIR = registerBlock("soul_soil_stairs", new StairsBlock(SOUL_SOIL.getDefaultState(),FabricBlockSettings.copyOf(SOUL_SOIL)));
     public static final Block SOUL_SOIL_V_SLAB = registerBlock("soul_soil_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SOUL_SOIL)));
 
-    public static final Block BEVEL_OAK = registerBlock("beveled_oak", new Block(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block BEVEL_OAK_SLAB = registerBlock("beveled_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block BEVEL_OAK_STAIR = registerBlock("beveled_oak_stair", new StairsBlock(ModBlocks.BEVEL_OAK.getDefaultState(),FabricBlockSettings.copyOf(OAK_PLANKS)));
-    public static final Block BEVEL_OAK_V_SLAB = registerBlock("beveled_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS)));
+    public static final Block BEVEL_OAK = registerBlock("beveled_oak", new Block(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block BEVEL_OAK_SLAB = registerBlock("beveled_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block BEVEL_OAK_STAIR = registerBlock("beveled_oak_stair", new StairsBlock(ModBlocks.BEVEL_OAK.getDefaultState(),FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block BEVEL_OAK_V_SLAB = registerBlock("beveled_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
 
-    public static final Block BEVEL_DARK_OAK = registerBlock("beveled_dark_oak", new Block(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block BEVEL_DARK_OAK_SLAB = registerBlock("beveled_dark_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block BEVEL_DARK_OAK_STAIR = registerBlock("beveled_dark_oak_stair", new StairsBlock(ModBlocks.BEVEL_DARK_OAK.getDefaultState(),FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
-    public static final Block BEVEL_DARK_OAK_V_SLAB = registerBlock("beveled_dark_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS)));
+    public static final Block BEVEL_DARK_OAK = registerBlock("beveled_dark_oak", new Block(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block BEVEL_DARK_OAK_SLAB = registerBlock("beveled_dark_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block BEVEL_DARK_OAK_STAIR = registerBlock("beveled_dark_oak_stair", new StairsBlock(ModBlocks.BEVEL_DARK_OAK.getDefaultState(),FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block BEVEL_DARK_OAK_V_SLAB = registerBlock("beveled_dark_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
 
-    public static final Block BEVEL_BIRCH = registerBlock("beveled_birch", new Block(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block BEVEL_BIRCH_SLAB = registerBlock("beveled_birch_slab", new SlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block BEVEL_BIRCH_STAIR = registerBlock("beveled_birch_stair", new StairsBlock(ModBlocks.BEVEL_BIRCH.getDefaultState(),FabricBlockSettings.copyOf(BIRCH_PLANKS)));
-    public static final Block BEVEL_BIRCH_V_SLAB = registerBlock("beveled_birch_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS)));
+    public static final Block BEVEL_BIRCH = registerBlock("beveled_birch", new Block(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block BEVEL_BIRCH_SLAB = registerBlock("beveled_birch_slab", new SlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block BEVEL_BIRCH_STAIR = registerBlock("beveled_birch_stair", new StairsBlock(ModBlocks.BEVEL_BIRCH.getDefaultState(),FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block BEVEL_BIRCH_V_SLAB = registerBlock("beveled_birch_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
 
-    public static final Block BEVEL_ACA = registerBlock("beveled_acacia", new Block(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block BEVEL_ACA_SLAB = registerBlock("beveled_acacia_slab", new SlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block BEVEL_ACA_STAIR = registerBlock("beveled_acacia_stair", new StairsBlock(ModBlocks.BEVEL_ACA.getDefaultState(),FabricBlockSettings.copyOf(ACACIA_PLANKS)));
-    public static final Block BEVEL_ACA_V_SLAB = registerBlock("beveled_acacia_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS)));
+    public static final Block BEVEL_ACA = registerBlock("beveled_acacia", new Block(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block BEVEL_ACA_SLAB = registerBlock("beveled_acacia_slab", new SlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block BEVEL_ACA_STAIR = registerBlock("beveled_acacia_stair", new StairsBlock(ModBlocks.BEVEL_ACA.getDefaultState(),FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block BEVEL_ACA_V_SLAB = registerBlock("beveled_acacia_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
 
-    public static final Block BEVEL_CHERRY = registerBlock("beveled_cherry", new Block(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block BEVEL_CHERRY_SLAB = registerBlock("beveled_cherry_slab", new SlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block BEVEL_CHERRY_STAIR = registerBlock("beveled_cherry_stair", new StairsBlock(ModBlocks.BEVEL_CHERRY.getDefaultState(),FabricBlockSettings.copyOf(CHERRY_PLANKS)));
-    public static final Block BEVEL_CHERRY_V_SLAB = registerBlock("beveled_cherry_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS)));
+    public static final Block BEVEL_CHERRY = registerBlock("beveled_cherry", new Block(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block BEVEL_CHERRY_SLAB = registerBlock("beveled_cherry_slab", new SlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block BEVEL_CHERRY_STAIR = registerBlock("beveled_cherry_stair", new StairsBlock(ModBlocks.BEVEL_CHERRY.getDefaultState(),FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block BEVEL_CHERRY_V_SLAB = registerBlock("beveled_cherry_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
 
     public static final Block BEVEL_CRIMSON = registerBlock("beveled_crimson", new Block(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
     public static final Block BEVEL_CRIMSON_SLAB = registerBlock("beveled_crimson_slab", new SlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
     public static final Block BEVEL_CRIMSON_STAIR = registerBlock("beveled_crimson_stair", new StairsBlock(ModBlocks.BEVEL_CRIMSON.getDefaultState(),FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
     public static final Block BEVEL_CRIMSON_V_SLAB = registerBlock("beveled_crimson_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
 
-    public static final Block BEVEL_JUNGLE = registerBlock("beveled_jungle", new Block(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block BEVEL_JUNGLE_SLAB = registerBlock("beveled_jungle_slab", new SlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block BEVEL_JUNGLE_STAIR = registerBlock("beveled_jungle_stair", new StairsBlock(ModBlocks.BEVEL_JUNGLE.getDefaultState(),FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
-    public static final Block BEVEL_JUNGLE_V_SLAB = registerBlock("beveled_jungle_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS)));
+    public static final Block BEVEL_JUNGLE = registerBlock("beveled_jungle", new Block(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable().burnable()));
+    public static final Block BEVEL_JUNGLE_SLAB = registerBlock("beveled_jungle_slab", new SlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable().burnable()));
+    public static final Block BEVEL_JUNGLE_STAIR = registerBlock("beveled_jungle_stair", new StairsBlock(ModBlocks.BEVEL_JUNGLE.getDefaultState(),FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable().burnable()));
+    public static final Block BEVEL_JUNGLE_V_SLAB = registerBlock("beveled_jungle_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
 
-    public static final Block BEVEL_MANGROVE = registerBlock("beveled_mangrove", new Block(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block BEVEL_MANGROVE_SLAB = registerBlock("beveled_mangrove_slab", new SlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block BEVEL_MANGROVE_STAIR = registerBlock("beveled_mangrove_stair", new StairsBlock(ModBlocks.BEVEL_MANGROVE.getDefaultState(),FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
-    public static final Block BEVEL_MANGROVE_V_SLAB = registerBlock("beveled_mangrove_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS)));
+    public static final Block BEVEL_MANGROVE = registerBlock("beveled_mangrove", new Block(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block BEVEL_MANGROVE_SLAB = registerBlock("beveled_mangrove_slab", new SlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block BEVEL_MANGROVE_STAIR = registerBlock("beveled_mangrove_stair", new StairsBlock(ModBlocks.BEVEL_MANGROVE.getDefaultState(),FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block BEVEL_MANGROVE_V_SLAB = registerBlock("beveled_mangrove_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
 
-    public static final Block BEVEL_SPRUCE = registerBlock("beveled_spruce", new Block(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block BEVEL_SPRUCE_SLAB = registerBlock("beveled_spruce_slab", new SlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block BEVEL_SPRUCE_STAIR = registerBlock("beveled_spruce_stair", new StairsBlock(ModBlocks.BEVEL_SPRUCE.getDefaultState(),FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
-    public static final Block BEVEL_SPRUCE_V_SLAB = registerBlock("beveled_spruce_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS)));
+    public static final Block BEVEL_SPRUCE = registerBlock("beveled_spruce", new Block(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block BEVEL_SPRUCE_SLAB = registerBlock("beveled_spruce_slab", new SlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block BEVEL_SPRUCE_STAIR = registerBlock("beveled_spruce_stair", new StairsBlock(ModBlocks.BEVEL_SPRUCE.getDefaultState(),FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block BEVEL_SPRUCE_V_SLAB = registerBlock("beveled_spruce_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
 
     public static final Block BEVEL_WARPED = registerBlock("beveled_warped", new Block(FabricBlockSettings.copyOf(WARPED_PLANKS)));
     public static final Block BEVEL_WARPED_SLAB = registerBlock("beveled_warped_slab", new SlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
