@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/smooth_birch_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/smooth_birch"
+    },
+    "type=top": {
+      "model": "buildersshop:block/smooth_birch_slab_top"
+    }
+  }
+}

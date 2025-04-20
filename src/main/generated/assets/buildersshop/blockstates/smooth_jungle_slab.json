@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/smooth_jungle_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/smooth_jungle"
+    },
+    "type=top": {
+      "model": "buildersshop:block/smooth_jungle_slab_top"
+    }
+  }
+}

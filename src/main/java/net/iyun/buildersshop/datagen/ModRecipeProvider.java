@@ -2140,6 +2140,89 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_CONCRETE_VERTICAL_SLAB, Blocks.MAGENTA_CONCRETE, 2);
         offerStonecuttingRecipe(exporter,RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_CONCRETE_VERTICAL_SLAB, Blocks.PINK_CONCRETE, 2);
 
+        quickstair(ModBlocks.SMOOTH_OAK_STAIR, ModBlocks.SMOOTH_OAK, exporter);
+        quickstair(ModBlocks.SMOOTH_DARK_OAK_STAIR, ModBlocks.SMOOTH_DARK_OAK, exporter);
+        quickstair(ModBlocks.SMOOTH_BIRCH_STAIR, ModBlocks.SMOOTH_BIRCH, exporter);
+        quickstair(ModBlocks.SMOOTH_ACA_STAIR, ModBlocks.SMOOTH_ACA, exporter);
+        quickstair(ModBlocks.SMOOTH_CHERRY_STAIR, ModBlocks.SMOOTH_CHERRY, exporter);
+        quickstair(ModBlocks.SMOOTH_CRIMSON_STAIR, ModBlocks.SMOOTH_CRIMSON, exporter);
+        quickstair(ModBlocks.SMOOTH_JUNGLE_STAIR, ModBlocks.SMOOTH_JUNGLE, exporter);
+        quickstair(ModBlocks.SMOOTH_MANGROVE_STAIR, ModBlocks.SMOOTH_MANGROVE, exporter);
+        quickstair(ModBlocks.SMOOTH_SPRUCE_STAIR, ModBlocks.SMOOTH_SPRUCE, exporter);
+        quickstair(ModBlocks.SMOOTH_WARPED_STAIR, ModBlocks.SMOOTH_WARPED, exporter);
+
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_OAK_SLAB, ModBlocks.SMOOTH_OAK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_DARK_OAK_SLAB, ModBlocks.SMOOTH_DARK_OAK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BIRCH_SLAB, ModBlocks.SMOOTH_BIRCH);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_ACA_SLAB, ModBlocks.SMOOTH_ACA);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CHERRY_SLAB, ModBlocks.SMOOTH_CHERRY);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CRIMSON_SLAB, ModBlocks.SMOOTH_CRIMSON);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_JUNGLE_SLAB, ModBlocks.SMOOTH_JUNGLE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_MANGROVE_SLAB, ModBlocks.SMOOTH_MANGROVE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_SPRUCE_SLAB, ModBlocks.SMOOTH_SPRUCE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_WARPED_SLAB, ModBlocks.SMOOTH_WARPED);
+
+        verticalslab(ModBlocks.SMOOTH_OAK_V_SLAB, ModBlocks.SMOOTH_OAK, exporter);
+        verticalslab(ModBlocks.SMOOTH_DARK_OAK_V_SLAB, ModBlocks.SMOOTH_DARK_OAK, exporter);
+        verticalslab(ModBlocks.SMOOTH_BIRCH_V_SLAB, ModBlocks.SMOOTH_BIRCH, exporter);
+        verticalslab(ModBlocks.SMOOTH_ACA_V_SLAB, ModBlocks.SMOOTH_ACA, exporter);
+        verticalslab(ModBlocks.SMOOTH_CHERRY_V_SLAB, ModBlocks.SMOOTH_CHERRY, exporter);
+        verticalslab(ModBlocks.SMOOTH_CRIMSON_V_SLAB, ModBlocks.SMOOTH_CRIMSON, exporter);
+        verticalslab(ModBlocks.SMOOTH_JUNGLE_V_SLAB, ModBlocks.SMOOTH_JUNGLE, exporter);
+        verticalslab(ModBlocks.SMOOTH_MANGROVE_V_SLAB, ModBlocks.SMOOTH_MANGROVE, exporter);
+        verticalslab(ModBlocks.SMOOTH_SPRUCE_V_SLAB, ModBlocks.SMOOTH_SPRUCE, exporter);
+        verticalslab(ModBlocks.SMOOTH_WARPED_V_SLAB, ModBlocks.SMOOTH_WARPED, exporter);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_OAK_SLAB, ModBlocks.SMOOTH_OAK, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_OAK_V_SLAB, ModBlocks.SMOOTH_OAK, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_OAK_STAIR, ModBlocks.SMOOTH_OAK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_OAK, Blocks.OAK_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_DARK_OAK_SLAB, ModBlocks.SMOOTH_DARK_OAK, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_DARK_OAK_V_SLAB, ModBlocks.SMOOTH_DARK_OAK, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_DARK_OAK_STAIR, ModBlocks.SMOOTH_DARK_OAK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_DARK_OAK, Blocks.DARK_OAK_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_ACA_SLAB, ModBlocks.SMOOTH_ACA, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_ACA_V_SLAB, ModBlocks.SMOOTH_ACA, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_ACA_STAIR, ModBlocks.SMOOTH_ACA);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_ACA, Blocks.ACACIA_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BIRCH_SLAB, ModBlocks.SMOOTH_BIRCH, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BIRCH_V_SLAB, ModBlocks.SMOOTH_BIRCH, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BIRCH_STAIR, ModBlocks.SMOOTH_BIRCH);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BIRCH, Blocks.BIRCH_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CHERRY_SLAB, ModBlocks.SMOOTH_CHERRY, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CHERRY_V_SLAB, ModBlocks.SMOOTH_CHERRY, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CHERRY_STAIR, ModBlocks.SMOOTH_CHERRY);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CHERRY, Blocks.CHERRY_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CRIMSON_SLAB, ModBlocks.SMOOTH_CRIMSON, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CRIMSON_V_SLAB, ModBlocks.SMOOTH_CRIMSON, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CRIMSON_STAIR, ModBlocks.SMOOTH_CRIMSON);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_CRIMSON, Blocks.CRIMSON_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_JUNGLE_SLAB, ModBlocks.SMOOTH_JUNGLE, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_JUNGLE_V_SLAB, ModBlocks.SMOOTH_JUNGLE, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_JUNGLE_STAIR, ModBlocks.SMOOTH_JUNGLE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_JUNGLE, Blocks.JUNGLE_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_MANGROVE_SLAB, ModBlocks.SMOOTH_MANGROVE, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_MANGROVE_V_SLAB, ModBlocks.SMOOTH_MANGROVE, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_MANGROVE_STAIR, ModBlocks.SMOOTH_MANGROVE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_MANGROVE, Blocks.MANGROVE_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_SPRUCE_SLAB, ModBlocks.SMOOTH_SPRUCE, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_SPRUCE_V_SLAB, ModBlocks.SMOOTH_SPRUCE, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_SPRUCE_STAIR, ModBlocks.SMOOTH_SPRUCE);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_SPRUCE, Blocks.SPRUCE_PLANKS);
+
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_WARPED_SLAB, ModBlocks.SMOOTH_WARPED, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_WARPED_V_SLAB, ModBlocks.SMOOTH_WARPED, 2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_WARPED_STAIR, ModBlocks.SMOOTH_WARPED);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_WARPED, Blocks.WARPED_PLANKS);
+
 
     }
 

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/smooth_cherry_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/smooth_cherry"
+    },
+    "type=top": {
+      "model": "buildersshop:block/smooth_cherry_slab_top"
+    }
+  }
+}

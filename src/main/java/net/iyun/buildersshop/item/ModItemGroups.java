@@ -928,6 +928,47 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BEVEL_WARPED_SLAB);
                         entries.add(ModBlocks.BEVEL_WARPED_STAIR);
                         entries.add(ModBlocks.BEVEL_WARPED_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_OAK);
+                        entries.add(ModBlocks.SMOOTH_OAK_SLAB);
+                        entries.add(ModBlocks.SMOOTH_OAK_STAIR);
+                        entries.add(ModBlocks.SMOOTH_OAK_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_DARK_OAK);
+                        entries.add(ModBlocks.SMOOTH_DARK_OAK_SLAB);
+                        entries.add(ModBlocks.SMOOTH_DARK_OAK_STAIR);
+                        entries.add(ModBlocks.SMOOTH_DARK_OAK_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_BIRCH);
+                        entries.add(ModBlocks.SMOOTH_BIRCH_SLAB);
+                        entries.add(ModBlocks.SMOOTH_BIRCH_STAIR);
+                        entries.add(ModBlocks.SMOOTH_BIRCH_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_ACA);
+                        entries.add(ModBlocks.SMOOTH_ACA_SLAB);
+                        entries.add(ModBlocks.SMOOTH_ACA_STAIR);
+                        entries.add(ModBlocks.SMOOTH_ACA_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_CHERRY);
+                        entries.add(ModBlocks.SMOOTH_CHERRY_SLAB);
+                        entries.add(ModBlocks.SMOOTH_CHERRY_STAIR);
+                        entries.add(ModBlocks.SMOOTH_CHERRY_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_CRIMSON);
+                        entries.add(ModBlocks.SMOOTH_CRIMSON_SLAB);
+                        entries.add(ModBlocks.SMOOTH_CRIMSON_STAIR);
+                        entries.add(ModBlocks.SMOOTH_CRIMSON_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_JUNGLE);
+                        entries.add(ModBlocks.SMOOTH_JUNGLE_SLAB);
+                        entries.add(ModBlocks.SMOOTH_JUNGLE_STAIR);
+                        entries.add(ModBlocks.SMOOTH_JUNGLE_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_MANGROVE);
+                        entries.add(ModBlocks.SMOOTH_MANGROVE_SLAB);
+                        entries.add(ModBlocks.SMOOTH_MANGROVE_STAIR);
+                        entries.add(ModBlocks.SMOOTH_MANGROVE_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_SPRUCE);
+                        entries.add(ModBlocks.SMOOTH_SPRUCE_SLAB);
+                        entries.add(ModBlocks.SMOOTH_SPRUCE_STAIR);
+                        entries.add(ModBlocks.SMOOTH_SPRUCE_V_SLAB);
+                        entries.add(ModBlocks.SMOOTH_WARPED);
+                        entries.add(ModBlocks.SMOOTH_WARPED_SLAB);
+                        entries.add(ModBlocks.SMOOTH_WARPED_STAIR);
+                        entries.add(ModBlocks.SMOOTH_WARPED_V_SLAB);
+
                     }).build());
 
     public static void registerItemGroups() {

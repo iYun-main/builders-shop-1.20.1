@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_birch": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "buildersshop:smooth_birch"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:smooth_birch_stair_from_smooth_birch_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_birch",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:smooth_birch_stair_from_smooth_birch_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

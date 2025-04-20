@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/smooth_spruce_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/smooth_spruce"
+    },
+    "type=top": {
+      "model": "buildersshop:block/smooth_spruce_slab_top"
+    }
+  }
+}

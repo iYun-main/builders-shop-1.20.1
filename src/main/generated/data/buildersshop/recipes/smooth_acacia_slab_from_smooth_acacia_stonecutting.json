@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:smooth_acacia"
+  },
+  "result": "buildersshop:smooth_acacia_slab"
+}

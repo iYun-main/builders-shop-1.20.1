@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:smooth_cherry"
+  },
+  "result": "buildersshop:smooth_cherry_vertical_slab"
+}

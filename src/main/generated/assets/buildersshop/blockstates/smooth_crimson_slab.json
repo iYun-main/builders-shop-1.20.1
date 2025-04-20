@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buildersshop:block/smooth_crimson_slab"
+    },
+    "type=double": {
+      "model": "buildersshop:block/smooth_crimson"
+    },
+    "type=top": {
+      "model": "buildersshop:block/smooth_crimson_slab_top"
+    }
+  }
+}

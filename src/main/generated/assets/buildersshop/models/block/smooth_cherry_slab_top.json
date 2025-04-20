@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "buildersshop:block/smooth_cherry",
+    "side": "buildersshop:block/smooth_cherry",
+    "top": "buildersshop:block/smooth_cherry"
+  }
+}

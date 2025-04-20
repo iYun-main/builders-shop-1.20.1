@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:smooth_birch"
+  },
+  "result": "buildersshop:smooth_birch_slab"
+}

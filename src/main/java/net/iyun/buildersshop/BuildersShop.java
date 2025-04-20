@@ -125,5 +125,39 @@ public class BuildersShop implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BEVEL_BIRCH_V_SLAB,5,20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.BEVEL_BIRCH_STAIR,5,20);
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_OAK,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_OAK_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_OAK_V_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_OAK_STAIR,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_DARK_OAK,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_DARK_OAK_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_DARK_OAK_V_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_DARK_OAK_STAIR,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_SPRUCE,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_SPRUCE_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_SPRUCE_V_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_SPRUCE_STAIR,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_JUNGLE,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_JUNGLE_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_JUNGLE_V_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_JUNGLE_STAIR,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_CHERRY,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_CHERRY_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_CHERRY_V_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_CHERRY_STAIR,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_MANGROVE,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_MANGROVE_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_MANGROVE_V_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_MANGROVE_STAIR,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_ACA,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_ACA_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_ACA_V_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_ACA_STAIR,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_BIRCH,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_BIRCH_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_BIRCH_V_SLAB,5,20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SMOOTH_BIRCH_STAIR,5,20);
+
+
 	}
 }

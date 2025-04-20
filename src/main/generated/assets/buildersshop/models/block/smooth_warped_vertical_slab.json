@@ -1,0 +1,8 @@
+{
+  "parent": "buildersshop:block/parent/vertical_slab",
+  "textures": {
+    "bottom": "buildersshop:block/smooth_warped",
+    "side": "buildersshop:block/smooth_warped",
+    "top": "buildersshop:block/smooth_warped"
+  }
+}

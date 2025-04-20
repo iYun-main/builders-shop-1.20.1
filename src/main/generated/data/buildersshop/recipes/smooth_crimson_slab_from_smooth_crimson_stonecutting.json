@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:smooth_crimson"
+  },
+  "result": "buildersshop:smooth_crimson_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:smooth_mangrove"
+  },
+  "result": "buildersshop:smooth_mangrove_slab"
+}

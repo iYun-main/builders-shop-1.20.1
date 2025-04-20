@@ -274,6 +274,58 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool bevelspr = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_SPRUCE);
         BlockStateModelGenerator.BlockTexturePool bevelwar = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BEVEL_WARPED);
 
+        BlockStateModelGenerator.BlockTexturePool smoothoak = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_OAK);
+        BlockStateModelGenerator.BlockTexturePool smoothdoak = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_DARK_OAK);
+        BlockStateModelGenerator.BlockTexturePool smoothbir = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_BIRCH);
+        BlockStateModelGenerator.BlockTexturePool smoothaca = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_ACA);
+        BlockStateModelGenerator.BlockTexturePool smoothcher = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_CHERRY);
+        BlockStateModelGenerator.BlockTexturePool smoothcri = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_CRIMSON);
+        BlockStateModelGenerator.BlockTexturePool smoothjun = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_JUNGLE);
+        BlockStateModelGenerator.BlockTexturePool smoothman = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_MANGROVE);
+        BlockStateModelGenerator.BlockTexturePool smoothspr = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_SPRUCE);
+        BlockStateModelGenerator.BlockTexturePool smoothwar = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_WARPED);
+
+        smoothwar.stairs(ModBlocks.SMOOTH_WARPED_STAIR);
+        smoothwar.slab(ModBlocks.SMOOTH_WARPED_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_WARPED, ModBlocks.SMOOTH_WARPED_V_SLAB);
+
+        smoothspr.stairs(ModBlocks.SMOOTH_SPRUCE_STAIR);
+        smoothspr.slab(ModBlocks.SMOOTH_SPRUCE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_SPRUCE, ModBlocks.SMOOTH_SPRUCE_V_SLAB);
+
+        smoothman.stairs(ModBlocks.SMOOTH_MANGROVE_STAIR);
+        smoothman.slab(ModBlocks.SMOOTH_MANGROVE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_MANGROVE, ModBlocks.SMOOTH_MANGROVE_V_SLAB);
+
+        smoothjun.stairs(ModBlocks.SMOOTH_JUNGLE_STAIR);
+        smoothjun.slab(ModBlocks.SMOOTH_JUNGLE_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_JUNGLE, ModBlocks.SMOOTH_JUNGLE_V_SLAB);
+
+        smoothcri.stairs(ModBlocks.SMOOTH_CRIMSON_STAIR);
+        smoothcri.slab(ModBlocks.SMOOTH_CRIMSON_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_CRIMSON, ModBlocks.SMOOTH_CRIMSON_V_SLAB);
+
+        smoothcher.stairs(ModBlocks.SMOOTH_CHERRY_STAIR);
+        smoothcher.slab(ModBlocks.SMOOTH_CHERRY_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_CHERRY, ModBlocks.SMOOTH_CHERRY_V_SLAB);
+
+        smoothaca.stairs(ModBlocks.SMOOTH_ACA_STAIR);
+        smoothaca.slab(ModBlocks.SMOOTH_ACA_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_ACA, ModBlocks.SMOOTH_ACA_V_SLAB);
+
+        smoothbir.stairs(ModBlocks.SMOOTH_BIRCH_STAIR);
+        smoothbir.slab(ModBlocks.SMOOTH_BIRCH_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_BIRCH, ModBlocks.SMOOTH_BIRCH_V_SLAB);
+
+        smoothdoak.stairs(ModBlocks.SMOOTH_DARK_OAK_STAIR);
+        smoothdoak.slab(ModBlocks.SMOOTH_DARK_OAK_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_DARK_OAK, ModBlocks.SMOOTH_DARK_OAK_V_SLAB);
+
+        smoothoak.stairs(ModBlocks.SMOOTH_OAK_STAIR);
+        smoothoak.slab(ModBlocks.SMOOTH_OAK_SLAB);
+        renderVerticalSlabBlockModel(blockStateModelGenerator, ModBlocks.SMOOTH_OAK, ModBlocks.SMOOTH_OAK_V_SLAB);
+
+
         bevelwar.stairs(ModBlocks.BEVEL_WARPED_STAIR);
         bevelwar.slab(ModBlocks.BEVEL_WARPED_SLAB);
         renderVerticalSlabBlockModel(blockStateModelGenerator,ModBlocks.BEVEL_WARPED, ModBlocks.BEVEL_WARPED_V_SLAB);

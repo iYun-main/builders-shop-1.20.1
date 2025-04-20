@@ -1080,6 +1080,57 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.BEVEL_WARPED_V_SLAB,"Beveled Warped Vertical Slab");
         translationBuilder.add(ModBlocks.BEVEL_WARPED_STAIR,"Beveled Warped Stairs");
 
+        translationBuilder.add(ModBlocks.SMOOTH_OAK,"Smooth Oak");
+        translationBuilder.add(ModBlocks.SMOOTH_OAK_SLAB,"Smooth Oak Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_OAK_V_SLAB,"Smooth Oak Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_OAK_STAIR,"Smooth Oak Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_DARK_OAK,"Smooth Dark Oak");
+        translationBuilder.add(ModBlocks.SMOOTH_DARK_OAK_SLAB,"Smooth Dark Oak Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_DARK_OAK_V_SLAB,"Smooth Dark Oak Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_DARK_OAK_STAIR,"Smooth Dark Oak Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_BIRCH,"Smooth Birch");
+        translationBuilder.add(ModBlocks.SMOOTH_BIRCH_SLAB,"Smooth Birch Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_BIRCH_V_SLAB,"Smooth Birch Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_BIRCH_STAIR,"Smooth Birch Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_ACA,"Smooth Acacia");
+        translationBuilder.add(ModBlocks.SMOOTH_ACA_SLAB,"Smooth Acacia Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_ACA_V_SLAB,"Smooth Acacia Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_ACA_STAIR,"Smooth Acacia Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_CHERRY,"Smooth Cherry");
+        translationBuilder.add(ModBlocks.SMOOTH_CHERRY_SLAB,"Smooth Cherry Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_CHERRY_V_SLAB,"Smooth Cherry Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_CHERRY_STAIR,"Smooth Cherry Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_CRIMSON,"Smooth Crimson");
+        translationBuilder.add(ModBlocks.SMOOTH_CRIMSON_SLAB,"Smooth Crimson Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_CRIMSON_V_SLAB,"Smooth Crimson Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_CRIMSON_STAIR,"Smooth Crimson Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_JUNGLE,"Smooth Jungle");
+        translationBuilder.add(ModBlocks.SMOOTH_JUNGLE_SLAB,"Smooth Jungle Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_JUNGLE_V_SLAB,"Smooth Jungle Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_JUNGLE_STAIR,"Smooth Jungle Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_MANGROVE,"Smooth Mangrove");
+        translationBuilder.add(ModBlocks.SMOOTH_MANGROVE_SLAB,"Smooth Mangrove Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_MANGROVE_V_SLAB,"Smooth Mangrove Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_MANGROVE_STAIR,"Smooth Mangrove Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_SPRUCE,"Smooth Spruce");
+        translationBuilder.add(ModBlocks.SMOOTH_SPRUCE_SLAB,"Smooth Spruce Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_SPRUCE_V_SLAB,"Smooth Spruce Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_SPRUCE_STAIR,"Smooth Spruce Stairs");
+
+        translationBuilder.add(ModBlocks.SMOOTH_WARPED,"Smooth Warped");
+        translationBuilder.add(ModBlocks.SMOOTH_WARPED_SLAB,"Smooth Warped Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_WARPED_V_SLAB,"Smooth Warped Vertical Slab");
+        translationBuilder.add(ModBlocks.SMOOTH_WARPED_STAIR,"Smooth Warped Stairs");
+
+
         translationBuilder.add(ModItems.STONE_BRICK, "Stone Brick");
 
     }

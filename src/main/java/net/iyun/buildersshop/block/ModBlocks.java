@@ -5,14 +5,11 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.iyun.buildersshop.BuildersShop;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
-import net.minecraft.data.family.BlockFamily;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-
-import java.security.PublicKey;
 
 import static net.minecraft.block.Blocks.*;
 
@@ -1128,6 +1125,56 @@ public class ModBlocks {
     public static final Block BEVEL_WARPED_SLAB = registerBlock("beveled_warped_slab", new SlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
     public static final Block BEVEL_WARPED_STAIR = registerBlock("beveled_warped_stair", new StairsBlock(ModBlocks.BEVEL_WARPED.getDefaultState(),FabricBlockSettings.copyOf(WARPED_PLANKS)));
     public static final Block BEVEL_WARPED_V_SLAB = registerBlock("beveled_warped_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
+
+    public static final Block SMOOTH_OAK = registerBlock("smooth_oak", new Block(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block SMOOTH_OAK_SLAB = registerBlock("smooth_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block SMOOTH_OAK_STAIR = registerBlock("smooth_oak_stair", new StairsBlock(ModBlocks.SMOOTH_OAK.getDefaultState(),FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+    public static final Block SMOOTH_OAK_V_SLAB = registerBlock("smooth_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(OAK_PLANKS).burnable()));
+
+    public static final Block SMOOTH_DARK_OAK = registerBlock("smooth_dark_oak", new Block(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block SMOOTH_DARK_OAK_SLAB = registerBlock("smooth_dark_oak_slab", new SlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block SMOOTH_DARK_OAK_STAIR = registerBlock("smooth_dark_oak_stair", new StairsBlock(ModBlocks.SMOOTH_DARK_OAK.getDefaultState(),FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+    public static final Block SMOOTH_DARK_OAK_V_SLAB = registerBlock("smooth_dark_oak_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(DARK_OAK_PLANKS).burnable()));
+
+    public static final Block SMOOTH_BIRCH = registerBlock("smooth_birch", new Block(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block SMOOTH_BIRCH_SLAB = registerBlock("smooth_birch_slab", new SlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block SMOOTH_BIRCH_STAIR = registerBlock("smooth_birch_stair", new StairsBlock(ModBlocks.SMOOTH_BIRCH.getDefaultState(),FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+    public static final Block SMOOTH_BIRCH_V_SLAB = registerBlock("smooth_birch_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(BIRCH_PLANKS).burnable()));
+
+    public static final Block SMOOTH_ACA = registerBlock("smooth_acacia", new Block(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block SMOOTH_ACA_SLAB = registerBlock("smooth_acacia_slab", new SlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block SMOOTH_ACA_STAIR = registerBlock("smooth_acacia_stair", new StairsBlock(ModBlocks.SMOOTH_ACA.getDefaultState(),FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+    public static final Block SMOOTH_ACA_V_SLAB = registerBlock("smooth_acacia_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(ACACIA_PLANKS).burnable()));
+
+    public static final Block SMOOTH_CHERRY = registerBlock("smooth_cherry", new Block(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block SMOOTH_CHERRY_SLAB = registerBlock("smooth_cherry_slab", new SlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block SMOOTH_CHERRY_STAIR = registerBlock("smooth_cherry_stair", new StairsBlock(ModBlocks.SMOOTH_CHERRY.getDefaultState(),FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+    public static final Block SMOOTH_CHERRY_V_SLAB = registerBlock("smooth_cherry_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CHERRY_PLANKS).burnable()));
+
+    public static final Block SMOOTH_CRIMSON = registerBlock("smooth_crimson", new Block(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+    public static final Block SMOOTH_CRIMSON_SLAB = registerBlock("smooth_crimson_slab", new SlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+    public static final Block SMOOTH_CRIMSON_STAIR = registerBlock("smooth_crimson_stair", new StairsBlock(ModBlocks.SMOOTH_CRIMSON.getDefaultState(),FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+    public static final Block SMOOTH_CRIMSON_V_SLAB = registerBlock("smooth_crimson_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(CRIMSON_PLANKS)));
+
+    public static final Block SMOOTH_JUNGLE = registerBlock("smooth_jungle", new Block(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable().burnable()));
+    public static final Block SMOOTH_JUNGLE_SLAB = registerBlock("smooth_jungle_slab", new SlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable().burnable()));
+    public static final Block SMOOTH_JUNGLE_STAIR = registerBlock("smooth_jungle_stair", new StairsBlock(ModBlocks.SMOOTH_JUNGLE.getDefaultState(),FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable().burnable()));
+    public static final Block SMOOTH_JUNGLE_V_SLAB = registerBlock("smooth_jungle_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(JUNGLE_PLANKS).burnable()));
+
+    public static final Block SMOOTH_MANGROVE = registerBlock("smooth_mangrove", new Block(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block SMOOTH_MANGROVE_SLAB = registerBlock("smooth_mangrove_slab", new SlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block SMOOTH_MANGROVE_STAIR = registerBlock("smooth_mangrove_stair", new StairsBlock(ModBlocks.SMOOTH_MANGROVE.getDefaultState(),FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+    public static final Block SMOOTH_MANGROVE_V_SLAB = registerBlock("smooth_mangrove_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(MANGROVE_PLANKS).burnable()));
+
+    public static final Block SMOOTH_SPRUCE = registerBlock("smooth_spruce", new Block(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block SMOOTH_SPRUCE_SLAB = registerBlock("smooth_spruce_slab", new SlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block SMOOTH_SPRUCE_STAIR = registerBlock("smooth_spruce_stair", new StairsBlock(ModBlocks.SMOOTH_SPRUCE.getDefaultState(),FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+    public static final Block SMOOTH_SPRUCE_V_SLAB = registerBlock("smooth_spruce_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(SPRUCE_PLANKS).burnable()));
+
+    public static final Block SMOOTH_WARPED = registerBlock("smooth_warped", new Block(FabricBlockSettings.copyOf(WARPED_PLANKS)));
+    public static final Block SMOOTH_WARPED_SLAB = registerBlock("smooth_warped_slab", new SlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
+    public static final Block SMOOTH_WARPED_STAIR = registerBlock("smooth_warped_stair", new StairsBlock(ModBlocks.SMOOTH_WARPED.getDefaultState(),FabricBlockSettings.copyOf(WARPED_PLANKS)));
+    public static final Block SMOOTH_WARPED_V_SLAB = registerBlock("smooth_warped_vertical_slab", new VerticalSlabBlock(FabricBlockSettings.copyOf(WARPED_PLANKS)));
 
 
     private static Block registerBlock(String name, Block block) {

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "buildersshop:block/smooth_mangrove",
+    "side": "buildersshop:block/smooth_mangrove",
+    "top": "buildersshop:block/smooth_mangrove"
+  }
+}

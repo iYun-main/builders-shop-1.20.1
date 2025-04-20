@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "buildersshop:smooth_oak"
+  },
+  "result": "buildersshop:smooth_oak_stair"
+}

@@ -1034,6 +1034,57 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BEVEL_WARPED_V_SLAB, slabDrops(ModBlocks.BEVEL_WARPED_V_SLAB));
         addDrop(ModBlocks.BEVEL_WARPED_SLAB, slabDrops(ModBlocks.BEVEL_WARPED_SLAB));
 
+        addDrop(ModBlocks.SMOOTH_DARK_OAK);
+        addDrop(ModBlocks.SMOOTH_DARK_OAK_STAIR);
+        addDrop(ModBlocks.SMOOTH_DARK_OAK_V_SLAB, slabDrops(ModBlocks.SMOOTH_DARK_OAK_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_DARK_OAK_SLAB, slabDrops(ModBlocks.SMOOTH_DARK_OAK_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_OAK);
+        addDrop(ModBlocks.SMOOTH_OAK_STAIR);
+        addDrop(ModBlocks.SMOOTH_OAK_V_SLAB, slabDrops(ModBlocks.SMOOTH_OAK_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_OAK_SLAB, slabDrops(ModBlocks.SMOOTH_OAK_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_BIRCH);
+        addDrop(ModBlocks.SMOOTH_BIRCH_STAIR);
+        addDrop(ModBlocks.SMOOTH_BIRCH_V_SLAB, slabDrops(ModBlocks.SMOOTH_BIRCH_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_BIRCH_SLAB, slabDrops(ModBlocks.SMOOTH_BIRCH_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_ACA);
+        addDrop(ModBlocks.SMOOTH_ACA_STAIR);
+        addDrop(ModBlocks.SMOOTH_ACA_V_SLAB, slabDrops(ModBlocks.SMOOTH_ACA_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_ACA_SLAB, slabDrops(ModBlocks.SMOOTH_ACA_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_CHERRY);
+        addDrop(ModBlocks.SMOOTH_CHERRY_STAIR);
+        addDrop(ModBlocks.SMOOTH_CHERRY_V_SLAB, slabDrops(ModBlocks.SMOOTH_CHERRY_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_CHERRY_SLAB, slabDrops(ModBlocks.SMOOTH_CHERRY_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_CRIMSON);
+        addDrop(ModBlocks.SMOOTH_CRIMSON_STAIR);
+        addDrop(ModBlocks.SMOOTH_CRIMSON_V_SLAB, slabDrops(ModBlocks.SMOOTH_CRIMSON_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_CRIMSON_SLAB, slabDrops(ModBlocks.SMOOTH_CRIMSON_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_JUNGLE);
+        addDrop(ModBlocks.SMOOTH_JUNGLE_STAIR);
+        addDrop(ModBlocks.SMOOTH_JUNGLE_V_SLAB, slabDrops(ModBlocks.SMOOTH_JUNGLE_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_JUNGLE_SLAB, slabDrops(ModBlocks.SMOOTH_JUNGLE_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_MANGROVE);
+        addDrop(ModBlocks.SMOOTH_MANGROVE_STAIR);
+        addDrop(ModBlocks.SMOOTH_MANGROVE_V_SLAB, slabDrops(ModBlocks.SMOOTH_MANGROVE_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_MANGROVE_SLAB, slabDrops(ModBlocks.SMOOTH_MANGROVE_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_SPRUCE);
+        addDrop(ModBlocks.SMOOTH_SPRUCE_STAIR);
+        addDrop(ModBlocks.SMOOTH_SPRUCE_V_SLAB, slabDrops(ModBlocks.SMOOTH_SPRUCE_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_SPRUCE_SLAB, slabDrops(ModBlocks.SMOOTH_SPRUCE_SLAB));
+
+        addDrop(ModBlocks.SMOOTH_WARPED);
+        addDrop(ModBlocks.SMOOTH_WARPED_STAIR);
+        addDrop(ModBlocks.SMOOTH_WARPED_V_SLAB, slabDrops(ModBlocks.SMOOTH_WARPED_V_SLAB));
+        addDrop(ModBlocks.SMOOTH_WARPED_SLAB, slabDrops(ModBlocks.SMOOTH_WARPED_SLAB));
+
+
 
     }
 

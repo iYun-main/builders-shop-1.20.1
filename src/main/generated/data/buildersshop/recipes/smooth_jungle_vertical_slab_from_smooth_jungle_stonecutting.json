@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "buildersshop:smooth_jungle"
+  },
+  "result": "buildersshop:smooth_jungle_vertical_slab"
+}
