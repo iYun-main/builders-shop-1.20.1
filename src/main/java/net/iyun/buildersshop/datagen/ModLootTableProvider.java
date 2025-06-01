@@ -3,9 +3,6 @@ package net.iyun.buildersshop.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.iyun.buildersshop.block.ModBlocks;
-import net.minecraft.item.Items;
-
-import javax.sound.midi.MidiChannel;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public ModLootTableProvider(FabricDataOutput dataOutput) {
